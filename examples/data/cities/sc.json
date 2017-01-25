@@ -1,0 +1,762 @@
+[
+  {
+    "url": "http://www.greenvillesc.gov/",
+    "long": "-82.39",
+    "name": "Greenville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.85"
+  },
+  {
+    "url": "http://www.cityofgreenwoodsc.com/",
+    "long": "-82.16",
+    "name": "Greenwood",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.19"
+  },
+  {
+    "url": "http://www.cityofgreer.org/",
+    "long": "-82.22",
+    "name": "Greer",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.93"
+  },
+  {
+    "url": "http://www.hartsvillesc.com/",
+    "long": "-80.07",
+    "name": "Hartsville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.37"
+  },
+  {
+    "url": "http://www.hiltonheadislandsc.gov/",
+    "long": "-80.75",
+    "name": "Hilton Head Island",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.21"
+  },
+  {
+    "url": "http://www.townofirmosc.com/",
+    "long": "-81.18",
+    "name": "Irmo",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.08"
+  },
+  {
+    "url": "http://www.iop.net/",
+    "long": "-79.79",
+    "name": "Isle of Palms",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.78"
+  },
+  {
+    "url": "http://www.kiawahisland.org/",
+    "long": "-80.08",
+    "name": "Kiawah Island",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.6"
+  },
+  {
+    "url": "http://www.lexsc.com/",
+    "long": "-81.23",
+    "name": "Lexington",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.98"
+  },
+  {
+    "url": "http://www.townofmountpleasant.com/",
+    "long": "-79.86",
+    "name": "Mount Pleasant",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.79"
+  },
+  {
+    "url": "http://www.mullinssc.us/",
+    "long": "-79.25",
+    "name": "Mullins",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.2"
+  },
+  {
+    "url": "http://www.cityofmyrtlebeach.com/",
+    "long": "-78.88",
+    "name": "Myrtle Beach",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.68"
+  },
+  {
+    "url": "http://www.cityofnewberry.com/",
+    "long": "-81.61",
+    "name": "Newberry",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.27"
+  },
+  {
+    "url": "http://www.townofnorth-sc.gov/",
+    "long": "-81.1",
+    "name": "North",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.61"
+  },
+  {
+    "url": "http://www.northaugusta.net/",
+    "long": "-81.96",
+    "name": "North Augusta",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.5"
+  },
+  {
+    "url": "http://www.northcharleston.net/",
+    "long": "-79.97",
+    "name": "North Charleston",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.85"
+  },
+  {
+    "url": "http://www.n-myrtle-beach.sc.us/",
+    "long": "-78.68",
+    "name": "North Myrtle Beach",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.81"
+  },
+  {
+    "url": "http://www.orangeburg.sc.us/",
+    "long": "-80.85",
+    "name": "Orangeburg",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.49"
+  },
+  {
+    "url": "http://www.townofpendleton.org/",
+    "long": "-82.78",
+    "name": "Pendleton",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.65"
+  },
+  {
+    "url": "http://www.portroyal.org/",
+    "long": "-80.69",
+    "name": "Port Royal",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.37"
+  },
+  {
+    "url": "http://www.prosperitysc.com/",
+    "long": "-81.53",
+    "name": "Prosperity",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.2"
+  },
+  {
+    "url": "http://www.ridgelandsc.gov/",
+    "long": "-80.98",
+    "name": "Ridgeland",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.48"
+  },
+  {
+    "url": "http://www.ci.rock-hill.sc.us/",
+    "long": "-81.02",
+    "name": "Rock Hill",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.92"
+  },
+  {
+    "url": "http://www.saludasc.com/",
+    "long": "-81.77",
+    "name": "Saluda",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34"
+  },
+  {
+    "url": "http://www.townofseabrookisland.org/",
+    "long": "-80.17",
+    "name": "Seabrook Island",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.57"
+  },
+  {
+    "url": "http://www.seneca.sc.us/",
+    "long": "-82.95",
+    "name": "Seneca",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.68"
+  },
+  {
+    "url": "http://www.simpsonville.com/",
+    "long": "-82.25",
+    "name": "Simpsonville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.73"
+  },
+  {
+    "url": "http://www.cityofspartanburg.org/",
+    "long": "-81.93",
+    "name": "Spartanburg",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.94"
+  },
+  {
+    "url": "http://www.springdalesc.com/",
+    "long": "-81.1",
+    "name": "Springdale",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.95"
+  },
+  {
+    "url": "http://www.summerville.sc.us/",
+    "long": "-80.17",
+    "name": "Summerville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.01"
+  },
+  {
+    "url": "http://www.sumter-sc.com/",
+    "long": "-80.34",
+    "name": "Sumter",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.92"
+  },
+  {
+    "url": "http://www.surfsidebeach.org/",
+    "long": "-78.97",
+    "name": "Surfside Beach",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.6"
+  },
+  {
+    "url": "http://www.swanseatown.net/",
+    "long": "-81.09",
+    "name": "Swansea",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.73"
+  },
+  {
+    "url": "http://www.tegacaysc.org/",
+    "long": "-81.02",
+    "name": "Tega Cay",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "35.02"
+  },
+  {
+    "url": "http://www.varnville.org/",
+    "long": "-81.07",
+    "name": "Varnville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.85"
+  },
+  {
+    "url": "http://www.wagenersc.com/",
+    "long": "-81.36",
+    "name": "Wagener",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.65"
+  },
+  {
+    "url": "http://www.cityofaikensc.gov/",
+    "long": "-81.71",
+    "name": "Aiken",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.56"
+  },
+  {
+    "url": "http://www.walterborosc.org",
+    "long": "-80.66",
+    "name": "Walterboro",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.9"
+  },
+  {
+    "url": "http://www.cityofandersonsc.com/",
+    "long": "-82.65",
+    "name": "Anderson",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.5"
+  },
+  {
+    "url": "http://www.townofandrews.org/",
+    "long": "-79.56",
+    "name": "Andrews",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.45"
+  },
+  {
+    "url": "http://www.westcolumbiasc.gov/",
+    "long": "-81.07",
+    "name": "West Columbia",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.99"
+  },
+  {
+    "url": "http://www.bambergsc.com/",
+    "long": "-81.03",
+    "name": "Bamberg",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.29"
+  },
+  {
+    "url": "http://www.batesburg-leesville.org/",
+    "long": "-81.53",
+    "name": "Batesburg-Leesville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.91"
+  },
+  {
+    "url": "http://www.cityofbeaufort.org/",
+    "long": "-80.66",
+    "name": "Beaufort",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.43"
+  },
+  {
+    "url": "http://www.williston-sc.com/",
+    "long": "-81.42",
+    "name": "Williston",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.4"
+  },
+  {
+    "url": "http://www.bennettsvillesc.com/",
+    "long": "-79.68",
+    "name": "Bennettsville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.61"
+  },
+  {
+    "url": "http://www.cityofwoodruff.com/",
+    "long": "-82.03",
+    "name": "Woodruff",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.73"
+  },
+  {
+    "url": "http://www.yemassee.net/",
+    "long": "-80.85",
+    "name": "Yemassee",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.69"
+  },
+  {
+    "url": "http://www.yorkcitysc.com/",
+    "long": "-81.24",
+    "name": "York",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.99"
+  },
+  {
+    "url": "http://www.townofbriarcliffe.com/",
+    "long": "-78.74",
+    "name": "Briarcliffe Acres",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.78"
+  },
+  {
+    "url": "http://www.cityofcayce-sc.gov/",
+    "long": "-81.07",
+    "name": "Cayce",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.96"
+  },
+  {
+    "url": "http://www.cityofcentral.org/",
+    "long": "-82.78",
+    "name": "Central",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.72"
+  },
+  {
+    "url": "http://www.chapinsc.com/",
+    "long": "-81.34",
+    "name": "Chapin",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.16"
+  },
+  {
+    "url": "http://www.charleston-sc.gov/",
+    "long": "-79.93",
+    "name": "Charleston",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.77"
+  },
+  {
+    "url": "http://www.cheraw.com/",
+    "long": "-79.88",
+    "name": "Cheraw",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.69"
+  },
+  {
+    "url": "http://www.chestersc.org/",
+    "long": "-81.21",
+    "name": "Chester",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.7"
+  },
+  {
+    "url": "http://www.cityofclemson.org/",
+    "long": "-82.83",
+    "name": "Clemson",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.68"
+  },
+  {
+    "url": "http://www.cityofclintonsc.com/",
+    "long": "-81.88",
+    "name": "Clinton",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.47"
+  },
+  {
+    "url": "http://www.columbiasc.net/",
+    "long": "-81.03",
+    "name": "Columbia",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34"
+  },
+  {
+    "url": "http://www.cityofconway.com/",
+    "long": "-79.04",
+    "name": "Conway",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.83"
+  },
+  {
+    "url": "http://www.mycowpensgov.com/",
+    "long": "-81.8",
+    "name": "Cowpens",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "35.01"
+  },
+  {
+    "url": "http://www.cityofeasley.net/",
+    "long": "-82.6",
+    "name": "Easley",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.82"
+  },
+  {
+    "url": "http://www.edistochamber.com/",
+    "long": "-80.33",
+    "name": "Edisto Beach",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.47"
+  },
+  {
+    "url": "http://www.elloreesc.com/",
+    "long": "-80.57",
+    "name": "Elloree",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.53"
+  },
+  {
+    "url": "http://www.cityofflorence.com/",
+    "long": "-79.76",
+    "name": "Florence",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.19"
+  },
+  {
+    "url": "http://www.cityoffollybeach.com/",
+    "long": "-79.94",
+    "name": "Folly Beach",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.65"
+  },
+  {
+    "url": "http://www.fortmillsc.org/",
+    "long": "-80.94",
+    "name": "Fort Mill",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "35"
+  },
+  {
+    "url": "http://www.cityofgoosecreek.com/",
+    "long": "-80.03",
+    "name": "Goose Creek",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.98"
+  },
+  {
+    "url": "http://www.cityofgreer.org/",
+    "long": "-82.22",
+    "name": "Greer",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.93"
+  },
+  {
+    "url": "http://www.townofirmosc.com/",
+    "long": "-81.18",
+    "name": "Irmo",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.08"
+  },
+  {
+    "url": "http://www.summerville.sc.us/",
+    "long": "-80.17",
+    "name": "Summerville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.01"
+  },
+  {
+    "url": "http://www.townofandrews.org/",
+    "long": "-79.56",
+    "name": "Andrews",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.45"
+  },
+  {
+    "url": "http://www.batesburg-leesville.org/",
+    "long": "-81.53",
+    "name": "Batesburg-Leesville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.91"
+  },
+  {
+    "url": "http://www.yemassee.net/",
+    "long": "-80.85",
+    "name": "Yemassee",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "32.69"
+  },
+  {
+    "url": "http://www.cityofeasley.net/",
+    "long": "-82.6",
+    "name": "Easley",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "34.82"
+  },
+  {
+    "url": "http://www.summerville.sc.us/",
+    "long": "-80.17",
+    "name": "Summerville",
+    "state": {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    "lat": "33.01"
+  }
+]

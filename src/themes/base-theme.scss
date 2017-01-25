@@ -1,0 +1,51 @@
+@import '../deni-react-treeview/deni-react-treeview.vars.scss';
+@import './icons-theme.scss';
+
+@mixin set-theme($theme-base-color: $base-color) {
+    $base-color: $theme-base-color;
+    color: darken($base-color, 45%) !important;
+
+    border-color: darken($base-color, 10%) !important;
+
+    &:hover {
+      &.select-row {
+        background-color: lighten($base-color, 20%);
+      }
+      &:not(.select-row) {
+        background-color: transparent;
+      }
+    }
+
+    &.selected {
+      @include gradient-background($base-color);
+      outline-color: lighten($base-color, 10%) !important;
+    }
+    .checkbox {
+      border-color: lighten($base-color, 4%) !important;
+      &.selected {
+        border-color: darken($base-color, 8%) !important;
+      }
+    }
+    .expand-button {
+      color: darken($base-color, 45%) !important;
+    }
+
+    .icon-and-text {
+      &:hover {
+        &.select-row {
+          background-color: transparent;
+        }
+        &:not(.select-row) {
+          background-color: lighten($base-color, 20%);
+        }
+      }
+      &.select-row {
+        border: 0;
+        padding: 1px;
+      }
+      &.selected {
+        @include gradient-background($base-color);
+      }
+
+    }
+}

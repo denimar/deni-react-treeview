@@ -1,0 +1,312 @@
+[
+  {
+    "url": "http://www.ci.alamogordo.nm.us/",
+    "long": "-105.96",
+    "name": "Alamogordo",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.89"
+  },
+  {
+    "url": "http://www.cabq.gov/",
+    "long": "-106.65",
+    "name": "Albuquerque",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.08"
+  },
+  {
+    "url": "http://www.afgov.com/",
+    "long": "-105.28",
+    "name": "Angel Fire",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "36.39"
+  },
+  {
+    "url": "http://www.artesianm.com/",
+    "long": "-104.4",
+    "name": "Artesia",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.84"
+  },
+  {
+    "url": "http://www.aztecnm.com/",
+    "long": "-107.99",
+    "name": "Aztec",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "36.82"
+  },
+  {
+    "url": "http://villageofcapitan.org/",
+    "long": "-105.57",
+    "name": "Capitan",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "33.54"
+  },
+  {
+    "url": "http://www.cityofcarlsbadnm.com/",
+    "long": "-104.22",
+    "name": "Carlsbad",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.42"
+  },
+  {
+    "url": "http://www.villageofcloudcroft.com/",
+    "long": "-105.74",
+    "name": "Cloudcroft",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.95"
+  },
+  {
+    "url": "http://www.cityofclovis.org/",
+    "long": "-103.2",
+    "name": "Clovis",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "34.4"
+  },
+  {
+    "url": "http://corralesnm.org/",
+    "long": "-106.6",
+    "name": "Corrales",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.23"
+  },
+  {
+    "url": "http://www.cityofdeming.org/",
+    "long": "-107.75",
+    "name": "Deming",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.26"
+  },
+  {
+    "url": "http://www.cityofespanola.net/",
+    "long": "-106.08",
+    "name": "Espanola",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.99"
+  },
+  {
+    "url": "http://www.fmtn.org/",
+    "long": "-108.21",
+    "name": "Farmington",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "36.72"
+  },
+  {
+    "url": "http://www.ci.gallup.nm.us/",
+    "long": "-108.74",
+    "name": "Gallup",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.52"
+  },
+  {
+    "url": "http://www.hobbsnm.org/",
+    "long": "-103.13",
+    "name": "Hobbs",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.7"
+  },
+  {
+    "url": "http://www.las-cruces.org/",
+    "long": "-106.77",
+    "name": "Las Cruces",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.31"
+  },
+  {
+    "url": "http://www.loslunasnm.gov/",
+    "long": "-106.73",
+    "name": "Los Lunas",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "34.8"
+  },
+  {
+    "url": "http://www.villr.com/",
+    "long": "-106.64",
+    "name": "Los Ranchos de Albuquerque",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.16"
+  },
+  {
+    "url": "http://www.lovington.org/",
+    "long": "-103.34",
+    "name": "Lovington",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.94"
+  },
+  {
+    "url": "http://www.portalesnm.org/",
+    "long": "-103.33",
+    "name": "Portales",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "34.18"
+  },
+  {
+    "url": "http://www.redriver.org/",
+    "long": "-105.4",
+    "name": "Red River",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "36.7"
+  },
+  {
+    "url": "http://www.ci.rio-rancho.nm.us/",
+    "long": "-106.66",
+    "name": "Rio Rancho",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.23"
+  },
+  {
+    "url": "http://www.roswell-nm.gov/",
+    "long": "-104.52",
+    "name": "Roswell",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "33.39"
+  },
+  {
+    "url": "http://www.ruidosodowns.us/",
+    "long": "-105.6",
+    "name": "Ruidoso Downs",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "33.32"
+  },
+  {
+    "url": "http://www.santafenm.gov/",
+    "long": "-105.93",
+    "name": "Santa Fe",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.68"
+  },
+  {
+    "url": "http://www.townofsilvercity.org/",
+    "long": "-108.28",
+    "name": "Silver City",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "32.77"
+  },
+  {
+    "url": "http://www.taosgov.com/",
+    "long": "-105.57",
+    "name": "Taos",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "36.4"
+  },
+  {
+    "url": "http://www.vtsv.org/",
+    "long": "-105.45",
+    "name": "Taos Ski Valley",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "36.59"
+  },
+  {
+    "url": "http://www.torcnm.org/",
+    "long": "-107.25",
+    "name": "Truth or Consequences",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "33.12"
+  },
+  {
+    "url": "http://www.cityoftucumcari.com/",
+    "long": "-103.72",
+    "name": "Tucumcari",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.17"
+  },
+  {
+    "url": "http://www.ci.rio-rancho.nm.us/",
+    "long": "-106.66",
+    "name": "Rio Rancho",
+    "state": {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    "lat": "35.23"
+  }
+]

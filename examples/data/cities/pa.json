@@ -1,0 +1,1722 @@
+[
+  {
+    "url": "http://www.borough.hanover.pa.us/",
+    "long": "-76.98",
+    "name": "Hanover",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.8"
+  },
+  {
+    "url": "http://www.woboro.com/",
+    "long": "-79.8",
+    "name": "White Oak",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.33"
+  },
+  {
+    "url": "http://www.altoonapa.gov/",
+    "long": "-78.39",
+    "name": "Altoona",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.51"
+  },
+  {
+    "url": "http://www.middletownborough.com/",
+    "long": "-76.73",
+    "name": "Middletown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.19"
+  },
+  {
+    "url": "http://www.collegeville-pa.gov/",
+    "long": "-75.45",
+    "name": "Collegeville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.18"
+  },
+  {
+    "url": "http://www.cityofstmarys.com/",
+    "long": "-78.56",
+    "name": "Saint Marys",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.42"
+  },
+  {
+    "url": "http://www.saltsburg.org/",
+    "long": "-79.45",
+    "name": "Saltsburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.48"
+  },
+  {
+    "url": "http://www.harrisburgpa.gov/",
+    "long": "-76.88",
+    "name": "Harrisburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.27"
+  },
+  {
+    "url": "http://www.whitehallboro.org/",
+    "long": "-79.99",
+    "name": "Whitehall",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.36"
+  },
+  {
+    "url": "http://www.ambler.pa.us/",
+    "long": "-75.22",
+    "name": "Ambler",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.15"
+  },
+  {
+    "url": "http://www.millersvilleborough.org/",
+    "long": "-76.35",
+    "name": "Millersville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.99"
+  },
+  {
+    "url": "http://www.coopersburgborough.org/",
+    "long": "-75.39",
+    "name": "Coopersburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.51"
+  },
+  {
+    "url": "http://www.boroughofcoplay.org/",
+    "long": "-75.49",
+    "name": "Coplay",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.67"
+  },
+  {
+    "url": "http://www.saxonburgpa.com/",
+    "long": "-79.81",
+    "name": "Saxonburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.75"
+  },
+  {
+    "url": "http://www.hatborogov.com/",
+    "long": "-75.1",
+    "name": "Hatboro",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.17"
+  },
+  {
+    "url": "http://www.wilkes-barre.pa.us/",
+    "long": "-75.88",
+    "name": "Wilkes-Barre",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.24"
+  },
+  {
+    "url": "http://www.ambridgeboro.org/",
+    "long": "-80.22",
+    "name": "Ambridge",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.58"
+  },
+  {
+    "url": "http://www.cityofmonongahela-pa.gov/",
+    "long": "-79.92",
+    "name": "Monongahela",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.2"
+  },
+  {
+    "url": "http://www.dallasborough.org/",
+    "long": "-75.96",
+    "name": "Dallas",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.33"
+  },
+  {
+    "url": "http://home.cqservices.com/sayre/",
+    "long": "-76.51",
+    "name": "Sayre",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.97"
+  },
+  {
+    "url": "http://www.hatfieldborough.com/",
+    "long": "-75.29",
+    "name": "Hatfield",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.27"
+  },
+  {
+    "url": "http://www.wilkinsburgpa.gov/",
+    "long": "-79.88",
+    "name": "Wilkinsburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.44"
+  },
+  {
+    "url": "http://www.aspinwallpa.com/",
+    "long": "-79.9",
+    "name": "Aspinwall",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.49"
+  },
+  {
+    "url": "http://www.monroeville.pa.us/",
+    "long": "-79.78",
+    "name": "Monroeville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.42"
+  },
+  {
+    "url": "http://www.moosic.boroughs.org/",
+    "long": "-75.73",
+    "name": "Moosic",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.35"
+  },
+  {
+    "url": "http://www.dallastownboro.com/",
+    "long": "-76.64",
+    "name": "Dallastown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.89"
+  },
+  {
+    "url": "http://www.schwenksvilleboro.org/",
+    "long": "-75.46",
+    "name": "Schwenksville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.25"
+  },
+  {
+    "url": "http://www.hazletoncity.org/",
+    "long": "-75.97",
+    "name": "Hazleton",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.95"
+  },
+  {
+    "url": "http://www.cityofwilliamsport.org/",
+    "long": "-77",
+    "name": "Williamsport",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.24"
+  },
+  {
+    "url": "http://www.atglen.org/",
+    "long": "-75.97",
+    "name": "Atglen",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.94"
+  },
+  {
+    "url": "http://www.baldwinborough.com/",
+    "long": "-79.97",
+    "name": "Baldwin",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.33"
+  },
+  {
+    "url": "http://morrisville-boro-gov.com/",
+    "long": "-74.78",
+    "name": "Morrisville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.21"
+  },
+  {
+    "url": "http://www.danvilleboro.org/",
+    "long": "-76.61",
+    "name": "Danville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.96"
+  },
+  {
+    "url": "http://www.scrantonpa.gov/",
+    "long": "-75.66",
+    "name": "Scranton",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.4"
+  },
+  {
+    "url": "http://www.hermitage.net/",
+    "long": "-80.44",
+    "name": "Hermitage",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.23"
+  },
+  {
+    "url": "http://www.wilsonborough.org/",
+    "long": "-75.24",
+    "name": "Wilson",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.68"
+  },
+  {
+    "url": "http://www.wormleysburgpa.org",
+    "long": "-76.91",
+    "name": "Wormleysburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.26"
+  },
+  {
+    "url": "http://www.co.berks.pa.us/bally",
+    "long": "-75.58",
+    "name": "Bally",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.4"
+  },
+  {
+    "url": "http://www.murrysville.com/",
+    "long": "-79.69",
+    "name": "Murrysville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.42"
+  },
+  {
+    "url": "http://www.darbyborough.com/",
+    "long": "-75.25",
+    "name": "Darby",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.91"
+  },
+  {
+    "url": "http://www.selinsgrove.org/",
+    "long": "-76.86",
+    "name": "Selinsgrove",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.79"
+  },
+  {
+    "url": "http://hollidaysburgpa.org/",
+    "long": "-78.38",
+    "name": "Hollidaysburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.42"
+  },
+  {
+    "url": "http://www.yorkcity.org/",
+    "long": "-76.72",
+    "name": "York",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.96"
+  },
+  {
+    "url": "http://www.bellefonte.net/",
+    "long": "-77.77",
+    "name": "Bellefonte",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.91"
+  },
+  {
+    "url": "http://www.narberthborough.com/",
+    "long": "-75.26",
+    "name": "Narberth",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40"
+  },
+  {
+    "url": "http://www.dillsburg.com/",
+    "long": "-77.03",
+    "name": "Dillsburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.11"
+  },
+  {
+    "url": "http://www.sevenfields.org/",
+    "long": "-80.06",
+    "name": "Seven Fields",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.69"
+  },
+  {
+    "url": "http://www.homewoodjunction.net/frames.html",
+    "long": "-80.32",
+    "name": "Homewood",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.81"
+  },
+  {
+    "url": "http://www.huntingdoncounty.net/",
+    "long": "-78.01",
+    "name": "Huntingdon",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.48"
+  },
+  {
+    "url": "http://www.youngwood.org/",
+    "long": "-79.57",
+    "name": "Youngwood",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.24"
+  },
+  {
+    "url": "http://www.bellevueboro.com/",
+    "long": "-80.05",
+    "name": "Bellevue",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.49"
+  },
+  {
+    "url": "http://www.nazarethborough.com/",
+    "long": "-75.3",
+    "name": "Nazareth",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.74"
+  },
+  {
+    "url": "http://boro.dormont.pa.us/",
+    "long": "-80.03",
+    "name": "Dormont",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.39"
+  },
+  {
+    "url": "http://www.sharonhillboro.com/",
+    "long": "-75.27",
+    "name": "Sharon Hill",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.9"
+  },
+  {
+    "url": "http://www.indian-lake.pa.us/",
+    "long": "-78.85",
+    "name": "Indian Lake",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.04"
+  },
+  {
+    "url": "http://www.zelieboro.org/",
+    "long": "-80.13",
+    "name": "Zelienople",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.79"
+  },
+  {
+    "url": "http://www.bentleyville.org",
+    "long": "-80",
+    "name": "Bentleyville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.11"
+  },
+  {
+    "url": "http://www.newcastlepa.org/",
+    "long": "-80.34",
+    "name": "New Castle",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41"
+  },
+  {
+    "url": "http://www.downingtown.org/",
+    "long": "-75.7",
+    "name": "Downingtown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40"
+  },
+  {
+    "url": "http://www.sharpsville.org/",
+    "long": "-80.47",
+    "name": "Sharpsville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.25"
+  },
+  {
+    "url": "http://www.borough.shippensburg.pa.us/",
+    "long": "-77.52",
+    "name": "Shippensburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.05"
+  },
+  {
+    "url": "http://www.ivylandborough.org/",
+    "long": "-75.07",
+    "name": "Ivyland",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.2"
+  },
+  {
+    "url": "http://www.bethelpark.net/",
+    "long": "-80.03",
+    "name": "Bethel Park",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.32"
+  },
+  {
+    "url": "http://www.newfreedomboro.org/",
+    "long": "-76.7",
+    "name": "New Freedom",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.73"
+  },
+  {
+    "url": "http://www.doylestownborough.net/",
+    "long": "-75.12",
+    "name": "Doylestown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.31"
+  },
+  {
+    "url": "http://www.dupontpa.net/",
+    "long": "-75.74",
+    "name": "Dupont",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.32"
+  },
+  {
+    "url": "http://www.co.berks.pa.us/sinkingspring/site/default.asp",
+    "long": "-76.01",
+    "name": "Sinking Spring",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.32"
+  },
+  {
+    "url": "http://www.jonestownpa.org/",
+    "long": "-76.47",
+    "name": "Jonestown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.41"
+  },
+  {
+    "url": "http://boro.newtown.pa.us/",
+    "long": "-74.93",
+    "name": "Newtown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.22"
+  },
+  {
+    "url": "http://www.dushore.com/",
+    "long": "-76.4",
+    "name": "Dushore",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.52"
+  },
+  {
+    "url": "http://www.somersetborough.com/",
+    "long": "-79.07",
+    "name": "Somerset",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40"
+  },
+  {
+    "url": "http://www.kennett-square.pa.us/",
+    "long": "-75.71",
+    "name": "Kennett Square",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.84"
+  },
+  {
+    "url": "http://www.bethlehemtwp.com/",
+    "long": "-75.37",
+    "name": "Bethlehem",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.62"
+  },
+  {
+    "url": "http://www.norristown.org/",
+    "long": "-75.33",
+    "name": "Norristown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.12"
+  },
+  {
+    "url": "http://www.eaglesmere.org/",
+    "long": "-76.58",
+    "name": "Eagles Mere",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.41"
+  },
+  {
+    "url": "http://www.springgroveboro.com/",
+    "long": "-76.86",
+    "name": "Spring Grove",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.87"
+  },
+  {
+    "url": "http://www.kingstonpa.org/",
+    "long": "-75.89",
+    "name": "Kingston",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.26"
+  },
+  {
+    "url": "http://www.bloomsburgpa.org/",
+    "long": "-76.45",
+    "name": "Bloomsburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41"
+  },
+  {
+    "url": "http://www.northumberlandborough.com/",
+    "long": "-76.79",
+    "name": "Northumberland",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.89"
+  },
+  {
+    "url": "http://www.osborneborough.org/",
+    "long": "-80.16",
+    "name": "Osborne",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.53"
+  },
+  {
+    "url": "http://www.easton-pa.com/",
+    "long": "-75.22",
+    "name": "Easton",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.68"
+  },
+  {
+    "url": "http://www.statecollegepa.us/",
+    "long": "-77.86",
+    "name": "State College",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.79"
+  },
+  {
+    "url": "http://www.kutztownboro.org/",
+    "long": "-75.77",
+    "name": "Kutztown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.51"
+  },
+  {
+    "url": "http://www.blossburg.org/",
+    "long": "-77.06",
+    "name": "Blossburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.67"
+  },
+  {
+    "url": "http://www.bradfordpa.com/",
+    "long": "-78.64",
+    "name": "Bradford",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.95"
+  },
+  {
+    "url": "http://www.parkesburg.boroughs.org/",
+    "long": "-75.91",
+    "name": "Parkesburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.95"
+  },
+  {
+    "url": "http://www.ebensburgpa.com/",
+    "long": "-78.72",
+    "name": "Ebensburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.48"
+  },
+  {
+    "url": "http://www.steeltonpa.com/",
+    "long": "-76.84",
+    "name": "Steelton",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.23"
+  },
+  {
+    "url": "http://www.laflinboro.com/",
+    "long": "-75.8",
+    "name": "Laflin",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.28"
+  },
+  {
+    "url": "http://www.boroughofbridgeport.com/",
+    "long": "-75.34",
+    "name": "Bridgeport",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.1"
+  },
+  {
+    "url": "http://www.parksideboro.com/",
+    "long": "-75.37",
+    "name": "Parkside",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.86"
+  },
+  {
+    "url": "http://www.eddystoneboro.com/",
+    "long": "-75.34",
+    "name": "Eddystone",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.86"
+  },
+  {
+    "url": "http://www.borough.stroudsburg.pa.us/",
+    "long": "-75.19",
+    "name": "Stroudsburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.98"
+  },
+  {
+    "url": "http://www.cityoflancasterpa.com/",
+    "long": "-76.3",
+    "name": "Lancaster",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.03"
+  },
+  {
+    "url": "http://langhornemanor.com/",
+    "long": "-74.91",
+    "name": "Langhorne Manor",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.16"
+  },
+  {
+    "url": "http://www.brookhavenboro.com/",
+    "long": "-75.38",
+    "name": "Brookhaven",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.86"
+  },
+  {
+    "url": "http://www.pattonboro.com/",
+    "long": "-78.65",
+    "name": "Patton",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.63"
+  },
+  {
+    "url": "http://www.edgewood.pgh.pa.us/",
+    "long": "-79.88",
+    "name": "Edgewood",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.43"
+  },
+  {
+    "url": "http://www.swarthmorepa.org/",
+    "long": "-75.34",
+    "name": "Swarthmore",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.9"
+  },
+  {
+    "url": "http://www.lansdale.org/",
+    "long": "-75.28",
+    "name": "Lansdale",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.24"
+  },
+  {
+    "url": "http://www.camphillborough.com/",
+    "long": "-76.91",
+    "name": "Camp Hill",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.23"
+  },
+  {
+    "url": "http://www.penargylborough.com/",
+    "long": "-75.25",
+    "name": "Pen Argyl",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.86"
+  },
+  {
+    "url": "http://www.edinboro.net/",
+    "long": "-80.13",
+    "name": "Edinboro",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.87"
+  },
+  {
+    "url": "http://www.swoyersville-pa.org/",
+    "long": "-75.87",
+    "name": "Swoyersville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.29"
+  },
+  {
+    "url": "http://www.lebanonpa.org/",
+    "long": "-76.41",
+    "name": "Lebanon",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.34"
+  },
+  {
+    "url": "http://www.carlislepa.org/",
+    "long": "-77.18",
+    "name": "Carlisle",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.2"
+  },
+  {
+    "url": "http://www.perkasieborough.org/",
+    "long": "-75.29",
+    "name": "Perkasie",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.37"
+  },
+  {
+    "url": "http://www.etownonline.com/",
+    "long": "-76.6",
+    "name": "Elizabethtown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.15"
+  },
+  {
+    "url": "http://www.terrehillboro.com/",
+    "long": "-76.05",
+    "name": "Terre Hill",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.15"
+  },
+  {
+    "url": "http://www.titusvillepa.com/",
+    "long": "-79.67",
+    "name": "Titusville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.62"
+  },
+  {
+    "url": "http://lincolnboro.tripod.com/",
+    "long": "-79.85",
+    "name": "Lincoln",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.31"
+  },
+  {
+    "url": "http://www.carrollvalley.org/",
+    "long": "-77.38",
+    "name": "Carroll Valley",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.74"
+  },
+  {
+    "url": "http://www.phila.gov/",
+    "long": "-75.16",
+    "name": "Philadelphia",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.95"
+  },
+  {
+    "url": "http://www.elverson.org/",
+    "long": "-75.83",
+    "name": "Elverson",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.15"
+  },
+  {
+    "url": "http://www.ephrataboro.org/",
+    "long": "-76.17",
+    "name": "Ephrata",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.17"
+  },
+  {
+    "url": "http://www.liverpool.pa.net/",
+    "long": "-76.98",
+    "name": "Liverpool",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.57"
+  },
+  {
+    "url": "http://www.carrolltown.pa.us/",
+    "long": "-78.7",
+    "name": "Carrolltown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.6"
+  },
+  {
+    "url": "http://www.phoenixville.org/",
+    "long": "-75.51",
+    "name": "Phoenixville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.13"
+  },
+  {
+    "url": "http://www.erie.pa.us/",
+    "long": "-80.08",
+    "name": "Erie",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "42.12"
+  },
+  {
+    "url": "http://www.traffordpa.com/",
+    "long": "-79.75",
+    "name": "Trafford",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.38"
+  },
+  {
+    "url": "http://www.lockhavencity.org/",
+    "long": "-77.44",
+    "name": "Lock Haven",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.13"
+  },
+  {
+    "url": "http://borough.castle-shannon.pa.us/",
+    "long": "-80.02",
+    "name": "Castle Shannon",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.36"
+  },
+  {
+    "url": "http://www.city.pittsburgh.pa.us/",
+    "long": "-79.99",
+    "name": "Pittsburgh",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.44"
+  },
+  {
+    "url": "http://www.pleasanthillspa.com/",
+    "long": "-79.96",
+    "name": "Pleasant Hills",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.33"
+  },
+  {
+    "url": "http://www.cityoffarrell.com/",
+    "long": "-80.49",
+    "name": "Farrell",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.21"
+  },
+  {
+    "url": "http://www.trumbauersville.org/",
+    "long": "-75.37",
+    "name": "Trumbauersville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.41"
+  },
+  {
+    "url": "http://www.cityoflowerburrell.com/",
+    "long": "-79.75",
+    "name": "Lower Burrell",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.55"
+  },
+  {
+    "url": "http://www.borough.chambersburg.pa.us/",
+    "long": "-77.66",
+    "name": "Chambersburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.93"
+  },
+  {
+    "url": "http://www.chestercity.com/",
+    "long": "-75.35",
+    "name": "Chester",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.84"
+  },
+  {
+    "url": "http://www.plumboro.com/",
+    "long": "-79.74",
+    "name": "Plum",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.5"
+  },
+  {
+    "url": "http://www.foresthillspa.org/",
+    "long": "-79.85",
+    "name": "Forest Hills",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.41"
+  },
+  {
+    "url": "http://www.tyroneboropa.com/",
+    "long": "-78.23",
+    "name": "Tyrone",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.67"
+  },
+  {
+    "url": "http://www.macungie.pa.us/",
+    "long": "-75.55",
+    "name": "Macungie",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.51"
+  },
+  {
+    "url": "http://www.pottstown.org/",
+    "long": "-75.64",
+    "name": "Pottstown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.24"
+  },
+  {
+    "url": "http://www.fox-chapel.pa.us/",
+    "long": "-79.87",
+    "name": "Fox Chapel",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.51"
+  },
+  {
+    "url": "http://www.cityofwarrenpa.org/",
+    "long": "-79.14",
+    "name": "Warren",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.84"
+  },
+  {
+    "url": "http://www.mahanoycity.org/",
+    "long": "-76.14",
+    "name": "Mahanoy City",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.81"
+  },
+  {
+    "url": "http://www.christianaboro.com/",
+    "long": "-75.99",
+    "name": "Christiana",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.95"
+  },
+  {
+    "url": "http://www.ci.pottsville.pa.us/",
+    "long": "-76.19",
+    "name": "Pottsville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.68"
+  },
+  {
+    "url": "http://www.franklinparkborough.us/",
+    "long": "-80.08",
+    "name": "Franklin Park",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.58"
+  },
+  {
+    "url": "http://www.washingtonpa.us/",
+    "long": "-80.24",
+    "name": "Washington",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.17"
+  },
+  {
+    "url": "http://www.malvern.org/",
+    "long": "-75.51",
+    "name": "Malvern",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.03"
+  },
+  {
+    "url": "http://www.markleysburg.pa.us/",
+    "long": "-79.45",
+    "name": "Markleysburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.73"
+  },
+  {
+    "url": "http://churchillborough.com/",
+    "long": "-79.84",
+    "name": "Churchill",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.43"
+  },
+  {
+    "url": "http://www.punxsutawney.com/",
+    "long": "-78.97",
+    "name": "Punxsutawney",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.94"
+  },
+  {
+    "url": "http://www.franklintownboro.com./",
+    "long": "-77.02",
+    "name": "Franklintown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.07"
+  },
+  {
+    "url": "http://waterfordboro.com/",
+    "long": "-79.98",
+    "name": "Waterford",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.94"
+  },
+  {
+    "url": "http://www.marysvilleboro.com/",
+    "long": "-76.92",
+    "name": "Marysville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.34"
+  },
+  {
+    "url": "http://www.clarionboro.org/",
+    "long": "-79.38",
+    "name": "Clarion",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.21"
+  },
+  {
+    "url": "http://www.quakertownboro.com/",
+    "long": "-75.34",
+    "name": "Quakertown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.44"
+  },
+  {
+    "url": "http://www.mainstreetgettysburg.org/",
+    "long": "-77.23",
+    "name": "Gettysburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.83"
+  },
+  {
+    "url": "http://www.west-chester.com/",
+    "long": "-75.6",
+    "name": "West Chester",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.96"
+  },
+  {
+    "url": "http://www.westmifflinborough.com/",
+    "long": "-79.86",
+    "name": "West Mifflin",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.36"
+  },
+  {
+    "url": "http://www.mckeesport.org/",
+    "long": "-79.86",
+    "name": "McKeesport",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.34"
+  },
+  {
+    "url": "http://www.clarkssummitboro.org/",
+    "long": "-75.7",
+    "name": "Clarks Summit",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.48"
+  },
+  {
+    "url": "http://www.readingpa.gov/",
+    "long": "-75.92",
+    "name": "Reading",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.33"
+  },
+  {
+    "url": "http://www.greentreeboro.com/",
+    "long": "-80.04",
+    "name": "Green Tree",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.41"
+  },
+  {
+    "url": "http://www.city.greensburg.pa.us/",
+    "long": "-79.53",
+    "name": "Greensburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.3"
+  },
+  {
+    "url": "http://www.westreadingborough.com/",
+    "long": "-75.94",
+    "name": "West Reading",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.33"
+  },
+  {
+    "url": "http://www.alburtis.org/",
+    "long": "-75.6",
+    "name": "Alburtis",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.51"
+  },
+  {
+    "url": "http://www.mechanicsburgborough.org/",
+    "long": "-77",
+    "name": "Mechanicsburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.21"
+  },
+  {
+    "url": "http://www.coatesville.org/",
+    "long": "-75.82",
+    "name": "Coatesville",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.98"
+  },
+  {
+    "url": "http://www.redlionpa.org/",
+    "long": "-76.6",
+    "name": "Red Lion",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.9"
+  },
+  {
+    "url": "http://hamburgboro.com/",
+    "long": "-75.98",
+    "name": "Hamburg",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.55"
+  },
+  {
+    "url": "http://webpages.charter.net/westmont/",
+    "long": "-78.95",
+    "name": "Westmont",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.31"
+  },
+  {
+    "url": "http://www.allentownpa.gov/",
+    "long": "-75.49",
+    "name": "Allentown",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.6"
+  },
+  {
+    "url": "http://www.mediaborough.com/",
+    "long": "-75.38",
+    "name": "Media",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.91"
+  },
+  {
+    "url": "http://www.cochrantonboro.org/",
+    "long": "-80.04",
+    "name": "Cochranton",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "41.52"
+  },
+  {
+    "url": "http://www.riversideborough.org/",
+    "long": "-76.62",
+    "name": "Riverside",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.95"
+  },
+  {
+    "url": "http://www.bethlehemtwp.com/",
+    "long": "-75.37",
+    "name": "Bethlehem",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.62"
+  },
+  {
+    "url": "http://www.traffordpa.com/",
+    "long": "-79.75",
+    "name": "Trafford",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "40.38"
+  },
+  {
+    "url": "http://www.christianaboro.com/",
+    "long": "-75.99",
+    "name": "Christiana",
+    "state": {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    "lat": "39.95"
+  }
+]

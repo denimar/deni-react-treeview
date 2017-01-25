@@ -1,0 +1,32 @@
+$blue: #9DC2E1;
+$red: #ff8080;
+$green: #9ce2da; //#80ff80;
+$silver: #bfbfbf;
+$moonlight: #bfbfbf;
+$orange: #ffd280;
+$purple: #ff80ff;
+$metro: #b1b8cd;
+$base-color: $blue;
+
+@mixin unselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+@mixin gradient-background ($end-color) {
+  $selection-background-start-color: lighten($end-color, 20%);
+  background: $selection-background-start-color; /* Old browsers */
+  background: -moz-linear-gradient(top, $selection-background-start-color 0%, $end-color 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, $selection-background-start-color 0%,$end-color 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, $selection-background-start-color 0%, $end-color 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 ); /* IE6-9 */
+}
+
+@mixin base-color($color: $blue) {
+  $base-color: $color;
+}

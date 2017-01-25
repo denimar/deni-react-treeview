@@ -1,0 +1,202 @@
+[
+  {
+    "url": "http://www.brewerme.org/",
+    "long": "-68.76",
+    "name": "Brewer",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.79"
+  },
+  {
+    "url": "http://www.old-town.org/",
+    "long": "-68.64",
+    "name": "Old Town",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.93"
+  },
+  {
+    "url": "http://www.cariboumaine.org/",
+    "long": "-68.01",
+    "name": "Caribou",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "46.86"
+  },
+  {
+    "url": "http://www.ci.portland.me.us/",
+    "long": "-70.25",
+    "name": "Portland",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "43.66"
+  },
+  {
+    "url": "http://www.presqueisle.govoffice2.com/",
+    "long": "-68.01",
+    "name": "Presque Isle",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "46.68"
+  },
+  {
+    "url": "http://www.ci.rockland.me.us/",
+    "long": "-69.1",
+    "name": "Rockland",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.1"
+  },
+  {
+    "url": "http://www.eastport-me.gov/",
+    "long": "-66.98",
+    "name": "Eastport",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.9"
+  },
+  {
+    "url": "http://www.cityofellsworthme.org/",
+    "long": "-68.41",
+    "name": "Ellsworth",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.54"
+  },
+  {
+    "url": "http://www.southportland.org/",
+    "long": "-70.24",
+    "name": "South Portland",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "43.64"
+  },
+  {
+    "url": "http://www.gardinermaine.com/",
+    "long": "-69.77",
+    "name": "Gardiner",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.23"
+  },
+  {
+    "url": "http://hallowell.govoffice.com/",
+    "long": "-69.79",
+    "name": "Hallowell",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.28"
+  },
+  {
+    "url": "http://www.waterville-me.gov/",
+    "long": "-69.63",
+    "name": "Waterville",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.55"
+  },
+  {
+    "url": "http://www.westbrookmaine.com/",
+    "long": "-70.37",
+    "name": "Westbrook",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "43.67"
+  },
+  {
+    "url": "http://www.ci.lewiston.me.us/",
+    "long": "-70.21",
+    "name": "Lewiston",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.1"
+  },
+  {
+    "url": "http://www.auburnmaine.org/",
+    "long": "-70.23",
+    "name": "Auburn",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.09"
+  },
+  {
+    "url": "http://www.augustamaine.gov/",
+    "long": "-69.77",
+    "name": "Augusta",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.31"
+  },
+  {
+    "url": "http://www.bangormaine.gov/",
+    "long": "-68.77",
+    "name": "Bangor",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.8"
+  },
+  {
+    "url": "http://www.cityofbath.com/",
+    "long": "-69.82",
+    "name": "Bath",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "43.91"
+  },
+  {
+    "url": "http://www.cityofbelfast.org/",
+    "long": "-69",
+    "name": "Belfast",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "44.42"
+  },
+  {
+    "url": "http://www.biddefordmaine.org/",
+    "long": "-70.45",
+    "name": "Biddeford",
+    "state": {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    "lat": "43.49"
+  }
+]

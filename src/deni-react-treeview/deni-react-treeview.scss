@@ -1,0 +1,22 @@
+@import './deni-react-treeview.vars.scss';
+
+.deni-react-treeview-container {
+  font-family: tahoma,arial;
+  font-size: 12px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: solid 1px;
+  border-color: lighten($base-color, 2%);
+  height: 100%;
+
+  * {
+    box-sizing: border-box;
+
+    &.unselectable {
+      @include unselectable;
+    }
+
+  }
+
+}
