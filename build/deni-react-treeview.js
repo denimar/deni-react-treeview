@@ -971,7 +971,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  loadingSetup: function loadingSetup(treeview) {
 	    //by props.url
-	    if (treeview.props.url || treeview.props.lazyLoad) {
+	    if (treeview.props.url || treeview.props.json || treeview.props.lazyLoad) {
 	      if (treeview.props.autoLoad) {
 	        treeview.load();
 	      }
@@ -997,9 +997,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var self = this;
 	    return new Promise(function (success, reject) {
 	
-	      if (self.props.url) {
-	
-	        var urlToLoad = self.props.url;
+	      if (self.props.url || self.props.json) {
+	        var urlToLoad = self.props.url || self.props.json;
 	        if (self.props.lazyLoad) {
 	          var currentItem = item || self.state.rootItem || _deniReactTreeviewConstant.ROOT_ITEM;
 	          urlToLoad += '&lazyLoad=true&item=' + JSON.stringify(currentItem);

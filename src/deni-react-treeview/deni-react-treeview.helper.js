@@ -5,7 +5,7 @@ module.exports = {
 
   loadingSetup(treeview) {
     //by props.url
-    if (treeview.props.url || treeview.props.lazyLoad) {
+    if (treeview.props.url || treeview.props.json || treeview.props.lazyLoad) {
       if (treeview.props.autoLoad) {
         treeview.load();
       }
@@ -31,11 +31,10 @@ module.exports = {
     let self = this;
     return new Promise(function(success, reject) {
 
-      if (self .props.url) {
-
-        let urlToLoad = self .props.url;
-        if (self .props.lazyLoad) {
-          let currentItem = item || self .state.rootItem || ROOT_ITEM;
+      if (self.props.url || self.props.json) {
+        let urlToLoad = self.props.url || self.props.json;
+        if (self.props.lazyLoad) {
+          let currentItem = item || self.state.rootItem || ROOT_ITEM;
           urlToLoad += '&lazyLoad=true&item=' + JSON.stringify(currentItem);
         }
 

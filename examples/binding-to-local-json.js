@@ -1,6 +1,5 @@
 import React from 'react';
 import TreeView from '../src/deni-react-treeview/deni-react-treeview';
-import countries from './data/countries-by-continents.json'
 
 class Example extends React.Component{
 
@@ -11,7 +10,7 @@ class Example extends React.Component{
   render() {
 
     return (
-      <TreeView items={countries} ></TreeView>
+      <TreeView json="./data/countries-by-continents.json" ></TreeView>
     );
   }
 
