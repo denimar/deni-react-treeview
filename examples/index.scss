@@ -1,0 +1,60 @@
+html,body,#root {
+  margin: 0;
+  padding: 2px;
+  height: 100%;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+
+}
+
+.examples-container {
+  height: 100%;
+  font-size: 12px;
+  font-family: arial,tahoma;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    height: 35px;
+    width: 100%;
+    display: block;
+  }
+
+  .menu-and-body {
+    justify-content: space-around;
+    flex: 1;
+    display: flex;
+    //border: solid 1px blue;
+
+    .menu {
+      width: 200px;
+      display: inline-block;
+      border: solid 1px #80DEEA;
+      background-color: #E0F7FA;
+      color: #006064;
+      padding: 10px;
+      margin-right: 2px;
+
+      .menu-item {
+        padding: 2px;
+        cursor: pointer;
+
+        .active {
+          border: solid 2px red;
+        }
+      }
+
+    }
+
+    .body {
+      border: solid 1px #80DEEA;
+      display: inline-block;
+      justify-content: space-around;
+      flex: 1;
+    }
+  }
+
+}
