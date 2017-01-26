@@ -3,14 +3,10 @@ import TreeView from '../src/deni-react-treeview/deni-react-treeview';
 
 class Example extends React.Component{
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
 
     return (
-      <TreeView items={fruitsAndVegetables} ></TreeView>
+      <TreeView items={fruitsAndVegetables} />
     );
   }
 

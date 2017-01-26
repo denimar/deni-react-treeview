@@ -1,6 +1,6 @@
 html,body,#root {
   margin: 0;
-  padding: 2px;
+  padding: 0px;
   height: 100%;
   box-sizing: border-box;
 
@@ -11,6 +11,7 @@ html,body,#root {
 }
 
 .examples-container {
+  $body-background-color: #F7FAFD;
   height: 100%;
   font-size: 12px;
   font-family: arial,tahoma;
@@ -21,39 +22,99 @@ html,body,#root {
     height: 35px;
     width: 100%;
     display: block;
+    font-family: tahoma,arial;
+    font-size: 22px;
+    padding: 6px 12px;
+    color: #4d4d4d;
   }
 
   .menu-and-body {
     justify-content: space-around;
     flex: 1;
     display: flex;
+    flex-direction: column;
     //border: solid 1px blue;
 
     .menu {
-      width: 200px;
-      display: inline-block;
-      border: solid 1px #80DEEA;
-      background-color: #E0F7FA;
+      $border-color: #f2f2f2;
+      height: 45px;
       color: #006064;
-      padding: 10px;
-      margin-right: 2px;
+      align-items: flex-end;;
+      display: flex;
+      flex-direction: row;
+      border-bottom: solid 1px darken($border-color, 3%);
+      padding-left: 6px;
 
       .menu-item {
-        padding: 2px;
+        $padding-menu-item: 10px;
+        padding: $padding-menu-item;
         cursor: pointer;
+        display: inline-flex;
+        color: #007380;
+        //margin-bottom: -1px;
+        z-index: 9999;
 
-        .active {
-          border: solid 2px red;
+        &.active {
+          border: solid 1px darken($border-color, 5%);;
+          border-bottom: solid 1px #F50057;
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px;
+          padding-bottom: calc(#{$padding-menu-item} - 1px);
+          background-color: $body-background-color;
+          padding-left: calc(#{$padding-menu-item} - 1px);
+          padding-right: calc(#{$padding-menu-item} - 1px);
+          color: #1565C0;
+          //font-weight: bold;
+        }
+
+        &:hover {
+          background-color: $body-background-color;
+          color: #1565C0;
         }
       }
 
     }
 
     .body {
-      border: solid 1px #80DEEA;
-      display: inline-block;
+      //border: solid 1px #80DEEA;
+      display: flex;
       justify-content: space-around;
       flex: 1;
+      background-color: $body-background-color;
+      padding: 15px;
+      //border: solid 1px #A5C7E3;
+
+      .treeview-container {
+        display: inline-flex;
+        width: 400px;
+        height: 500px;
+
+        .deni-react-treeview-container {
+          width: 100%;
+          height: 100%;
+          background-color: lighten(#f2f2f2, 3%);
+        }
+
+      }
+
+      .code-view-container {
+        width: 50px;
+        display: inline-flex;
+        justify-content: space-around;
+        flex: 1;
+        margin-left: 8px;
+
+        .code-view {
+          justify-content: space-around;
+          flex: 1;
+          overflow-y: auto;
+
+          pre {
+            padding: 0px !important;
+            margin: 0px !important;
+          }
+        }
+      }
     }
   }
 
