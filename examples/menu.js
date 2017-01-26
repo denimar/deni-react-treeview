@@ -29,11 +29,11 @@ module.exports = {
       "language": "javascript"
     },
     {
-      "id": 4,      
+      "id": 4,
       "text": "Theme Customization",
       "path": "/theming",
       "code": themeCustomization,
-      "language": "javascript"
+      "language": "scss"
     }
   ]
 }

@@ -113,6 +113,13 @@ html,body,#root {
           flex: 1;
           overflow-y: auto;
 
+          .code-view-title {
+            margin-bottom: 4px;
+            color: #b3b3b3;
+            font-size: 12px;
+            font-weight: bold;
+          }
+
           pre {
             padding: 0px !important;
             margin: 0px !important;

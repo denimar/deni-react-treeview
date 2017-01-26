@@ -62,8 +62,9 @@ class Examples extends React.Component {
             </div>
             <div className="code-view-container">
               <div className="code-view">
-                <pre className="language-javascript">
-                  <PrismCode className="language-javascript">
+                <div className="code-view-title">{this.state.currentMenuItem.language} :</div>
+                <pre className={this.state.currentMenuItem.language}>
+                  <PrismCode className={this.state.currentMenuItem.language}>
                     {this.state.currentMenuItem.code}
                   </PrismCode>
                 </pre>
