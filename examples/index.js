@@ -57,7 +57,7 @@ class Examples extends React.Component {
                 <Route path='/' component={bindingToLocalJson} />
                 <Route path='/remote' component={bindingToRemoteJson} />
                 <Route path='/javascript' component={bindingToJavascriptObject} />
-                <Route path='/theming' component={themeCustomization} />
+                <Route path='/theme-customization' component={themeCustomization} />
               </Router>
             </div>
             <div className="code-view-container">

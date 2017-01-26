@@ -31,7 +31,7 @@ module.exports = {
     {
       "id": 4,
       "text": "Theme Customization",
-      "path": "/theming",
+      "path": "/theme-customization",
       "code": themeCustomization,
       "language": "scss"
     }
