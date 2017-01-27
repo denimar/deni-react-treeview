@@ -1,10 +1,5 @@
 import React from 'react'
 
-import {default as bindingToLocalJsonText} from "raw!./texts/binding-to-local-json.text";
-import {default as bindingToRemoteJsonText} from "raw!./texts/binding-to-remote-json.text";
-import {default as bindingToJavaScriptObjectText} from "raw!./texts/binding-to-javascript-object.text";
-import {default as themeCustomization} from "raw!./texts/theme-customization.text";
-
 module.exports = {
   items: [
     {
@@ -24,6 +19,19 @@ module.exports = {
       "text": "Theme Customization",
       "jsfiddle": "p89c2ryy",
       "description": 'dsfakj sdflkj lçdsfklj lksdjlkjflksdj sdlkfjasd'
+    },
+    {
+      "id": 5,
+      "text": "Lazy Load by Url",
+      "jsfiddle": "o7npugrt",
+      "description": 'Lazy Load by Url... make description here'
+    },
+    {
+      "id": 6,
+      "text": "Options",
+      "jsfiddle": "r4p44mer",
+      "description": 'Options... make description here'
     }
+
   ]
 }
