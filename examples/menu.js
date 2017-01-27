@@ -9,31 +9,21 @@ module.exports = {
   items: [
     {
       "id": 1,
-      "text": "Binding to local JSON",
-      "path": "/",
-      "code": bindingToLocalJsonText,
-      "language": "javascript"
-    },
-    {
-      "id": 2,
-      "text": "Binding to remote JSON",
-      "path": "/remote",
-      "code": bindingToRemoteJsonText,
-      "language": "javascript"
+      "text": "Binding to JSON",
+      "jsfiddle": "tc8Lovb7",
+      "description": "Binding to JSON"
     },
     {
       "id": 3,
-      "text": "Binding to Javascript object",
-      "path": "/javascript",
-      "code": bindingToJavaScriptObjectText,
-      "language": "javascript"
+      "text": "Binding to a Javascript object",
+      "jsfiddle": "7mox9ne3",
+      "description": 'Binding to a Javascript object'
     },
     {
       "id": 4,
       "text": "Theme Customization",
-      "path": "/theme-customization",
-      "code": themeCustomization,
-      "language": "scss"
+      "jsfiddle": "tc8Lovb7",
+      "description": 'dsfakj sdflkj lçdsfklj lksdjlkjflksdj sdlkfjasd'
     }
   ]
 }

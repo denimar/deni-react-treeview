@@ -81,52 +81,34 @@ html,body,#root {
 
     .body {
       //border: solid 1px #80DEEA;
-      display: flex;
+      display: block;
       justify-content: space-around;
       flex: 1;
-      background-color: $body-background-color;
+      background-color: white;
       padding: 15px;
       //border: solid 1px #A5C7E3;
 
-      .treeview-container {
-        display: inline-flex;
-        width: 400px;
-        height: 500px;
-
-        .deni-react-treeview-container {
-          width: 100%;
-          height: 100%;
-          background-color: lighten(#f2f2f2, 3%);
-        }
-
+      #example-preview-title {
+        width: 100%;
+        color: #F50057;
+        height: 20px;
+        box-sizing: border-box;
+        font-family: tahoma;
+        font-size: 12px;
+        align-items: flex-start;
+        display: flex;
+        padding: 2px;
+        flex-direction: row;
       }
 
-      .code-view-container {
-        width: 50px;
-        display: inline-flex;
-        justify-content: space-around;
-        flex: 1;
-        margin-left: 8px;
-
-        .code-view {
-          justify-content: space-around;
-          flex: 1;
-          overflow-y: auto;
-
-          .code-view-title {
-            margin-bottom: 4px;
-            color: #b3b3b3;
-            font-size: 12px;
-            font-weight: bold;
-            background-color: #F6F9FB;
-          }
-
-          pre {
-            padding: 0px !important;
-            margin: 0px !important;
-          }
-        }
+      #example-preview-iframe {
+        height: calc(100% - 40px);
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
       }
+
     }
   }
 
