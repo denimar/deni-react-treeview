@@ -22,7 +22,7 @@ module.exports = {
     {
       "id": 4,
       "text": "Theme Customization",
-      "jsfiddle": "tc8Lovb7",
+      "jsfiddle": "p89c2ryy",
       "description": 'dsfakj sdflkj lçdsfklj lksdjlkjflksdj sdlkfjasd'
     }
   ]
