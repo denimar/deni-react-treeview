@@ -84,20 +84,18 @@ html,body,#root {
       display: block;
       justify-content: space-around;
       flex: 1;
-      background-color: white;
       padding: 15px;
       //border: solid 1px #A5C7E3;
 
       #example-preview-title {
         width: 100%;
         color: #F50057;
-        height: 20px;
+        height: 30px;
         box-sizing: border-box;
         font-family: tahoma;
         font-size: 12px;
         align-items: flex-start;
         display: flex;
-        padding: 2px;
         flex-direction: row;
       }
 

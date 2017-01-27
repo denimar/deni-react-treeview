@@ -65,7 +65,7 @@ ReactDOM.render(
 function _selectMenuItem(self, menuItem) {
   self.setState({currentMenuItem: menuItem});
   let elemTitle = document.getElementById('example-preview-title');
-  elemTitle.innerHTML = menuItem.description;
+  elemTitle.innerHTML = '<ul><li>' + menuItem.description + '</li></ul>';
   let elemFrame = document.getElementById('example-preview-iframe');
-  elemFrame.src = 'https://jsfiddle.net/denimar/' + menuItem.jsfiddle + '/embedded/result,html,js,css,resources/dark';
+  elemFrame.src = 'https://jsfiddle.net/denimar/' + menuItem.jsfiddle + '/embedded/result,html,js,css,resources';
 }
