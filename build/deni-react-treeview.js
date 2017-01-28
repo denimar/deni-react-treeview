@@ -121,7 +121,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var self = this;
 	
 	      if (this.state.rootItem) {
-	        var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { onExpanded: self.props.onExpanded, onColapsed: self.props.onColapsed, root: true, treeview: self, level: 0, item: this.state.rootItem });
+	        var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { root: true, treeview: self, level: 0, item: this.state.rootItem });
 	
 	        return _react2['default'].createElement(
 	          'div',
@@ -146,7 +146,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    'div',
 	    null,
 	    parent.props.item.expanded && children && children.length ? children.map(function (child) {
-	      var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { onExpanded: self.props.onExpanded, onColapsed: self.props.onColapsed, treeview: treeview, parent: parent, level: level, key: child.id, item: child });
+	      var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { treeview: treeview, parent: parent, level: level, key: child.id, item: child });
 	      return _react2['default'].createElement(
 	        'div',
 	        { key: child.id },
@@ -808,13 +808,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	      });
 	    };
 	    var resolveEventOnColapsed = function resolveEventOnColapsed() {
-	      if (self.props.onColapsed) {
-	        self.props.onColapsed(item);
+	      if (treeview.props.onColapsed) {
+	        treeview.props.onColapsed(item);
 	      }
 	    };
 	    var resolveEventOnExpanded = function resolveEventOnExpanded() {
-	      if (self.props.onExpanded) {
-	        self.props.onExpanded(item);
+	      if (treeview.props.onExpanded) {
+	        treeview.props.onExpanded(item);
 	      }
 	    };
 	

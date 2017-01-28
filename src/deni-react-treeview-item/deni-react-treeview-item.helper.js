@@ -158,13 +158,13 @@ module.exports = {
       });
     };
     const resolveEventOnColapsed = () => {
-      if (self.props.onColapsed) {
-        self.props.onColapsed(item)
+      if (treeview.props.onColapsed) {
+        treeview.props.onColapsed(item)
       }
     };
     const resolveEventOnExpanded = () => {
-      if (self.props.onExpanded) {
-        self.props.onExpanded(item)
+      if (treeview.props.onExpanded) {
+        treeview.props.onExpanded(item)
       }
     }
 
