@@ -107,7 +107,6 @@ html,body,#root {
         font-size: 12px;
         align-items: flex-start;
         display: flex;
-        border-bottom: solid 1px lighten(#1565C0, 50%);
         flex-direction: row;
         align-items: center;
       }
@@ -123,6 +122,9 @@ html,body,#root {
         .example-preview-iframe {
           justify-content: space-around;
           flex: 1;
+          border: solid 1px lighten(#1565C0, 50%);
+
+
         }
       }
 
