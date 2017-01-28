@@ -29,7 +29,7 @@ class DeniReactTreeView extends React.Component {
     let self = this;
 
     if (this.state.rootItem) {
-      let domTreeviewItem = <DeniReactTreeViewItem root={true} treeview={self} level={0} item={this.state.rootItem} />;
+      let domTreeviewItem = <DeniReactTreeViewItem onExpanded={self.props.onExpanded} onColapsed={self.props.onColapsed} root={true} treeview={self} level={0} item={this.state.rootItem} />;
 
       return (
         <div className={'deni-react-treeview-container unselectable ' + self.state.theme}>

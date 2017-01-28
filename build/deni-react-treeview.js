@@ -121,7 +121,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var self = this;
 	
 	      if (this.state.rootItem) {
-	        var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { root: true, treeview: self, level: 0, item: this.state.rootItem });
+	        var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { onExpanded: self.props.onExpanded, onColapsed: self.props.onColapsed, root: true, treeview: self, level: 0, item: this.state.rootItem });
 	
 	        return _react2['default'].createElement(
 	          'div',
