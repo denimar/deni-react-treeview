@@ -8,7 +8,7 @@ module.exports = {
       "jsfiddle": "tc8Lovb7",
       "description": "Binding to a JSON file, which might comes locally or remotelly.",
       "route": "json"
-    },  
+    },
     {
       "id": 3,
       "title": "Binding to a Javascript object",
@@ -33,7 +33,7 @@ module.exports = {
     {
       "id": 6,
       "title": "Events",
-      "jsfiddle": "r4p44mer",
+      "jsfiddle": "gbdyyjoc",
       "description": 'Events... make description here',
       "route": "events"
     },
