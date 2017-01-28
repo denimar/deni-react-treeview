@@ -156,10 +156,21 @@ module.exports = {
       treeview.setState({
         selectedItem: item
       });
+    };
+    const resolveEventOnColapsed = () => {
+      if (self.props.onColapsed) {
+        self.props.onColapsed(item)
+      }
+    };
+    const resolveEventOnExpanded = () => {
+      if (self.props.onExpanded) {
+        self.props.onExpanded(item)
+      }
     }
 
     if (item.expanded) {
       conclusion();
+      resolveEventOnExpanded();
     } else {
       if (treeview.props.lazyLoad) {
         self.setState({loading: true});
@@ -171,6 +182,8 @@ module.exports = {
       } else {
         conclusion();
       }
+
+      resolveEventOnColapsed();
     }
   },
 

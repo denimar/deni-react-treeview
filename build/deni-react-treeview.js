@@ -807,9 +807,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	        selectedItem: item
 	      });
 	    };
+	    var resolveEventOnColapsed = function resolveEventOnColapsed() {
+	      if (self.props.onColapsed) {
+	        self.props.onColapsed(item);
+	      }
+	    };
+	    var resolveEventOnExpanded = function resolveEventOnExpanded() {
+	      if (self.props.onExpanded) {
+	        self.props.onExpanded(item);
+	      }
+	    };
 	
 	    if (item.expanded) {
 	      conclusion();
+	      resolveEventOnExpanded();
 	    } else {
 	      if (treeview.props.lazyLoad) {
 	        self.setState({ loading: true });
@@ -821,6 +832,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      } else {
 	        conclusion();
 	      }
+	
+	      resolveEventOnColapsed();
 	    }
 	  },
 	
