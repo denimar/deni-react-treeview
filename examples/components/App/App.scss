@@ -40,7 +40,7 @@ html,body,#root {
     //border: solid 1px blue;
 
     .menu {
-      $border-color: #f2f2f2;
+      $border-color: darken(#f2f2f2, 4%);
       height: 45px;
       color: #006064;
       align-items: flex-end;;
@@ -50,25 +50,29 @@ html,body,#root {
       padding-left: 6px;
 
       .menu-item {
-        $padding-menu-item: 10px;
-        padding: $padding-menu-item;
-        cursor: pointer;
         display: inline-flex;
         color: #007380;
         //margin-bottom: -1px;
         z-index: 9999;
 
-        &.active {
-          border: solid 1px darken($border-color, 5%);;
-          border-bottom: solid 1px #F50057;
-          border-top-left-radius: 6px;
-          border-top-right-radius: 6px;
-          padding-bottom: calc(#{$padding-menu-item} - 1px);
-          background-color: $body-background-color;
-          padding-left: calc(#{$padding-menu-item} - 1px);
-          padding-right: calc(#{$padding-menu-item} - 1px);
-          color: #1565C0;
-          //font-weight: bold;
+        a {
+          $padding-menu-item: 10px;
+          padding: $padding-menu-item;
+          cursor: pointer;
+          text-decoration: none;
+
+          &.active {
+            border: solid 1px darken($border-color, 5%);;
+            border-bottom: solid 1px #F50057;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            padding-bottom: calc(#{$padding-menu-item} - 1px);
+            background-color: $body-background-color;
+            padding-left: calc(#{$padding-menu-item} - 1px);
+            padding-right: calc(#{$padding-menu-item} - 1px);
+            color: #1565C0;
+            //font-weight: bold;
+          }
         }
 
         &:hover {
@@ -85,9 +89,16 @@ html,body,#root {
       justify-content: space-around;
       flex: 1;
       padding: 15px;
-      //border: solid 1px #A5C7E3;
+      background-color: #F7FAFD;
 
-      #example-preview-title {
+      &.nomatch {
+        background-color: #FFF0F0;
+        color: #ff0000;
+        font-size: 18px;
+        border-top: solid 1px #ff0000;
+      }
+
+      .example-preview-title {
         width: 100%;
         color: #F50057;
         height: 30px;
@@ -96,15 +107,23 @@ html,body,#root {
         font-size: 12px;
         align-items: flex-start;
         display: flex;
+        border-bottom: solid 1px lighten(#1565C0, 50%);
         flex-direction: row;
+        align-items: center;
       }
 
-      #example-preview-iframe {
+      .example-preview-container {
         height: calc(100% - 40px);
         position: relative;
         width: 100%;
         box-sizing: border-box;
         display: block;
+        display: flex;
+
+        .example-preview-iframe {
+          justify-content: space-around;
+          flex: 1;
+        }
       }
 
     }

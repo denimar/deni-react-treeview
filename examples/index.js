@@ -1,71 +1,34 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.scss'
-import menu from './menu'
+import { Router, Route, Redirect, hashHistory, applyRouterMiddleware } from 'react-router'
+import menuItems from './menu-items'
 
-class Examples extends React.Component {
+import App from './components/App'
+import Example from './components/Example'
+import NotMatch from './components/NotMatch'
 
-  constructor(props) {
-    super(props);
-    this.state = {currentMenuItem: menu.items[0]};
-  }
-
-  componentDidMount() {
-    _selectMenuItem(this, this.state.currentMenuItem);
-  }
-
-  onMenuItemClick(menuItem) {
-    _selectMenuItem(this, menuItem);
-  }
-
-  getClassMenuItem(menuItem) {
-    let className = 'menu-item';
-
-    if (menuItem === this.state.currentMenuItem) {
-      className += ' active';
+const useExtraProps = {
+  renderRouteComponent: (child) => {
+    if (child.props.route.jsfiddle) {
+      return React.cloneElement(child, {
+        jsfiddle: child.props.route.jsfiddle,
+        description: child.props.route.description
+      })
+    } else {
+      return child;
     }
-
-    return className;
   }
-
-  render() {
-    let self = this;
-
-    return (
-      <div className="examples-container">
-        <div className="title">DeniReactTreeview - Examples</div>
-        <div className="menu-and-body">
-          <div className="menu">
-            {
-              menu.items.map(function(menuItem) {
-                return (
-                  <div key={menuItem.id} className={self.getClassMenuItem(menuItem)} onClick={self.onMenuItemClick.bind(self, menuItem)}>{menuItem.text}</div>
-                )
-              })
-            }
-          </div>
-          <div id="example-body" className="body">
-
-          		<div id="example-preview-title"></div>
-          		<iframe id="example-preview-iframe" src="" allowFullScreen="allowfullscreen" frameBorder="0"></iframe>
-
-          </div>
-        </div>
-      </div>
-    )
-  }
-
 }
 
 ReactDOM.render(
-  <Examples />,
+  <Router history={hashHistory} render={applyRouterMiddleware(useExtraProps)}>
+    <Redirect from="/" to="json" />
+    <Route path="/" component={App} >
+      {menuItems.items.map((menuItem) => (
+        <Route key={menuItem.id} path={menuItem.route} component={Example} jsfiddle={menuItem.jsfiddle} description={menuItem.description} />
+      ))}
+      <Route path="*" component={NotMatch} />
+    </Route>
+  </Router>,
   document.getElementById('root')
 );
-
-function _selectMenuItem(self, menuItem) {
-  self.setState({currentMenuItem: menuItem});
-  let elemTitle = document.getElementById('example-preview-title');
-  elemTitle.innerHTML = '<ul><li>' + menuItem.description + '</li></ul>';
-  let elemFrame = document.getElementById('example-preview-iframe');
-  elemFrame.src = 'https://jsfiddle.net/denimar/' + menuItem.jsfiddle + '/embedded/result,html,js,css,resources';
-}
