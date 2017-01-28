@@ -146,7 +146,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    'div',
 	    null,
 	    parent.props.item.expanded && children && children.length ? children.map(function (child) {
-	      var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { treeview: treeview, parent: parent, level: level, key: child.id, item: child });
+	      var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { onExpanded: self.props.onExpanded, onColapsed: self.props.onColapsed, treeview: treeview, parent: parent, level: level, key: child.id, item: child });
 	      return _react2['default'].createElement(
 	        'div',
 	        { key: child.id },

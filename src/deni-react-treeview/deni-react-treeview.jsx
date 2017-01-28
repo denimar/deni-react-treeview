@@ -56,7 +56,7 @@ function _createComponentsChildren (treeview, parent, level, children) {
       {
         (parent.props.item.expanded && children && children.length) ?
           children.map(function(child) {
-            let domTreeviewItem = <DeniReactTreeViewItem treeview={treeview} parent={parent} level={level} key={child.id} item={child} />;
+            let domTreeviewItem = <DeniReactTreeViewItem onExpanded={self.props.onExpanded} onColapsed={self.props.onColapsed} treeview={treeview} parent={parent} level={level} key={child.id} item={child} />;
             return (
               <div key={child.id}>
                 {domTreeviewItem}
