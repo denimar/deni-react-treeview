@@ -127,7 +127,7 @@ module.exports = {
                 }, {
                     "id": 408,
                     "title": "theme",
-                    "jsfiddle": "tc8Lovb7",
+                    "jsfiddle": "xgcmnk5q",
                     "description": 'bla bla bla',
                     "route": "theme"
                 }
