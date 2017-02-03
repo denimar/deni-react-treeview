@@ -1,6 +1,6 @@
 import React from 'react';
 import TreeView from '../../../../src/deni-react-treeview/deni-react-treeview';
-import ThemeSelector from './ThemeSelector';
+import ThemeSelector from '../ThemeSelector';
 import './Theming.scss'
 
 class Theming extends React.Component{

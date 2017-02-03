@@ -3187,56 +3187,56 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	module.exports = function (scope) {
 	
-	  return {
+	    return {
 	
-	    //
-	    // folderToFind can be passed as a "id" or as a "object" ex:
-	    //
-	    //  treeviewEl.api.findFolder(456) //456 is a id value or
-	    //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
-	    //
-	    findFolder: function findFolder(folderToFind) {
-	      return _deniReactTreeviewApiImpl2['default'].findFolder(scope, folderToFind);
-	    },
+	        //
+	        // folderToFind can be passed as a "id" or as a "object" ex:
+	        //
+	        //  treeviewEl.api.findFolder(456) //456 is a id value or
+	        //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
+	        //
+	        findFolder: function findFolder(folderToFind) {
+	            return _deniReactTreeviewApiImpl2['default'].findFolder(scope, folderToFind);
+	        },
 	
-	    //
-	    // itemToFind can be passed as a "id" or as a "object" ex:
-	    //
-	    //  treeviewEl.api.findItem(357) //357 is a id value or
-	    //  treeviewEl.api.findItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
-	    //
-	    findItem: function findItem(itemToFind) {
-	      return _deniReactTreeviewApiImpl2['default'].findItem(scope, itemToFind);
-	    },
+	        //
+	        // itemToFind can be passed as a "id" or as a "object" ex:
+	        //
+	        //  treeviewEl.api.findItem(357) //357 is a id value or
+	        //  treeviewEl.api.findItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
+	        //
+	        findItem: function findItem(itemToFind) {
+	            return _deniReactTreeviewApiImpl2['default'].findItem(scope, itemToFind);
+	        },
 	
-	    //
-	    //
-	    //
-	    load: _deniReactTreeviewHelper2['default'].load.bind(scope),
+	        //
+	        //
+	        //
+	        load: _deniReactTreeviewHelper2['default'].load.bind(scope),
 	
-	    //
-	    //
-	    //
-	    loadData: _deniReactTreeviewHelper2['default'].loadData.bind(scope),
+	        //
+	        //
+	        //
+	        loadData: _deniReactTreeviewHelper2['default'].loadData.bind(scope),
 	
-	    //
-	    // itemToFind can be passed as a "id" or as a "object" ex:
-	    //
-	    //  treeviewEl.api.selectItem(357) //357 is a id value or
-	    //  treeviewEl.api.selectItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
-	    //
-	    selectItem: function selectItem(itemToFind) {
-	      _deniReactTreeviewApiImpl2['default'].selectItem(scope, itemToFind);
-	    },
+	        //
+	        // itemToFind can be passed as a "id" or as a "object" ex:
+	        //
+	        //  treeviewEl.api.selectItem(357) //357 is a id value or
+	        //  treeviewEl.api.selectItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
+	        //
+	        selectItem: function selectItem(itemToFind) {
+	            _deniReactTreeviewApiImpl2['default'].selectItem(scope, itemToFind);
+	        },
 	
-	    //
-	    //
-	    //
-	    setTheme: function setTheme(newTheme) {
-	      _deniReactTreeviewHelper2['default'].setTheme(scope, newTheme);
-	    }
+	        //
+	        //
+	        //
+	        setTheme: function setTheme(newTheme) {
+	            _deniReactTreeviewHelper2['default'].setTheme(scope, newTheme);
+	        }
 	
-	  };
+	    };
 	};
 
 /***/ },
