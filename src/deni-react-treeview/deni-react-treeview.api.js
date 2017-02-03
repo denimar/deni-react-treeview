@@ -1,4 +1,5 @@
 import treeviewApiImpl from './deni-react-treeview.api.impl'
+import treeviewHelper from './deni-react-treeview.helper'
 
 module.exports = (scope) => {
 
@@ -25,6 +26,16 @@ module.exports = (scope) => {
     },
 
     //
+    //
+    //
+    load: treeviewHelper.load.bind(scope),
+
+    //
+    //
+    //
+    loadData: treeviewHelper.loadData.bind(scope),
+
+    //
     // itemToFind can be passed as a "id" or as a "object" ex:
     //
     //  treeviewEl.api.selectItem(357) //357 is a id value or
@@ -32,6 +43,13 @@ module.exports = (scope) => {
     //
     selectItem: (itemToFind) => {
       treeviewApiImpl.selectItem(scope, itemToFind);
+    },
+
+    //
+    //
+    //
+    setTheme: (newTheme) => {
+      treeviewHelper.setTheme(scope, newTheme);
     }
 
   }

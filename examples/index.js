@@ -22,11 +22,23 @@ const useExtraProps = {
 
 ReactDOM.render(
   <Router history={hashHistory} render={applyRouterMiddleware(useExtraProps)}>
-    <Redirect from="/" to="json" />
     <Route path="/" component={App} >
-      {menuItems.items.map((menuItem) => (
-        <Route key={menuItem.id} path={menuItem.route} component={Example} jsfiddle={menuItem.jsfiddle} description={menuItem.description} />
-      ))}
+      {
+        menuItems.items.map(menuItem => {
+          return menuItem.children.map(children => {
+            return (
+              <Route
+                key={children.id}
+                path={children.route}
+                component={children.component || Example}
+                jsfiddle={children.jsfiddle}
+                description={children.description} >
+              </Route>
+            );
+          });
+        })
+      }
+
       <Route path="*" component={NotMatch} />
     </Route>
   </Router>,

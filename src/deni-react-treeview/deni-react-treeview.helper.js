@@ -7,7 +7,7 @@ module.exports = {
     //by props.url
     if (treeview.props.url || treeview.props.json || treeview.props.lazyLoad) {
       if (treeview.props.autoLoad) {
-        treeview.load();
+        treeview.api.load();
       }
     } else {
       //by props.items
@@ -17,12 +17,12 @@ module.exports = {
     }
   },
 
-  setTheme(newTheme) {
+  setTheme(treeview, newTheme) {
     //theme
     let theme = newTheme || 'classic';
     require('../themes/' + newTheme + '-theme.scss')
 
-    this.setState({
+    treeview.setState({
       theme: newTheme
     });
   },
@@ -40,7 +40,7 @@ module.exports = {
 
         axios.get(urlToLoad)
           .then(res => {
-            self.loadData(res.data, item);
+            self.api.loadData(res.data, item);
             success(res.data);
           });
       } else if (self.props.lazyLoad) {

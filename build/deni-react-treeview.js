@@ -99,9 +99,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    _classCallCheck(this, DeniReactTreeView);
 	
 	    _get(Object.getPrototypeOf(DeniReactTreeView.prototype), 'constructor', this).call(this, props);
-	    this.setTheme = _deniReactTreeviewHelper2['default'].setTheme.bind(this);
-	    this.load = _deniReactTreeviewHelper2['default'].load;
-	    this.loadData = _deniReactTreeviewHelper2['default'].loadData.bind(this);
 	    this.state = {
 	      theme: props.theme
 	    };
@@ -112,7 +109,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: function componentDidMount() {
 	      this.api = (0, _deniReactTreeviewApi2['default'])(this);
 	
-	      this.setTheme(this.props.theme);
+	      _deniReactTreeviewHelper2['default'].setTheme(this, this.props.theme);
 	      _deniReactTreeviewHelper2['default'].loadingSetup(this);
 	    }
 	  }, {
@@ -986,7 +983,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    //by props.url
 	    if (treeview.props.url || treeview.props.json || treeview.props.lazyLoad) {
 	      if (treeview.props.autoLoad) {
-	        treeview.load();
+	        treeview.api.load();
 	      }
 	    } else {
 	      //by props.items
@@ -996,12 +993,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	
-	  setTheme: function setTheme(newTheme) {
+	  setTheme: function setTheme(treeview, newTheme) {
 	    //theme
 	    var theme = newTheme || 'classic';
 	    __webpack_require__(40)("./" + newTheme + '-theme.scss');
 	
-	    this.setState({
+	    treeview.setState({
 	      theme: newTheme
 	    });
 	  },
@@ -1018,7 +1015,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }
 	
 	        _axios2['default'].get(urlToLoad).then(function (res) {
-	          self.loadData(res.data, item);
+	          self.api.loadData(res.data, item);
 	          success(res.data);
 	        });
 	      } else if (self.props.lazyLoad) {
@@ -3152,7 +3149,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    onAfterLoad: _react.PropTypes.func,
 	    onBeforeLoad: _react.PropTypes.func,
 	    onSelectItem: _react.PropTypes.func,
-	    root: _react.PropTypes.bool,
 	    selectRow: _react.PropTypes.bool,
 	    showCheckbox: _react.PropTypes.bool,
 	    showIcon: _react.PropTypes.bool,
@@ -3185,6 +3181,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _deniReactTreeviewApiImpl2 = _interopRequireDefault(_deniReactTreeviewApiImpl);
 	
+	var _deniReactTreeviewHelper = __webpack_require__(12);
+	
+	var _deniReactTreeviewHelper2 = _interopRequireDefault(_deniReactTreeviewHelper);
+	
 	module.exports = function (scope) {
 	
 	  return {
@@ -3210,6 +3210,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	    },
 	
 	    //
+	    //
+	    //
+	    load: _deniReactTreeviewHelper2['default'].load.bind(scope),
+	
+	    //
+	    //
+	    //
+	    loadData: _deniReactTreeviewHelper2['default'].loadData.bind(scope),
+	
+	    //
 	    // itemToFind can be passed as a "id" or as a "object" ex:
 	    //
 	    //  treeviewEl.api.selectItem(357) //357 is a id value or
@@ -3217,6 +3227,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    //
 	    selectItem: function selectItem(itemToFind) {
 	      _deniReactTreeviewApiImpl2['default'].selectItem(scope, itemToFind);
+	    },
+	
+	    //
+	    //
+	    //
+	    setTheme: function setTheme(newTheme) {
+	      _deniReactTreeviewHelper2['default'].setTheme(scope, newTheme);
 	    }
 	
 	  };

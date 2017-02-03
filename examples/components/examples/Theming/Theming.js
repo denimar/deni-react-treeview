@@ -1,21 +1,22 @@
 import React from 'react';
-import TreeView from '../src/deni-react-treeview/deni-react-treeview';
-import ThemeSelector from './theme-selector/ThemeSelector';
+import TreeView from '../../../../src/deni-react-treeview/deni-react-treeview';
+import ThemeSelector from '../../../../src/ThemeSelector';
+import './Theming.scss'
 
-class Example extends React.Component{
+class Theming extends React.Component{
 
   constructor(props) {
     super(props);
   }
 
   onChangeTheme(newTheme) {
-    this.refs.treeview.setTheme(newTheme);
+    this.refs.treeview.api.setTheme(newTheme);
   }
 
   render() {
 
     return (
-      <div>
+      <div className="body">
         <ThemeSelector OnChange={this.onChangeTheme.bind(this)} />
         <TreeView ref="treeview" url="https://denimar.github.io/static-data/countries.json"></TreeView>
       </div>
@@ -24,4 +25,4 @@ class Example extends React.Component{
 
 }
 
-export default Example;
+export default Theming;

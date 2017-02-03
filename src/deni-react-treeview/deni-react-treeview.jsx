@@ -17,13 +17,9 @@ class DeniReactTreeView extends React.Component {
   componentDidMount() {
     this.api = treeviewApiFn(this);
 
-    this.setTheme(this.props.theme);
+    treeviewHelper.setTheme(this, this.props.theme);
     treeviewHelper.loadingSetup(this);
   }
-
-  setTheme = treeviewHelper.setTheme.bind(this);
-  load = treeviewHelper.load;
-  loadData = treeviewHelper.loadData.bind(this);
 
   render() {
     let self = this;

@@ -18,14 +18,21 @@ class App extends React.Component {
         <div className="menu-and-body">
           <div className="menu">
             {
-              menuItems.items.map(function(menuItem) {
+              menuItems.items.map(menuItem => {
+                var childrenItems = menuItem.children.map(children => <div key={children.id} className="menu-item child"><Link activeClassName="active" to={`/${children.route}`}>{children.title}</Link></div>);
+
                 return (
-                  <div key={menuItem.id} className="menu-item"><Link activeClassName="active" to={`/${menuItem.route}`}>{menuItem.title}</Link></div>
+                  <div key={menuItem.id}>
+                    <div className="menu-item">{menuItem.title}</div>
+                    {childrenItems}
+                  </div>
                 )
               })
             }
           </div>
-          {this.props.children}
+          <div className="body-container">
+            {this.props.children}
+          </div>
         </div>
       </div>
     )
