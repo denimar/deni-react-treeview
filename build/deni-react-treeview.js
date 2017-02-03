@@ -92,6 +92,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _deniReactTreeviewApi2 = _interopRequireDefault(_deniReactTreeviewApi);
 	
+	var _ThemeSelector = __webpack_require__(64);
+	
+	var _ThemeSelector2 = _interopRequireDefault(_ThemeSelector);
+	
 	var DeniReactTreeView = (function (_React$Component) {
 	  _inherits(DeniReactTreeView, _React$Component);
 	
@@ -3382,6 +3386,177 @@ return /******/ (function(modules) { // webpackBootstrap
 	  });
 	  //scope.$broadcast('scrollintoview', node);
 	}
+
+/***/ },
+/* 64 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _ThemeSelector = __webpack_require__(65);
+	
+	var _ThemeSelector2 = _interopRequireDefault(_ThemeSelector);
+
+	exports['default'] = _ThemeSelector2['default'];
+	module.exports = exports['default'];
+
+/***/ },
+/* 65 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	__webpack_require__(66);
+	
+	var ThemeSelector = (function (_React$Component) {
+	  _inherits(ThemeSelector, _React$Component);
+	
+	  function ThemeSelector(props) {
+	    _classCallCheck(this, ThemeSelector);
+	
+	    _get(Object.getPrototypeOf(ThemeSelector.prototype), 'constructor', this).call(this, props);
+	  }
+	
+	  _createClass(ThemeSelector, [{
+	    key: 'OnChange',
+	    value: function OnChange() {
+	      if (this.props.OnChange) {
+	        this.props.OnChange(this.refs.selectElem.value);
+	      }
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	
+	      return _react2['default'].createElement(
+	        'div',
+	        { className: 'theme-selector-container', onChange: this.OnChange.bind(this) },
+	        _react2['default'].createElement(
+	          'label',
+	          null,
+	          _react2['default'].createElement(
+	            'b',
+	            null,
+	            'Theme :'
+	          ),
+	          _react2['default'].createElement(
+	            'select',
+	            { ref: 'selectElem', autoFocus: true },
+	            _react2['default'].createElement(
+	              'option',
+	              { value: 'classic' },
+	              'Classic'
+	            ),
+	            _react2['default'].createElement(
+	              'option',
+	              { value: 'metro' },
+	              'Metro'
+	            ),
+	            _react2['default'].createElement(
+	              'option',
+	              { value: 'moonlight' },
+	              'Moonlight'
+	            ),
+	            _react2['default'].createElement(
+	              'option',
+	              { value: 'purple' },
+	              'Purple'
+	            ),
+	            _react2['default'].createElement(
+	              'option',
+	              { value: 'green' },
+	              'Green'
+	            ),
+	            _react2['default'].createElement(
+	              'option',
+	              { value: 'orange' },
+	              'Orange'
+	            ),
+	            _react2['default'].createElement(
+	              'option',
+	              { value: 'red' },
+	              'Red'
+	            ),
+	            _react2['default'].createElement(
+	              'option',
+	              { value: 'silver' },
+	              'Silver'
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return ThemeSelector;
+	})(_react2['default'].Component);
+	
+	exports['default'] = ThemeSelector;
+	module.exports = exports['default'];
+
+/***/ },
+/* 66 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(67);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(5)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./ThemeSelector.scss", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./ThemeSelector.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 67 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(4)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".theme-selector-container {\n  margin-bottom: 4px; }\n  .theme-selector-container label {\n    font-family: arial,tahoma;\n    font-size: 12px; }\n  .theme-selector-container select {\n    width: 80px;\n    margin-left: 4px; }\n", ""]);
+	
+	// exports
+
 
 /***/ }
 /******/ ])

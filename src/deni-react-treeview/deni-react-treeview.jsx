@@ -4,6 +4,7 @@ import DeniReactTreeViewItem from '../deni-react-treeview-item/deni-react-treevi
 import treeviewHelper from './deni-react-treeview.helper'
 import props from './deni-react-treeview.props'
 import treeviewApiFn from './deni-react-treeview.api'
+import ThemeSelector from '../ThemeSelector'
 
 class DeniReactTreeView extends React.Component {
 
