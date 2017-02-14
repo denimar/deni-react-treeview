@@ -175,7 +175,7 @@ module.exports = {
       if (treeview.props.lazyLoad) {
         self.setState({loading: true});
 
-        treeview.load(item).then(function() {
+        treeview.api.load(item).then(function() {
           self.setState({loading: false});
           conclusion();
         })

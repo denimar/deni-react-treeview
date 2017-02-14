@@ -1,5 +1,6 @@
 import React from 'react'
 import Theming from './components/examples/Theming'
+import LazyLoad from './components/examples/LazyLoad'
 
 module.exports = {
     items: [
@@ -25,6 +26,7 @@ module.exports = {
                     "id": 103,
                     "title": "to a remote JSON (Lazy Load)",
                     "description": "to a remote JSON (Lazy Load) dfdsjflkdsjf dlsfjk",
+                    //"component": LazyLoad,
                     "jsfiddle": "o7npugrt",
                     "route": "lazy-load"
                 }, {
@@ -44,7 +46,7 @@ module.exports = {
                 {
                     "id": 201,
                     "title": "Predefined Themes",
-                    "jsfiddle": "p89c2ryy",
+                    "jsfiddle": "xgcmnk5q",
                     "description": "Predefined Themes lçdsfklj lksdjlkjflksdj sdlkfjasd",
                     "route": "predefined-themes"
                 }, {
@@ -53,12 +55,6 @@ module.exports = {
                     "jsfiddle": "p89c2ryy",
                     "description": "Theme Customization lçdsfklj lksdjlkjflksdj sdlkfjasd",
                     "route": "theme-customization"
-                }, {
-                    "id": 203,
-                    "title": "Theme Selector",
-                    "jsfiddle": "p89c2ryy",
-                    "description": "Theme Selector lçdsfklj lksdjlkjflksdj sdlkfjasd",
-                    "route": "theme-selector"
                 }
             ]
         }, {
@@ -90,9 +86,9 @@ module.exports = {
                 }, {
                     "id": 402,
                     "title": "lazyLoad",
-                    "jsfiddle": "tc8Lovb7",
+                    "jsfiddle": "o7npugrt",
                     "description": 'bla bla bla',
-                    "component": Theming,
+                    //"component": Theming,
                     "route": "lazyload"
                 }, {
                     "id": 403,

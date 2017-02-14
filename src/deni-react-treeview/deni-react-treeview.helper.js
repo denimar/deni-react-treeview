@@ -12,7 +12,7 @@ module.exports = {
     } else {
       //by props.items
       if (treeview.props.items) {
-        treeview.loadData(treeview.props.items);
+        treeview.api.loadData(treeview.props.items);
       }
     }
   },

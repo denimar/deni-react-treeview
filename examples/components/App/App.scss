@@ -40,20 +40,20 @@ html,body,#root {
 
     .menu {
       $border-color: darken(#f2f2f2, 4%);
-      width: 220px;
+      width: 240px;
       color: #006064;
       display: block;
       //border: solid 2px blue;
-      padding: 6px;
+      padding: 25px;
       cursor: default;
 
       .menu-item {
         $padding-menu-item: 4px 0px;
         padding: $padding-menu-item;
-        color: #007380;
+        color: #4d4d4d;
         //margin-bottom: -1px;
         z-index: 9999;
-        color: #3F51B5;
+        //color: #3F51B5;
 
         &.child {
           padding: 0px;
@@ -69,14 +69,17 @@ html,body,#root {
           color: inherit;
 
           &.active {
-            border-bottom: solid 1px #F50057;
-            padding-bottom: calc(#{$padding-menu-item} - 1px);
-            color: #C51162;
+            //border-bottom: solid 1px #F50057;
+            border-bottom: solid 1px #0b7ada;
+            padding-bottom: calc(#{$padding-menu-item} + 1px);
+            //color: #C51162;
+            color: #0b7ada;
           }
 
           &:hover {
             //background-color: $body-background-color;
             color: #FF4081;
+            //color: #1a1aff;
           }
 
         }
