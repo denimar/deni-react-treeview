@@ -44,7 +44,7 @@ module.exports = {
                 {
                     "id": 201,
                     "title": "Predefined Themes",
-                    "jsfiddle": "p89c2ryy",
+                    "jsfiddle": "xgcmnk5q",
                     "description": "Predefined Themes lçdsfklj lksdjlkjflksdj sdlkfjasd",
                     "route": "predefined-themes"
                 }, {
