@@ -822,7 +822,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (treeview.props.lazyLoad) {
 	        self.setState({ loading: true });
 	
-	        treeview.load(item).then(function () {
+	        treeview.api.load(item).then(function () {
 	          self.setState({ loading: false });
 	          conclusion();
 	        });
@@ -988,7 +988,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    } else {
 	      //by props.items
 	      if (treeview.props.items) {
-	        treeview.loadData(treeview.props.items);
+	        treeview.api.loadData(treeview.props.items);
 	      }
 	    }
 	  },
