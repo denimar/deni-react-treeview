@@ -1,6 +1,7 @@
 import React from 'react'
-import Theming from './components/examples/Theming'
-import LazyLoad from './components/examples/LazyLoad'
+//import Theming from './components/examples/Theming'
+//import LazyLoad from './components/examples/LazyLoad'
+import Events from './components/examples/Events'
 
 module.exports = {
     items: [
@@ -11,17 +12,11 @@ module.exports = {
             "route": "binding",
             "children": [
                 {
-                    "id": 101,
-                    "title": "to a local JSON",
-                    "description": "Binding to a JSON file, which might comes locally or remotelly.",
-                    "jsfiddle": "tc8Lovb7",
-                    "route": "local-json"
-                }, {
                     "id": 102,
-                    "title": "to a remote JSON",
+                    "title": "to a JSON",
                     "description": "Binding to a JSON file, which might comes locally or remotelly.",
                     "jsfiddle": "tc8Lovb7",
-                    "route": "remote-json"
+                    "route": "json"
                 }, {
                     "id": 103,
                     "title": "to a remote JSON (Lazy Load)",
@@ -126,6 +121,13 @@ module.exports = {
                     "jsfiddle": "xgcmnk5q",
                     "description": 'bla bla bla',
                     "route": "theme"
+                }, {
+                    "id": 999,
+                    "title": "tests - Events",
+                    "jsfiddle": "xgcmnk5q",
+                    "component": Events,
+                    "description": "Testing Events",
+                    "route": "eventstesting"
                 }
             ]
         }

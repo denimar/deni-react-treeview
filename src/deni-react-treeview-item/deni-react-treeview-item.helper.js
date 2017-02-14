@@ -128,25 +128,27 @@ module.exports = {
 
   treeviewItemContainerMouseDown (treeview, selectRow, event) {
     let self = this;
-    let target = event.target;
-    let finishRoutine = function() {
-      treeview.setState({
-        selectedItem: self.props.item
-      });
-    };
 
-    if (selectRow) {
-      finishRoutine();
-    } else {
-      if ((target.classList.contains('icon-and-text')) || (target.classList.contains('icon')) || (target.classList.contains('text-inner')) || (target.classList.contains('text'))) {
+    if (treeview.state.selectedItem !== self.props.item) {
+      let target = event.target;
+      let finishRoutine = function() {
+        treeview.setState({
+          selectedItem: self.props.item
+        });
+      };
+
+      if (selectRow) {
         finishRoutine();
+      } else {
+        if ((target.classList.contains('icon-and-text')) || (target.classList.contains('icon')) || (target.classList.contains('text-inner')) || (target.classList.contains('text'))) {
+          finishRoutine();
+        }
       }
-    }
 
-    if (treeview.props.onSelectItem) {
-      treeview.props.onSelectItem(self.props.item);
-    }
-
+      if (treeview.props.onSelectItem) {
+        treeview.props.onSelectItem(self.props.item);
+      }
+    }  
   },
 
   treeviewItemExpandButtonMouseDown (treeview, item) {
@@ -170,7 +172,7 @@ module.exports = {
 
     if (item.expanded) {
       conclusion();
-      resolveEventOnExpanded();
+      resolveEventOnColapsed();
     } else {
       if (treeview.props.lazyLoad) {
         self.setState({loading: true});
@@ -183,7 +185,7 @@ module.exports = {
         conclusion();
       }
 
-      resolveEventOnColapsed();
+      resolveEventOnExpanded();
     }
   },
 

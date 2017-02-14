@@ -1,0 +1,22 @@
+#root {
+
+  .example-container {
+    display: flex;
+
+    .deni-react-treeview-container {
+      width: 350px;
+      height: 400px;
+      display: inline-flex;
+    }
+
+    #console {
+      width: 350px;
+      height: 400px;
+      border: solid 1px #ccc;
+      display: inline-flex;
+      justify-content: space-around;
+      flex: 1;
+      font-size: 11px;
+    }
+  }
+}

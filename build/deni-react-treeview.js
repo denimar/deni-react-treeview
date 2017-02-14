@@ -776,23 +776,26 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  treeviewItemContainerMouseDown: function treeviewItemContainerMouseDown(treeview, selectRow, event) {
 	    var self = this;
-	    var target = event.target;
-	    var finishRoutine = function finishRoutine() {
-	      treeview.setState({
-	        selectedItem: self.props.item
-	      });
-	    };
 	
-	    if (selectRow) {
-	      finishRoutine();
-	    } else {
-	      if (target.classList.contains('icon-and-text') || target.classList.contains('icon') || target.classList.contains('text-inner') || target.classList.contains('text')) {
+	    if (treeview.state.selectedItem !== self.props.item) {
+	      var target = event.target;
+	      var finishRoutine = function finishRoutine() {
+	        treeview.setState({
+	          selectedItem: self.props.item
+	        });
+	      };
+	
+	      if (selectRow) {
 	        finishRoutine();
+	      } else {
+	        if (target.classList.contains('icon-and-text') || target.classList.contains('icon') || target.classList.contains('text-inner') || target.classList.contains('text')) {
+	          finishRoutine();
+	        }
 	      }
-	    }
 	
-	    if (treeview.props.onSelectItem) {
-	      treeview.props.onSelectItem(self.props.item);
+	      if (treeview.props.onSelectItem) {
+	        treeview.props.onSelectItem(self.props.item);
+	      }
 	    }
 	  },
 	
@@ -817,7 +820,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    if (item.expanded) {
 	      conclusion();
-	      resolveEventOnExpanded();
+	      resolveEventOnColapsed();
 	    } else {
 	      if (treeview.props.lazyLoad) {
 	        self.setState({ loading: true });
@@ -830,7 +833,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        conclusion();
 	      }
 	
-	      resolveEventOnColapsed();
+	      resolveEventOnExpanded();
 	    }
 	  },
 	
