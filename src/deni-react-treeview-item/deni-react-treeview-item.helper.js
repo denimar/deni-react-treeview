@@ -47,12 +47,12 @@ module.exports = {
 
     if ((!item.isLeaf) && ((item.children && item.children.length > 0)  || (treeview.props.lazyLoad))) {
       classNames.push('hasChild');
-    }
 
-    if (item.expanded) {
-      classNames.push('expanded');
-    } else {
-      classNames.push('colapsed');
+      if (item.expanded) {
+        classNames.push('expanded');
+      } else {
+        classNames.push('colapsed');
+      }
     }
 
     if (treeviewItem.state && treeviewItem.state.loading) {

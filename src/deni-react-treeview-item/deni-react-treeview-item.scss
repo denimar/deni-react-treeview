@@ -73,18 +73,15 @@
     font-size: 22px;
     padding-top: 0px;
     cursor: pointer;
-    visibility: hidden;
-    //border: solid 1px red;
     text-align: center;
     align-items: center;
-    display: flex;
+    display: none;
     flex-direction: row;
     font-family: courier new;
     font-weight: bold;
-    //margin-right: 1px;
 
     &.hasChild {
-      visibility: visible;
+      display: flex;
     }
 
     &.expanded {
