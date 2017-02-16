@@ -156,9 +156,12 @@ module.exports = {
     const conclusion = () => {
       item.expanded = !item.expanded;
       treeview.setState({
+        loading: false,
         selectedItem: item
       });
-      self.forceUpdate();
+      self.setState({
+        loading: false
+      });
     };
     const resolveEventOnColapsed = () => {
       if (treeview.props.onColapsed) {
@@ -178,10 +181,17 @@ module.exports = {
       if (treeview.props.lazyLoad) {
         self.setState({loading: true});
 
-        treeview.api.load(item).then(function() {
-          self.setState({loading: false});
-          conclusion();
-        })
+        if (treeview.props.lazyLoad && treeview.props.onLazyLoad) {
+          treeview.props.onLazyLoad(item, (children) => {
+            treeview.api.loadData(children, item);
+            conclusion();
+          });
+        } else {
+          treeview.api.load(item).then(function() {
+            conclusion();
+          })
+        }
+
       } else {
         conclusion();
       }
