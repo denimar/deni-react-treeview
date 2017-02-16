@@ -148,7 +148,7 @@ module.exports = {
       if (treeview.props.onSelectItem) {
         treeview.props.onSelectItem(self.props.item);
       }
-    }  
+    }
   },
 
   treeviewItemExpandButtonMouseDown (treeview, item) {
@@ -158,6 +158,7 @@ module.exports = {
       treeview.setState({
         selectedItem: item
       });
+      self.forceUpdate();
     };
     const resolveEventOnColapsed = () => {
       if (treeview.props.onColapsed) {

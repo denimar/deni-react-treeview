@@ -2,6 +2,7 @@ import React from 'react'
 //import Theming from './components/examples/Theming'
 //import LazyLoad from './components/examples/LazyLoad'
 import Events from './components/examples/Events'
+import AutoLoad from './components/examples/AutoLoad'
 
 module.exports = {
     items: [
@@ -123,10 +124,10 @@ module.exports = {
                     "route": "theme"
                 }, {
                     "id": 999,
-                    "title": "tests - Events",
+                    "title": "tests - AutoLoad",
                     "jsfiddle": "xgcmnk5q",
-                    "component": Events,
-                    "description": "Testing Events",
+                    "component": AutoLoad,
+                    "description": "Testing AutoLoad",
                     "route": "eventstesting"
                 }
             ]

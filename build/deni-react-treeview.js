@@ -108,7 +108,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
 	      this.api = (0, _deniReactTreeviewApi2['default'])(this);
-	
 	      _deniReactTreeviewHelper2['default'].setTheme(this, this.props.theme);
 	      _deniReactTreeviewHelper2['default'].loadingSetup(this);
 	    }
@@ -116,19 +115,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: 'render',
 	    value: function render() {
 	      var self = this;
+	      var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { root: true, treeview: self, level: 0, item: this.state.rootItem });
+	      var children = this.state.rootItem && this.state.rootItem.children;
 	
-	      if (this.state.rootItem) {
-	        var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { root: true, treeview: self, level: 0, item: this.state.rootItem });
-	
-	        return _react2['default'].createElement(
-	          'div',
-	          { className: 'deni-react-treeview-container unselectable ' + self.state.theme },
-	          domTreeviewItem,
-	          _createComponentsChildren(self, domTreeviewItem, 1, this.state.rootItem.children)
-	        );
-	      } else {
-	        return _react2['default'].createElement('div', null);
-	      }
+	      return children !== undefined ? _react2['default'].createElement(
+	        'div',
+	        { className: 'deni-react-treeview-container unselectable ' + self.state.theme },
+	        domTreeviewItem,
+	        _createComponentsChildren(self, domTreeviewItem, 1, children)
+	      ) : _react2['default'].createElement('div', { className: 'deni-react-treeview-container unselectable' });
 	    }
 	  }]);
 	
@@ -142,7 +137,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return _react2['default'].createElement(
 	    'div',
 	    null,
-	    parent.props.item.expanded && children && children.length ? children.map(function (child) {
+	    parent.props.item && parent.props.item.expanded && children && children.length ? children.map(function (child) {
 	      var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { treeview: treeview, parent: parent, level: level, key: child.id, item: child });
 	      return _react2['default'].createElement(
 	        'div',
@@ -806,6 +801,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      treeview.setState({
 	        selectedItem: item
 	      });
+	      self.forceUpdate();
 	    };
 	    var resolveEventOnColapsed = function resolveEventOnColapsed() {
 	      if (treeview.props.onColapsed) {
@@ -959,7 +955,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  propTypes: {
 	    treeview: _react.PropTypes.object.isRequired,
-	    item: _react.PropTypes.object.isRequired,
+	    item: _react.PropTypes.object,
 	    level: _react.PropTypes.number.isRequired
 	  },
 	
