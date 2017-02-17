@@ -12,12 +12,12 @@ html,body,#root {
 }
 
 .examples-container {
-  $body-background-color: #F7FAFD;
   height: 100%;
   font-size: 12px;
   font-family: arial,tahoma;
   display: flex;
   flex-direction: column;
+  background-color: lighten(#e8f2fc, 2%);
 
   .title {
     height: 35px;
@@ -37,15 +37,17 @@ html,body,#root {
     flex: 1;
     display: flex;
     flex-direction: row;
+    padding: 15px;
 
     .menu {
-      $border-color: darken(#f2f2f2, 4%);
       width: 240px;
       color: #006064;
       display: block;
-      //border: solid 2px blue;
-      padding: 25px;
+      padding: 10px;
       cursor: default;
+      border-radius: 5px;
+      box-shadow: -2px 2px 15px #8cbcf2;
+      background-color: #FFFFFF;
 
       .menu-item {
         $padding-menu-item: 4px 0px;

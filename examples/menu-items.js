@@ -22,14 +22,13 @@ module.exports = {
                 }, {
                     "id": 103,
                     "title": "to a remote JSON (Lazy Load)",
-                    "description": "to a remote JSON (Lazy Load) dfdsjflkdsjf dlsfjk",
-                    //"component": LazyLoad,
+                    "description": "Binding to a remote JSON loading it lazily, waiting for the time when I expand a item to load its children",
                     "jsfiddle": "o7npugrt",
                     "route": "lazy-load"
                 }, {
                     "id": 104,
                     "title": "Binding to a Javascript object",
-                    "description": "Binding to a Javascript object",
+                    "description": "Binding to a Javascript object as a variable",
                     "jsfiddle": "7mox9ne3",
                     "route": "javascript"
                 }
@@ -44,13 +43,13 @@ module.exports = {
                     "id": 201,
                     "title": "Predefined Themes",
                     "jsfiddle": "xgcmnk5q",
-                    "description": "Predefined Themes lçdsfklj lksdjlkjflksdj sdlkfjasd",
+                    "description": "Setting a predefined themes to our treeview",
                     "route": "predefined-themes"
                 }, {
                     "id": 202,
                     "title": "Theme Customization",
                     "jsfiddle": "p89c2ryy",
-                    "description": "Theme Customization lçdsfklj lksdjlkjflksdj sdlkfjasd",
+                    "description": "Customizing our treeview and making it whatever we want",
                     "route": "theme-customization"
                 }
             ]
@@ -64,7 +63,7 @@ module.exports = {
                     "id": 301,
                     "title": "Events Example",
                     "jsfiddle": "gbdyyjoc",
-                    "description": 'Events Example todo... finish it',
+                    "description": 'Showing the exactly time when the event is fire',
                     "route": "events"
                 }
             ]
@@ -78,50 +77,49 @@ module.exports = {
                     "id": 401,
                     "title": "autoLoad = false",
                     "jsfiddle": "yynzedks",
-                    "description": 'bla bla bla',
+                    "description": 'Setting the autoLoad property to false and wait for a click on the button to load',
                     "route": "autoload"
                 }, {
                     "id": 402,
-                    "title": "manual lazyLoad",
+                    "title": "manual lazyLoad (lazyLoad = true)",
                     "jsfiddle": "qp72drx0",
-                    "description": 'bla bla bla',
-                    //"component": Theming,
+                    "description": 'Setting the lazyLoad property to true and implementing the "onLazyLoad" event which is fired when I expand a item in order to load its children',
                     "route": "lazyload"
                 }, {
                     "id": 403,
                     "title": "marginItems = 80",
                     "jsfiddle": "uL3quq3t",
-                    "description": 'bla bla bla',
+                    "description": 'Setting the marginItems property to "80" to see how it is shown',
                     "route": "marginitems"
                 }, {
                     "id": 404,
-                    "title": "selectRow",
+                    "title": "selectRow = true",
                     "jsfiddle": "gr2e4h3L",
-                    "description": 'bla bla bla',
+                    "description": 'Setting the selectRow property to true to see how it is shown',
                     "route": "selectrow"
                 }, {
                     "id": 405,
                     "title": "showCheckbox = true",
                     "jsfiddle": "yddaym83",
-                    "description": 'bla bla bla',
+                    "description": 'Setting the showCheckbox property to true to see how it is shown',
                     "route": "showcheckbox"
                 }, {
                     "id": 406,
                     "title": "showIcon = false",
                     "jsfiddle": "jp3rLpa5",
-                    "description": 'bla bla bla',
+                    "description": 'Setting the showIcon property to false to see how it is shown',
                     "route": "showicon"
                 }, {
                     "id": 407,
                     "title": "showRoot = true",
                     "jsfiddle": "tzbdwh4e",
-                    "description": 'bla bla bla',
+                    "description": 'Setting the showRoot property to "true" to see how it is shown',
                     "route": "showroot"
                 }, {
                     "id": 408,
                     "title": "theme = metro",
                     "jsfiddle": "ftdLw6po",
-                    "description": 'bla bla bla',
+                    "description": 'Setting the theme property to "metro" to see how it is shown',
                     "route": "theme"
                 },
                 // {
