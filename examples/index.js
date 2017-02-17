@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Route, Redirect, hashHistory, applyRouterMiddleware } from 'react-router'
+import { Router, Route, Redirect, IndexRedirect, hashHistory, applyRouterMiddleware } from 'react-router'
 import menuItems from './menu-items'
 
 import App from './components/App'
@@ -39,7 +39,8 @@ ReactDOM.render(
         })
       }
 
-      <Route path="*" component={NotMatch} />
+      <IndexRedirect to="/json" />
+      <Redirect from="*" to="/json" />      
     </Route>
   </Router>,
   document.getElementById('root')

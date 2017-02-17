@@ -16,29 +16,23 @@ class DeniReactTreeView extends React.Component {
 
   componentDidMount() {
     this.api = treeviewApiFn(this);
-
     treeviewHelper.setTheme(this, this.props.theme);
     treeviewHelper.loadingSetup(this);
   }
 
   render() {
     let self = this;
+    let domTreeviewItem = <DeniReactTreeViewItem root={true} treeview={self} level={0} item={this.state.rootItem} />;
+    let children = this.state.rootItem && this.state.rootItem.children;
 
-    if (this.state.rootItem) {
-      let domTreeviewItem = <DeniReactTreeViewItem root={true} treeview={self} level={0} item={this.state.rootItem} />;
-
-      return (
+    return (
+      (children !== undefined) ? (
         <div className={'deni-react-treeview-container unselectable ' + self.state.theme}>
           {domTreeviewItem}
-          {_createComponentsChildren(self, domTreeviewItem, 1, this.state.rootItem.children)}
-
+          {_createComponentsChildren(self, domTreeviewItem, 1, children)}
         </div>
-      )
-    } else {
-      return (
-        <div></div>
-      )
-    }
+      ) : <div className='deni-react-treeview-container unselectable'></div>
+    )
   }
 
 }
@@ -50,7 +44,7 @@ function _createComponentsChildren (treeview, parent, level, children) {
   return (
     <div>
       {
-        (parent.props.item.expanded && children && children.length) ?
+        (parent.props.item && parent.props.item.expanded && children && children.length) ?
           children.map(function(child) {
             let domTreeviewItem = <DeniReactTreeViewItem treeview={treeview} parent={parent} level={level} key={child.id} item={child} />;
             return (

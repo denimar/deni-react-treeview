@@ -1,7 +1,9 @@
 import React from 'react'
 //import Theming from './components/examples/Theming'
 //import LazyLoad from './components/examples/LazyLoad'
-import Events from './components/examples/Events'
+//import Events from './components/examples/Events'
+//import AutoLoad from './components/examples/AutoLoad'
+import ManualLazyLoad from './components/examples/ManualLazyLoad'
 
 module.exports = {
     items: [
@@ -74,14 +76,14 @@ module.exports = {
             "children": [
                 {
                     "id": 401,
-                    "title": "autoLoad",
+                    "title": "autoLoad = false",
                     "jsfiddle": "yynzedks",
                     "description": 'bla bla bla',
                     "route": "autoload"
                 }, {
                     "id": 402,
-                    "title": "lazyLoad",
-                    "jsfiddle": "o7npugrt",
+                    "title": "manual lazyLoad",
+                    "jsfiddle": "qp72drx0",
                     "description": 'bla bla bla',
                     //"component": Theming,
                     "route": "lazyload"
@@ -123,10 +125,10 @@ module.exports = {
                     "route": "theme"
                 }, {
                     "id": 999,
-                    "title": "tests - Events",
+                    "title": "tests - Manual Lazy Load",
                     "jsfiddle": "xgcmnk5q",
-                    "component": Events,
-                    "description": "Testing Events",
+                    "component": ManualLazyLoad,
+                    "description": "Manual Lazy Load",
                     "route": "eventstesting"
                 }
             ]

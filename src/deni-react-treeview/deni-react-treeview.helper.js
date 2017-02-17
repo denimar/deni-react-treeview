@@ -60,7 +60,7 @@ module.exports = {
 
     //onBeforeLoad event
     if (this.props.onBeforeLoad) {
-      this.props.onBeforeLoad();
+      this.props.onBeforeLoad(item);
     }
 
     //
@@ -82,7 +82,7 @@ module.exports = {
 
     //onAfterLoad event
     if (this.props.onAfterLoad) {
-      this.props.onAfterLoad(this.state.rootItem);
+      this.props.onAfterLoad(this.state.rootItem, item);
     }
 
   }

@@ -47,12 +47,12 @@ module.exports = {
 
     if ((!item.isLeaf) && ((item.children && item.children.length > 0)  || (treeview.props.lazyLoad))) {
       classNames.push('hasChild');
-    }
 
-    if (item.expanded) {
-      classNames.push('expanded');
-    } else {
-      classNames.push('colapsed');
+      if (item.expanded) {
+        classNames.push('expanded');
+      } else {
+        classNames.push('colapsed');
+      }
     }
 
     if (treeviewItem.state && treeviewItem.state.loading) {
@@ -148,7 +148,7 @@ module.exports = {
       if (treeview.props.onSelectItem) {
         treeview.props.onSelectItem(self.props.item);
       }
-    }  
+    }
   },
 
   treeviewItemExpandButtonMouseDown (treeview, item) {
@@ -156,7 +156,11 @@ module.exports = {
     const conclusion = () => {
       item.expanded = !item.expanded;
       treeview.setState({
+        loading: false,
         selectedItem: item
+      });
+      self.setState({
+        loading: false
       });
     };
     const resolveEventOnColapsed = () => {
@@ -177,10 +181,17 @@ module.exports = {
       if (treeview.props.lazyLoad) {
         self.setState({loading: true});
 
-        treeview.api.load(item).then(function() {
-          self.setState({loading: false});
-          conclusion();
-        })
+        if (treeview.props.lazyLoad && treeview.props.onLazyLoad) {
+          treeview.props.onLazyLoad(item, (children) => {
+            treeview.api.loadData(children, item);
+            conclusion();
+          });
+        } else {
+          treeview.api.load(item).then(function() {
+            conclusion();
+          })
+        }
+
       } else {
         conclusion();
       }
