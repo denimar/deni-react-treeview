@@ -82,8 +82,8 @@ module.exports = {
                     "route": "autoload"
                 }, {
                     "id": 402,
-                    "title": "lazyLoad",
-                    "jsfiddle": "o7npugrt",
+                    "title": "manual lazyLoad",
+                    "jsfiddle": "qp72drx0",
                     "description": 'bla bla bla',
                     //"component": Theming,
                     "route": "lazyload"

@@ -799,9 +799,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var conclusion = function conclusion() {
 	      item.expanded = !item.expanded;
 	      treeview.setState({
+	        loading: false,
 	        selectedItem: item
 	      });
-	      self.forceUpdate();
+	      self.setState({
+	        loading: false
+	      });
 	    };
 	    var resolveEventOnColapsed = function resolveEventOnColapsed() {
 	      if (treeview.props.onColapsed) {
@@ -821,10 +824,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (treeview.props.lazyLoad) {
 	        self.setState({ loading: true });
 	
-	        treeview.api.load(item).then(function () {
-	          self.setState({ loading: false });
-	          conclusion();
-	        });
+	        if (treeview.props.lazyLoad && treeview.props.onLazyLoad) {
+	          treeview.props.onLazyLoad(item, function (children) {
+	            treeview.api.loadData(children, item);
+	            conclusion();
+	          });
+	        } else {
+	          treeview.api.load(item).then(function () {
+	            conclusion();
+	          });
+	        }
 	      } else {
 	        conclusion();
 	      }
@@ -1034,7 +1043,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    //onBeforeLoad event
 	    if (this.props.onBeforeLoad) {
-	      this.props.onBeforeLoad();
+	      this.props.onBeforeLoad(item);
 	    }
 	
 	    //
@@ -1056,7 +1065,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    //onAfterLoad event
 	    if (this.props.onAfterLoad) {
-	      this.props.onAfterLoad(this.state.rootItem);
+	      this.props.onAfterLoad(this.state.rootItem, item);
 	    }
 	  }
 	
