@@ -63,7 +63,7 @@ module.exports = {
                     "id": 301,
                     "title": "Events Example",
                     "jsfiddle": "gbdyyjoc",
-                    "description": 'Showing the exactly time when the event is fire',
+                    "description": 'Showing the exactly time when the eventa are fired',
                     "route": "events"
                 }
             ]
