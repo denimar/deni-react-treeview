@@ -89,48 +89,49 @@ module.exports = {
                     "route": "lazyload"
                 }, {
                     "id": 403,
-                    "title": "marginItems",
-                    "jsfiddle": "tc8Lovb7",
+                    "title": "marginItems = 80",
+                    "jsfiddle": "uL3quq3t",
                     "description": 'bla bla bla',
                     "route": "marginitems"
                 }, {
                     "id": 404,
                     "title": "selectRow",
-                    "jsfiddle": "tc8Lovb7",
+                    "jsfiddle": "gr2e4h3L",
                     "description": 'bla bla bla',
                     "route": "selectrow"
                 }, {
                     "id": 405,
-                    "title": "showCheckbox",
-                    "jsfiddle": "tc8Lovb7",
+                    "title": "showCheckbox = true",
+                    "jsfiddle": "yddaym83",
                     "description": 'bla bla bla',
                     "route": "showcheckbox"
                 }, {
                     "id": 406,
-                    "title": "showIcon",
-                    "jsfiddle": "tc8Lovb7",
+                    "title": "showIcon = false",
+                    "jsfiddle": "jp3rLpa5",
                     "description": 'bla bla bla',
                     "route": "showicon"
                 }, {
                     "id": 407,
-                    "title": "showRoot",
-                    "jsfiddle": "tc8Lovb7",
+                    "title": "showRoot = true",
+                    "jsfiddle": "tzbdwh4e",
                     "description": 'bla bla bla',
                     "route": "showroot"
                 }, {
                     "id": 408,
-                    "title": "theme",
-                    "jsfiddle": "xgcmnk5q",
+                    "title": "theme = metro",
+                    "jsfiddle": "ftdLw6po",
                     "description": 'bla bla bla',
                     "route": "theme"
-                }, {
-                    "id": 999,
-                    "title": "tests - Manual Lazy Load",
-                    "jsfiddle": "xgcmnk5q",
-                    "component": ManualLazyLoad,
-                    "description": "Manual Lazy Load",
-                    "route": "eventstesting"
-                }
+                },
+                // {
+                //     "id": 999,
+                //     "title": "tests - Manual Lazy Load",
+                //     "jsfiddle": "xgcmnk5q",
+                //     "component": ManualLazyLoad,
+                //     "description": "Manual Lazy Load",
+                //     "route": "eventstesting"
+                // }
             ]
         }
     ]

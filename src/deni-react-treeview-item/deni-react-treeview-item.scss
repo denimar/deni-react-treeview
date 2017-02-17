@@ -25,7 +25,7 @@
 
   align-items: center;
   //color: darken($base-color, 45%);
-  display: flex;
+  display: inline-flex;
   height: $line-height;
   margin-top: 2px;
   margin-bottom: 3px;
@@ -117,7 +117,7 @@
     border: solid 1px;
     border-color: lighten($base-color, 4%);
     border-radius: 2px;
-    display: inline-block;
+    display: inline-table;
     cursor: pointer;
     margin-right: 3px;
 
