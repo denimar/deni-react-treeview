@@ -22,7 +22,7 @@ module.exports = {
                 }, {
                     "id": 103,
                     "title": "to a remote JSON (Lazy Load)",
-                    "description": "Binding to a remote JSON loading it lazily, waiting for the time when I expand a item to load its children",
+                    "description": "Binding to a remote JSON loading it lazily, waiting for the time when I expand a item to make a request to the server and load its children",
                     "jsfiddle": "o7npugrt",
                     "route": "lazy-load"
                 }, {
