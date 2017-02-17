@@ -49,7 +49,7 @@ module.exports = {
                     "id": 202,
                     "title": "Theme Customization",
                     "jsfiddle": "p89c2ryy",
-                    "description": "Customizing our treeview and making it whatever we want",
+                    "description": "Customizing our treeview and making it looks like our app",
                     "route": "theme-customization"
                 }
             ]
