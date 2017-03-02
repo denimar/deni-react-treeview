@@ -1,9 +1,4 @@
 import React from 'react'
-//import Theming from './components/examples/Theming'
-//import LazyLoad from './components/examples/LazyLoad'
-//import Events from './components/examples/Events'
-//import AutoLoad from './components/examples/AutoLoad'
-import ManualLazyLoad from './components/examples/ManualLazyLoad'
 
 module.exports = {
     items: [

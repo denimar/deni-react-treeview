@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 var entry = ['./examples/index.js'];
 
@@ -21,6 +22,12 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
+    // new CopyWebpackPlugin([
+    //   {
+    //     from: './src/index.html',
+    //     to: '../index.html'
+    //   }
+    // ])
   ],
   resolve: {
     extensions: ['', '.js', '.jsx'],
@@ -42,5 +49,5 @@ module.exports = {
         loaders: ['json-loader']
       }
     ],
-  },
+  }
 };

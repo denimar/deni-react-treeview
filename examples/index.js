@@ -40,7 +40,7 @@ ReactDOM.render(
       }
 
       <IndexRedirect to="/json" />
-      <Redirect from="*" to="/json" />      
+      <Redirect from="*" to="/json" />
     </Route>
   </Router>,
   document.getElementById('root')
