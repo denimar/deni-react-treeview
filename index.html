@@ -2,52 +2,50 @@
 <html lang="en" >
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Angular Material style sheet -->
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./bower_components/angular-material/angular-material.min.css">
-    <link rel="stylesheet" href="./bower_components/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 
-    <title>ui-deni-grid</title>
-    <link rel="stylesheet" href="index.min.css">
+    <title>deni-react-treeview</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body ng-app="indexApp" ng-cloak class="index" layout="column">
+<body ng-app="indexApp" ng-cloak class="index">
 
-    <header layout="column">
-        <div class="header-inner" layout="row">
-            <div flex></div>
+    <header>
+        <div class="header-inner">
+            <div class="lateral-spaces"></div>
             <div class="header-description">
-                <div class="title title1" hide show-gt-sm>ui-deni-grid</div>
-                <div class="title title2" hide-gt-sm>ui-deni-grid</div>
-                <div class="subtitle subtitle1" hide show-gt-sm>A lightweight and complete data grid for AngularJS 1x</div>
-                <div class="subtitle subtitle2" hide-gt-sm>A lightweight and complete data grid for AngularJS 1x</div>
+                <div class="title title1 visible-sm visible-md visible-lg wb-inv">deni-react-treeview</div>
+                <div class="title title2 visible-xs wb-inv">deni-react-treeview</div>
+                <div class="subtitle subtitle1 visible-sm visible-md visible-lg wb-inv">A lightweight and complete data grid for AngularJS 1x</div>
+                <div class="subtitle subtitle2 visible-xs wb-inv">A lightweight and complete data grid for AngularJS 1x</div>
 
-                <div layout="column" hide-gt-sm>
+                <div class="visible-xs wb-inv">
 
                     <div class="github-button">
-                        <a href="https://github.com/denimar/ui-deni-grid" layout="row" layout-align="center center">
-                            <span class="mdi mdi-24px mdi-light mdi-github-circle"></span>
+                        <a href="https://github.com/denimar/ui-deni-grid">
+                            <span class="fa fa-github fa-2x"></span>
                             <span>GitHub Project</span>
                         </a>
                     </div>
 
-                    <div class="auxiliar-buttons">
-                        <div class="github-button" hide-gt-sm>
+                    <div>
+                        <div class="github-button">
                             <a href="https://github.com/denimar/ui-deni-grid/zipball/master">
-                                <div layout="row" class="button-zip-tar" layout-align="left center">
+                                <div class="button-zip-tar">
                                     <img src="images/zip-icon-24.gif" />
-                                    <div layout="column">
+                                    <div>
                                         <span><b>&nbspDownload .zip</b></span>
                                     </div>
                                 </div>
                             </a>
                         </div>
 
-                        <div class="github-button" hide-gt-sm>
+                        <div class="github-button">
                             <a href="https://github.com/denimar/ui-deni-grid/tarball/master">
-                                <div layout="row" class="button-zip-tar" layout-align="left center">
+                                <div class="button-zip-tar">
                                     <img src="images/zip-icon-24.gif" />
-                                    <div layout="column">
+                                    <div>
                                         <span><b>&nbspDownload .tar.gz</b></span>
                                     </div>
                                 </div>
@@ -60,11 +58,11 @@
                 </div>
 
             </div>
-            <div class="header-github-image" hide show-gt-sm>
+            <div class="header-github-image visible-sm visible-md visible-lg wb-inv">
 
                 <div class="github-button">
-                    <a href="https://github.com/denimar/ui-deni-grid" layout="row" layout-align="center center">
-                        <span class="mdi mdi-36px mdi-light mdi-github-circle"></span>
+                    <a href="https://github.com/denimar/ui-deni-grid">
+                        <span class="fa fa-github fa-2x"></span>
                         <span>GitHub Project</span>
                     </a>
                 </div>
@@ -77,13 +75,13 @@
                 -->
 
             </div>
-            <div flex></div>
+            <div class="lateral-spaces"></div>
         </div>
     </header>
 
-    <div class="content-wrapper" layout="column" flex>
-        <div class="content-inner" flex layout="row">
-            <div flex></div>
+    <div class="content-wrapper">
+        <div class="content-inner">
+            <div class="lateral-spaces"></div>
             <section>
                 <div class="content-text">
                     <div class="title">Overview</div>
@@ -119,12 +117,12 @@
                     </p>
                 </div>
             </section>
-            <aside hide show-gt-sm layout="column">
+            <aside class="visible-sm visible-md visible-lg wb-inv">
 
                 <a href="https://github.com/denimar/ui-deni-grid/zipball/master">
-                    <div layout="row" class="button-zip-tar" layout-align="left center">
+                    <div class="button-zip-tar">
                         <img src="images/zip-icon-32.png" />
-                        <div layout="column">
+                        <div>
                             <span>Download</span>
                             <span><b>.zip file</b></span>
                         </div>
@@ -132,46 +130,29 @@
                 </a>
 
                 <a href="https://github.com/denimar/ui-deni-grid/tarball/master">
-                    <div layout="row" class="button-zip-tar" layout-align="left center">
+                    <div class="button-zip-tar">
                         <img src="images/zip-icon-32.png" />
-                        <div layout="column">
+                        <div>
                             <span>Download</span>
                             <span><b>.tar.gz file</b></span>
                         </div>
                     </div>
                 </a>
 
-                <div class="bower-install">bower install ui-deni-grid</div>
+                <div class="bower-install">bower install deni-react-treeview</div>
 
-                <div class="avatar" layout="column">
+                <div class="avatar">
                     <img alt="@denimar" height="60" src="https://avatars3.githubusercontent.com/u/11669437?v=3&amp;s=60" width="60">
                     <span>mainteined by <a href="">Denimar de Moraes</a></span>
                     <a href="mailto:denimar@gmail.com">denimar@gmail.com</a>
                 </div>
 
             </aside>
-            <div flex></div>
+            <div class="lateral-spaces"></div>
         </div>
     </div>
 
-    <!-- Angular Material requires Angular.js Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
-
-    <!-- Angular Material Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
-
-    <!-- Your application bootstrap  -->
-    <script type="text/javascript">
-        /**
-        * You must include the dependency on 'ngMaterial'
-        */
-        angular.module('indexApp', ['ngMaterial']);
-
-        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-    </script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </body>
 </html>
