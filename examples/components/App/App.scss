@@ -30,7 +30,10 @@ html,body,#root {
     text-align: center;
     //background-color: #1565C0;
     box-shadow: 0px 5px 5px silver;
-    background: #2e7bcf url(./header-bg.png) 0 0 repeat-x;
+    background-color: #2e7bcf;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAKjAgMAAAA2YSoMAAAACVBMVEUiY4EcUWkfWnUfaU3JAAAAVElEQVRo3u3MoREAIAwEwS+NJugn9VAlPoPAxO3JE5vTq/ytR7u3gsfj8Xg8Ho/H4/F4PB6Px+PxeDwej8fj8Xg8Ho/H4/F4PB6Px+PxeDwejx/iL0yFw5He4oh8AAAAAElFTkSuQmCC');
   }
 
   .menu-and-body {
