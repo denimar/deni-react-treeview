@@ -17,7 +17,7 @@ html,body,#root {
   font-family: arial,tahoma;
   display: flex;
   flex-direction: column;
-  background-color: lighten(#e8f2fc, 2%);
+  background-color: #ebf5fa;
 
   .title {
     height: 35px;
@@ -28,8 +28,9 @@ html,body,#root {
     padding-top: 3px;
     color: #f2f2f2;
     text-align: center;
-    background-color: #1565C0;
+    //background-color: #1565C0;
     box-shadow: 0px 5px 5px silver;
+    background: #2e7bcf url(../../../images/header-bg.png) 0 0 repeat-x;
   }
 
   .menu-and-body {
@@ -46,7 +47,7 @@ html,body,#root {
       padding: 10px;
       cursor: default;
       border-radius: 5px;
-      box-shadow: -2px 2px 15px #8cbcf2;
+      box-shadow: -2px 2px 15px #aed7ea;
       background-color: #FFFFFF;
 
       .menu-item {
@@ -114,12 +115,11 @@ html,body,#root {
         .example-preview-title {
           width: 100%;
           height: 30px;
-          color: #4A148C;
+          color: #0b7ada; //#153e51;
           box-sizing: border-box;
           font-family: tahoma;
           font-size: 12px;
           display: block;
-          // border: solid 1px green;
         }
 
         .example-preview-container {

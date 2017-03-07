@@ -44,6 +44,8 @@
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.26.1",
     "eslint-plugin-react": "^3.5.1",
+    "file-loader": "^0.10.1",
+    "image-webpack-loader": "^3.2.0",
     "json-loader": "^0.5.4",
     "node-sass": "^4.3.0",
     "react": ">=15.0.0",
