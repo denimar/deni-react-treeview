@@ -1,20 +1,19 @@
 {
-  "name": "react-treeview",
-  "version": "0.4.6",
-  "description": "Easy, light, flexible tree view made with React.",
-  "main": "lib/react-treeview.js",
+  "name": "deni-react-treeview",
+  "version": "0.0.1",
+  "author": "Denimar de Moraes <denimar@gmail.com>",
+  "description": "A modern, themable and configurable treeview for React.",
+  "main": "build/deni-react-treeview.js",
   "directories": {
-    "demos": "demos"
+    "build": "build"
   },
   "scripts": {
     "start": "SET NODE_ENV=development & node server.js",
-    "lint": "eslint src demos",
-    "build-demos": "SET NODE_ENV=production webpack -p",
-    "prerelease": "babel src --out-dir lib && SET NODE_ENV=production webpack --config webpack.prod.config.js"
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenglou/react-treeview.git"
+    "url": "https://github.com/denimar/deni-react-treeview"
   },
   "keywords": [
     "facebook",
@@ -26,14 +25,13 @@
     "treenode",
     "tree-node",
     "ui",
-    "react-component"
+    "deni-react-treeview"
   ],
-  "author": "chenglou <chenglou92@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chenglou/react-treeview/issues"
+    "url": "https://github.com/denimar/deni-react-treeview/issues"
   },
-  "homepage": "https://github.com/chenglou/react-treeview",
+  "homepage": "https://github.com/denimar/deni-react-treeview",
   "peerDependencies": {
     "react": ">=0.14.0"
   },
