@@ -21,23 +21,26 @@ Added to your react component
 [documentation](https://denimar.github.io/deni-react-treeview/api.html)
 
 ## Features
-Cross-Browser.
-Binding to a JSON (locally, remotely and lazy-load)
-Predefined Themes
-Theme Customization
-Events
-Checkboxes
-And so on...
+* Cross-Browser.
+* Binding to a JSON (locally, remotely and lazy-load)
+* Predefined Themes
+* Theme Customization
+* Events
+* Checkboxes
+* And so on...
 
 ## Properties
-autoLoad
-lazyLoad
-marginItems
-selectRow
-showCheckbox
-showIcon
-showRoot
-theme
+* autoLoad
+* lazyLoad
+* marginItems
+* selectRow
+* showCheckbox
+* showIcon
+* showRoot
+* theme
+
+## Events
+* todo
 
 #### dataSouce
 
