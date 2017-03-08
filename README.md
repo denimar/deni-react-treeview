@@ -3,10 +3,17 @@ A modern, themable and configurable treeview for React
 
 [site](https://denimar.github.io/deni-react-treeview/), [examples](https://denimar.github.io/deni-react-treeview/examples)
 
-## Install
 
-```sh
-npm install deni-react-treeview
+## Installing with NPM
+
+```
+npm install deni-react-treeview --save
+```
+
+## Installing with Bower
+
+```
+bower install deni-react-treeview --save
 ```
 
 ## Usage
@@ -29,7 +36,7 @@ Added to your react component
 * And so on...
 
 ## Properties
-* autoLoad (boolean)
+* autoLoad ```(boolean)```
 * lazyLoad (boolean)
 * marginItems (integer)
 * selectRow (boolean)
