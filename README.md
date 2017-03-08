@@ -15,10 +15,8 @@ npm install deni-react-treeview
 
 Added to your react component
 ```html
-ReactDOM.render(
-  <TreeView json="https://denimar.github.io/static-data/countries.json" showCheckbox={true} />,
-  document.getElementById('root')
-);
+  <TreeView json="https://denimar.github.io/static-data/countries.json" showCheckbox={true} 
+  </TreeView>
 ```
 
 ## API
@@ -27,44 +25,42 @@ ReactDOM.render(
 
 #### dataSouce
 
-```javascript
-{
-  "id": "string"	// Unique identifier for the node
-  "text": "string"  // Treenode display text
-  "icon": "string"	// Custom icon, CSS class
-  "opened": Bool,	// If the node is opened	
-  "selected": Bool,	// If the node is selected
-  "children": []	// Array of children nodes	
-}
+```javascript[
+  {
+    id: 100,
+    text: 'Fruits',
+    children: [
+      {
+        id: 101,
+        text: 'Orange',
+        isLeaf: true
+      },
+      {
+        id: 102,
+        text: 'Banana',
+        isLeaf: true
+      }
+    ]
+  },
+  {
+    id: 200,
+    text: 'Vegetables',
+    children: [
+      {
+        id: 201,
+        text: 'Carrot',
+        isLeaf: true
+      },
+      {
+        id: 202,
+        text: 'Tomato',
+        isLeaf: true
+      }
+    ]
+  }
+]
 ```
-
-#### onTreenodeClick
-
-######function (id, event)
-
-- id: node id
-- event: mouse clicked event
-
-perform function on treenode clicked
-
-## Methods (Use though 'ref' property)
-
-#### dfs
-
-######function (callback)
-
-- callback: 1 parameter: node
-
-perform depth first search on dataSource, applying callback  on each node
-
-#### bfs
-
-######function (callback)
-
-- callback: 1 parameter: node
-
-perform breadth first search on dataSource, applying callback  on each node
 
 ## License
 
-MIT.
+[MIT.](https://raw.githubusercontent.com/denimar/deni-react-treeview/master/LICENSE-MIT)
