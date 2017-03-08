@@ -37,13 +37,13 @@ Added to your react component
 
 ## Properties
 * autoLoad ```(boolean)```
-* lazyLoad (boolean)
-* marginItems (integer)
-* selectRow (boolean)
-* showCheckbox (boolean)
-* showIcon (boolean)
-* showRoot (boolean)
-* theme (string)
+* lazyLoad ```(boolean)```
+* marginItems ```(integer)```
+* selectRow ```(boolean)```
+* showCheckbox ```(boolean)```
+* showIcon ```(boolean)```
+* showRoot ```(boolean)```
+* theme ```(string)```
 
 ## Events
 * onBeforeLoad
