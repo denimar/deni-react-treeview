@@ -29,14 +29,14 @@ Added to your react component
 * And so on...
 
 ## Properties
-* autoLoad
-* lazyLoad
-* marginItems
-* selectRow
-* showCheckbox
-* showIcon
-* showRoot
-* theme
+* autoLoad (boolean)
+* lazyLoad (boolean)
+* marginItems (integer)
+* selectRow (boolean)
+* showCheckbox (boolean)
+* showIcon (boolean)
+* showRoot (boolean)
+* theme (string)
 
 ## Events
 * onBeforeLoad
@@ -46,7 +46,7 @@ Added to your react component
 * onColapsed
 * onLazyLoad
 
-#### dataSouce
+#### json example
 
 ```javascript
 [
@@ -88,3 +88,7 @@ Added to your react component
 ## License
 
 [MIT.](https://raw.githubusercontent.com/denimar/deni-react-treeview/master/LICENSE-MIT)
+
+## Author
+
+[Denimar de Moraes!](http://github.com/denimar) (denimar@gmail.com) is a full-stack developper at the HBSis IT Solutions, Blumenau, Santa Catarina, Brazil.
