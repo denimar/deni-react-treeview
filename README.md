@@ -1,9 +1,7 @@
 # deni-react-treeview
 A modern, themable and configurable treeview for React
 
-[site](https://denimar.github.io/deni-react-treeview/)
-
-[examples](https://denimar.github.io/deni-react-treeview/examples)
+[site](https://denimar.github.io/deni-react-treeview/), [examples](https://denimar.github.io/deni-react-treeview/examples)
 
 ## Install
 
@@ -20,12 +18,31 @@ Added to your react component
 ```
 
 ## API
+[documentation](https://denimar.github.io/deni-react-treeview/api.html)
+
+## Features
+Cross-Browser.
+Binding to a JSON (locally, remotely and lazy-load)
+Predefined Themes
+Theme Customization
+Events
+Checkboxes
+And so on...
 
 ## Properties
+autoLoad
+lazyLoad
+marginItems
+selectRow
+showCheckbox
+showIcon
+showRoot
+theme
 
 #### dataSouce
 
-```javascript[
+```javascript
+[
   {
     id: 100,
     text: 'Fruits',
