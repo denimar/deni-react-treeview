@@ -13,8 +13,7 @@ npm install deni-react-treeview
 
 Added to your react component
 ```html
-  <TreeView json="https://denimar.github.io/static-data/countries.json" showCheckbox={true} 
-  </TreeView>
+  <TreeView json="https://denimar.github.io/static-data/countries.json" showCheckbox={true} </TreeView>
 ```
 
 ## API
@@ -40,7 +39,12 @@ Added to your react component
 * theme
 
 ## Events
-* todo
+* onBeforeLoad
+* onAfterLoad
+* onSelectItem
+* onExpanded
+* onColapsed
+* onLazyLoad
 
 #### dataSouce
 
