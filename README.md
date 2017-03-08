@@ -2,6 +2,7 @@
 A modern, themable and configurable treeview for React
 
 [site](https://denimar.github.io/deni-react-treeview/)
+
 [examples](https://denimar.github.io/deni-react-treeview/examples)
 
 ## Install
@@ -10,16 +11,14 @@ A modern, themable and configurable treeview for React
 npm install deni-react-treeview
 ```
 
-Include js file at "react-treeview-component/build/react-tree.js" <br/>
-Include css file at "react-treeview-component/build/react-tree.css"
-
 ## Usage
 
 Added to your react component
 ```html
-<Treeview dataSource={this.props.dataSource}
-  onTreenodeClick={this.handleTreenodeClick}>
-</Treeview>
+ReactDOM.render(
+  <TreeView json="https://denimar.github.io/static-data/countries.json" showCheckbox={true} />,
+  document.getElementById('root')
+);
 ```
 
 ## API
