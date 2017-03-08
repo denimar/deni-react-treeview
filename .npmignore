@@ -3,7 +3,6 @@
 /.npmignore
 /bower.json
 /bower_components/
-/build/
 /examples/
 /server.js
 /src/
