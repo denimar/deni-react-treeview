@@ -3217,6 +3217,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	            return _deniReactTreeviewApiImpl2['default'].findItem(scope, itemToFind);
 	        },
 	
+	        getSelectedItem: function getSelectedItem() {
+	            return _deniReactTreeviewApiImpl2['default'].getSelectedItem(scope);
+	        },
+	
 	        //
 	        //
 	        //
@@ -3276,6 +3280,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    } else {
 	      return node;
 	    }
+	  },
+	
+	  getSelectedItem: function getSelectedItem(scope) {
+	    return scope.state.selectedItem;
 	  },
 	
 	  selectItem: function selectItem(scope, itemToFind) {

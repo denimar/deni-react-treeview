@@ -25,6 +25,10 @@ module.exports = (scope) => {
       return treeviewApiImpl.findItem(scope, itemToFind);
     },
 
+    getSelectedItem: () => {
+      return treeviewApiImpl.getSelectedItem(scope);
+    },
+
     //
     //
     //

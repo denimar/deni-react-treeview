@@ -24,6 +24,10 @@ module.exports = {
       }
   },
 
+  getSelectedItem: (scope) => {
+    return scope.state.selectedItem;
+  },
+
   selectItem: (scope, itemToFind) => {
     let item = scope.api.findItem(itemToFind);
     _selectNode(scope, item);
