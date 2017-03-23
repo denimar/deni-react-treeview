@@ -5,6 +5,9 @@ module.exports = (scope) => {
 
   return {
 
+    addItem: (text, isLeaf) => {
+      return treeviewApiImpl.addItem(scope, text, isLeaf);
+    },
     //
     // folderToFind can be passed as a "id" or as a "object" ex:
     //

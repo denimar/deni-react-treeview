@@ -1,6 +1,22 @@
 
 module.exports = {
 
+  addItem: (scope, text, isLeaf) => {
+    const parentNode = scope.state.selectedItem;
+    if (!parentNode) {
+      throw new Error('You must select a item!');
+    }
+    const newItem = {
+      text: text,
+      children: [],
+      isLeaf: false
+    }
+    parentNode.children = parentNode.children || [];
+    parentNode.children.push(newItem);
+    parentNode.expanded = true;
+    _selectNode(scope, newItem);
+  },
+
   findFolder: (scope, itemToFind) => {
     let dataToFind = _normalizeDataToFind(folderToFind);
     let keys = Object.keys(dataToFind);
@@ -138,5 +154,4 @@ function _selectNode(scope, item) {
   scope.setState({
     selectedItem: item
   });
-  //scope.$broadcast('scrollintoview', node);
 }

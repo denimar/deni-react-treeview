@@ -1,0 +1,30 @@
+.api-tests-viewport {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ccc;
+  margin: 4px;
+
+  &> .body {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-direction: row !important;
+
+    .deni-react-treeview-item-container {
+      //display: inline-block;
+    }
+
+    .buttons {
+      margin-left: 4px;
+      flex: 1;
+      justify-content: space-around;
+
+      button {
+        width: 150px;
+      }
+    }
+
+  }
+
+}
