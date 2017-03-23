@@ -40,6 +40,14 @@ module.exports = {
       }
   },
 
+  getItems: (scope) => {
+    return scope.state.rootItem.children || [];
+  },
+
+  getRootItem: (scope) => {
+    return scope.state.rootItem;
+  },
+
   getSelectedItem: (scope) => {
     return scope.state.selectedItem;
   },
@@ -47,7 +55,7 @@ module.exports = {
   selectItem: (scope, itemToFind) => {
     let item = scope.api.findItem(itemToFind);
     _selectNode(scope, item);
-  }
+  },
 
 }
 

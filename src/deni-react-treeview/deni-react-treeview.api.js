@@ -5,6 +5,9 @@ module.exports = (scope) => {
 
   return {
 
+    //
+    //
+    //
     addItem: (text, isLeaf) => {
       return treeviewApiImpl.addItem(scope, text, isLeaf);
     },
@@ -28,6 +31,23 @@ module.exports = (scope) => {
       return treeviewApiImpl.findItem(scope, itemToFind);
     },
 
+    //
+    //
+    //
+    getItems: () => {
+      return treeviewApiImpl.getItems(scope);
+    },
+
+    //
+    //
+    //
+    getRootItem: () => {
+      return treeviewApiImpl.getRootItem(scope);
+    },
+
+    //
+    //
+    //
     getSelectedItem: () => {
       return treeviewApiImpl.getSelectedItem(scope);
     },

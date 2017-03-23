@@ -28,7 +28,7 @@ module.exports = {
     let classNames = ['icon'];
 
     if (treeview.props.showIcon) {
-      if (item.isLeaf) {
+      if ((item.isLeaf) && (!(item.children && item.children.length > 0))) { //when it has children, so is no longer has to be leaf
         classNames.push('isleaf');
       }
 
@@ -45,7 +45,7 @@ module.exports = {
   getClassExpandButton (treeview, treeviewItem, item) {
     let classNames = ['expand-button'];
 
-    if ((!item.isLeaf) && ((item.children && item.children.length > 0)  || (treeview.props.lazyLoad))) {
+    if (((item.children && item.children.length > 0)  || (treeview.props.lazyLoad))) {
       classNames.push('hasChild');
 
       if (item.expanded) {

@@ -671,7 +671,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var classNames = ['icon'];
 	
 	    if (treeview.props.showIcon) {
-	      if (item.isLeaf) {
+	      if (item.isLeaf && !(item.children && item.children.length > 0)) {
+	        //when it has children, so is no longer has to be leaf
 	        classNames.push('isleaf');
 	      }
 	
@@ -688,7 +689,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  getClassExpandButton: function getClassExpandButton(treeview, treeviewItem, item) {
 	    var classNames = ['expand-button'];
 	
-	    if (!item.isLeaf && (item.children && item.children.length > 0 || treeview.props.lazyLoad)) {
+	    if (item.children && item.children.length > 0 || treeview.props.lazyLoad) {
 	      classNames.push('hasChild');
 	
 	      if (item.expanded) {
@@ -3197,6 +3198,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  return {
 	
+	    //
+	    //
+	    //
 	    addItem: function addItem(text, isLeaf) {
 	      return _deniReactTreeviewApiImpl2['default'].addItem(scope, text, isLeaf);
 	    },
@@ -3220,6 +3224,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return _deniReactTreeviewApiImpl2['default'].findItem(scope, itemToFind);
 	    },
 	
+	    //
+	    //
+	    //
+	    getItems: function getItems() {
+	      return _deniReactTreeviewApiImpl2['default'].getItems(scope);
+	    },
+	
+	    //
+	    //
+	    //
+	    getRootItem: function getRootItem() {
+	      return _deniReactTreeviewApiImpl2['default'].getRootItem(scope);
+	    },
+	
+	    //
+	    //
+	    //
 	    getSelectedItem: function getSelectedItem() {
 	      return _deniReactTreeviewApiImpl2['default'].getSelectedItem(scope);
 	    },
@@ -3299,6 +3320,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	    } else {
 	      return node;
 	    }
+	  },
+	
+	  getItems: function getItems(scope) {
+	    return scope.state.rootItem.children || [];
+	  },
+	
+	  getRootItem: function getRootItem(scope) {
+	    return scope.state.rootItem;
 	  },
 	
 	  getSelectedItem: function getSelectedItem(scope) {
