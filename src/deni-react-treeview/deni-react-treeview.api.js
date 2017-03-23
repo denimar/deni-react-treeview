@@ -8,8 +8,8 @@ module.exports = (scope) => {
     //
     //
     //
-    addItem: (text, isLeaf) => {
-      return treeviewApiImpl.addItem(scope, text, isLeaf);
+    addItem: (text, isLeaf, parentNode) => {
+      return treeviewApiImpl.addItem(scope, text, isLeaf, parentNode);
     },
     //
     // folderToFind can be passed as a "id" or as a "object" ex:

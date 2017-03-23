@@ -1,19 +1,19 @@
 
 module.exports = {
 
-  addItem: (scope, text, isLeaf) => {
-    const parentNode = scope.state.selectedItem;
-    if (!parentNode) {
-      throw new Error('You must select a item!');
+  addItem: (scope, text, isLeaf, parentNode) => {
+    const parent = parentNode || scope.state.selectedItem || scope.state.rootItem;
+    if (!parent) {
+      throw new Error('You must specify a parent node!');
     }
     const newItem = {
       text: text,
       children: [],
       isLeaf: false
     }
-    parentNode.children = parentNode.children || [];
-    parentNode.children.push(newItem);
-    parentNode.expanded = true;
+    parent.children = parent.children || [];
+    parent.children.push(newItem);
+    parent.expanded = true;
     _selectNode(scope, newItem);
   },
 

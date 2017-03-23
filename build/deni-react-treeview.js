@@ -3209,8 +3209,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    //
 	    //
 	    //
-	    addItem: function addItem(text, isLeaf) {
-	      return _deniReactTreeviewApiImpl2['default'].addItem(scope, text, isLeaf);
+	    addItem: function addItem(text, isLeaf, parentNode) {
+	      return _deniReactTreeviewApiImpl2['default'].addItem(scope, text, isLeaf, parentNode);
 	    },
 	    //
 	    // folderToFind can be passed as a "id" or as a "object" ex:
@@ -3291,19 +3291,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	module.exports = {
 	
-	  addItem: function addItem(scope, text, isLeaf) {
-	    var parentNode = scope.state.selectedItem;
-	    if (!parentNode) {
-	      throw new Error('You must select a item!');
+	  addItem: function addItem(scope, text, isLeaf, parentNode) {
+	    var parent = parentNode || scope.state.selectedItem || scope.state.rootItem;
+	    if (!parent) {
+	      throw new Error('You must specify a parent node!');
 	    }
 	    var newItem = {
 	      text: text,
 	      children: [],
 	      isLeaf: false
 	    };
-	    parentNode.children = parentNode.children || [];
-	    parentNode.children.push(newItem);
-	    parentNode.expanded = true;
+	    parent.children = parent.children || [];
+	    parent.children.push(newItem);
+	    parent.expanded = true;
 	    _selectNode(scope, newItem);
 	  },
 	
