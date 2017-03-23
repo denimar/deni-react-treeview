@@ -172,10 +172,8 @@ function _getParentItem(scope, item, parentItem) {
 //
 function _normalizeDataToFind(dataToFind) {
   let normalizedData = {};
-  if (typeof  dataToFind === 'number') {
+  if ((typeof  dataToFind === 'number') || (typeof  dataToFind === 'string')) {
     normalizedData['id'] = dataToFind;
-  } else if (typeof  dataToFind === 'string') {
-    normalizedData['id'] = parseInt(dataToFind);
   } else if (typeof  dataToFind === 'object') {
     normalizedData = dataToFind;
   } else {
