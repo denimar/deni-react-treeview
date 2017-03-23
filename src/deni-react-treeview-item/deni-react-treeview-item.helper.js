@@ -100,11 +100,11 @@ module.exports = {
     return classNames.join(' ');
   },
 
-  getItemText (treeview, text) {
+  getItemText (treeview, item) {
     if (treeview.props.onRenderItem) {
-      return treeview.props.onRenderItem(text, treeview);
+      return treeview.props.onRenderItem(item, treeview);
     } else {
-      return text;
+      return item.text;
     }
   },
 

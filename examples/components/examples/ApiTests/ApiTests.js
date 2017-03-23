@@ -8,19 +8,19 @@ import FaEdit from 'react-icons/lib/fa/edit';
 
 class ApiTests extends React.Component {
 
-  deleteItemClick() {
-    alert('deleting routine here...')
+  deleteItemClick(id) {
+    this.refs.treeview.api.removeItem(id);
   }
 
-  editItemClick() {
+  editItemClick(id) {
     alert('editing routine here...')
   }
 
-  onRenderItem(text, treeview) {
+  onRenderItem(item, treeview) {
     return (
       <div className="treeview-item-example">
-        <span className="treeview-item-example-text">{text}</span>
-        <span className="actionButton trash" onClick={this.deleteItemClick.bind(this)}><FaTrashO size="15" /></span>
+        <span className="treeview-item-example-text">{item.text}</span>
+        <span className="actionButton trash" onClick={this.deleteItemClick.bind(this, item.id)}><FaTrashO size="15" /></span>
         <span className="actionButton edit" onClick={this.editItemClick.bind(this)}><FaEdit size="15" /></span>
       </div>
     )

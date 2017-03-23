@@ -578,7 +578,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            _react2['default'].createElement(
 	              'span',
 	              { className: 'text-inner' },
-	              _deniReactTreeviewItemHelper2['default'].getItemText(treeview, item.text)
+	              _deniReactTreeviewItemHelper2['default'].getItemText(treeview, item)
 	            )
 	          )
 	        )
@@ -744,11 +744,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return classNames.join(' ');
 	  },
 	
-	  getItemText: function getItemText(treeview, text) {
+	  getItemText: function getItemText(treeview, item) {
 	    if (treeview.props.onRenderItem) {
-	      return treeview.props.onRenderItem(text, treeview);
+	      return treeview.props.onRenderItem(item, treeview);
 	    } else {
-	      return text;
+	      return item.text;
 	    }
 	  },
 	
@@ -3204,83 +3204,101 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	module.exports = function (scope) {
 	
-	  return {
+	    return {
 	
-	    //
-	    //
-	    //
-	    addItem: function addItem(text, isLeaf, parentNode) {
-	      return _deniReactTreeviewApiImpl2['default'].addItem(scope, text, isLeaf, parentNode);
-	    },
-	    //
-	    // folderToFind can be passed as a "id" or as a "object" ex:
-	    //
-	    //  treeviewEl.api.findFolder(456) //456 is a id value or
-	    //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
-	    //
-	    findFolder: function findFolder(folderToFind) {
-	      return _deniReactTreeviewApiImpl2['default'].findFolder(scope, folderToFind);
-	    },
+	        //
+	        //
+	        //
+	        addItem: function addItem(text, isLeaf, parentNode) {
+	            return _deniReactTreeviewApiImpl2['default'].addItem(scope, text, isLeaf, parentNode);
+	        },
 	
-	    //
-	    // itemToFind can be passed as a "id" or as a "object" ex:
-	    //
-	    //  treeviewEl.api.findItem(357) //357 is a id value or
-	    //  treeviewEl.api.findItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
-	    //
-	    findItem: function findItem(itemToFind) {
-	      return _deniReactTreeviewApiImpl2['default'].findItem(scope, itemToFind);
-	    },
+	        //
+	        // folderToFind can be passed as a "id" or as a "object" ex:
+	        //
+	        //  treeviewEl.api.findFolder(456) //456 is a id value or
+	        //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
+	        //
+	        findFolder: function findFolder(folderToFind) {
+	            return _deniReactTreeviewApiImpl2['default'].findFolder(scope, folderToFind);
+	        },
 	
-	    //
-	    //
-	    //
-	    getItems: function getItems() {
-	      return _deniReactTreeviewApiImpl2['default'].getItems(scope);
-	    },
+	        //
+	        // folderToFind can be passed as a "id" or as a "object" ex:
+	        //
+	        //  treeviewEl.api.findFolder(456) //456 is a id value or
+	        //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
+	        //
+	        findNode: function findNode(nodeToFind) {
+	            return _deniReactTreeviewApiImpl2['default'].findNode(scope, nodeToFind);
+	        },
 	
-	    //
-	    //
-	    //
-	    getRootItem: function getRootItem() {
-	      return _deniReactTreeviewApiImpl2['default'].getRootItem(scope);
-	    },
+	        //
+	        // itemToFind can be passed as a "id" or as a "object" ex:
+	        //
+	        //  treeviewEl.api.findItem(357) //357 is a id value or
+	        //  treeviewEl.api.findItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
+	        //
+	        findItem: function findItem(itemToFind) {
+	            return _deniReactTreeviewApiImpl2['default'].findItem(scope, itemToFind);
+	        },
 	
-	    //
-	    //
-	    //
-	    getSelectedItem: function getSelectedItem() {
-	      return _deniReactTreeviewApiImpl2['default'].getSelectedItem(scope);
-	    },
+	        //
+	        //
+	        //
+	        getItems: function getItems() {
+	            return _deniReactTreeviewApiImpl2['default'].getItems(scope);
+	        },
 	
-	    //
-	    //
-	    //
-	    load: _deniReactTreeviewHelper2['default'].load.bind(scope),
+	        //
+	        //
+	        //
+	        getRootItem: function getRootItem() {
+	            return _deniReactTreeviewApiImpl2['default'].getRootItem(scope);
+	        },
 	
-	    //
-	    //
-	    //
-	    loadData: _deniReactTreeviewHelper2['default'].loadData.bind(scope),
+	        //
+	        //
+	        //
+	        getSelectedItem: function getSelectedItem() {
+	            return _deniReactTreeviewApiImpl2['default'].getSelectedItem(scope);
+	        },
 	
-	    //
-	    // itemToFind can be passed as a "id" or as a "object" ex:
-	    //
-	    //  treeviewEl.api.selectItem(357) //357 is a id value or
-	    //  treeviewEl.api.selectItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
-	    //
-	    selectItem: function selectItem(itemToFind) {
-	      _deniReactTreeviewApiImpl2['default'].selectItem(scope, itemToFind);
-	    },
+	        //
+	        //
+	        //
+	        load: _deniReactTreeviewHelper2['default'].load.bind(scope),
 	
-	    //
-	    //
-	    //
-	    setTheme: function setTheme(newTheme) {
-	      _deniReactTreeviewHelper2['default'].setTheme(scope, newTheme);
-	    }
+	        //
+	        //
+	        //
+	        loadData: _deniReactTreeviewHelper2['default'].loadData.bind(scope),
 	
-	  };
+	        //
+	        //
+	        //
+	        removeItem: function removeItem(id) {
+	            _deniReactTreeviewApiImpl2['default'].removeItem(scope, id);
+	        },
+	
+	        //
+	        // itemToFind can be passed as a "id" or as a "object" ex:
+	        //
+	        //  treeviewEl.api.selectItem(357) //357 is a id value or
+	        //  treeviewEl.api.selectItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
+	        //
+	        selectItem: function selectItem(itemToFind) {
+	            _deniReactTreeviewApiImpl2['default'].selectItem(scope, itemToFind);
+	        },
+	
+	        //
+	        //
+	        //
+	        setTheme: function setTheme(newTheme) {
+	            _deniReactTreeviewHelper2['default'].setTheme(scope, newTheme);
+	        }
+	
+	    };
 	};
 
 /***/ },
@@ -3307,10 +3325,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    _selectNode(scope, newItem);
 	  },
 	
-	  findFolder: function findFolder(scope, itemToFind) {
+	  findFolder: function findFolder(scope, folderToFind) {
 	    var dataToFind = _normalizeDataToFind(folderToFind);
 	    var keys = Object.keys(dataToFind);
-	    var node = _findNode(scope.ctrl.rootItem.children, dataToFind, keys);
+	    var node = _findNode(scope.state.rootItem.children, dataToFind, keys);
 	    if (!node) {
 	      throw new Error('Folder not found!');
 	    } else {
@@ -3330,6 +3348,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  },
 	
+	  findNode: function findNode(scope, nodeToFind) {
+	    var dataToFind = _normalizeDataToFind(nodeToFind);
+	    var keys = Object.keys(dataToFind);
+	    var node = _findNode(scope.state.rootItem.children, dataToFind, keys);
+	    if (!node) {
+	      throw new Error('Folder not found!');
+	    } else {
+	      return node;
+	    }
+	  },
+	
 	  getItems: function getItems(scope) {
 	    return scope.state.rootItem.children || [];
 	  },
@@ -3340,6 +3369,30 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  getSelectedItem: function getSelectedItem(scope) {
 	    return scope.state.selectedItem;
+	  },
+	
+	  removeItem: function removeItem(scope, id) {
+	    //let node = _findNode(scope.s.rootItem.children, dataToFind, keys);
+	    //let nodeTobeRemoved = _findNode
+	    //console.log('removing... ' + id)
+	    var node = scope.api.findNode(id);
+	    var parentNode = _getParentItem(scope, node);
+	    var childIndex = parentNode.children.findIndex(function (child) {
+	      return child.id === node.id;
+	    });
+	
+	    parentNode.children.splice(childIndex, 1);
+	    scope.forceUpdate();
+	
+	    // if (parentNode.children.length === 0) {
+	    //   scope.api.selectItem(parentNode)
+	    // } else {
+	    //   let newIndex = childIndex - 1;
+	    //   if (newIndex < 0) {
+	    //     newIndex = 0;
+	    //   }
+	    //   scope.api.selectItem(parentNode.children[newIndex]);
+	    // }
 	  },
 	
 	  selectItem: function selectItem(scope, itemToFind) {
@@ -3364,9 +3417,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	
 	    if (allFieldsAreEqual) {
-	      if (child.isLeaf === dataToFind.isLeaf) {
-	        return child;
-	      }
+	      return child;
 	    }
 	
 	    if (child.children) {

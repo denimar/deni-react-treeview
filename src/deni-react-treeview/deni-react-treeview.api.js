@@ -11,6 +11,7 @@ module.exports = (scope) => {
     addItem: (text, isLeaf, parentNode) => {
       return treeviewApiImpl.addItem(scope, text, isLeaf, parentNode);
     },
+
     //
     // folderToFind can be passed as a "id" or as a "object" ex:
     //
@@ -19,6 +20,16 @@ module.exports = (scope) => {
     //
     findFolder: (folderToFind) => {
       return treeviewApiImpl.findFolder(scope, folderToFind);
+    },
+
+    //
+    // folderToFind can be passed as a "id" or as a "object" ex:
+    //
+    //  treeviewEl.api.findFolder(456) //456 is a id value or
+    //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
+    //
+    findNode: (nodeToFind) => {
+      return treeviewApiImpl.findNode(scope, nodeToFind);
     },
 
     //
@@ -61,6 +72,13 @@ module.exports = (scope) => {
     //
     //
     loadData: treeviewHelper.loadData.bind(scope),
+
+    //
+    //
+    //
+    removeItem: (id) => {
+      treeviewApiImpl.removeItem(scope, id);
+    },
 
     //
     // itemToFind can be passed as a "id" or as a "object" ex:

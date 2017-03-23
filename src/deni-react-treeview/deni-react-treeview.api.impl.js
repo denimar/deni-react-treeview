@@ -17,10 +17,10 @@ module.exports = {
     _selectNode(scope, newItem);
   },
 
-  findFolder: (scope, itemToFind) => {
+  findFolder: (scope, folderToFind) => {
     let dataToFind = _normalizeDataToFind(folderToFind);
     let keys = Object.keys(dataToFind);
-    let node = _findNode(scope.ctrl.rootItem.children, dataToFind, keys);
+    let node = _findNode(scope.state.rootItem.children, dataToFind, keys);
     if (!node) {
       throw new Error('Folder not found!');
     } else {
@@ -40,6 +40,17 @@ module.exports = {
       }
   },
 
+  findNode: (scope, nodeToFind) => {
+    let dataToFind = _normalizeDataToFind(nodeToFind);
+    let keys = Object.keys(dataToFind);
+    let node = _findNode(scope.state.rootItem.children, dataToFind, keys);
+    if (!node) {
+      throw new Error('Folder not found!');
+    } else {
+      return node;
+    }
+  },
+
   getItems: (scope) => {
     return scope.state.rootItem.children || [];
   },
@@ -50,6 +61,30 @@ module.exports = {
 
   getSelectedItem: (scope) => {
     return scope.state.selectedItem;
+  },
+
+  removeItem: (scope, id) => {
+    //let node = _findNode(scope.s.rootItem.children, dataToFind, keys);
+    //let nodeTobeRemoved = _findNode
+    //console.log('removing... ' + id)
+    let node = scope.api.findNode(id);
+    let parentNode = _getParentItem(scope, node);
+    let childIndex = parentNode.children.findIndex((child) => {
+      return child.id === node.id;
+    });
+
+    parentNode.children.splice(childIndex, 1);
+    scope.forceUpdate();
+
+    // if (parentNode.children.length === 0) {
+    //   scope.api.selectItem(parentNode)
+    // } else {
+    //   let newIndex = childIndex - 1;
+    //   if (newIndex < 0) {
+    //     newIndex = 0;
+    //   }
+    //   scope.api.selectItem(parentNode.children[newIndex]);
+    // }
   },
 
   selectItem: (scope, itemToFind) => {
@@ -74,9 +109,7 @@ function _findNode(children, dataToFind, keys) {
     }
 
     if (allFieldsAreEqual) {
-      if (child.isLeaf === dataToFind.isLeaf) {
-        return child;
-      }
+      return child;
     }
 
     if (child.children) {
