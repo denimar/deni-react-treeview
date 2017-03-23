@@ -31,7 +31,7 @@ class DeniReactTreeViewItem extends React.Component {
           <div className={treeviewItemHelper.getClassIconAndText(treeview, item, selectRow)}>
             <div className={treeviewItemHelper.getClassIcon(treeview, item)}></div>
             <div className="text">
-              <span className="text-inner">{item.text}</span>
+              <span className="text-inner">{treeviewItemHelper.getItemText(treeview, item.text)}</span>
             </div>
           </div>
 

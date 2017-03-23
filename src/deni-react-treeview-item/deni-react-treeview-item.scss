@@ -157,6 +157,10 @@
       padding-right: $lateral-padding;
       border-radius: 3px;
       cursor: pointer;
+      flex: 1;
+      justify-content: space-around;
+      // align-items: flex-start;
+      // flex-direction: row;
 
       &.select-row {
         &:hover {
@@ -206,9 +210,13 @@
         height: $line-height;
         align-items: center;
         display: flex;
+        flex: 1;
+        justify-content: flex-start;
 
         .text-inner {
           white-space: nowrap;
+          flex: 1;
+          justify-content: space-around;          
         }
 
       }

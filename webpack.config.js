@@ -28,6 +28,14 @@ module.exports = {
   module: {
     loaders: [
       {
+        test: /\.js?$/,
+        loader: 'babel-loader',
+        include: [path.resolve(__dirname, './node_modules/react-icons/md'), path.resolve(__dirname, './node_modules/react-icons/fa')],
+        // query: {
+        //   presets: ['es2015', 'react']
+        // }
+      },
+      {
         test: /\.jsx?$/,
         loaders: ['react-hot', 'babel'],
         exclude: /build|lib|node_modules/,

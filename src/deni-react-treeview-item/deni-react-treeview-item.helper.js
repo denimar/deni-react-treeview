@@ -100,6 +100,14 @@ module.exports = {
     return classNames.join(' ');
   },
 
+  getItemText (treeview, text) {
+    if (treeview.props.onRenderItem) {
+      return treeview.props.onRenderItem(text, treeview);
+    } else {
+      return text;
+    }
+  },
+
   isUndetermined(item) {
     return item.state === CHECKBOX_STATE.UNDETERMINED;
   },
