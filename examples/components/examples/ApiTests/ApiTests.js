@@ -51,8 +51,15 @@ class ApiTests extends React.Component {
 
           <TreeView
             items={fruitsAndVegetables}
-            selectRow={false}
-            actionButtons={true}
+            selectRow={true}
+            actionButtons={[
+              {
+                name: 'fa/trash-o',
+                color: '#ff6666'
+              },
+              'fa/edit',
+              'fa/bar-chart'
+            ]}
           />
 
           <div className="buttons">

@@ -58,6 +58,12 @@
         border-bottom: 0;
       }
     }
+
+    .action-button {
+      visibility: visible;
+      opacity: 1;
+    }
+
   }
 
   &.selected {

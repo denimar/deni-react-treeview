@@ -104,8 +104,19 @@ module.exports = {
 
   getInnerText (treeview, item) {
     if (treeview.props.actionButtons) {
+      let buttons = [];
+      treeview.props.actionButtons.map((actionButton) => {
+        let newActionButton = (typeof actionButton === 'object') ? actionButton : {name: actionButton};
+        newActionButton.size = 15;
+        newActionButton.color = actionButton.color || '#245075';
+        newActionButton.style = actionButton.style || {};
+
+        const ActionButtonIcon = require('react-icons/lib/' + newActionButton.name);
+        buttons.push((<ActionButtonIcon size={newActionButton.size} color={newActionButton.color} style={newActionButton.style} />))
+      })
+
       return (
-        <ActionButtons />
+        <ActionButtons item={item} buttons={buttons} />
       )
     } else {
       if (treeview.props.onRenderItem) {
@@ -244,6 +255,24 @@ module.exports = {
     _refreshCheckboxStateParents(treeviewItem);
   },
 
+}
+
+//
+function _getActionButtonByName(buttonName) {
+  switch (buttonName) {
+    case 'trash':
+      return ''
+    default:
+
+  }
+  if (buttonName === 'trash') {
+
+  } else
+
+  // (<FaTrashO size="15" color='#ff6666' />),
+  // (<FaEdit size="15" color='#006699' />)
+
+  here
 }
 
 //

@@ -1,7 +1,5 @@
 import React from 'react'
 import './action-buttons.scss'
-import FaTrashO from 'react-icons/lib/fa/trash-o';
-import FaEdit from 'react-icons/lib/fa/edit';
 
 class ActionButtons extends React.Component {
 
@@ -10,11 +8,20 @@ class ActionButtons extends React.Component {
   }
 
   render() {
+
+    let actionButtons = [];
+    this.props.buttons.map((button) => {
+      actionButtons.push((
+        <span className="action-button" >
+          {button}
+        </span>
+      ));
+    })
+
     return (
       <div className="action-buttons-container">
-        <span className="action-buttons-container-text">this.props.text</span>
-        <span className="action-button trash" ><FaTrashO size="15" /></span>
-        <span className="action-button edit" ><FaEdit size="15" /></span>
+        <span className="action-buttons-container-text">{this.props.item.text}</span>
+        {actionButtons}
       </div>
     )
   }
