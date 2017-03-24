@@ -37,6 +37,20 @@ class ApiTests extends React.Component {
   getItemsClick() {
     console.log(this.refs.treeview.api.getItems());
   }
+
+  onActionButtonClick(buttonName) {
+    console.log(buttonName)
+    switch (buttonName) {
+      case 'fa/trash-o':
+        alert('trash: implement here')
+        break;
+      case 'fa/edit':
+        alert('editing: implement here')
+        break;
+      default:
+    }
+  }
+
   render() {
 
     return (
@@ -44,13 +58,13 @@ class ApiTests extends React.Component {
         <div className="body">
           <TreeView
             ref="treeview"
-            items={fruitsAndVegetables}
+            url="https://denimar.github.io/static-data/countries.json"
             selectRow={true}
             onRenderItem={this.onRenderItem.bind(this)}
           />
 
           <TreeView
-            items={fruitsAndVegetables}
+            url="https://denimar.github.io/static-data/countries.json"
             selectRow={true}
             actionButtons={[
               {
@@ -60,6 +74,7 @@ class ApiTests extends React.Component {
               'fa/edit',
               'fa/bar-chart'
             ]}
+            onActionButtonClick={this.onActionButtonClick}
           />
 
           <div className="buttons">
@@ -76,38 +91,3 @@ class ApiTests extends React.Component {
 }
 
 export default ApiTests;
-
-let fruitsAndVegetables = [
-  {
-    id: 100,
-    text: 'Fruits',
-    children: [
-      {
-        id: 101,
-        text: 'Orange',
-        isLeaf: true
-      },
-      {
-        id: 102,
-        text: 'Banana',
-        isLeaf: true
-      }
-    ]
-  },
-  {
-    id: 200,
-    text: 'Vegetables',
-    children: [
-      {
-        id: 201,
-        text: 'Carrot',
-        isLeaf: true
-      },
-      {
-        id: 202,
-        text: 'Tomato',
-        isLeaf: true
-      }
-    ]
-  }
-];
