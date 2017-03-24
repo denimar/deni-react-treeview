@@ -104,19 +104,8 @@ module.exports = {
 
   getInnerText (treeview, item) {
     if (treeview.props.actionButtons) {
-      let buttons = [];
-      treeview.props.actionButtons.map((actionButton) => {
-        let newActionButton = (typeof actionButton === 'object') ? actionButton : {name: actionButton};
-        newActionButton.size = 15; //I wil always be 15
-        newActionButton.color = actionButton.color || '#245075';
-        newActionButton.style = actionButton.style || {};
-
-        const ActionButtonIcon = require('react-icons/lib/' + newActionButton.name);
-        buttons.push((<ActionButtonIcon name={newActionButton.name} size={newActionButton.size} color={newActionButton.color} style={newActionButton.style} />))
-      })
-
       return (
-        <ActionButtons item={item} buttons={buttons} onActionButtonClick={treeview.props.onActionButtonClick} />
+        <ActionButtons item={item} buttons={treeview.props.actionButtons} onActionButtonClick={treeview.props.onActionButtonClick.bind(this)} />
       )
     } else {
       if (treeview.props.onRenderItem) {

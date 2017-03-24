@@ -3,7 +3,6 @@ import TreeView from '../../../../src/deni-react-treeview/deni-react-treeview';
 require('./ApiTests.scss')
 import FaTrashO from 'react-icons/lib/fa/trash-o';
 import FaEdit from 'react-icons/lib/fa/edit';
-//import MdEdit from 'react-icons/lib/md/edit';
 
 
 class ApiTests extends React.Component {
@@ -38,20 +37,26 @@ class ApiTests extends React.Component {
     console.log(this.refs.treeview.api.getItems());
   }
 
-  onActionButtonClick(buttonName) {
-    console.log(buttonName)
+  onActionButtonClick(item, actionButton) {
+    const buttonName = actionButton.type.name;
+
     switch (buttonName) {
-      case 'fa/trash-o':
-        alert('trash: implement here')
+      case 'FaTrashO':
+        alert('action: trash, item: ' + item.text);
         break;
-      case 'fa/edit':
-        alert('editing: implement here')
+      case 'FaEdit':
+        alert('action: edit, item: ' + item.text);
         break;
       default:
     }
   }
 
   render() {
+
+    const actionButtons = [
+      (<FaTrashO size="15" color="#ff704d" />),
+      (<FaEdit size="15" color="#245075" />)
+    ];
 
     return (
       <div className="api-tests-viewport">
@@ -66,14 +71,7 @@ class ApiTests extends React.Component {
           <TreeView
             url="https://denimar.github.io/static-data/countries.json"
             selectRow={true}
-            actionButtons={[
-              {
-                name: 'fa/trash-o',
-                color: '#ff6666'
-              },
-              'fa/edit',
-              'fa/bar-chart'
-            ]}
+            actionButtons={actionButtons}
             onActionButtonClick={this.onActionButtonClick}
           />
 
