@@ -44,10 +44,17 @@ class ApiTests extends React.Component {
         <div className="body">
           <TreeView
             ref="treeview"
-            url="https://denimar.github.io/static-data/countries.json"
+            items={fruitsAndVegetables}
             selectRow={true}
             onRenderItem={this.onRenderItem.bind(this)}
           />
+
+          <TreeView
+            items={fruitsAndVegetables}
+            selectRow={false}
+            actionButtons={true}
+          />
+
           <div className="buttons">
             <button onClick={this.addItemClick.bind(this)} >Add Item</button>
             <button onClick={this.getRootItemClick.bind(this)} >Get Root Item</button>
@@ -62,3 +69,38 @@ class ApiTests extends React.Component {
 }
 
 export default ApiTests;
+
+let fruitsAndVegetables = [
+  {
+    id: 100,
+    text: 'Fruits',
+    children: [
+      {
+        id: 101,
+        text: 'Orange',
+        isLeaf: true
+      },
+      {
+        id: 102,
+        text: 'Banana',
+        isLeaf: true
+      }
+    ]
+  },
+  {
+    id: 200,
+    text: 'Vegetables',
+    children: [
+      {
+        id: 201,
+        text: 'Carrot',
+        isLeaf: true
+      },
+      {
+        id: 202,
+        text: 'Tomato',
+        isLeaf: true
+      }
+    ]
+  }
+];

@@ -1,4 +1,6 @@
 import {CHECKBOX_STATE} from './deni-react-treeview-item.constant'
+import ActionButtons from './action-buttons'
+import React from 'react'
 
 module.exports = {
 
@@ -100,11 +102,17 @@ module.exports = {
     return classNames.join(' ');
   },
 
-  getItemText (treeview, item) {
-    if (treeview.props.onRenderItem) {
-      return treeview.props.onRenderItem(item, treeview);
+  getInnerText (treeview, item) {
+    if (treeview.props.actionButtons) {
+      return (
+        <ActionButtons />
+      )
     } else {
-      return item.text;
+      if (treeview.props.onRenderItem) {
+        return treeview.props.onRenderItem(item, treeview);
+      } else {
+        return item.text;
+      }
     }
   },
 
@@ -148,7 +156,7 @@ module.exports = {
       if (selectRow) {
         finishRoutine();
       } else {
-        if ((target.classList.contains('icon-and-text')) || (target.classList.contains('icon')) || (target.classList.contains('text-inner')) || (target.classList.contains('text'))) {
+        if ((target.classList.contains('icon-and-text')) || (target.classList.contains('icon')) || (target.classList.contains('text-inner')) || (target.classList.contains('text') || (target.classList.contains('action-buttons-container-text')))) {
           finishRoutine();
         }
       }

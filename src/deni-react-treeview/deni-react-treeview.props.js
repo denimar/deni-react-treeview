@@ -15,6 +15,7 @@ module.exports = {
     ]),
     onAfterLoad: PropTypes.func,
     onBeforeLoad: PropTypes.func,
+    onRenderItem: PropTypes.func,
     onSelectItem: PropTypes.func,
     selectRow: PropTypes.bool,
     showCheckbox: PropTypes.bool,

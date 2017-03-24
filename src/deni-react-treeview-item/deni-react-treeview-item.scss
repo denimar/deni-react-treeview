@@ -157,12 +157,14 @@
       padding-right: $lateral-padding;
       border-radius: 3px;
       cursor: pointer;
-      flex: 1;
-      justify-content: space-around;
+      height: $line-height;
       // align-items: flex-start;
       // flex-direction: row;
 
       &.select-row {
+        flex: 1;
+        justify-content: space-around;
+
         &:hover {
           border-width: 0px;
           padding-left: $lateral-padding;
@@ -216,7 +218,10 @@
         .text-inner {
           white-space: nowrap;
           flex: 1;
-          justify-content: space-around;          
+          height: $line-height;
+          align-items: center;
+          flex-direction: row;
+          display: flex;
         }
 
       }
