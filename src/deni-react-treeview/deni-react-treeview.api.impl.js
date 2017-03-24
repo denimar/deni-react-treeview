@@ -15,6 +15,8 @@ module.exports = {
     parent.children.push(newItem);
     parent.expanded = true;
     _selectNode(scope, newItem);
+    
+    return newItem;
   },
 
   findFolder: (scope, folderToFind) => {

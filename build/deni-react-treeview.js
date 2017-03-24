@@ -3481,6 +3481,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    parent.children.push(newItem);
 	    parent.expanded = true;
 	    _selectNode(scope, newItem);
+	
+	    return newItem;
 	  },
 	
 	  findFolder: function findFolder(scope, folderToFind) {
