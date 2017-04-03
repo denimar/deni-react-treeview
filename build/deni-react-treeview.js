@@ -562,6 +562,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var style = {
 	        paddingLeft: marginLeft + marginLeftItems + 'px'
 	      };
+	      if (!treeview.props.showRoot && this.props.root) {
+	        style.display = 'none';
+	      }
 	
 	      return _react2['default'].createElement(
 	        'div',
