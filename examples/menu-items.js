@@ -5,6 +5,7 @@ import React from 'react'
 //import AutoLoad from './components/examples/AutoLoad'
 //import ManualLazyLoad from './components/examples/ManualLazyLoad'
 import ApiTests from './components/examples/ApiTests'
+import RootNodeTests from './components/examples/RootNodeTests'
 
 module.exports = {
     items: [
@@ -125,12 +126,18 @@ module.exports = {
                     "description": 'bla bla bla',
                     "route": "theme"
                 }, {
-                    "id": 999,
+                    "id": 998,
                     "title": "Testing API",
                     "jsfiddle": "xgcmnk5q",
                     "component": ApiTests,
                     "description": "Testing API",
                     "route": "apitests"
+                }, {
+                    "id": 999,
+                    "title": "Testing Root Node",
+                    "component": RootNodeTests,
+                    "description": "Testing Root Node",
+                    "route": "roottests"
                 }
             ]
         }

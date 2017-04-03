@@ -21,6 +21,9 @@ class DeniReactTreeViewItem extends React.Component {
       let style = {
         paddingLeft: (marginLeft + marginLeftItems) + 'px'
       }
+      if (!treeview.props.showRoot && this.props.root) {
+        style.display = 'none';
+      }
 
       return (
         <div style={style} className={treeviewItemHelper.getClassItem(treeview, item, level, selectRow)} onMouseDown={treeviewItemHelper.treeviewItemContainerMouseDown.bind(this, this.props.treeview, selectRow)} onDoubleClick={treeviewItemHelper.treeviewItemContainerDoubleClick.bind(this, treeviewItemHelper, this.props.treeview, selectRow)}>
