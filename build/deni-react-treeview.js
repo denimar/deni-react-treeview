@@ -52,7 +52,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -152,15 +152,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = DeniReactTreeView;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -184,9 +184,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -198,9 +198,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	/*
 		MIT License http://www.opensource.org/licenses/mit-license.php
@@ -253,9 +253,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		return list;
 	};
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/*
 		MIT License http://www.opensource.org/licenses/mit-license.php
@@ -505,9 +505,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -598,9 +598,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = DeniReactTreeViewItem;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -624,9 +624,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -638,9 +638,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 9 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -978,9 +978,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	}
 
-/***/ },
+/***/ }),
 /* 10 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	"use strict";
 	
@@ -994,9 +994,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	};
 
-/***/ },
+/***/ }),
 /* 11 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -1013,9 +1013,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = _actionButtons2['default'];
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 12 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -1081,9 +1081,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = ActionButtons;
 	module.exports = exports['default'];
 
-/***/ },
+/***/ }),
 /* 13 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -1107,9 +1107,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 14 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -1121,9 +1121,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 15 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -1140,9 +1140,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  defaultProps: {}
 	};
 
-/***/ },
+/***/ }),
 /* 16 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -1256,9 +1256,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return null;
 	}
 
-/***/ },
+/***/ }),
 /* 17 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -1273,17 +1273,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	};
 
-/***/ },
+/***/ }),
 /* 18 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	module.exports = __webpack_require__(19);
 
-/***/ },
+/***/ }),
 /* 19 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -1338,9 +1338,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// Allow use of default import syntax in TypeScript
 	module.exports['default'] = axios;
 
-/***/ },
+/***/ }),
 /* 20 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -1638,9 +1638,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  trim: trim
 	};
 
-/***/ },
+/***/ }),
 /* 21 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -1654,9 +1654,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	};
 
-/***/ },
+/***/ }),
 /* 22 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -1744,9 +1744,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	module.exports = Axios;
 
-/***/ },
+/***/ }),
 /* 23 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
@@ -1838,9 +1838,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = defaults;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(24)))
 
-/***/ },
+/***/ }),
 /* 24 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	// shim for using process in browser
 	'use strict';
@@ -2009,6 +2009,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	process.removeListener = noop;
 	process.removeAllListeners = noop;
 	process.emit = noop;
+	process.prependListener = noop;
+	process.prependOnceListener = noop;
+	
+	process.listeners = function (name) {
+	    return [];
+	};
 	
 	process.binding = function (name) {
 	    throw new Error('process.binding is not supported');
@@ -2024,9 +2030,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return 0;
 	};
 
-/***/ },
+/***/ }),
 /* 25 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2041,9 +2047,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  });
 	};
 
-/***/ },
+/***/ }),
 /* 26 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 	
@@ -2219,9 +2225,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(24)))
 
-/***/ },
+/***/ }),
 /* 27 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2244,9 +2250,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-/***/ },
+/***/ }),
 /* 28 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2266,9 +2272,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return enhanceError(error, config, code, response);
 	};
 
-/***/ },
+/***/ }),
 /* 29 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -2290,9 +2296,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return error;
 	};
 
-/***/ },
+/***/ }),
 /* 30 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2356,9 +2362,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return url;
 	};
 
-/***/ },
+/***/ }),
 /* 31 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2400,9 +2406,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return parsed;
 	};
 
-/***/ },
+/***/ }),
 /* 32 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2468,9 +2474,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	})();
 
-/***/ },
+/***/ }),
 /* 33 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -2508,9 +2514,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	module.exports = btoa;
 
-/***/ },
+/***/ }),
 /* 34 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2566,9 +2572,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	})();
 
-/***/ },
+/***/ }),
 /* 35 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2623,9 +2629,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	module.exports = InterceptorManager;
 
-/***/ },
+/***/ }),
 /* 36 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2688,9 +2694,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  });
 	};
 
-/***/ },
+/***/ }),
 /* 37 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2713,9 +2719,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return data;
 	};
 
-/***/ },
+/***/ }),
 /* 38 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -2723,9 +2729,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return !!(value && value.__CANCEL__);
 	};
 
-/***/ },
+/***/ }),
 /* 39 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -2743,9 +2749,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  );
 	};
 
-/***/ },
+/***/ }),
 /* 40 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -2760,9 +2766,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '');
 	};
 
-/***/ },
+/***/ }),
 /* 41 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -2784,9 +2790,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	module.exports = Cancel;
 
-/***/ },
+/***/ }),
 /* 42 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -2846,9 +2852,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	module.exports = CancelToken;
 
-/***/ },
+/***/ }),
 /* 43 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -2878,9 +2884,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  };
 	};
 
-/***/ },
+/***/ }),
 /* 44 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var map = {
 		"./base-theme.scss": 45,
@@ -2908,9 +2914,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	webpackContext.id = 44;
 
 
-/***/ },
+/***/ }),
 /* 45 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -2934,9 +2940,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 46 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -2948,9 +2954,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 47 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -2974,9 +2980,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 48 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -2988,9 +2994,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 49 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -3014,9 +3020,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 50 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -3028,9 +3034,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 51 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -3054,9 +3060,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 52 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -3068,9 +3074,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 53 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -3094,9 +3100,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 54 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -3108,9 +3114,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 55 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -3134,9 +3140,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 56 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -3148,9 +3154,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 57 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -3174,9 +3180,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 58 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -3188,9 +3194,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 59 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -3214,9 +3220,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 60 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -3228,9 +3234,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 61 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -3254,9 +3260,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 62 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -3268,9 +3274,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 63 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
@@ -3294,9 +3300,9 @@ return /******/ (function(modules) { // webpackBootstrap
 		module.hot.dispose(function() { update(); });
 	}
 
-/***/ },
+/***/ }),
 /* 64 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(4)();
 	// imports
@@ -3308,9 +3314,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	// exports
 
 
-/***/ },
+/***/ }),
 /* 65 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -3347,9 +3353,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	};
 
-/***/ },
+/***/ }),
 /* 66 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -3462,9 +3468,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	};
 
-/***/ },
+/***/ }),
 /* 67 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 	
@@ -3559,8 +3565,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	
 	  selectItem: function selectItem(scope, itemToFind) {
-	    var item = scope.api.findItem(itemToFind);
-	    _selectNode(scope, item);
+	    var item = scope.api.findNode(itemToFind);
+	    if (item) {
+	      _selectNode(scope, item);
+	    } else {
+	      throw new Error('Item not found.');
+	    }
 	  }
 	
 	};
@@ -3666,7 +3676,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  });
 	}
 
-/***/ }
+/***/ })
 /******/ ])
 });
 ;

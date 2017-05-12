@@ -15,7 +15,7 @@ module.exports = {
     parent.children.push(newItem);
     parent.expanded = true;
     _selectNode(scope, newItem);
-    
+
     return newItem;
   },
 
@@ -90,8 +90,12 @@ module.exports = {
   },
 
   selectItem: (scope, itemToFind) => {
-    let item = scope.api.findItem(itemToFind);
-    _selectNode(scope, item);
+    let item = scope.api.findNode(itemToFind);
+    if (item) {
+      _selectNode(scope, item);
+    } else {
+      throw new Error('Item not found.');
+    }
   },
 
 }
