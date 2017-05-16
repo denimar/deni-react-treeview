@@ -57,6 +57,11 @@ module.exports = {
     return scope.state.rootItem.children || [];
   },
 
+  getParentNode: (scope, item) => {
+    let currentItem = item || scope.state.selectedItem;
+    return _getParentItem(scope, currentItem);
+  },
+
   getRootItem: (scope) => {
     return scope.state.rootItem;
   },

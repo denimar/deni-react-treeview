@@ -52,6 +52,14 @@ module.exports = (scope) => {
     //
     //
     //
+    getParentNode: (item) => {
+      return treeviewApiImpl.getParentNode(scope, item);
+    },
+
+
+    //
+    //
+    //
     getRootItem: () => {
       return treeviewApiImpl.getRootItem(scope);
     },

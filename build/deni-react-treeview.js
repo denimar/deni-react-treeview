@@ -3420,6 +3420,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	        //
 	        //
 	        //
+	        getParentNode: function getParentNode(item) {
+	            return _deniReactTreeviewApiImpl2['default'].getParentNode(scope, item);
+	        },
+	
+	        //
+	        //
+	        //
 	        getRootItem: function getRootItem() {
 	            return _deniReactTreeviewApiImpl2['default'].getRootItem(scope);
 	        },
@@ -3530,6 +3537,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	  getItems: function getItems(scope) {
 	    return scope.state.rootItem.children || [];
+	  },
+	
+	  getParentNode: function getParentNode(scope, item) {
+	    var currentItem = item || scope.state.selectedItem;
+	    return _getParentItem(scope, currentItem);
 	  },
 	
 	  getRootItem: function getRootItem(scope) {
