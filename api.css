@@ -1,0 +1,18 @@
+body {
+  font-family: arial,sans-serif,verdana;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li {
+  font-family: verdana,arial,sans-serif;
+  line-height: 22px;
+}
