@@ -35,6 +35,7 @@ body, html {
     background: #2e7bcf url(images/header-bg.png) 0 0 repeat-x;
     color: white;
     padding: 5px 0px 10px 10px;
+    align-items: center;
 }
 
 .index header .header-inner .lateral-spaces {
@@ -43,7 +44,7 @@ body, html {
 }
 
 .index header .header-inner .header-description {
-    width: calc(960px - 200px);
+    width: calc(960px - 165px);
 }
 
 .index header .header-inner .header-description .title {
@@ -144,6 +145,7 @@ body, html {
 .index .content-wrapper .content-inner section {
     width: calc(960px - 200px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .index .content-wrapper .content-inner section::-webkit-scrollbar {
@@ -187,6 +189,11 @@ body, html {
 .index .content-wrapper .content-inner section .content-text a:hover {
     color: #72b9d9;
 }
+
+.index .content-wrapper .content-inner section .content-text .img-treeviews {
+    width: 700px;
+}
+
 
 .index .content-wrapper .content-inner aside {
     display: flex;
