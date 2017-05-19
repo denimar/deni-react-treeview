@@ -3,6 +3,8 @@ A modern, themable and configurable treeview for React
 
 [site](https://denimar.github.io/deni-react-treeview/), [examples](https://denimar.github.io/deni-react-treeview/examples)
 
+![alt text](https://denimar.github.io/deni-react-treeview/images/deni-react-treeview.png)
+
 
 ## Installing with NPM
 
