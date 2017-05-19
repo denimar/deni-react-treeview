@@ -6,6 +6,10 @@ A modern, themable and configurable treeview for React
 ![alt text](https://denimar.github.io/deni-react-treeview/images/deni-react-treeview.png)
 
 
+This app was implemented just to show as a portfolio, so it can give us an idea of how I have worked, knowledges, best practices, patterns and so on.
+
+TODO: In the future I will implement the tests, Cloud CI.
+
 ## Installing with NPM
 
 ```
