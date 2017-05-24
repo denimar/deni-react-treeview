@@ -24,58 +24,54 @@ body, html {
     box-sizing: border-box;
 }
 
-.index header {
+.index .main-header {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background: #2e7bcf url(images/header-bg.png) 0 0 repeat-x;
 }
 
-.index header .header-inner {
+.index .main-header .header-inner {
     display: flex;
     flex-direction: row;
-    background: #2e7bcf url(images/header-bg.png) 0 0 repeat-x;
     color: white;
     padding: 5px 0px 10px 10px;
     align-items: center;
 }
 
-.index header .header-inner .lateral-spaces {
-    flex: 1;
-    justify-content: space-around;
-}
-
-.index header .header-inner .header-description {
+.index .main-header .header-inner .header-description {
     width: calc(960px - 165px);
 }
 
-.index header .header-inner .header-description .title {
+.index .main-header .header-inner .header-description .title {
     font-weight: normal;
     margin: 0px;
     padding: 0px;
 }
 
-.index header .header-inner .header-description .title.title1 {
+.index .main-header .header-inner .header-description .title.title1 {
     font-size: 72px;
 }
 
-.index header .header-inner .header-description .title.title2 {
+.index .main-header .header-inner .header-description .title.title2 {
     font-size: 64px;
 }
 
-.index header .header-inner .header-description .subtitle {
+.index .main-header .header-inner .header-description .subtitle {
     color: #9ddcff;
     font-weight: normal;
     margin: 0px;
 }
 
-.index header .header-inner .header-description .subtitle.subtitle1 {
+.index .main-header .header-inner .header-description .subtitle.subtitle1 {
     font-size: 24px;
 }
 
-.index header .header-inner .header-description .subtitle.subtitle2 {
+.index .main-header .header-inner .header-description .subtitle.subtitle2 {
     font-size: 18px;
 }
 
-.index header .header-inner .header-description div.github-button {
+.index .main-header .header-inner .header-description div.github-button {
     border: solid 1px white;
     font-size: 14px;
     margin: 10px 5px 0px 0px;
@@ -85,7 +81,7 @@ body, html {
     display: inline-block;
 }
 
-.index header .header-inner .header-description div.github-button a {
+.index .main-header .header-inner .header-description div.github-button a {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,20 +89,20 @@ body, html {
     text-decoration: none;
 }
 
-.index header .header-inner .header-description div.github-button a .button-zip-tar {
+.index .main-header .header-inner .header-description div.github-button a .button-zip-tar {
   display: flex;
   align-items: center;
 }
 
-.index header .header-inner .header-description div.github-button a span {
+.index .main-header .header-inner .header-description div.github-button a span {
     margin-right: 5px;
 }
 
-.index header .header-inner .header-github-image {
+.index .main-header .header-inner .header-github-image {
     width: 200px;
 }
 
-.index header .header-inner .header-github-image div.github-button {
+.index .main-header .header-inner .header-github-image div.github-button {
     border: solid 2px white;
     margin: 4px;
     padding: 8px;
@@ -116,7 +112,7 @@ body, html {
     flex-direction: column;
 }
 
-.index header .header-inner .header-github-image div.github-button a {
+.index .main-header .header-inner .header-github-image div.github-button a {
     color: white;
     text-decoration: none;
     display: flex;
@@ -124,13 +120,12 @@ body, html {
     align-items: center;
 }
 
-.index header .header-inner .header-github-image div.github-button a span {
+.index .main-header .header-inner .header-github-image div.github-button a span {
     margin-right: 5px;
 }
 
 .index .content-wrapper {
     display: flex;
-    flex-direction: column;
     flex: 1;
     justify-content: space-around;
 }
@@ -138,8 +133,6 @@ body, html {
 .index .content-wrapper .content-inner {
     display: flex;
     flex-direction: row;
-    flex: 1;
-    justify-content: space-around;
 }
 
 .index .content-wrapper .content-inner section {
