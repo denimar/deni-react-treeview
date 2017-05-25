@@ -26,6 +26,12 @@ module.exports = {
                     "description": "Binding to a Javascript object as a variable",
                     "jsfiddle": "7mox9ne3",
                     "route": "javascript"
+                }, {
+                    "id": 105,
+                    "title": "Binding by .setState()",
+                    "description": "Binding to a Javascript object which will be loaded using the setState method.",
+                    "jsfiddle": "ybbrpx0u",
+                    "route": "setstate"
                 }
             ]
         }, {
