@@ -5,7 +5,7 @@ import React from 'react'
 //import AutoLoad from './components/examples/AutoLoad'
 //import ManualLazyLoad from './components/examples/ManualLazyLoad'
 import ApiTests from './components/examples/ApiTests'
-import RootNodeTests from './components/examples/RootNodeTests'
+import LoadWithSetState from './components/examples/LoadWithSetState'
 
 module.exports = {
     items: [
@@ -134,10 +134,10 @@ module.exports = {
                     "route": "apitests"
                 }, {
                     "id": 999,
-                    "title": "Testing Root Node",
-                    "component": RootNodeTests,
-                    "description": "Testing Root Node",
-                    "route": "roottests"
+                    "title": "Testing Load with SetState",
+                    "component": LoadWithSetState,
+                    "description": "Testing Load with Set State",
+                    "route": "setstate"
                 }
             ]
         }

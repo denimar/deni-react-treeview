@@ -117,6 +117,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var self = this;
 	      var domTreeviewItem = _react2['default'].createElement(_deniReactTreeviewItemDeniReactTreeviewItem2['default'], { root: true, treeview: self, level: 0, item: this.state.rootItem });
 	      var children = this.state.rootItem && this.state.rootItem.children;
+	      if (children && children.length === 0) {
+	        if (this.props.items && this.props.items.length > 0) {
+	          children = this.props.items;
+	        }
+	      }
 	
 	      return children !== undefined ? _react2['default'].createElement(
 	        'div',
