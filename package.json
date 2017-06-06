@@ -1,6 +1,6 @@
 {
   "name": "deni-react-treeview",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern, themable and configurable treeview for React.",
   "main": "build/deni-react-treeview.js",
