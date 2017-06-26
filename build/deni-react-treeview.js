@@ -795,7 +795,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (item.isLeaf) {
 	        //TODO: Create a event here
 	      } else {
-	          helper.treeviewItemExpandButtonMouseDown.call(this, treeview, item);
+	          helper.treeviewItemExpandButtonMouseDown.apply(this, treeview, item);
 	        }
 	    }
 	  },
