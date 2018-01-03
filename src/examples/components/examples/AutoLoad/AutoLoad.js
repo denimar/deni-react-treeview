@@ -1,5 +1,5 @@
 import React from 'react'
-import TreeView from '../../../../src/deni-react-treeview/deni-react-treeview';
+import TreeView from '../../../../../src/deni-react-treeview/deni-react-treeview';
 
 class AutoLoad extends React.Component {
 
@@ -18,7 +18,7 @@ class AutoLoad extends React.Component {
         <TreeView
           ref="treeview"
           autoLoad={false}
-          json="https://denimar.github.io/static-data/countries.json"
+          json="https://denifakedata.herokuapp.com/tree/countries"
         />
       </div>
     )

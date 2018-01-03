@@ -6,7 +6,7 @@ class Example extends React.Component {
   render() {
 
     return (
-      <TreeView url="https://denimar.github.io/static-data/countries.json" />
+      <TreeView url="https://denifakedata.herokuapp.com/tree/countries" />
     );
 
   }

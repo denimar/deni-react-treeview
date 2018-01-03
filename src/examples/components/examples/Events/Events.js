@@ -1,10 +1,10 @@
 import React from 'react';
-import TreeView from '../../../../src/deni-react-treeview/deni-react-treeview';
+import TreeView from '../../../../../src/deni-react-treeview/deni-react-treeview';
 import './Events.scss'
 
 class Events extends React.Component {
 
-  url = "https://denimar.github.io/static-data/countries.json"
+  url = "https://denifakedata.herokuapp.com/tree/countries"
 
   logEvents(eventName) {
   	let consoleElem = document.getElementById('console');

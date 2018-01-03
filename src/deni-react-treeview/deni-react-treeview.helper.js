@@ -35,7 +35,7 @@ module.exports = {
         let urlToLoad = self.props.url || self.props.json;
         if (self.props.lazyLoad) {
           let currentItem = item || self.state.rootItem || ROOT_ITEM;
-          urlToLoad += '&lazyLoad=true&item=' + JSON.stringify(currentItem);
+          urlToLoad += '?lazyLoad=true&item=' + JSON.stringify(currentItem);
         }
 
         axios.get(urlToLoad)

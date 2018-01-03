@@ -4,7 +4,7 @@ import React from 'react'
 //import Events from './components/examples/Events'
 //import AutoLoad from './components/examples/AutoLoad'
 //import ManualLazyLoad from './components/examples/ManualLazyLoad'
-import ApiTests from './components/examples/ApiTests'
+import LazyLoad from './components/examples/LazyLoad'
 import LoadWithSetState from './components/examples/LoadWithSetState'
 
 module.exports = {
@@ -80,55 +80,59 @@ module.exports = {
                     "id": 401,
                     "title": "autoLoad = false",
                     "jsfiddle": "yynzedks",
-                    "description": 'bla bla bla',
+                    "description": 'TODO: implement this example',
                     "route": "autoload"
                 }, {
                     "id": 402,
                     "title": "manual lazyLoad",
                     "jsfiddle": "qp72drx0",
-                    "description": 'bla bla bla',
+                    "description": 'TODO: implement this example',
                     //"component": Theming,
                     "route": "lazyload"
                 }, {
                     "id": 403,
                     "title": "marginItems",
                     "jsfiddle": "tc8Lovb7",
-                    "description": 'bla bla bla',
+                    "description": 'TODO: implement this example',
                     "route": "marginitems"
                 }, {
                     "id": 404,
                     "title": "selectRow",
                     "jsfiddle": "tc8Lovb7",
-                    "description": 'bla bla bla',
+                    "description": 'TODO: implement this example',
                     "route": "selectrow"
                 }, {
                     "id": 405,
                     "title": "showCheckbox",
                     "jsfiddle": "tc8Lovb7",
-                    "description": 'bla bla bla',
+                    "description": '...',
                     "route": "showcheckbox"
                 }, {
                     "id": 406,
                     "title": "showIcon",
-                    "jsfiddle": "tc8Lovb7",
-                    "description": 'bla bla bla',
+                    "description": 'TODO: implement this example',
                     "route": "showicon"
                 }, {
                     "id": 407,
                     "title": "showRoot",
                     "jsfiddle": "tc8Lovb7",
-                    "description": 'bla bla bla',
+                    "description": 'TODO: implement this example',
                     "route": "showroot"
                 }, {
                     "id": 408,
                     "title": "theme",
                     "jsfiddle": "xgcmnk5q",
-                    "description": 'bla bla bla',
+                    "description": '...',
                     "route": "theme"
+                }, {
+                    "id": 997,
+                    "title": "Lazy Load",
+                    "component": LazyLoad,
+                    "description": "Lazy load items",
+                    "route": "lazy"
                 }, {
                     "id": 998,
                     "title": "Testing API",
-                    "jsfiddle": "xgcmnk5q",
                     "component": ApiTests,
                     "description": "Testing API",
                     "route": "apitests"

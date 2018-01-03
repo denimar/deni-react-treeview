@@ -1,5 +1,5 @@
 import React from 'react';
-import TreeView from '../../../../src/deni-react-treeview/deni-react-treeview';
+import TreeView from '../../../../../src/deni-react-treeview/deni-react-treeview';
 require('./ApiTests.scss')
 import FaTrashO from 'react-icons/lib/fa/trash-o';
 import FaEdit from 'react-icons/lib/fa/edit';
@@ -63,13 +63,13 @@ class ApiTests extends React.Component {
         <div className="body">
           <TreeView
             ref="treeview"
-            url="https://denimar.github.io/static-data/countries.json"
+            url="https://denifakedata.herokuapp.com/tree/countries"
             selectRow={true}
             onRenderItem={this.onRenderItem.bind(this)}
           />
 
           <TreeView
-            url="https://denimar.github.io/static-data/countries.json"
+            url="https://denifakedata.herokuapp.com/tree/countries"
             selectRow={true}
             actionButtons={actionButtons}
             onActionButtonClick={this.onActionButtonClick}
