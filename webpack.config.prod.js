@@ -1,44 +1,70 @@
 var path = require('path');
+var webpack = require('webpack');
 
-// currently, this is for bower
-var config = {
+var APP_DIR = path.resolve(__dirname, 'src');
+var BUILD_DIR = path.resolve(__dirname, 'build');
+
+var CleanWebpackPlugin = require('clean-webpack-plugin');
+var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+
+var plugins = [];
+plugins.push(new CleanWebpackPlugin(['build']));
+plugins.push(new UglifyJsPlugin({ minimize: true }));
+
+
+module.exports = {
   devtool: 'sourcemap',
   entry: {
-    index: './src/deni-react-treeview/deni-react-treeview.jsx',
+    index: APP_DIR + '/deni-react-treeview/deni-react-treeview.jsx',
   },
   output: {
-    path: path.join(__dirname, 'build'),
+    path: BUILD_DIR,
     publicPath: 'build/',
     filename: 'deni-react-treeview.js',
     sourceMapFilename: 'deni-react-treeview.map',
-    library: 'TreeView',
-    libraryTarget: 'umd',
+    library: 'DeniReactTreeview',
+    libraryTarget: 'umd'
   },
   module: {
-    loaders: [
+    rules: [
       {
-        test: /\.(js|jsx)/,
-        loader: 'babel',
+        test: /(\.jsx|\.js)$/,
+        exclude: [/(node_modules|bower_components)/],
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['react', 'es2015']
+          }
+        }
       },
       {
-        test: /\.scss$/,
-        loaders: ['style', 'css', 'sass'],
-        exclude: /build|lib|node_modules/,
-      }
-    ],
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
+      },
+  	  {
+  		  test: /\.scss$/,
+  		  use: [
+  		    {
+  		  	  loader: "style-loader"
+  		    },
+  		    {
+    			  loader: "css-loader",
+  	  		  options: {
+  		  	    sourceMap: true
+  			    }
+  		    },
+  		    {
+  			    loader: "sass-loader",
+            options: {
+  			      sourceMap: true
+  			    }
+  		    }
+  	   	]
+  	  }
+    ]
   },
-  plugins: [],
   resolve: {
-    extensions: ['', '.js', '.jsx'],
+    extensions: ['.js', '.jsx'],
   },
-  externals: {
-    'react': {
-      root: 'React',
-      commonjs2: 'react',
-      commonjs: 'react',
-      amd: 'react',
-    },
-  },
-};
-
-module.exports = config;
+  plugins: plugins
+}

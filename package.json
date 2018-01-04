@@ -10,6 +10,7 @@
   "scripts": {
     "start": "SET NODE_ENV=development & node server.js",
     "dev": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/cross-env WEBPACK_ENV=build ./node_modules/.bin/webpack --config webpack.config.prod.js",
     "lint": "eslint src"
   },
   "repository": {
@@ -33,13 +34,6 @@
     "url": "https://github.com/denimar/deni-react-treeview/issues"
   },
   "homepage": "https://github.com/denimar/deni-react-treeview",
-  "peerDependencies": {
-    "react": ">=0.14.0"
-  },
-  "dependencies": {
-    "axios": "^0.17.1",
-    "react-icons": "^2.2.7"
-  },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel": "^6.23.0",
@@ -63,9 +57,9 @@
     "node-sass": "^4.5.3",
     "phantomjs": "^2.1.7",
     "postcss-loader": "^2.0.6",
-    "react": "^15.6.1",
-    "react-addons-test-utils": "^15.6.0",
-    "react-dom": "^15.6.1",
+    "react": "^16.2.0",
+    "react-addons-test-utils": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
     "sass-loader": "^6.0.6",

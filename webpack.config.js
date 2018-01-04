@@ -8,7 +8,7 @@ var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 var env = process.env.WEBPACK_ENV || 'dev';
 var APP_DIR = path.resolve(__dirname, 'src');
-var BUILD_DIR = path.resolve(__dirname, 'dist');
+//var BUILD_DIR = path.resolve(__dirname, 'dist');
 
 var YOUR_APPLICATIONS_NAME = 'deni-react-treeview';
 
@@ -35,10 +35,10 @@ let config = {
   entry: [
     APP_DIR + '/examples/index.js'
   ],
-  output: {
-    path: BUILD_DIR,
-    filename: './' + outputFile
-  },
+  // output: {
+  //   path: BUILD_DIR,
+  //   filename: './' + outputFile
+  // },
   module: {
     rules: [
       {
@@ -51,11 +51,6 @@ let config = {
           }
         }
       },
-      // {
-      //   test: /(\.jsx|\.js)$/,
-      //   exclude: [/node_modules/],
-      //   use: 'eslint-loader'
-      // },
       {
         test: /\.css$/,
         use: [ 'style-loader', 'css-loader' ]

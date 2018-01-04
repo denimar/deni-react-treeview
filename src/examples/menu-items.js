@@ -5,6 +5,7 @@ import React from 'react'
 //import AutoLoad from './components/examples/AutoLoad'
 //import ManualLazyLoad from './components/examples/ManualLazyLoad'
 import LazyLoad from './components/examples/LazyLoad'
+import ApiTests from './components/examples/ApiTests'
 import LoadWithSetState from './components/examples/LoadWithSetState'
 
 module.exports = {
