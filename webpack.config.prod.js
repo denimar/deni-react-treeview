@@ -22,7 +22,7 @@ module.exports = {
     publicPath: 'build/',
     filename: 'deni-react-treeview.js',
     sourceMapFilename: 'deni-react-treeview.map',
-    library: 'DeniReactTreeview',
+    library: 'Treeview',
     libraryTarget: 'umd'
   },
   module: {
