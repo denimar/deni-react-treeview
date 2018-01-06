@@ -8,6 +8,8 @@ import treeviewApiFn from './deni-react-treeview.api'
 class DeniReactTreeView extends React.Component {
 
   constructor(props) {
+    alert('criating 01');
+
     super(props);
     this.state = {
       theme: props.theme
