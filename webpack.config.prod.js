@@ -1,5 +1,12 @@
 var path = require('path');
 
+var CleanWebpackPlugin = require('clean-webpack-plugin');
+var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+
+var plugins = [];
+plugins.push(new CleanWebpackPlugin(['dist']));
+plugins.push(new UglifyJsPlugin({ minimize: true }));
+
 // currently, this is for bower
 var config = {
   //devtool: 'sourcemap',
@@ -55,7 +62,7 @@ var config = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  plugins: [],
+  plugins: plugins,
   externals: {
     'react': {
       root: 'React',
