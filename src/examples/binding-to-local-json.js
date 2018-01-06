@@ -1,5 +1,5 @@
 import React from 'react';
-import TreeView from '../../build/deni-react-treeview';
+//import TreeView from '../../build/deni-react-treeview';
 
 class Example extends React.Component{
 
