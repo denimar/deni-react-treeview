@@ -9,7 +9,7 @@ var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 var plugins = [];
 plugins.push(new CleanWebpackPlugin(['build']));
-plugins.push(new UglifyJsPlugin({ minimize: true }));
+plugins.push(new UglifyJsPlugin({ minimize: false }));
 
 
 module.exports = {
