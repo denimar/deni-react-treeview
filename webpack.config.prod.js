@@ -2,7 +2,7 @@ var path = require('path');
 
 // currently, this is for bower
 var config = {
-  devtool: 'sourcemap',
+  //devtool: 'sourcemap',
   entry: {
     index: './src/deni-react-treeview/deni-react-treeview.jsx',
   },
@@ -10,7 +10,7 @@ var config = {
     path: path.join(__dirname, 'build'),
     publicPath: 'build/',
     filename: 'deni-react-treeview.js',
-    sourceMapFilename: 'deni-react-treeview.map',
+    //sourceMapFilename: 'deni-react-treeview.map',
     library: 'TreeView',
     libraryTarget: 'umd',
   },
@@ -38,15 +38,15 @@ var config = {
   		    },
   		    {
     			  loader: "css-loader",
-  	  		  options: {
-  		  	    sourceMap: true
-  			    }
+  	  		  // options: {
+  		  	  //   sourceMap: true
+  			    // }
   		    },
   		    {
   			    loader: "sass-loader",
-            options: {
-  			      sourceMap: true
-  			    }
+            // options: {
+  			    //   sourceMap: true
+  			    // }
   		    }
   	   	]
   	  },
