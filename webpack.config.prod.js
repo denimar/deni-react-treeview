@@ -9,7 +9,7 @@ var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 var plugins = [];
 plugins.push(new CleanWebpackPlugin(['build']));
-plugins.push(new UglifyJsPlugin({ minimize: false }));
+plugins.push(new UglifyJsPlugin({ minimize: true }));
 
 
 module.exports = {
@@ -48,13 +48,13 @@ module.exports = {
   		    {
     			  loader: "css-loader",
   	  		  options: {
-  		  	    sourceMap: true
+  		  	    sourceMap: false
   			    }
   		    },
   		    {
   			    loader: "sass-loader",
             options: {
-  			      sourceMap: true
+  			      sourceMap: false
   			    }
   		    }
   	   	]
