@@ -22,7 +22,7 @@ module.exports = {
                     "id": 102,
                     "title": "to a JSON",
                     "description": "Binding to a JSON file, which might comes locally or remotelly.",
-                    "component": BindToLocalJson,
+                    //  "component": BindToLocalJson,
                     "jsfiddle": "tc8Lovb7",
                     "route": "json"
                 }, {

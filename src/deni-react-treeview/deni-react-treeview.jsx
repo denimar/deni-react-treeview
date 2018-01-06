@@ -15,7 +15,6 @@ class DeniReactTreeView extends React.Component {
   }
 
   componentDidMount() {
-    alert('here');
     this.api = treeviewApiFn(this);
     treeviewHelper.setTheme(this, this.props.theme);
     treeviewHelper.loadingSetup(this);
@@ -23,7 +22,7 @@ class DeniReactTreeView extends React.Component {
 
   render() {
     let self = this;
-    let domTreeviewItem = <DeniReactTreeViewItem root={true} treeview={self} level={0} item={this.state.rootItem} />;
+    let domTreeviewItem = (<DeniReactTreeViewItem root={true} treeview={self} level={0} item={this.state.rootItem} />);
     let children = this.state.rootItem && this.state.rootItem.children;
     if (children && children.length === 0) {
       if (this.props.items && this.props.items.length > 0) {
