@@ -13,6 +13,7 @@ plugins.push(new CleanWebpackPlugin(['build']));
 
 
 module.exports = {
+  devtool: 'source-map',
   entry: {
     index: APP_DIR + '/deni-react-treeview/deni-react-treeview.jsx',
   },
@@ -63,6 +64,9 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+  },
+  externals: {
+    react: 'react'
   },
   plugins: plugins
 }
