@@ -1,25 +1,27 @@
 var path = require('path');
+var webpack = require('webpack');
+
+var APP_DIR = path.resolve(__dirname, 'src');
+var BUILD_DIR = path.resolve(__dirname, 'build');
 
 var CleanWebpackPlugin = require('clean-webpack-plugin');
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 var plugins = [];
-plugins.push(new CleanWebpackPlugin(['dist']));
+plugins.push(new CleanWebpackPlugin(['build']));
 plugins.push(new UglifyJsPlugin({ minimize: true }));
 
-// currently, this is for bower
-var config = {
-  //devtool: 'sourcemap',
+
+module.exports = {
   entry: {
-    index: './src/deni-react-treeview/deni-react-treeview.jsx',
+    index: APP_DIR + '/deni-react-treeview/deni-react-treeview.jsx',
   },
   output: {
-    path: path.join(__dirname, 'build'),
+    path: BUILD_DIR,
     publicPath: 'build/',
     filename: 'deni-react-treeview.js',
-    //sourceMapFilename: 'deni-react-treeview.map',
     library: 'TreeView',
-    libraryTarget: 'umd',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
@@ -45,32 +47,22 @@ var config = {
   		    },
   		    {
     			  loader: "css-loader",
-  	  		  // options: {
-  		  	  //   sourceMap: true
-  			    // }
+  	  		  options: {
+  		  	    sourceMap: true
+  			    }
   		    },
   		    {
   			    loader: "sass-loader",
-            // options: {
-  			    //   sourceMap: true
-  			    // }
+            options: {
+  			      sourceMap: true
+  			    }
   		    }
   	   	]
-  	  },
+  	  }
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
   },
-  plugins: plugins,
-  externals: {
-    'react': {
-      root: 'React',
-      commonjs2: 'react',
-      commonjs: 'react',
-      amd: 'react',
-    },
-  },
-};
-
-module.exports = config;
+  plugins: plugins
+}
