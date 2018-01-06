@@ -66,7 +66,12 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   externals: {
-    react: 'react'
+    'react': {
+      root: 'React',
+        commonjs2: 'react',
+        commonjs: 'react',
+        amd: 'react',
+      }
   },
   plugins: plugins
 }

@@ -4,7 +4,6 @@ import React from 'react';
 class Example extends React.Component{
 
   render() {
-
     return (
       <TreeView json="./data/countries-by-continents.json" />
     );

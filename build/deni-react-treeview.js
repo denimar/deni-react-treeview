@@ -6,7 +6,7 @@
 	else if(typeof exports === 'object')
 		exports["TreeView"] = factory(require("react"));
 	else
-		root["TreeView"] = factory(root["react"]);
+		root["TreeView"] = factory(root["React"]);
 })(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_4__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
