@@ -1,0 +1,882 @@
+[
+  {
+    "url": "http://www.halsteadks.com/",
+    "long": "-97.5",
+    "name": "Halstead",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38"
+  },
+  {
+    "url": "http://www.newtonkansas.com/",
+    "long": "-97.34",
+    "name": "Newton",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.04"
+  },
+  {
+    "url": "http://skyways.lib.ks.us/towns/Burlington/",
+    "long": "-95.74",
+    "name": "Burlington",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.19"
+  },
+  {
+    "url": "http://edwardsvilleks.org/",
+    "long": "-94.81",
+    "name": "Edwardsville",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.06"
+  },
+  {
+    "url": "http://www.eldoks.com/",
+    "long": "-96.86",
+    "name": "El Dorado",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.81"
+  },
+  {
+    "url": "http://www.roelandpark.net/",
+    "long": "-94.63",
+    "name": "Roeland Park",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.03"
+  },
+  {
+    "url": "http://www.cityofrosehill.com/",
+    "long": "-97.13",
+    "name": "Rose Hill",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.55"
+  },
+  {
+    "url": "http://www.ci.elkhart.ks.us/",
+    "long": "-101.89",
+    "name": "Elkhart",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37"
+  },
+  {
+    "url": "http://www.ellis.ks.us/",
+    "long": "-99.56",
+    "name": "Ellis",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.93"
+  },
+  {
+    "url": "http://www.northnewton.org/",
+    "long": "-97.34",
+    "name": "North Newton",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.07"
+  },
+  {
+    "url": "http://www.lindsborgcity.org/",
+    "long": "-97.67",
+    "name": "Lindsborg",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.57"
+  },
+  {
+    "url": "http://www.cityofulysses.com/",
+    "long": "-101.35",
+    "name": "Ulysses",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.58"
+  },
+  {
+    "url": "http://www.russellcity.org/",
+    "long": "-98.85",
+    "name": "Russell",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.89"
+  },
+  {
+    "url": "http://www.skyways.org/towns/Sabetha/",
+    "long": "-95.8",
+    "name": "Sabetha",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.9"
+  },
+  {
+    "url": "http://www.haysusa.com/",
+    "long": "-99.32",
+    "name": "Hays",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.87"
+  },
+  {
+    "url": "http://www.emporia-kansas.gov/",
+    "long": "-96.18",
+    "name": "Emporia",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.4"
+  },
+  {
+    "url": "http://www.haysville-ks.com/",
+    "long": "-97.35",
+    "name": "Haysville",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.56"
+  },
+  {
+    "url": "http://www.stjohnkansas.com/",
+    "long": "-98.76",
+    "name": "Saint John",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38"
+  },
+  {
+    "url": "http://www.hesstonks.org/",
+    "long": "-97.43",
+    "name": "Hesston",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.13"
+  },
+  {
+    "url": "http://www.valleycenterks.org/",
+    "long": "-97.37",
+    "name": "Valley Center",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.83"
+  },
+  {
+    "url": "http://www.ci.salina.ks.us/",
+    "long": "-97.61",
+    "name": "Salina",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.84"
+  },
+  {
+    "url": "http://www.olatheks.org/",
+    "long": "-94.81",
+    "name": "Olathe",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.88"
+  },
+  {
+    "url": "http://www.abilenecityhall.com/",
+    "long": "-97.21",
+    "name": "Abilene",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.91"
+  },
+  {
+    "url": "http://www.osagecity.com/",
+    "long": "-95.82",
+    "name": "Osage City",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.63"
+  },
+  {
+    "url": "http://www.holtonks.net/city/",
+    "long": "-95.73",
+    "name": "Holton",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.46"
+  },
+  {
+    "url": "http://www.cityofsedgwick.org/",
+    "long": "-97.42",
+    "name": "Sedgwick",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.91"
+  },
+  {
+    "url": "http://www.chanute.org/",
+    "long": "-95.45",
+    "name": "Chanute",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.67"
+  },
+  {
+    "url": "http://www.hortonkansas.net/",
+    "long": "-95.52",
+    "name": "Horton",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.66"
+  },
+  {
+    "url": "http://www.fairwaykansas.org/",
+    "long": "-94.63",
+    "name": "Fairway",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.02"
+  },
+  {
+    "url": "http://www.ottawakansas.net/",
+    "long": "-95.26",
+    "name": "Ottawa",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.61"
+  },
+  {
+    "url": "http://cityofhugoton.com/",
+    "long": "-101.34",
+    "name": "Hugoton",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.17"
+  },
+  {
+    "url": "http://www.opkansas.org/",
+    "long": "-94.67",
+    "name": "Overland Park",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.98"
+  },
+  {
+    "url": "http://www.cityofshawnee.org/",
+    "long": "-94.72",
+    "name": "Shawnee",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.04"
+  },
+  {
+    "url": "http://www.hutchgov.com/",
+    "long": "-97.92",
+    "name": "Hutchinson",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.06"
+  },
+  {
+    "url": "http://www.andoverks.com/",
+    "long": "-97.13",
+    "name": "Andover",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.71"
+  },
+  {
+    "url": "http://www.cityofmaize.org/",
+    "long": "-97.46",
+    "name": "Maize",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.77"
+  },
+  {
+    "url": "http://www.florenceks.com",
+    "long": "-96.92",
+    "name": "Florence",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.24"
+  },
+  {
+    "url": "http://www.ci.manhattan.ks.us/",
+    "long": "-96.57",
+    "name": "Manhattan",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.18"
+  },
+  {
+    "url": "http://www.arkcity.org/",
+    "long": "-97.03",
+    "name": "Arkansas City",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.06"
+  },
+  {
+    "url": "http://www.cityofpaola.com/",
+    "long": "-94.87",
+    "name": "Paola",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.57"
+  },
+  {
+    "url": "http://www.armakansas.org/",
+    "long": "-94.7",
+    "name": "Arma",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.54"
+  },
+  {
+    "url": "http://www.cityofiola.com/",
+    "long": "-95.39",
+    "name": "Iola",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.92"
+  },
+  {
+    "url": "http://www.parkcityks.com/",
+    "long": "-97.31",
+    "name": "Park City",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.8"
+  },
+  {
+    "url": "http://www.fredoniaks.org/",
+    "long": "-95.82",
+    "name": "Fredonia",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.53"
+  },
+  {
+    "url": "http://www.clearwaterks.org/",
+    "long": "-97.5",
+    "name": "Clearwater",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.5"
+  },
+  {
+    "url": "http://www.mcfarlandks.com/",
+    "long": "-96.23",
+    "name": "McFarland",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.05"
+  },
+  {
+    "url": "http://www.coffeyville.com/",
+    "long": "-95.61",
+    "name": "Coffeyville",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.03"
+  },
+  {
+    "url": "http://www.cityofcolby.com/",
+    "long": "-101.05",
+    "name": "Colby",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.39"
+  },
+  {
+    "url": "http://www.garden-city.org/",
+    "long": "-100.87",
+    "name": "Garden City",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.97"
+  },
+  {
+    "url": "http://www.mcphcity-bpu.com/",
+    "long": "-97.66",
+    "name": "McPherson",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.37"
+  },
+  {
+    "url": "http://www.baldwincity.org/",
+    "long": "-95.18",
+    "name": "Baldwin City",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.77"
+  },
+  {
+    "url": "http://www.gardnerkansas.gov/",
+    "long": "-94.92",
+    "name": "Gardner",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.81"
+  },
+  {
+    "url": "http://cityofwellington.net/",
+    "long": "-97.37",
+    "name": "Wellington",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.26"
+  },
+  {
+    "url": "http://www.pittks.org/",
+    "long": "-94.7",
+    "name": "Pittsburg",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.41"
+  },
+  {
+    "url": "http://www.jcks.com/",
+    "long": "-96.83",
+    "name": "Junction City",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.02"
+  },
+  {
+    "url": "http://www.wycokck.org/",
+    "long": "-94.62",
+    "name": "Kansas City",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.11"
+  },
+  {
+    "url": "http://www.cityofbasehor.org/",
+    "long": "-94.93",
+    "name": "Basehor",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.14"
+  },
+  {
+    "url": "http://www.kechiks.com/",
+    "long": "-97.27",
+    "name": "Kechi",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.79"
+  },
+  {
+    "url": "http://www.merriam.org/",
+    "long": "-94.69",
+    "name": "Merriam",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.02"
+  },
+  {
+    "url": "http://www.springhillks.com/",
+    "long": "-94.82",
+    "name": "Spring Hill",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.74"
+  },
+  {
+    "url": "http://www.belaireks.org/",
+    "long": "-97.26",
+    "name": "Bellaire",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.76"
+  },
+  {
+    "url": "http://www.glenelder.com/",
+    "long": "-98.3",
+    "name": "Glen Elder",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.49"
+  },
+  {
+    "url": "http://www.minneapolisksorg.org/",
+    "long": "-97.7",
+    "name": "Minneapolis",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.12"
+  },
+  {
+    "url": "http://www.goddardkansas.us/",
+    "long": "-97.57",
+    "name": "Goddard",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.65"
+  },
+  {
+    "url": "http://www.beloitks.org/",
+    "long": "-98.1",
+    "name": "Beloit",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.45"
+  },
+  {
+    "url": "http://www.mission-ks.org/",
+    "long": "-94.65",
+    "name": "Mission",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.02"
+  },
+  {
+    "url": "http://www.missionhillsks.gov/",
+    "long": "-94.61",
+    "name": "Mission Hills",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.01"
+  },
+  {
+    "url": "http://www.wichita.gov",
+    "long": "-97.33",
+    "name": "Wichita",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.69"
+  },
+  {
+    "url": "http://stocktonkansas.net/",
+    "long": "-99.26",
+    "name": "Stockton",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.43"
+  },
+  {
+    "url": "http://www.pvkansas.com/",
+    "long": "-94.63",
+    "name": "Prairie Village",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.99"
+  },
+  {
+    "url": "http://www.lansing.ks.us/",
+    "long": "-94.9",
+    "name": "Lansing",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.24"
+  },
+  {
+    "url": "http://www.winfieldks.org/",
+    "long": "-96.99",
+    "name": "Winfield",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.23"
+  },
+  {
+    "url": "http://www.lawrenceks.org/",
+    "long": "-95.23",
+    "name": "Lawrence",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.97"
+  },
+  {
+    "url": "http://www.derbyweb.com/",
+    "long": "-97.26",
+    "name": "Derby",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.54"
+  },
+  {
+    "url": "http://www.lvks.org/",
+    "long": "-94.92",
+    "name": "Leavenworth",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.31"
+  },
+  {
+    "url": "http://www.leawood.org/",
+    "long": "-94.61",
+    "name": "Leawood",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.96"
+  },
+  {
+    "url": "http://www.dodgecity.org/",
+    "long": "-100.01",
+    "name": "Dodge City",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.75"
+  },
+  {
+    "url": "http://www.ci.lenexa.ks.us/",
+    "long": "-94.73",
+    "name": "Lenexa",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.95"
+  },
+  {
+    "url": "http://www.mulvanekansas.com/",
+    "long": "-97.24",
+    "name": "Mulvane",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.47"
+  },
+  {
+    "url": "http://www.tongie.org/",
+    "long": "-95.08",
+    "name": "Tonganoxie",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.1"
+  },
+  {
+    "url": "http://www.bonnersprings.org/",
+    "long": "-94.88",
+    "name": "Bonner Springs",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.05"
+  },
+  {
+    "url": "http://www.cityofliberal.com/",
+    "long": "-100.92",
+    "name": "Liberal",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.04"
+  },
+  {
+    "url": "http://www.topeka.org/",
+    "long": "-95.67",
+    "name": "Topeka",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.04"
+  },
+  {
+    "url": "http://www.skyways.org/towns/Sabetha/",
+    "long": "-95.8",
+    "name": "Sabetha",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.9"
+  },
+  {
+    "url": "http://www.cityofsedgwick.org/",
+    "long": "-97.42",
+    "name": "Sedgwick",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.91"
+  },
+  {
+    "url": "http://www.ci.manhattan.ks.us/",
+    "long": "-96.57",
+    "name": "Manhattan",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "39.18"
+  },
+  {
+    "url": "http://www.springhillks.com/",
+    "long": "-94.82",
+    "name": "Spring Hill",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "38.74"
+  },
+  {
+    "url": "http://www.mulvanekansas.com/",
+    "long": "-97.24",
+    "name": "Mulvane",
+    "state": {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    "lat": "37.47"
+  }
+]

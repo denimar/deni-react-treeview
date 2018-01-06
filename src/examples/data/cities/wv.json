@@ -1,0 +1,192 @@
+[
+  {
+    "url": "http://www.parkersburg-wv.com/",
+    "long": "-81.56",
+    "name": "Parkersburg",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "39.26"
+  },
+  {
+    "url": "http://www.philippi.org/",
+    "long": "-80.04",
+    "name": "Philippi",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "39.15"
+  },
+  {
+    "url": "http://www.stalbanswv.com/",
+    "long": "-81.83",
+    "name": "Saint Albans",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "38.38"
+  },
+  {
+    "url": "http://www.shepherdstown.us/",
+    "long": "-77.8",
+    "name": "Shepherdstown",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "39.43"
+  },
+  {
+    "url": "http://www.shinnstonwv.com/",
+    "long": "-80.3",
+    "name": "Shinnston",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "39.39"
+  },
+  {
+    "url": "http://www.cityofspencer.com/",
+    "long": "-81.35",
+    "name": "Spencer",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "38.8"
+  },
+  {
+    "url": "http://www.cityofweirton.com/",
+    "long": "-80.58",
+    "name": "Weirton",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "40.41"
+  },
+  {
+    "url": "http://www.cityofwheelingwv.org/",
+    "long": "-80.72",
+    "name": "Wheeling",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "40.06"
+  },
+  {
+    "url": "http://www.beckley.org/",
+    "long": "-81.18",
+    "name": "Beckley",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "37.77"
+  },
+  {
+    "url": "http://www.cityofbluefield.com/",
+    "long": "-81.22",
+    "name": "Bluefield",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "37.26"
+  },
+  {
+    "url": "http://www.bridgeportwv.com/",
+    "long": "-80.25",
+    "name": "Bridgeport",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "39.28"
+  },
+  {
+    "url": "http://www.buckhannonwv.org",
+    "long": "-80.23",
+    "name": "Buckhannon",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "38.99"
+  },
+  {
+    "url": "http://www.cityofcharleston.org/",
+    "long": "-81.63",
+    "name": "Charleston",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "38.34"
+  },
+  {
+    "url": "http://www.clarksburg.com/",
+    "long": "-80.34",
+    "name": "Clarksburg",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "39.28"
+  },
+  {
+    "url": "http://www.cityofhuntington.com/",
+    "long": "-82.44",
+    "name": "Huntington",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "38.41"
+  },
+  {
+    "url": "http://www.lewisburg-wv.com/",
+    "long": "-80.44",
+    "name": "Lewisburg",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "37.8"
+  },
+  {
+    "url": "http://www.morgantown.com/",
+    "long": "-79.95",
+    "name": "Morgantown",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "39.62"
+  },
+  {
+    "url": "http://www.cityofweirton.com/",
+    "long": "-80.58",
+    "name": "Weirton",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "40.41"
+  },
+  {
+    "url": "http://www.cityofhuntington.com/",
+    "long": "-82.44",
+    "name": "Huntington",
+    "state": {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    "lat": "38.41"
+  }
+]
