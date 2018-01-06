@@ -1,7 +1,7 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 import './deni-react-treeview-item.scss'
 import treeviewItemHelper from './deni-react-treeview-item.helper'
-import props from './deni-react-treeview-item.props'
+//import treeviewItemProps from './deni-react-treeview-item.props'
 
 class DeniReactTreeViewItem extends React.Component {
 
@@ -44,7 +44,7 @@ class DeniReactTreeViewItem extends React.Component {
 
 }
 
-DeniReactTreeViewItem.propTypes = props.propTypes;
-DeniReactTreeViewItem.defaultProps = props.defaultProps;
+//DeniReactTreeViewItem.propTypes = treeviewItemProps.propTypes;
+//DeniReactTreeViewItem.defaultProps = treeviewItemProps.defaultProps;
 
 export default DeniReactTreeViewItem;

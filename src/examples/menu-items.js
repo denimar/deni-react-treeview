@@ -4,9 +4,11 @@ import React from 'react'
 //import Events from './components/examples/Events'
 //import AutoLoad from './components/examples/AutoLoad'
 //import ManualLazyLoad from './components/examples/ManualLazyLoad'
+
 import LazyLoad from './components/examples/LazyLoad'
 import ApiTests from './components/examples/ApiTests'
 import LoadWithSetState from './components/examples/LoadWithSetState'
+import BindToLocalJson from './binding-to-local-json'
 
 module.exports = {
     items: [
@@ -20,6 +22,7 @@ module.exports = {
                     "id": 102,
                     "title": "to a JSON",
                     "description": "Binding to a JSON file, which might comes locally or remotelly.",
+                    //"component": BindToLocalJson,
                     "jsfiddle": "tc8Lovb7",
                     "route": "json"
                 }, {
@@ -125,19 +128,22 @@ module.exports = {
                     "jsfiddle": "xgcmnk5q",
                     "description": '...',
                     "route": "theme"
-                }, {
+                },
+                {
                     "id": 997,
                     "title": "Lazy Load",
                     "component": LazyLoad,
                     "description": "Lazy load items",
                     "route": "lazy"
-                }, {
+                },
+                {
                     "id": 998,
                     "title": "Testing API",
                     "component": ApiTests,
                     "description": "Testing API",
                     "route": "apitests"
-                }, {
+                },
+                {
                     "id": 999,
                     "title": "Testing Load with SetState",
                     "component": LoadWithSetState,

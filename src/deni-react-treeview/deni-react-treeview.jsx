@@ -2,7 +2,7 @@ import React from 'react';
 import './deni-react-treeview.scss'
 import DeniReactTreeViewItem from '../deni-react-treeview-item/deni-react-treeview-item'
 import treeviewHelper from './deni-react-treeview.helper'
-import props from './deni-react-treeview.props'
+import treeviewProps from './deni-react-treeview.props'
 import treeviewApiFn from './deni-react-treeview.api'
 
 class DeniReactTreeView extends React.Component {
@@ -15,6 +15,7 @@ class DeniReactTreeView extends React.Component {
   }
 
   componentDidMount() {
+    alert('here');
     this.api = treeviewApiFn(this);
     treeviewHelper.setTheme(this, this.props.theme);
     treeviewHelper.loadingSetup(this);
@@ -42,8 +43,8 @@ class DeniReactTreeView extends React.Component {
 
 }
 
-DeniReactTreeView.propTypes = props.propTypes;
-DeniReactTreeView.defaultProps = props.defaultProps;
+//DeniReactTreeView.propTypes = treeviewProps.propTypes;
+DeniReactTreeView.defaultProps = treeviewProps.defaultProps;
 
 function _createComponentsChildren (treeview, parent, level, children) {
   return (

@@ -1,4 +1,5 @@
-import {PropTypes} from 'react';
+//import {PropTypes} from 'react';
+import PropTypes from 'prop-types';
 
 module.exports = {
 

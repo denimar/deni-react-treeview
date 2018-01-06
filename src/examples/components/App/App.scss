@@ -18,6 +18,7 @@ html,body,#root {
   font-family: arial,tahoma;
   display: flex;
   flex-direction: column;
+  background-color: #ebf5fa;
 
   .title {
     height: 35px;
@@ -30,6 +31,10 @@ html,body,#root {
     text-align: center;
     background-color: #1565C0;
     box-shadow: 0px 5px 5px silver;
+    background-color: #2e7bcf;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAKjAgMAAAA2YSoMAAAACVBMVEUiY4EcUWkfWnUfaU3JAAAAVElEQVRo3u3MoREAIAwEwS+NJugn9VAlPoPAxO3JE5vTq/ytR7u3gsfj8Xg8Ho/H4/F4PB6Px+PxeDwej8fj8Xg8Ho/H4/F4PB6Px+PxeDwejx/iL0yFw5He4oh8AAAAAElFTkSuQmCC");
   }
 
   .menu-and-body {
@@ -37,6 +42,7 @@ html,body,#root {
     flex: 1;
     display: flex;
     flex-direction: row;
+    padding: 15px;
 
     .menu {
       $border-color: darken(#f2f2f2, 4%);
