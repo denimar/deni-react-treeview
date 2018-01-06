@@ -13,16 +13,15 @@ plugins.push(new UglifyJsPlugin({ minimize: true }));
 
 
 module.exports = {
-  devtool: 'sourcemap',  
   entry: {
     index: APP_DIR + '/deni-react-treeview/deni-react-treeview.jsx',
   },
   output: {
+    path: BUILD_DIR,
     publicPath: 'build/',
     filename: 'deni-react-treeview.js',
-    sourceMapFilename: 'deni-react-treeview.map',
     library: 'TreeView',
-    libraryTarget: 'umd',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
