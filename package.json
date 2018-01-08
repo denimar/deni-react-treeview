@@ -1,6 +1,6 @@
 {
   "name": "deni-react-treeview",
-  "version": "0.1.13",
+  "version": "0.2.0",
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern, themable and configurable treeview for React.",
   "main": "build/deni-react-treeview.js",
@@ -8,11 +8,10 @@
     "build": "build"
   },
   "scripts": {
-    "start": "SET NODE_ENV=development & node server.js",
+    "start": "./node_modules/.bin/webpack-dev-server",
     "dev": "./node_modules/.bin/webpack-dev-server",
     "build": "./node_modules/.bin/webpack --config webpack.config.prod.js",
     "ghpages": "./node_modules/.bin/webpack --config webpack.config.ghpages.js",
-    "buildOld": "./node_modules/.bin/cross-env WEBPACK_ENV=build ./node_modules/.bin/webpack --config webpack.config.prod.js",
     "lint": "eslint src"
   },
   "repository": {

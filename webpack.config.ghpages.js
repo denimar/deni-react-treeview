@@ -3,13 +3,10 @@ var webpack = require('webpack');
 
 var APP_DIR = path.resolve(__dirname, 'src');
 var GHPAGES_DIR = path.resolve(__dirname, 'gh-pages');
-var BUILD_DIR = path.resolve(__dirname, 'build');
 
-//var CleanWebpackPlugin = require('clean-webpack-plugin');
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 var plugins = [];
-//plugins.push(new CleanWebpackPlugin(['build']));
 plugins.push(new UglifyJsPlugin({ minimize: true }));
 
 
@@ -20,7 +17,6 @@ module.exports = {
   },
   output: {
     path: GHPAGES_DIR + '/examples/',
-    //publicPath: GHPAGES_DIR + '/examples/',
     filename: 'bundle.js'
   },
   module: {
