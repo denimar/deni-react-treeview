@@ -1,5 +1,4 @@
 import React from 'react'
-import createReactClass from 'create-react-class'
 import ReactDOM from 'react-dom'
 
 import { HashRouter, Route, Redirect, IndexRedirect, hashHistory, applyRouterMiddleware } from 'react-router-dom'
