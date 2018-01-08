@@ -11,6 +11,7 @@
     "start": "SET NODE_ENV=development & node server.js",
     "dev": "./node_modules/.bin/webpack-dev-server",
     "build": "./node_modules/.bin/webpack --config webpack.config.prod.js",
+    "ghpages": "./node_modules/.bin/webpack --config webpack.config.ghpages.js",
     "buildOld": "./node_modules/.bin/cross-env WEBPACK_ENV=build ./node_modules/.bin/webpack --config webpack.config.prod.js",
     "lint": "eslint src"
   },

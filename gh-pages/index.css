@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1 !important;
+}
+
+body, html {
+    height: 100%;
+    position: relative;
+}
+
+.content-wrapper p {
+    margin-top: 10px;
+}
+
+.index {
+    overflow-y: hidden;
+    font-family: Helvetica, Arial, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.index * {
+    box-sizing: border-box;
+}
+
+.index .main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2e7bcf url(images/header-bg.png) 0 0 repeat-x;
+}
+
+.index .main-header .header-inner {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 5px 0px 10px 10px;
+    align-items: center;
+}
+
+.index .main-header .header-inner .header-description {
+    width: calc(960px - 165px);
+}
+
+.index .main-header .header-inner .header-description .title {
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.index .main-header .header-inner .header-description .title.title1 {
+    font-size: 72px;
+}
+
+.index .main-header .header-inner .header-description .title.title2 {
+    font-size: 64px;
+}
+
+.index .main-header .header-inner .header-description .subtitle {
+    color: #9ddcff;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.index .main-header .header-inner .header-description .subtitle.subtitle1 {
+    font-size: 24px;
+}
+
+.index .main-header .header-inner .header-description .subtitle.subtitle2 {
+    font-size: 18px;
+}
+
+.index .main-header .header-inner .header-description div.github-button {
+    border: solid 1px white;
+    font-size: 14px;
+    margin: 10px 5px 0px 0px;
+    padding: 4px;
+    border-radius: 3px;
+    width: 160px;
+    display: inline-block;
+}
+
+.index .main-header .header-inner .header-description div.github-button a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.index .main-header .header-inner .header-description div.github-button a .button-zip-tar {
+  display: flex;
+  align-items: center;
+}
+
+.index .main-header .header-inner .header-description div.github-button a span {
+    margin-right: 5px;
+}
+
+.index .main-header .header-inner .header-github-image {
+    width: 200px;
+}
+
+.index .main-header .header-inner .header-github-image div.github-button {
+    border: solid 2px white;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.index .main-header .header-inner .header-github-image div.github-button a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.index .main-header .header-inner .header-github-image div.github-button a span {
+    margin-right: 5px;
+}
+
+.index .content-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.index .content-wrapper .content-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.index .content-wrapper .content-inner section {
+    width: calc(960px - 200px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.index .content-wrapper .content-inner section::-webkit-scrollbar {
+    width: 8px;
+}
+
+.index .content-wrapper .content-inner section::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.index .content-wrapper .content-inner section::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.index .content-wrapper .content-inner section .content-text {
+    color: #666666;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.index .content-wrapper .content-inner section .content-text .title {
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+
+.index .content-wrapper .content-inner section .content-text .title:before {
+    padding-right: 0.3em;
+    margin-left: -2em;
+    content: "///";
+    color: #9ddcff;
+}
+
+.index .content-wrapper .content-inner section .content-text a {
+    text-decoration: none;
+    color: #308bb5;
+}
+
+.index .content-wrapper .content-inner section .content-text a:hover {
+    color: #72b9d9;
+}
+
+.index .content-wrapper .content-inner section .content-text .img-treeviews {
+    width: 700px;
+}
+
+
+.index .content-wrapper .content-inner aside {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.index .content-wrapper .content-inner aside .button-zip-tar {
+    color: #1C5169;
+    font-size: 18px;
+    margin-left: 0px;
+    border: solid 1px #c3e1ef;
+    margin-bottom: 5px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.index .content-wrapper .content-inner aside .button-zip-tar div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index .content-wrapper .content-inner aside .button-zip-tar span:first-child {
+    font-size: 10px;
+}
+
+.index .content-wrapper .content-inner aside a {
+    text-decoration: none;
+    color: #369bc9;
+}
+
+.index .content-wrapper .content-inner aside .avatar {
+    margin-top: 20px;
+    font-size: 11px;
+    color: gray;
+    border-top: solid 1px #f2f2f2;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.index .bower-install {
+    margin: 10px 0px 0px 0px;
+    border: solid 1px #9ddcff;
+    font-size: 14px;
+    padding: 8px;
+    background-color: #f0f3f4;
+    color: gray;
+    font-family: tahoma;
+    color: #1C5169;
+    height: 34px;
+    width: 220px;
+    border-radius: 3px;
+    vertical-align: top;
+    display: inline-block;
+}
