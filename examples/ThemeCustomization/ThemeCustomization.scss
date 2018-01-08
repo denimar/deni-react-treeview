@@ -1,0 +1,56 @@
+/* changing background-color, border-color, font-family, font size */
+.theme-customization {
+  height: 100%;
+
+  .deni-react-treeview-container {
+    background-color: #ffffe6 !important;
+    border-color: #ffdb99;
+    font-family: tahoma;
+    font-size: 14px;
+    width: 400px;
+
+    /* changing the font color, font size and line's height */
+    .deni-react-treeview-item-container {
+      height: 36px;
+
+      /* changing the font color, and padding top and bottom (left is not recommended) */
+      .icon-and-text {
+        color: brown;
+        padding-top: 6px;
+        padding-bottom: 6px;
+
+        /* changing the selected item properties */
+        &.selected {
+          color: red;
+          border-color: #eaaeae;
+        }
+
+        /* changing the icons of the folders expanded */
+        .icon {
+          width: 24px !important;
+          height: 24px !important;
+
+          /* changing the icons of the folders colapsed */
+          //&.colapsed {
+            background-image: url(https://denifakedata.herokuapp.com/images/closed-folder.png) !important;
+          //}
+          /* changing the icons of the folders expanded */
+          &.expanded {
+            background-image: url(https://denifakedata.herokuapp.com/images/opened-folder.png) !important;
+          }
+
+          /* changing the icons of the items */
+          &.isleaf {
+            background-image: url(https://denifakedata.herokuapp.com/images/dog.png) !important;
+          }
+
+        }
+
+
+      }
+
+    }
+
+  }
+
+}

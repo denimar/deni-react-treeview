@@ -1,0 +1,73 @@
+.api-tests-viewport {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ccc;
+  margin: 4px;
+
+  &> .body {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-direction: row !important;
+
+    .deni-react-treeview-container {
+      width: 450px;
+
+      .deni-react-treeview-item-container {
+
+        .icon-and-text {
+          cursor: default !important;
+        }
+
+        .treeview-item-example {
+          display: flex;
+          flex: 1;
+          justify-content: space-around;
+
+          .treeview-item-example-text {
+            flex: 1;
+            justify-content: space-around;
+          }
+
+          .actionButton {
+            margin-right: 5px;
+            cursor: pointer;
+            opacity: 0.3;
+            //visibility: hidden;
+
+            &.trash {
+              color: #ff6666;
+            }
+
+            &.edit {
+              color: #006699; //#00cc44;
+              margin-top: 1px;
+            }
+          }
+        }
+
+        &:hover {
+          .actionButton {
+            visibility: visible;
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .buttons {
+      margin-left: 4px;
+      flex: 1;
+      justify-content: space-around;
+
+      button {
+        width: 150px;
+        display: block;
+        margin-bottom: 2px;
+      }
+    }
+
+  }
+
+}

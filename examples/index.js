@@ -1,47 +1,43 @@
 import React from 'react'
+import createReactClass from 'create-react-class'
 import ReactDOM from 'react-dom'
-import { Router, Route, Redirect, IndexRedirect, hashHistory, applyRouterMiddleware } from 'react-router'
+
+import { HashRouter, Route, Redirect, IndexRedirect, hashHistory, applyRouterMiddleware } from 'react-router-dom'
 import menuItems from './menu-items'
 
 import App from './components/App'
 import Example from './components/Example'
 import NotMatch from './components/NotMatch'
 
-const useExtraProps = {
-  renderRouteComponent: (child) => {
-    if (child.props.route.jsfiddle) {
-      return React.cloneElement(child, {
-        jsfiddle: child.props.route.jsfiddle,
-        description: child.props.route.description
-      })
-    } else {
-      return child;
-    }
-  }
+const ExampleContainer = (component, files) => {
+  return (
+    <Example component={component} files={ files } />
+  );
 }
 
-ReactDOM.render(
-  <Router history={hashHistory} render={applyRouterMiddleware(useExtraProps)}>
-    <Route path="/" component={App} >
-      {
-        menuItems.items.map(menuItem => {
-          return menuItem.children.map(children => {
-            return (
-              <Route
-                key={children.id}
-                path={children.route}
-                component={children.component || Example}
-                jsfiddle={children.jsfiddle}
-                description={children.description} >
-              </Route>
-            );
-          });
-        })
-      }
+const appChildren = [];
+menuItems.items.map(menuItem => {
+  return menuItem.children.map(child => {
+    appChildren.push(
+      <Route
+        key={ child.id }
+        path={ '/' + child.route }
+        component={ ExampleContainer.bind(this, child.component, child.files) }
+      >
+      </Route>
+    );
+  });
+})
+appChildren.push(
+  <Redirect from="/" to="/local-json"/>
+)
+appChildren.push(
+  <Redirect from="/#" to="/local-json"/>
+)
 
-      <IndexRedirect to="/json" />
-      <Redirect from="*" to="/json" />
-    </Route>
-  </Router>,
+ReactDOM.render(
+  <HashRouter>
+    <Route path="/" component={() => (<App children={ appChildren } />)}></Route>
+  </HashRouter>,
   document.getElementById('root')
 );

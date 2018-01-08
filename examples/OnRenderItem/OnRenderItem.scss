@@ -1,0 +1,41 @@
+.onrenderitem-example {
+  
+  .deni-react-treeview-item-container {
+
+    .icon-and-text {
+      cursor: default !important;
+    }
+
+    .treeview-item-example {
+      display: flex;
+      flex: 1;
+
+      .treeview-item-example-text {
+        flex: 1;
+      }
+
+      .actionButton {
+        margin-right: 5px;
+        cursor: pointer;
+        opacity: 0.5;
+
+        &.trash {
+          color: #ff6666;
+        }
+
+        &.edit {
+          color: #006699; //#00cc44;
+          margin-top: 1px;
+        }
+      }
+    }
+
+    &:hover {
+      .actionButton {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+  }
+}

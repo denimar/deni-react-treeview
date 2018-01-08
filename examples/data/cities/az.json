@@ -1,0 +1,702 @@
+[
+  {
+    "url": "http://www.ci.wickenburg.az.us/",
+    "long": "-112.72",
+    "name": "Wickenburg",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.96"
+  },
+  {
+    "url": "http://www.willcoxcity.org/",
+    "long": "-109.83",
+    "name": "Willcox",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.25"
+  },
+  {
+    "url": "http://www.williamsaz.gov/council.html",
+    "long": "-112.19",
+    "name": "Williams",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "35.24"
+  },
+  {
+    "url": "http://ci.winslow.az.us/",
+    "long": "-110.69",
+    "name": "Winslow",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "35.02"
+  },
+  {
+    "url": "http://www.ci.yuma.az.us/",
+    "long": "-114.62",
+    "name": "Yuma",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.72"
+  },
+  {
+    "url": "http://www.ajcity.net/",
+    "long": "-111.54",
+    "name": "Apache Junction",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.41"
+  },
+  {
+    "url": "http://www.ci.avondale.az.us/",
+    "long": "-112.34",
+    "name": "Avondale",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.43"
+  },
+  {
+    "url": "http://www.cityofbenson.com/",
+    "long": "-110.29",
+    "name": "Benson",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "31.96"
+  },
+  {
+    "url": "http://www.cityofbisbee.com/",
+    "long": "-109.92",
+    "name": "Bisbee",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "31.44"
+  },
+  {
+    "url": "http://www.buckeyeaz.gov/",
+    "long": "-112.58",
+    "name": "Buckeye",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.37"
+  },
+  {
+    "url": "http://www.bullheadcity.com/",
+    "long": "-114.56",
+    "name": "Bullhead City",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "35.14"
+  },
+  {
+    "url": "http://www.cvaz.org/",
+    "long": "-111.85",
+    "name": "Camp Verde",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.56"
+  },
+  {
+    "url": "http://www.carefree.org/",
+    "long": "-111.91",
+    "name": "Carefree",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.82"
+  },
+  {
+    "url": "http://www.casagrandeaz.gov/",
+    "long": "-111.75",
+    "name": "Casa Grande",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.87"
+  },
+  {
+    "url": "http://www.cavecreek.org/",
+    "long": "-111.95",
+    "name": "Cave Creek",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.83"
+  },
+  {
+    "url": "http://chandleraz.gov/",
+    "long": "-111.84",
+    "name": "Chandler",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.3"
+  },
+  {
+    "url": "http://www.chinoaz.net/",
+    "long": "-112.45",
+    "name": "Chino Valley",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.75"
+  },
+  {
+    "url": "http://www.clarkdale.az.us/",
+    "long": "-112.05",
+    "name": "Clarkdale",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.77"
+  },
+  {
+    "url": "http://www.coolidgeaz.com/",
+    "long": "-111.51",
+    "name": "Coolidge",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.97"
+  },
+  {
+    "url": "http://www.ci.cottonwood.az.us/",
+    "long": "-112",
+    "name": "Cottonwood",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.73"
+  },
+  {
+    "url": "http://www.townofduncan.com/",
+    "long": "-109.1",
+    "name": "Duncan",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.72"
+  },
+  {
+    "url": "http://www.eagaraz.gov/",
+    "long": "-109.29",
+    "name": "Eagar",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.11"
+  },
+  {
+    "url": "http://www.cityofelmirage.org/",
+    "long": "-112.32",
+    "name": "El Mirage",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.61"
+  },
+  {
+    "url": "http://www.eloyaz.org/",
+    "long": "-111.55",
+    "name": "Eloy",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.75"
+  },
+  {
+    "url": "http://www.flagstaff.az.gov/",
+    "long": "-111.65",
+    "name": "Flagstaff",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "35.19"
+  },
+  {
+    "url": "http://www.florenceaz.gov/",
+    "long": "-111.38",
+    "name": "Florence",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.03"
+  },
+  {
+    "url": "http://www.fh.az.gov/",
+    "long": "-111.71",
+    "name": "Fountain Hills",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.61"
+  },
+  {
+    "url": "http://www.ci.gilbert.az.us/",
+    "long": "-111.78",
+    "name": "Gilbert",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.35"
+  },
+  {
+    "url": "http://www.ci.glendale.az.us/",
+    "long": "-112.18",
+    "name": "Glendale",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.53"
+  },
+  {
+    "url": "http://www.ci.goodyear.az.us/",
+    "long": "-112.35",
+    "name": "Goodyear",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.43"
+  },
+  {
+    "url": "http://www.guadalupeaz.org/",
+    "long": "-111.96",
+    "name": "Guadalupe",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.37"
+  },
+  {
+    "url": "http://www.ci.holbrook.az.us/",
+    "long": "-110.15",
+    "name": "Holbrook",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.9"
+  },
+  {
+    "url": "http://www.townofkearny.com/",
+    "long": "-110.91",
+    "name": "Kearny",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.05"
+  },
+  {
+    "url": "http://www.cityofkingman.gov/",
+    "long": "-114.05",
+    "name": "Kingman",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "35.18"
+  },
+  {
+    "url": "http://www.lhcaz.gov/",
+    "long": "-114.32",
+    "name": "Lake Havasu City",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.48"
+  },
+  {
+    "url": "http://www.litchfield-park.org/",
+    "long": "-112.35",
+    "name": "Litchfield Park",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.49"
+  },
+  {
+    "url": "http://www.marana.com/",
+    "long": "-111.22",
+    "name": "Marana",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.43"
+  },
+  {
+    "url": "http://www.cityofmaricopa.net/",
+    "long": "-112.04",
+    "name": "Maricopa",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.05"
+  },
+  {
+    "url": "http://www.mesaaz.gov/",
+    "long": "-111.82",
+    "name": "Mesa",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.42"
+  },
+  {
+    "url": "http://www.cityofnogales.net/",
+    "long": "-110.93",
+    "name": "Nogales",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "31.34"
+  },
+  {
+    "url": "http://www.ci.oro-valley.az.us/",
+    "long": "-110.96",
+    "name": "Oro Valley",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.39"
+  },
+  {
+    "url": "http://www.cityofpage.org/",
+    "long": "-111.45",
+    "name": "Page",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "36.91"
+  },
+  {
+    "url": "http://www.ci.paradise-valley.az.us/",
+    "long": "-111.94",
+    "name": "Paradise Valley",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.53"
+  },
+  {
+    "url": "http://www.ci.parker.az.us/",
+    "long": "-114.28",
+    "name": "Parker",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.15"
+  },
+  {
+    "url": "http://www.ci.payson.az.us/",
+    "long": "-111.32",
+    "name": "Payson",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.23"
+  },
+  {
+    "url": "http://www.peoriaaz.gov/",
+    "long": "-112.23",
+    "name": "Peoria",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.58"
+  },
+  {
+    "url": "http://www.phoenix.gov/",
+    "long": "-112.07",
+    "name": "Phoenix",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.44"
+  },
+  {
+    "url": "http://ci.pinetop-lakeside.az.us/",
+    "long": "-109.96",
+    "name": "Pinetop-Lakeside",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.14"
+  },
+  {
+    "url": "http://www.cityofprescott.net/",
+    "long": "-112.46",
+    "name": "Prescott",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.54"
+  },
+  {
+    "url": "http://www.pvaz.net/",
+    "long": "-112.31",
+    "name": "Prescott Valley",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.61"
+  },
+  {
+    "url": "http://www.ci.quartzsite.az.us/",
+    "long": "-114.22",
+    "name": "Quartzsite",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.66"
+  },
+  {
+    "url": "http://www.queencreek.org/",
+    "long": "-111.63",
+    "name": "Queen Creek",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.24"
+  },
+  {
+    "url": "http://www.cityofsafford.us/",
+    "long": "-109.7",
+    "name": "Safford",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.83"
+  },
+  {
+    "url": "http://www.ci.sahuarita.az.us/",
+    "long": "-110.95",
+    "name": "Sahuarita",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "31.95"
+  },
+  {
+    "url": "http://www.stjohnsaz.com/",
+    "long": "-109.36",
+    "name": "Saint Johns",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.5"
+  },
+  {
+    "url": "http://www.scottsdaleaz.gov/",
+    "long": "-111.89",
+    "name": "Scottsdale",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.5"
+  },
+  {
+    "url": "http://www.sedonaaz.gov/",
+    "long": "-111.76",
+    "name": "Sedona",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.86"
+  },
+  {
+    "url": "http://ci.show-low.az.us/",
+    "long": "-110.02",
+    "name": "Show Low",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.25"
+  },
+  {
+    "url": "http://www.ci.sierra-vista.az.us/",
+    "long": "-110.3",
+    "name": "Sierra Vista",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "31.55"
+  },
+  {
+    "url": "http://www.ci.snowflake.az.us/",
+    "long": "-110.07",
+    "name": "Snowflake",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.51"
+  },
+  {
+    "url": "http://www.springerville.com/",
+    "long": "-109.28",
+    "name": "Springerville",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "34.13"
+  },
+  {
+    "url": "http://www.superior-arizona.com/",
+    "long": "-111.09",
+    "name": "Superior",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.29"
+  },
+  {
+    "url": "http://www.surpriseaz.gov/",
+    "long": "-112.33",
+    "name": "Surprise",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.63"
+  },
+  {
+    "url": "http://www.tempe.gov/",
+    "long": "-111.9",
+    "name": "Tempe",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.41"
+  },
+  {
+    "url": "http://www.thatcher.az.gov/",
+    "long": "-109.75",
+    "name": "Thatcher",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.84"
+  },
+  {
+    "url": "http://www.tollesonaz.org/",
+    "long": "-112.25",
+    "name": "Tolleson",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.45"
+  },
+  {
+    "url": "http://www.cityoftombstone.com/",
+    "long": "-110.06",
+    "name": "Tombstone",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "31.71"
+  },
+  {
+    "url": "http://www.cityoftucson.org/",
+    "long": "-110.92",
+    "name": "Tucson",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.22"
+  },
+  {
+    "url": "http://www.town.wellton.az.us/",
+    "long": "-114.14",
+    "name": "Wellton",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "32.67"
+  },
+  {
+    "url": "http://www.queencreek.org/",
+    "long": "-111.63",
+    "name": "Queen Creek",
+    "state": {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    "lat": "33.24"
+  }
+]

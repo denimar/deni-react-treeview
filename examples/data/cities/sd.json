@@ -1,0 +1,712 @@
+[
+  {
+    "url": "http://www.kadokasd.com/",
+    "long": "-101.5",
+    "name": "Kadoka",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.83"
+  },
+  {
+    "url": "http://www.tularesd.org",
+    "long": "-98.5",
+    "name": "Tulare",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.73"
+  },
+  {
+    "url": "http://www.elkpoint.org/",
+    "long": "-96.68",
+    "name": "Elk Point",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "42.68"
+  },
+  {
+    "url": "http://www.bmtc.net/",
+    "long": "-96.77",
+    "name": "Beresford",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.08"
+  },
+  {
+    "url": "http://www.kimballsd.org/",
+    "long": "-98.95",
+    "name": "Kimball",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.74"
+  },
+  {
+    "url": "http://ci.pierre.sd.us/",
+    "long": "-100.35",
+    "name": "Pierre",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.36"
+  },
+  {
+    "url": "http://www.lakeandes.com/",
+    "long": "-98.54",
+    "name": "Lake Andes",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.15"
+  },
+  {
+    "url": "http://www.cityofvalleysprings.com/",
+    "long": "-96.46",
+    "name": "Valley Springs",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.58"
+  },
+  {
+    "url": "http://www.lakenorden.govoffice.com/",
+    "long": "-97.2",
+    "name": "Lake Norden",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.58"
+  },
+  {
+    "url": "http://www.boxelder.us/",
+    "long": "-103.06",
+    "name": "Box Elder",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.11"
+  },
+  {
+    "url": "http://brandon.govoffice.com/",
+    "long": "-96.57",
+    "name": "Brandon",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.59"
+  },
+  {
+    "url": "http://www.vermillion.us/",
+    "long": "-96.92",
+    "name": "Vermillion",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "42.77"
+  },
+  {
+    "url": "http://bridgewatersd.com/",
+    "long": "-97.5",
+    "name": "Bridgewater",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.55"
+  },
+  {
+    "url": "http://faith.govoffice.com/",
+    "long": "-102.03",
+    "name": "Faith",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "45.02"
+  },
+  {
+    "url": "http://www.bristolsd.com/",
+    "long": "-97.74",
+    "name": "Bristol",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "45.34"
+  },
+  {
+    "url": "http://www.faulktoncity.org/",
+    "long": "-99.12",
+    "name": "Faulkton",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "45.03"
+  },
+  {
+    "url": "http://www.cityofflandreau.com/",
+    "long": "-96.59",
+    "name": "Flandreau",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.04"
+  },
+  {
+    "url": "http://www.cityofbrookings.org/",
+    "long": "-96.79",
+    "name": "Brookings",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.31"
+  },
+  {
+    "url": "http://www.volgacity.com/",
+    "long": "-96.92",
+    "name": "Volga",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.32"
+  },
+  {
+    "url": "http://www.cityoflennoxsd.com/",
+    "long": "-96.89",
+    "name": "Lennox",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.35"
+  },
+  {
+    "url": "http://www.wagnersd.org/",
+    "long": "-98.29",
+    "name": "Wagner",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.07"
+  },
+  {
+    "url": "http://www.letchersd.com/",
+    "long": "-98.13",
+    "name": "Letcher",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.89"
+  },
+  {
+    "url": "http://www.rcgov.org/",
+    "long": "-103.23",
+    "name": "Rapid City",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.08"
+  },
+  {
+    "url": "http://www.warnersd.org/",
+    "long": "-98.49",
+    "name": "Warner",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "45.32"
+  },
+  {
+    "url": "http://www.redfield-sd.com/",
+    "long": "-98.51",
+    "name": "Redfield",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.87"
+  },
+  {
+    "url": "http://www.watertownsd.us/",
+    "long": "-97.11",
+    "name": "Watertown",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.89"
+  },
+  {
+    "url": "http://www.garysd.com/",
+    "long": "-96.45",
+    "name": "Gary",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.79"
+  },
+  {
+    "url": "http://www.cityofcantonsd.com/",
+    "long": "-96.59",
+    "name": "Canton",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.3"
+  },
+  {
+    "url": "http://www.castlewoodcity.com/",
+    "long": "-97.03",
+    "name": "Castlewood",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.72"
+  },
+  {
+    "url": "http://www.cityofmadisonsd.com/",
+    "long": "-97.11",
+    "name": "Madison",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44"
+  },
+  {
+    "url": "http://www.marionsd.com/",
+    "long": "-97.26",
+    "name": "Marion",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.42"
+  },
+  {
+    "url": "http://whitewood.govoffice.com/",
+    "long": "-103.63",
+    "name": "Whitewood",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.46"
+  },
+  {
+    "url": "http://www.cityofgregory.com/",
+    "long": "-99.43",
+    "name": "Gregory",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.23"
+  },
+  {
+    "url": "http://www.willowlakesd.com/",
+    "long": "-97.63",
+    "name": "Willow Lake",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.62"
+  },
+  {
+    "url": "http://www.mennosd.org/",
+    "long": "-97.57",
+    "name": "Menno",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.23"
+  },
+  {
+    "url": "http://www.winnersd.com/",
+    "long": "-99.85",
+    "name": "Winner",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.37"
+  },
+  {
+    "url": "http://www.clearlakesd.com/",
+    "long": "-96.68",
+    "name": "Clear Lake",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.74"
+  },
+  {
+    "url": "http://www.salemsd.com/",
+    "long": "-97.38",
+    "name": "Salem",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.72"
+  },
+  {
+    "url": "http://www.milbanksd.com/",
+    "long": "-96.63",
+    "name": "Milbank",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "45.21"
+  },
+  {
+    "url": "http://www.harrisburg.govoffice.com/",
+    "long": "-96.69",
+    "name": "Harrisburg",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.43"
+  },
+  {
+    "url": "http://www.woonsocketsd.com/",
+    "long": "-98.27",
+    "name": "Woonsocket",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.05"
+  },
+  {
+    "url": "http://www.cityofworthing.com/",
+    "long": "-96.76",
+    "name": "Worthing",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.32"
+  },
+  {
+    "url": "http://www.hartfordsd.us/",
+    "long": "-96.94",
+    "name": "Hartford",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.62"
+  },
+  {
+    "url": "http://www.colmansd.com/",
+    "long": "-96.81",
+    "name": "Colman",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.98"
+  },
+  {
+    "url": "http://www.cityofmitchell.org/",
+    "long": "-98.02",
+    "name": "Mitchell",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.7"
+  },
+  {
+    "url": "http://www.cityofyankton.org/",
+    "long": "-97.39",
+    "name": "Yankton",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "42.87"
+  },
+  {
+    "url": "http://www.henrysd.com/",
+    "long": "-97.46",
+    "name": "Henry",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.87"
+  },
+  {
+    "url": "http://www.herreidsd.com/",
+    "long": "-100.06",
+    "name": "Herreid",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "45.83"
+  },
+  {
+    "url": "http://www.siouxfalls.org/",
+    "long": "-96.7",
+    "name": "Sioux Falls",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.54"
+  },
+  {
+    "url": "http://www.aberdeen.sd.us/",
+    "long": "-98.48",
+    "name": "Aberdeen",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "45.46"
+  },
+  {
+    "url": "http://www.cityofspearfish.com/",
+    "long": "-103.85",
+    "name": "Spearfish",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.49"
+  },
+  {
+    "url": "http://highmoresd.govoffice3.com/",
+    "long": "-99.44",
+    "name": "Highmore",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.52"
+  },
+  {
+    "url": "http://www.alcestersd.org/",
+    "long": "-96.63",
+    "name": "Alcester",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.02"
+  },
+  {
+    "url": "http://www.custer.govoffice.com/",
+    "long": "-103.59",
+    "name": "Custer",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.76"
+  },
+  {
+    "url": "http://www.newunderwood.com/",
+    "long": "-102.83",
+    "name": "New Underwood",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.09"
+  },
+  {
+    "url": "http://www.cityofnewell.com/",
+    "long": "-103.42",
+    "name": "Newell",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.71"
+  },
+  {
+    "url": "http://nisland.govoffice2.com/",
+    "long": "-103.55",
+    "name": "Nisland",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.67"
+  },
+  {
+    "url": "http://www.northsiouxcity-sd.gov/",
+    "long": "-96.48",
+    "name": "North Sioux City",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "42.52"
+  },
+  {
+    "url": "http://www.cityofhotspringssd.org/",
+    "long": "-103.47",
+    "name": "Hot Springs",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.43"
+  },
+  {
+    "url": "http://desmet.govoffice2.com/",
+    "long": "-97.55",
+    "name": "De Smet",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.38"
+  },
+  {
+    "url": "http://www.cityofhoward.com/",
+    "long": "-97.52",
+    "name": "Howard",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.01"
+  },
+  {
+    "url": "http://www.cityofdeadwood.com",
+    "long": "-103.72",
+    "name": "Deadwood",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.37"
+  },
+  {
+    "url": "http://www.cityofdellrapids.org/",
+    "long": "-96.7",
+    "name": "Dell Rapids",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.82"
+  },
+  {
+    "url": "http://www.humboldt.govoffice.com/",
+    "long": "-97.07",
+    "name": "Humboldt",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.64"
+  },
+  {
+    "url": "http://www.artesiansd.com/",
+    "long": "-97.92",
+    "name": "Artesian",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44"
+  },
+  {
+    "url": "http://www.huronsd.com/",
+    "long": "-98.21",
+    "name": "Huron",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.36"
+  },
+  {
+    "url": "http://www.sturgis-sd.gov/",
+    "long": "-103.5",
+    "name": "Sturgis",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "44.4"
+  },
+  {
+    "url": "http://baltic.govoffice.com/",
+    "long": "-96.74",
+    "name": "Baltic",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.76"
+  },
+  {
+    "url": "http://www.teasd.com/",
+    "long": "-96.83",
+    "name": "Tea",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.44"
+  },
+  {
+    "url": "http://www.bmtc.net/",
+    "long": "-96.77",
+    "name": "Beresford",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.08"
+  },
+  {
+    "url": "http://www.siouxfalls.org/",
+    "long": "-96.7",
+    "name": "Sioux Falls",
+    "state": {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    "lat": "43.54"
+  }
+]

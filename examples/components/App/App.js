@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.scss'
 import menuItems from '../../menu-items'
-import { Link } from 'react-router'
+import { NavLink } from 'react-router-dom'
 
 class App extends React.Component {
 
@@ -19,19 +19,21 @@ class App extends React.Component {
           <div className="menu">
             {
               menuItems.items.map(menuItem => {
-                var childrenItems = menuItem.children.map(children => <div key={children.id} className="menu-item child"><Link activeClassName="active" to={`/${children.route}`}>{children.title}</Link></div>);
+                var childrenItems = menuItem.children.map(children => <div key={children.id} className="menu-item child"><NavLink activeClassName="active" to={`/${children.route}`}>{children.title}</NavLink></div>);
 
                 return (
                   <div key={menuItem.id}>
-                    <div className="menu-item">{menuItem.title}</div>
-                    {childrenItems}
+                    <div className="menu-item">{ menuItem.title }</div>
+                    { childrenItems }
                   </div>
                 )
               })
             }
           </div>
           <div className="body-container">
-            {this.props.children}
+            {
+              this.props.children
+            }
           </div>
         </div>
       </div>

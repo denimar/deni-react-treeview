@@ -12,6 +12,7 @@ html,body,#root {
 }
 
 .examples-container {
+  $body-background-color: #F7FAFD;
   height: 100%;
   font-size: 12px;
   font-family: arial,tahoma;
@@ -28,12 +29,12 @@ html,body,#root {
     padding-top: 3px;
     color: #f2f2f2;
     text-align: center;
-    //background-color: #1565C0;
+    background-color: #1565C0;
     box-shadow: 0px 5px 5px silver;
     background-color: #2e7bcf;
     background-position: 0 0;
     background-repeat: repeat-x;
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAKjAgMAAAA2YSoMAAAACVBMVEUiY4EcUWkfWnUfaU3JAAAAVElEQVRo3u3MoREAIAwEwS+NJugn9VAlPoPAxO3JE5vTq/ytR7u3gsfj8Xg8Ho/H4/F4PB6Px+PxeDwej8fj8Xg8Ho/H4/F4PB6Px+PxeDwejx/iL0yFw5He4oh8AAAAAElFTkSuQmCC');
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAKjAgMAAAA2YSoMAAAACVBMVEUiY4EcUWkfWnUfaU3JAAAAVElEQVRo3u3MoREAIAwEwS+NJugn9VAlPoPAxO3JE5vTq/ytR7u3gsfj8Xg8Ho/H4/F4PB6Px+PxeDwej8fj8Xg8Ho/H4/F4PB6Px+PxeDwejx/iL0yFw5He4oh8AAAAAElFTkSuQmCC");
   }
 
   .menu-and-body {
@@ -44,14 +45,14 @@ html,body,#root {
     padding: 15px;
 
     .menu {
+      $border-color: darken(#f2f2f2, 4%);
       width: 240px;
+      min-width: 240px;
       color: #006064;
       display: block;
-      padding: 10px;
+      //border: solid 2px blue;
+      padding: 25px;
       cursor: default;
-      border-radius: 5px;
-      box-shadow: -2px 2px 15px #aed7ea;
-      background-color: #FFFFFF;
 
       .menu-item {
         $padding-menu-item: 4px 0px;
@@ -98,50 +99,6 @@ html,body,#root {
       display: inline-flex;
       justify-content: space-around;
       flex: 1;
-
-      .body {
-        // border: solid 1px red;
-        display: flex;
-        justify-content: space-around;
-        flex: 1;
-        flex-direction: column;
-        padding: 15px;
-        // background-color: #F7FAFD;
-
-        &.nomatch {
-          background-color: #FFF0F0;
-          color: #ff0000;
-          font-size: 18px;
-          border-top: solid 1px #ff0000;
-        }
-
-        .example-preview-title {
-          width: 100%;
-          height: 30px;
-          color: #0b7ada; //#153e51;
-          box-sizing: border-box;
-          font-family: tahoma;
-          font-size: 12px;
-          display: block;
-        }
-
-        .example-preview-container {
-          position: relative;
-          width: 100%;
-          box-sizing: border-box;
-          display: flex;
-          // border: solid 1px orange;
-          flex: 1;
-
-          .example-preview-iframe {
-            justify-content: space-around;
-            flex: 1;
-            border: solid 1px lighten(#1565C0, 50%);
-          }
-
-        }
-
-      }
 
     }
 

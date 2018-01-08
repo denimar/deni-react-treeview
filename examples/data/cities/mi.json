@@ -1,0 +1,2512 @@
+[
+  {
+    "url": "http://www.cheboygan.org/",
+    "long": "-84.47",
+    "name": "Cheboygan",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.64"
+  },
+  {
+    "url": "http://www.city-chelsea.org/",
+    "long": "-84.02",
+    "name": "Chelsea",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.31"
+  },
+  {
+    "url": "http://www.ferrysburg.org/",
+    "long": "-86.22",
+    "name": "Ferrysburg",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.08"
+  },
+  {
+    "url": "http://www.ci.huntington-woods.mi.us/",
+    "long": "-83.16",
+    "name": "Huntington Woods",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.porthuron.org/",
+    "long": "-82.42",
+    "name": "Port Huron",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.97"
+  },
+  {
+    "url": "http://www.sylvanlake.org/",
+    "long": "-83.32",
+    "name": "Sylvan Lake",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.61"
+  },
+  {
+    "url": "http://www.melvindale.org/",
+    "long": "-83.17",
+    "name": "Melvindale",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.28"
+  },
+  {
+    "url": "http://www.portagemi.gov/",
+    "long": "-85.58",
+    "name": "Portage",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.2"
+  },
+  {
+    "url": "http://www.tawascity.org/",
+    "long": "-83.51",
+    "name": "Tawas City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.26"
+  },
+  {
+    "url": "http://www.flatrockmi.org/",
+    "long": "-83.29",
+    "name": "Flat Rock",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.09"
+  },
+  {
+    "url": "http://www.cityofflint.com/",
+    "long": "-83.68",
+    "name": "Flint",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.01"
+  },
+  {
+    "url": "http://www.cityoftaylor.com/",
+    "long": "-83.26",
+    "name": "Taylor",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.24"
+  },
+  {
+    "url": "http://www.mytecumseh.org/",
+    "long": "-83.94",
+    "name": "Tecumseh",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42"
+  },
+  {
+    "url": "http://www.auburnhills.org/",
+    "long": "-83.23",
+    "name": "Auburn Hills",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.68"
+  },
+  {
+    "url": "http://www.flushingcity.com/",
+    "long": "-83.85",
+    "name": "Flushing",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.06"
+  },
+  {
+    "url": "http://www.portland-michigan.org/",
+    "long": "-84.9",
+    "name": "Portland",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.86"
+  },
+  {
+    "url": "http://www.cityofclare.org/",
+    "long": "-84.76",
+    "name": "Clare",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.81"
+  },
+  {
+    "url": "http://prescottvillage.com",
+    "long": "-83.93",
+    "name": "Prescott",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.19"
+  },
+  {
+    "url": "http://www.threeriversmi.org/",
+    "long": "-85.63",
+    "name": "Three Rivers",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.94"
+  },
+  {
+    "url": "http://www.middleville.govoffice.com",
+    "long": "-85.46",
+    "name": "Middleville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.71"
+  },
+  {
+    "url": "http://www.midland-mi.org/",
+    "long": "-84.24",
+    "name": "Midland",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.61"
+  },
+  {
+    "url": "http://ci.bangor.mi.us",
+    "long": "-86.11",
+    "name": "Bangor",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.31"
+  },
+  {
+    "url": "http://www.ci.clawson.mi.us/",
+    "long": "-83.14",
+    "name": "Clawson",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.53"
+  },
+  {
+    "url": "http://www.ishpemingcity.org",
+    "long": "-87.66",
+    "name": "Ishpeming",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "46.48"
+  },
+  {
+    "url": "http://www.ci.milan.mi.us/",
+    "long": "-83.68",
+    "name": "Milan",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.08"
+  },
+  {
+    "url": "http://www.ci.traverse-city.mi.us/",
+    "long": "-85.62",
+    "name": "Traverse City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.76"
+  },
+  {
+    "url": "http://www.frankenmuthcity.com/",
+    "long": "-83.73",
+    "name": "Frankenmuth",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.33"
+  },
+  {
+    "url": "http://www.trentonmi.org/",
+    "long": "-83.17",
+    "name": "Trenton",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.13"
+  },
+  {
+    "url": "http://www.frankfortmich.com/",
+    "long": "-86.23",
+    "name": "Frankfort",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.63"
+  },
+  {
+    "url": "http://www.cityofjackson.org/",
+    "long": "-84.4",
+    "name": "Jackson",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.24"
+  },
+  {
+    "url": "http://www.franklin.mi.us/",
+    "long": "-83.3",
+    "name": "Franklin",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.52"
+  },
+  {
+    "url": "http://www.troymi.gov/",
+    "long": "-83.14",
+    "name": "Troy",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.6"
+  },
+  {
+    "url": "http://www.fraser.govoffice.com/",
+    "long": "-82.94",
+    "name": "Fraser",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.53"
+  },
+  {
+    "url": "http://www.reading.mi.us/",
+    "long": "-84.74",
+    "name": "Reading",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.83"
+  },
+  {
+    "url": "http://www.villageofclinton.org/",
+    "long": "-83.97",
+    "name": "Clinton",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.07"
+  },
+  {
+    "url": "http://www.jonesville.org/",
+    "long": "-84.66",
+    "name": "Jonesville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.98"
+  },
+  {
+    "url": "http://www.battlecreek.org/",
+    "long": "-85.17",
+    "name": "Battle Creek",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.32"
+  },
+  {
+    "url": "http://www.reedcitymi.org/",
+    "long": "-85.51",
+    "name": "Reed City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.87"
+  },
+  {
+    "url": "http://www.baycitymi.org/",
+    "long": "-83.88",
+    "name": "Bay City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.59"
+  },
+  {
+    "url": "http://www.clio.govoffice.com/",
+    "long": "-83.73",
+    "name": "Clio",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.17"
+  },
+  {
+    "url": "http://www.ci.kalamazoo.mi.us/",
+    "long": "-85.58",
+    "name": "Kalamazoo",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.29"
+  },
+  {
+    "url": "http://www.cityoffremont.net/",
+    "long": "-85.94",
+    "name": "Fremont",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.46"
+  },
+  {
+    "url": "http://www.bearlakemichigan.org/",
+    "long": "-86.14",
+    "name": "Bear Lake",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.42"
+  },
+  {
+    "url": "http://www.ci.monroe.mi.us/",
+    "long": "-83.39",
+    "name": "Monroe",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.91"
+  },
+  {
+    "url": "http://www.coldwater.org/",
+    "long": "-85",
+    "name": "Coldwater",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.94"
+  },
+  {
+    "url": "http://www.cityofutica.org/",
+    "long": "-83.03",
+    "name": "Utica",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.62"
+  },
+  {
+    "url": "http://www.keegoharbor.org/",
+    "long": "-83.34",
+    "name": "Keego Harbor",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.6"
+  },
+  {
+    "url": "http://www.beavertonmi.org/",
+    "long": "-84.48",
+    "name": "Beaverton",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.88"
+  },
+  {
+    "url": "http://www.cityofvassar.org/",
+    "long": "-83.58",
+    "name": "Vassar",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.37"
+  },
+  {
+    "url": "http://www.ci.kentwood.mi.us/",
+    "long": "-85.64",
+    "name": "Kentwood",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.86"
+  },
+  {
+    "url": "http://www.cityofrichmond.net/",
+    "long": "-82.75",
+    "name": "Richmond",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.8"
+  },
+  {
+    "url": "http://www.ci.belding.mi.us/",
+    "long": "-85.22",
+    "name": "Belding",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.09"
+  },
+  {
+    "url": "http://www.bellairemichigan.com/",
+    "long": "-85.21",
+    "name": "Bellaire",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.98"
+  },
+  {
+    "url": "http://www.cityofkingsford.com/",
+    "long": "-88.07",
+    "name": "Kingsford",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.79"
+  },
+  {
+    "url": "http://www.belleville.mi.us/",
+    "long": "-83.48",
+    "name": "Belleville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.2"
+  },
+  {
+    "url": "http://www.morrice.mi.us/",
+    "long": "-84.17",
+    "name": "Morrice",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.83"
+  },
+  {
+    "url": "http://www.gardencitymi.org/",
+    "long": "-83.33",
+    "name": "Garden City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.32"
+  },
+  {
+    "url": "http://www.cityofmountclemens.com/",
+    "long": "-82.87",
+    "name": "Mount Clemens",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.59"
+  },
+  {
+    "url": "http://www.cityofriverview.com/",
+    "long": "-83.17",
+    "name": "Riverview",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.17"
+  },
+  {
+    "url": "http://www.mtmorriscity.org/",
+    "long": "-83.69",
+    "name": "Mount Morris",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.11"
+  },
+  {
+    "url": "http://www.ci.rochester.mi.us/",
+    "long": "-83.13",
+    "name": "Rochester",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.68"
+  },
+  {
+    "url": "http://www.mt-pleasant.org/",
+    "long": "-84.76",
+    "name": "Mount Pleasant",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.59"
+  },
+  {
+    "url": "http://www.rochesterhills.org/",
+    "long": "-83.14",
+    "name": "Rochester Hills",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.65"
+  },
+  {
+    "url": "http://www.rockford.mi.us/",
+    "long": "-85.56",
+    "name": "Rockford",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.12"
+  },
+  {
+    "url": "http://www.berkleymich.org/",
+    "long": "-83.18",
+    "name": "Berkley",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.5"
+  },
+  {
+    "url": "http://www.cityofcoopersville.com/",
+    "long": "-85.93",
+    "name": "Coopersville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.06"
+  },
+  {
+    "url": "http://www.ci.walker.mi.us/",
+    "long": "-85.76",
+    "name": "Walker",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43"
+  },
+  {
+    "url": "http://www.lakelinden.net/",
+    "long": "-88.4",
+    "name": "Lake Linden",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "47.19"
+  },
+  {
+    "url": "http://www.lakeodessa.org/",
+    "long": "-85.13",
+    "name": "Lake Odessa",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.78"
+  },
+  {
+    "url": "http://www.muskegon-mi.gov/",
+    "long": "-86.24",
+    "name": "Muskegon",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.23"
+  },
+  {
+    "url": "http://www.walledlake.com/",
+    "long": "-83.48",
+    "name": "Walled Lake",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.53"
+  },
+  {
+    "url": "http://www.corunna-mi.gov/",
+    "long": "-84.11",
+    "name": "Corunna",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.98"
+  },
+  {
+    "url": "http://www.cityofgibraltar.net/",
+    "long": "-83.18",
+    "name": "Gibraltar",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.09"
+  },
+  {
+    "url": "http://www.cityofmuskegonheights.org/",
+    "long": "-86.23",
+    "name": "Muskegon Heights",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.2"
+  },
+  {
+    "url": "http://www.romulusgov.com/",
+    "long": "-83.39",
+    "name": "Romulus",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.22"
+  },
+  {
+    "url": "http://www.cityofwarren.org/",
+    "long": "-83.02",
+    "name": "Warren",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.47"
+  },
+  {
+    "url": "http://www.villageofbeulah.org/",
+    "long": "-86.09",
+    "name": "Beulah",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.63"
+  },
+  {
+    "url": "http://www.villagebeverlyhills.com/",
+    "long": "-83.22",
+    "name": "Beverly Hills",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.52"
+  },
+  {
+    "url": "http://www.gladstonemi.org/",
+    "long": "-87.02",
+    "name": "Gladstone",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.85"
+  },
+  {
+    "url": "http://www.cityofnegaunee.com/",
+    "long": "-87.61",
+    "name": "Negaunee",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "46.49"
+  },
+  {
+    "url": "http://www.croswell-mich.com/",
+    "long": "-82.62",
+    "name": "Croswell",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.27"
+  },
+  {
+    "url": "http://www.gladwin.org/",
+    "long": "-84.48",
+    "name": "Gladwin",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.98"
+  },
+  {
+    "url": "http://www.ci.big-rapids.mi.us/",
+    "long": "-85.48",
+    "name": "Big Rapids",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.69"
+  },
+  {
+    "url": "http://www.crystalfalls.org/",
+    "long": "-88.33",
+    "name": "Crystal Falls",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "46.09"
+  },
+  {
+    "url": "http://www.cityofnewbaltimore.org/",
+    "long": "-82.73",
+    "name": "New Baltimore",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.68"
+  },
+  {
+    "url": "http://www.ci.roseville.mi.us/",
+    "long": "-82.93",
+    "name": "Roseville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.49"
+  },
+  {
+    "url": "http://www.binghamfarms.org/",
+    "long": "-83.27",
+    "name": "Bingham Farms",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.51"
+  },
+  {
+    "url": "http://www.watervliet.org/",
+    "long": "-86.26",
+    "name": "Watervliet",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.18"
+  },
+  {
+    "url": "http://www.ci.royal-oak.mi.us/",
+    "long": "-83.14",
+    "name": "Royal Oak",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.ci.birmingham.mi.us/",
+    "long": "-83.21",
+    "name": "Birmingham",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.54"
+  },
+  {
+    "url": "http://www.grandbeach.org/",
+    "long": "-86.79",
+    "name": "Grand Beach",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.77"
+  },
+  {
+    "url": "http://www.cityoflansingmi.com/",
+    "long": "-84.55",
+    "name": "Lansing",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.73"
+  },
+  {
+    "url": "http://www.cityofgrandblanc.com/",
+    "long": "-83.62",
+    "name": "Grand Blanc",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.92"
+  },
+  {
+    "url": "http://www.ci.wayland.mi.us/",
+    "long": "-85.64",
+    "name": "Wayland",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.67"
+  },
+  {
+    "url": "http://www.ci.lapeer.mi.us/",
+    "long": "-83.31",
+    "name": "Lapeer",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.05"
+  },
+  {
+    "url": "http://www.grandhaven.org/",
+    "long": "-86.22",
+    "name": "Grand Haven",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.06"
+  },
+  {
+    "url": "http://www.ci.wayne.mi.us/",
+    "long": "-83.38",
+    "name": "Wayne",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.28"
+  },
+  {
+    "url": "http://www.lathrupvillage.org/",
+    "long": "-83.22",
+    "name": "Lathrup Village",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.49"
+  },
+  {
+    "url": "http://www.grand-ledge.com/",
+    "long": "-84.74",
+    "name": "Grand Ledge",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.75"
+  },
+  {
+    "url": "http://www.laurium.net/",
+    "long": "-88.44",
+    "name": "Laurium",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "47.23"
+  },
+  {
+    "url": "http://www.saginaw-mi.com/",
+    "long": "-83.95",
+    "name": "Saginaw",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.41"
+  },
+  {
+    "url": "http://www.blissfieldmichigan.gov/",
+    "long": "-83.86",
+    "name": "Blissfield",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.83"
+  },
+  {
+    "url": "http://www.ci.grand-rapids.mi.us/",
+    "long": "-85.66",
+    "name": "Grand Rapids",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.96"
+  },
+  {
+    "url": "http://www.ci.niles.mi.us/",
+    "long": "-86.25",
+    "name": "Niles",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.82"
+  },
+  {
+    "url": "http://www.cityofdavison.org/",
+    "long": "-83.51",
+    "name": "Davison",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.03"
+  },
+  {
+    "url": "http://www.cityofgrandville.com/",
+    "long": "-85.76",
+    "name": "Grandville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.9"
+  },
+  {
+    "url": "http://www.stcmi.com/",
+    "long": "-84.14",
+    "name": "Saint Charles",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.29"
+  },
+  {
+    "url": "http://www.bloomfieldhillsmi.net/",
+    "long": "-83.24",
+    "name": "Bloomfield Hills",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.58"
+  },
+  {
+    "url": "http://www.cityofstclair.com/",
+    "long": "-82.48",
+    "name": "Saint Clair",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.82"
+  },
+  {
+    "url": "http://www.stclairshores.net/",
+    "long": "-82.88",
+    "name": "Saint Clair Shores",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.49"
+  },
+  {
+    "url": "http://www.cityofdearborn.org/",
+    "long": "-83.17",
+    "name": "Dearborn",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.32"
+  },
+  {
+    "url": "http://www.dhol.org/",
+    "long": "-83.27",
+    "name": "Dearborn Heights",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.33"
+  },
+  {
+    "url": "http://www.cityofnorthmuskegon.com/",
+    "long": "-86.26",
+    "name": "North Muskegon",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.25"
+  },
+  {
+    "url": "http://www.westbranch.com/",
+    "long": "-84.23",
+    "name": "West Branch",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.27"
+  },
+  {
+    "url": "http://www.decaturmi.org/",
+    "long": "-85.97",
+    "name": "Decatur",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.1"
+  },
+  {
+    "url": "http://www.ci.saint-johns.mi.us/",
+    "long": "-84.55",
+    "name": "Saint Johns",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43"
+  },
+  {
+    "url": "http://www.sjcity.com/",
+    "long": "-86.48",
+    "name": "Saint Joseph",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.1"
+  },
+  {
+    "url": "http://www.stlouismi.com/",
+    "long": "-84.6",
+    "name": "Saint Louis",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.4"
+  },
+  {
+    "url": "http://www.ci.westland.mi.us/",
+    "long": "-83.4",
+    "name": "Westland",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.32"
+  },
+  {
+    "url": "http://www.ci.northville.mi.us/",
+    "long": "-83.48",
+    "name": "Northville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.43"
+  },
+  {
+    "url": "http://www.ci.saline.mi.us/",
+    "long": "-83.78",
+    "name": "Saline",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.16"
+  },
+  {
+    "url": "http://www.westphaliami.com/",
+    "long": "-84.79",
+    "name": "Westphalia",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.92"
+  },
+  {
+    "url": "http://www.cityofgrayling.org/",
+    "long": "-84.71",
+    "name": "Grayling",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.66"
+  },
+  {
+    "url": "http://www.nortonshores.org/",
+    "long": "-86.26",
+    "name": "Norton Shores",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.16"
+  },
+  {
+    "url": "http://www.boynecity.com/",
+    "long": "-85.01",
+    "name": "Boyne City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.21"
+  },
+  {
+    "url": "http://www.norwaymi.com/",
+    "long": "-87.9",
+    "name": "Norway",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.78"
+  },
+  {
+    "url": "http://misandusky.us/",
+    "long": "-82.82",
+    "name": "Sandusky",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.42"
+  },
+  {
+    "url": "http://www.cityofwhitecloud.org/",
+    "long": "-85.77",
+    "name": "White Cloud",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.55"
+  },
+  {
+    "url": "http://www.detroitmi.gov/",
+    "long": "-83.04",
+    "name": "Detroit",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.33"
+  },
+  {
+    "url": "http://www.cityofnovi.org/",
+    "long": "-83.47",
+    "name": "Novi",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.saugatuckcity.com/",
+    "long": "-86.2",
+    "name": "Saugatuck",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.65"
+  },
+  {
+    "url": "http://www.dewittmi.org/",
+    "long": "-84.56",
+    "name": "DeWitt",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.84"
+  },
+  {
+    "url": "http://www.greenvillemi.org/",
+    "long": "-85.25",
+    "name": "Greenville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.17"
+  },
+  {
+    "url": "http://lincolnpark.govoffice.com/",
+    "long": "-83.17",
+    "name": "Lincoln Park",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.25"
+  },
+  {
+    "url": "http://www.sault-sainte-marie.mi.us/",
+    "long": "-84.34",
+    "name": "Sault Ste. Marie",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "46.49"
+  },
+  {
+    "url": "http://www.villageofdexter.org/",
+    "long": "-83.88",
+    "name": "Dexter",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.33"
+  },
+  {
+    "url": "http://www.oakpark-mi.com/",
+    "long": "-83.18",
+    "name": "Oak Park",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.45"
+  },
+  {
+    "url": "http://www.cityofwhitehall.org/",
+    "long": "-86.34",
+    "name": "Whitehall",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.41"
+  },
+  {
+    "url": "http://www.iserv.net/~vod/",
+    "long": "-84.64",
+    "name": "Dimondale",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.64"
+  },
+  {
+    "url": "http://www.bridgman.org/",
+    "long": "-86.55",
+    "name": "Bridgman",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.94"
+  },
+  {
+    "url": "http://www.grossepointecity.org/",
+    "long": "-82.91",
+    "name": "Grosse Pointe",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.38"
+  },
+  {
+    "url": "http://www.cityofscottville.org/",
+    "long": "-86.28",
+    "name": "Scottville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.95"
+  },
+  {
+    "url": "http://www.brightoncity.org/",
+    "long": "-83.78",
+    "name": "Brighton",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.52"
+  },
+  {
+    "url": "http://www.ci.grosse-pointe-farms.mi.us/",
+    "long": "-82.89",
+    "name": "Grosse Pointe Farms",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.4"
+  },
+  {
+    "url": "http://www.cityofgrossepointepark.com/",
+    "long": "-82.93",
+    "name": "Grosse Pointe Park",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.37"
+  },
+  {
+    "url": "http://www.lindenmi.us/",
+    "long": "-83.78",
+    "name": "Linden",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.81"
+  },
+  {
+    "url": "http://www.grossepointeshores.org/",
+    "long": "-82.87",
+    "name": "Grosse Pointe Shores",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.43"
+  },
+  {
+    "url": "http://www.ci.litchfield.mi.us/",
+    "long": "-84.75",
+    "name": "Litchfield",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.04"
+  },
+  {
+    "url": "http://www.cityofdowagiac.com/",
+    "long": "-86.1",
+    "name": "Dowagiac",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.98"
+  },
+  {
+    "url": "http://www.gpwmi.us/",
+    "long": "-82.9",
+    "name": "Grosse Pointe Woods",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.44"
+  },
+  {
+    "url": "http://www.ci.livonia.mi.us/",
+    "long": "-83.35",
+    "name": "Livonia",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.36"
+  },
+  {
+    "url": "http://www.villageofbrooklyn.com/",
+    "long": "-84.24",
+    "name": "Brooklyn",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.1"
+  },
+  {
+    "url": "http://www.dundeevillage.net/",
+    "long": "-83.65",
+    "name": "Dundee",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.95"
+  },
+  {
+    "url": "http://www.anytown.info/browncity/",
+    "long": "-82.98",
+    "name": "Brown City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.21"
+  },
+  {
+    "url": "http://www.durandmi.com/",
+    "long": "-83.98",
+    "name": "Durand",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.91"
+  },
+  {
+    "url": "http://www.shepherdmi.com/",
+    "long": "-84.69",
+    "name": "Shepherd",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.52"
+  },
+  {
+    "url": "http://www.ci.wixom.mi.us/",
+    "long": "-83.53",
+    "name": "Wixom",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.52"
+  },
+  {
+    "url": "https://mylocalgov.com/WolverineLakeMI/",
+    "long": "-83.47",
+    "name": "Wolverine Lake",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.55"
+  },
+  {
+    "url": "http://www.cityofbuchanan.com/",
+    "long": "-86.36",
+    "name": "Buchanan",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.82"
+  },
+  {
+    "url": "http://www.woodhavenmi.org",
+    "long": "-83.24",
+    "name": "Woodhaven",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.13"
+  },
+  {
+    "url": "http://www.ci.lowell.mi.us/",
+    "long": "-85.34",
+    "name": "Lowell",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.93"
+  },
+  {
+    "url": "http://www.eastgr.org/",
+    "long": "-85.61",
+    "name": "East Grand Rapids",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.94"
+  },
+  {
+    "url": "http://www.hamtramck.us/",
+    "long": "-83.04",
+    "name": "Hamtramck",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.39"
+  },
+  {
+    "url": "http://www.eastjordancity.org/",
+    "long": "-85.12",
+    "name": "East Jordan",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.15"
+  },
+  {
+    "url": "http://www.cityofhancock.com/",
+    "long": "-88.58",
+    "name": "Hancock",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "47.12"
+  },
+  {
+    "url": "http://www.ludington.mi.us/",
+    "long": "-86.45",
+    "name": "Ludington",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.95"
+  },
+  {
+    "url": "http://cityoforchardlake.com/",
+    "long": "-83.35",
+    "name": "Orchard Lake",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.58"
+  },
+  {
+    "url": "http://www.cityofeastlansing.com/",
+    "long": "-84.48",
+    "name": "East Lansing",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.73"
+  },
+  {
+    "url": "http://www.easttawas.com/",
+    "long": "-83.49",
+    "name": "East Tawas",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.27"
+  },
+  {
+    "url": "http://www.cityofeastpointe.net/",
+    "long": "-82.95",
+    "name": "Eastpointe",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.46"
+  },
+  {
+    "url": "http://www.wyandotte.net/",
+    "long": "-83.14",
+    "name": "Wyandotte",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.21"
+  },
+  {
+    "url": "http://www.ci.eaton-rapids.mi.us/",
+    "long": "-84.65",
+    "name": "Eaton Rapids",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.5"
+  },
+  {
+    "url": "http://www.ci.wyoming.mi.us/",
+    "long": "-85.7",
+    "name": "Wyoming",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.91"
+  },
+  {
+    "url": "http://www.ortonvillevillage.com/",
+    "long": "-83.44",
+    "name": "Ortonville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.85"
+  },
+  {
+    "url": "http://www.mackinawcity.org/",
+    "long": "-84.72",
+    "name": "Mackinaw City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.78"
+  },
+  {
+    "url": "http://www.cityofypsilanti.com/",
+    "long": "-83.61",
+    "name": "Ypsilanti",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.24"
+  },
+  {
+    "url": "http://www.ci.zeeland.mi.us/",
+    "long": "-86.01",
+    "name": "Zeeland",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.81"
+  },
+  {
+    "url": "http://www.ci.otsego.mi.us/",
+    "long": "-85.69",
+    "name": "Otsego",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.46"
+  },
+  {
+    "url": "http://www.burtonmi.com/",
+    "long": "-83.61",
+    "name": "Burton",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.99"
+  },
+  {
+    "url": "http://www.madison-heights.org/",
+    "long": "-83.1",
+    "name": "Madison Heights",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.edwardsburg.org/",
+    "long": "-86.08",
+    "name": "Edwardsburg",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.79"
+  },
+  {
+    "url": "http://www.hartfordmi.com/",
+    "long": "-86.16",
+    "name": "Hartford",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.2"
+  },
+  {
+    "url": "http://vil-manchester.org/",
+    "long": "-84.03",
+    "name": "Manchester",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.15"
+  },
+  {
+    "url": "http://www.byron.org/",
+    "long": "-83.94",
+    "name": "Byron",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.82"
+  },
+  {
+    "url": "http://www.hastings.mi.us/",
+    "long": "-85.29",
+    "name": "Hastings",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.64"
+  },
+  {
+    "url": "http://www.ci.manistee.mi.us/",
+    "long": "-86.32",
+    "name": "Manistee",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.24"
+  },
+  {
+    "url": "http://www.cadillac-mi.net/",
+    "long": "-85.4",
+    "name": "Cadillac",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.25"
+  },
+  {
+    "url": "http://village.elkrapids.org/",
+    "long": "-85.41",
+    "name": "Elk Rapids",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "44.89"
+  },
+  {
+    "url": "http://www.manistique.org/",
+    "long": "-86.24",
+    "name": "Manistique",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.95"
+  },
+  {
+    "url": "http://ci.owosso.mi.us/",
+    "long": "-84.17",
+    "name": "Owosso",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.99"
+  },
+  {
+    "url": "http://www.ci.adrian.mi.us/",
+    "long": "-84.03",
+    "name": "Adrian",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.89"
+  },
+  {
+    "url": "http://www.south-haven.com/",
+    "long": "-86.27",
+    "name": "South Haven",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.4"
+  },
+  {
+    "url": "http://www.southlyonmi.org/",
+    "long": "-83.65",
+    "name": "South Lyon",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.46"
+  },
+  {
+    "url": "http://www.hazelpark.org/",
+    "long": "-83.1",
+    "name": "Hazel Park",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.46"
+  },
+  {
+    "url": "http://www.parchment.org/",
+    "long": "-85.56",
+    "name": "Parchment",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.32"
+  },
+  {
+    "url": "http://www.cityofsouthfield.com/",
+    "long": "-83.22",
+    "name": "Southfield",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.47"
+  },
+  {
+    "url": "http://www.southgate-mi.org/",
+    "long": "-83.19",
+    "name": "Southgate",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.21"
+  },
+  {
+    "url": "http://www.spartami.org",
+    "long": "-85.71",
+    "name": "Sparta",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.16"
+  },
+  {
+    "url": "http://www.pawpaw.net/",
+    "long": "-85.89",
+    "name": "Paw Paw",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.21"
+  },
+  {
+    "url": "http://www.ci.albion.mi.us/",
+    "long": "-84.75",
+    "name": "Albion",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.24"
+  },
+  {
+    "url": "http://www.springlakevillage.org/",
+    "long": "-86.19",
+    "name": "Spring Lake",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.07"
+  },
+  {
+    "url": "http://www.pellstonmi.com/",
+    "long": "-84.78",
+    "name": "Pellston",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.55"
+  },
+  {
+    "url": "http://www.algonac-mi.gov/",
+    "long": "-82.53",
+    "name": "Algonac",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.61"
+  },
+  {
+    "url": "http://www.carocity.net/",
+    "long": "-83.39",
+    "name": "Caro",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.49"
+  },
+  {
+    "url": "http://www.marinecity-mi.org/",
+    "long": "-82.49",
+    "name": "Marine City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.71"
+  },
+  {
+    "url": "http://www.springfieldmich.com/",
+    "long": "-85.23",
+    "name": "Springfield",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.32"
+  },
+  {
+    "url": "http://www.cityofallegan.org/",
+    "long": "-85.85",
+    "name": "Allegan",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.52"
+  },
+  {
+    "url": "http://www.highlandparkcity.us/",
+    "long": "-83.09",
+    "name": "Highland Park",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.4"
+  },
+  {
+    "url": "http://www.cityofallenpark.org/",
+    "long": "-83.21",
+    "name": "Allen Park",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.25"
+  },
+  {
+    "url": "http://www.ci.hillsdale.mi.us/",
+    "long": "-84.63",
+    "name": "Hillsdale",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.92"
+  },
+  {
+    "url": "http://www.escanaba.org/",
+    "long": "-87.06",
+    "name": "Escanaba",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.74"
+  },
+  {
+    "url": "http://www.perry.mi.us/",
+    "long": "-84.21",
+    "name": "Perry",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.82"
+  },
+  {
+    "url": "http://www.ci.alma.mi.us/",
+    "long": "-84.65",
+    "name": "Alma",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.37"
+  },
+  {
+    "url": "http://www.cityofholland.com",
+    "long": "-86.1",
+    "name": "Holland",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.78"
+  },
+  {
+    "url": "http://www.mqtcty.org/",
+    "long": "-87.39",
+    "name": "Marquette",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "46.54"
+  },
+  {
+    "url": "http://www.essexville.org/",
+    "long": "-83.84",
+    "name": "Essexville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.61"
+  },
+  {
+    "url": "http://www.petoskey.us/",
+    "long": "-84.95",
+    "name": "Petoskey",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.37"
+  },
+  {
+    "url": "http://www.vi.holly.mi.us/",
+    "long": "-83.62",
+    "name": "Holly",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.79"
+  },
+  {
+    "url": "http://www.cityofmarshall.com/",
+    "long": "-84.96",
+    "name": "Marshall",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.27"
+  },
+  {
+    "url": "http://www.evart.org/",
+    "long": "-85.25",
+    "name": "Evart",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.9"
+  },
+  {
+    "url": "http://www.alpena.mi.us/",
+    "long": "-83.43",
+    "name": "Alpena",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.06"
+  },
+  {
+    "url": "http://www.villageofpinckney.org/",
+    "long": "-83.94",
+    "name": "Pinckney",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.45"
+  },
+  {
+    "url": "http://www.cityofmarysvillemi.com/",
+    "long": "-82.48",
+    "name": "Marysville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.91"
+  },
+  {
+    "url": "http://mason-mi.com/",
+    "long": "-84.44",
+    "name": "Mason",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.57"
+  },
+  {
+    "url": "http://www.sterling-heights.net/",
+    "long": "-83.03",
+    "name": "Sterling Heights",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.58"
+  },
+  {
+    "url": "http://www.villageofstevensville.us/",
+    "long": "-86.51",
+    "name": "Stevensville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.01"
+  },
+  {
+    "url": "http://www.a2gov.org/government/",
+    "long": "-83.72",
+    "name": "Ann Arbor",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.27"
+  },
+  {
+    "url": "http://www.cityofcedarsprings.org/",
+    "long": "-85.55",
+    "name": "Cedar Springs",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "43.22"
+  },
+  {
+    "url": "http://www.vil.stockbridge.mi.us/",
+    "long": "-84.18",
+    "name": "Stockbridge",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.45"
+  },
+  {
+    "url": "http://ci.sturgis.mi.us/",
+    "long": "-85.41",
+    "name": "Sturgis",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "41.79"
+  },
+  {
+    "url": "http://www.centerline.gov/",
+    "long": "-83.02",
+    "name": "Center Line",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.mattawanmi.com/",
+    "long": "-85.78",
+    "name": "Mattawan",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.2"
+  },
+  {
+    "url": "http://www.cityofhoughton.com/",
+    "long": "-88.56",
+    "name": "Houghton",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "47.12"
+  },
+  {
+    "url": "http://www.plainwell.org/",
+    "long": "-85.64",
+    "name": "Plainwell",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.44"
+  },
+  {
+    "url": "http://www.ci.farmington.mi.us/",
+    "long": "-83.37",
+    "name": "Farmington",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.46"
+  },
+  {
+    "url": "http://www.cityofhowell.org/",
+    "long": "-83.92",
+    "name": "Howell",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.6"
+  },
+  {
+    "url": "http://www.ci.farmington-hills.mi.us/",
+    "long": "-83.37",
+    "name": "Farmington Hills",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.ci.plymouth.mi.us/",
+    "long": "-83.47",
+    "name": "Plymouth",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.37"
+  },
+  {
+    "url": "http://www.cityofcharlevoix.org/",
+    "long": "-85.25",
+    "name": "Charlevoix",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.31"
+  },
+  {
+    "url": "http://www.charlottemi.org/",
+    "long": "-84.83",
+    "name": "Charlotte",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.56"
+  },
+  {
+    "url": "http://www.fennville.com/",
+    "long": "-86.1",
+    "name": "Fennville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.59"
+  },
+  {
+    "url": "http://www.hudsonville.org/",
+    "long": "-85.86",
+    "name": "Hudsonville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.87"
+  },
+  {
+    "url": "http://www.pontiac.mi.us/",
+    "long": "-83.29",
+    "name": "Pontiac",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.63"
+  },
+  {
+    "url": "http://www.ferndale-mi.com/",
+    "long": "-83.13",
+    "name": "Ferndale",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.46"
+  },
+  {
+    "url": "http://www.cityofswartzcreek.org/",
+    "long": "-83.83",
+    "name": "Swartz Creek",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.95"
+  },
+  {
+    "url": "http://www.ci.royal-oak.mi.us/",
+    "long": "-83.14",
+    "name": "Royal Oak",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.cityoflansingmi.com/",
+    "long": "-84.55",
+    "name": "Lansing",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.73"
+  },
+  {
+    "url": "http://www.ci.northville.mi.us/",
+    "long": "-83.48",
+    "name": "Northville",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.43"
+  },
+  {
+    "url": "http://www.mackinawcity.org/",
+    "long": "-84.72",
+    "name": "Mackinaw City",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "45.78"
+  },
+  {
+    "url": "http://www.madison-heights.org/",
+    "long": "-83.1",
+    "name": "Madison Heights",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.cityoflansingmi.com/",
+    "long": "-84.55",
+    "name": "Lansing",
+    "state": {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    "lat": "42.73"
+  }
+]

@@ -1,0 +1,1282 @@
+[
+  {
+    "url": "http://www.cityofmaplewood.com/",
+    "long": "-90.32",
+    "name": "Maplewood",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.61"
+  },
+  {
+    "url": "http://www.wentzvillemo.org/",
+    "long": "-90.85",
+    "name": "Wentzville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.81"
+  },
+  {
+    "url": "http://www.republicmo.com/",
+    "long": "-93.48",
+    "name": "Republic",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.12"
+  },
+  {
+    "url": "http://clarksonvalley.org/",
+    "long": "-90.58",
+    "name": "Clarkson Valley",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.61"
+  },
+  {
+    "url": "http://www.westplains.net/",
+    "long": "-91.85",
+    "name": "West Plains",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.72"
+  },
+  {
+    "url": "http://www.ci.clayton.mo.us/",
+    "long": "-90.32",
+    "name": "Clayton",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.64"
+  },
+  {
+    "url": "http://www.marshall-mo.com/",
+    "long": "-93.19",
+    "name": "Marshall",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.12"
+  },
+  {
+    "url": "http://www.marylandheights.com/",
+    "long": "-90.42",
+    "name": "Maryland Heights",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.71"
+  },
+  {
+    "url": "http://www.richmondheights.org/",
+    "long": "-90.31",
+    "name": "Richmond Heights",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.62"
+  },
+  {
+    "url": "http://www.maryvillemo.org/",
+    "long": "-94.87",
+    "name": "Maryville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "40.34"
+  },
+  {
+    "url": "http://www.cityofwildwood.com/",
+    "long": "-90.66",
+    "name": "Wildwood",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.58"
+  },
+  {
+    "url": "http://www.cityofwillard.org/",
+    "long": "-93.42",
+    "name": "Willard",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.3"
+  },
+  {
+    "url": "http://www.cityofriversidemo.com/",
+    "long": "-94.61",
+    "name": "Riverside",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.17"
+  },
+  {
+    "url": "http://www.rockhillmo.net/",
+    "long": "-90.37",
+    "name": "Rock Hill",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.6"
+  },
+  {
+    "url": "http://www.ci.harrisonville.mo.us/",
+    "long": "-94.34",
+    "name": "Harrisonville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.65"
+  },
+  {
+    "url": "http://www.gocolumbiamo.com/",
+    "long": "-92.33",
+    "name": "Columbia",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.95"
+  },
+  {
+    "url": "http://www.woodsonterrace.net/",
+    "long": "-90.35",
+    "name": "Woodson Terrace",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.72"
+  },
+  {
+    "url": "http://www.rollanet.org/gov/",
+    "long": "-91.77",
+    "name": "Rolla",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.95"
+  },
+  {
+    "url": "http://www.mexicomissouri.net/",
+    "long": "-91.88",
+    "name": "Mexico",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.16"
+  },
+  {
+    "url": "http://www.hazelwoodmo.org/",
+    "long": "-90.37",
+    "name": "Hazelwood",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.77"
+  },
+  {
+    "url": "http://www.albanymo.net/",
+    "long": "-94.33",
+    "name": "Albany",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "40.24"
+  },
+  {
+    "url": "http://www.cityofcottleville.com/",
+    "long": "-90.65",
+    "name": "Cottleville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.74"
+  },
+  {
+    "url": "http://www.higginsville.org/",
+    "long": "-93.71",
+    "name": "Higginsville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.07"
+  },
+  {
+    "url": "http://www.stcharlescity.com/",
+    "long": "-90.48",
+    "name": "Saint Charles",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.78"
+  },
+  {
+    "url": "http://www.stclairmo.com/",
+    "long": "-90.98",
+    "name": "Saint Clair",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.34"
+  },
+  {
+    "url": "http://www.ci.crestwood.mo.us/",
+    "long": "-90.38",
+    "name": "Crestwood",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.55"
+  },
+  {
+    "url": "http://stjamesmissouri.org/",
+    "long": "-91.61",
+    "name": "Saint James",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.99"
+  },
+  {
+    "url": "http://www.creve-coeur.org/",
+    "long": "-90.42",
+    "name": "Creve Coeur",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.66"
+  },
+  {
+    "url": "http://www.moberlymo.org/",
+    "long": "-92.43",
+    "name": "Moberly",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.41"
+  },
+  {
+    "url": "http://www.cityofstjohn.org/",
+    "long": "-90.34",
+    "name": "Saint Johns",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.71"
+  },
+  {
+    "url": "http://www.ci.st-joseph.mo.us/",
+    "long": "-94.84",
+    "name": "Saint Joseph",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.76"
+  },
+  {
+    "url": "http://stlouis.missouri.org/",
+    "long": "-90.19",
+    "name": "Saint Louis",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.62"
+  },
+  {
+    "url": "http://cityofhollister.com/",
+    "long": "-93.21",
+    "name": "Hollister",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.62"
+  },
+  {
+    "url": "http://www.cityofmonett.com/",
+    "long": "-93.92",
+    "name": "Monett",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.92"
+  },
+  {
+    "url": "http://www.stpetersmo.net/",
+    "long": "-90.62",
+    "name": "Saint Peters",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.8"
+  },
+  {
+    "url": "http://www.saintrobert.com/",
+    "long": "-92.17",
+    "name": "Saint Robert",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.82"
+  },
+  {
+    "url": "http://www.arnoldmo.org/",
+    "long": "-90.37",
+    "name": "Arnold",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.43"
+  },
+  {
+    "url": "http://ci.sedalia.mo.us/",
+    "long": "-93.22",
+    "name": "Sedalia",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.7"
+  },
+  {
+    "url": "http://www.seymourmissouri.org/",
+    "long": "-92.76",
+    "name": "Seymour",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.14"
+  },
+  {
+    "url": "http://www.mtvernon-cityhall.org/",
+    "long": "-93.81",
+    "name": "Mount Vernon",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.1"
+  },
+  {
+    "url": "http://www.ballwin.mo.us/",
+    "long": "-90.54",
+    "name": "Ballwin",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.59"
+  },
+  {
+    "url": "http://www.iberiamo.yhti.net/",
+    "long": "-92.29",
+    "name": "Iberia",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.09"
+  },
+  {
+    "url": "http://www.ci.independence.mo.us/",
+    "long": "-94.41",
+    "name": "Independence",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.09"
+  },
+  {
+    "url": "http://www.desperesmo.org/",
+    "long": "-90.43",
+    "name": "Des Peres",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.6"
+  },
+  {
+    "url": "http://www.neoshomo.org/",
+    "long": "-94.36",
+    "name": "Neosho",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.86"
+  },
+  {
+    "url": "http://www.jacksonmo.com/city/",
+    "long": "-89.66",
+    "name": "Jackson",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.38"
+  },
+  {
+    "url": "http://www.nevadamo.org/",
+    "long": "-94.35",
+    "name": "Nevada",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.83"
+  },
+  {
+    "url": "http://www.sikeston.org/",
+    "long": "-89.58",
+    "name": "Sikeston",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.87"
+  },
+  {
+    "url": "http://newfranklin.missouri.org/",
+    "long": "-92.73",
+    "name": "New Franklin",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.01"
+  },
+  {
+    "url": "http://www.cityofslater.com",
+    "long": "-93.06",
+    "name": "Slater",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.21"
+  },
+  {
+    "url": "http://www.belton.org/",
+    "long": "-94.53",
+    "name": "Belton",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.81"
+  },
+  {
+    "url": "http://www.new-madrid.mo.us/",
+    "long": "-89.52",
+    "name": "New Madrid",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.58"
+  },
+  {
+    "url": "http://www.jeffcitymo.org/",
+    "long": "-92.17",
+    "name": "Jefferson City",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.57"
+  },
+  {
+    "url": "http://www.springfieldmo.gov/",
+    "long": "-93.29",
+    "name": "Springfield",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.21"
+  },
+  {
+    "url": "http://www.nixa.com/",
+    "long": "-93.29",
+    "name": "Nixa",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.04"
+  },
+  {
+    "url": "http://www.cityofnormandy.gov/",
+    "long": "-90.29",
+    "name": "Normandy",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.72"
+  },
+  {
+    "url": "http://www.eldonmo.org/",
+    "long": "-92.58",
+    "name": "Eldon",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.34"
+  },
+  {
+    "url": "http://www.nkc.org/",
+    "long": "-94.56",
+    "name": "North Kansas City",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.13"
+  },
+  {
+    "url": "http://www.joplinmo.org/",
+    "long": "-94.51",
+    "name": "Joplin",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.08"
+  },
+  {
+    "url": "http://www.ellisville.mo.us/",
+    "long": "-90.58",
+    "name": "Ellisville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.59"
+  },
+  {
+    "url": "http://www.cityofblackjack.com/",
+    "long": "-90.26",
+    "name": "Black Jack",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.79"
+  },
+  {
+    "url": "http://www.kcmo.org/",
+    "long": "-94.57",
+    "name": "Kansas City",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.09"
+  },
+  {
+    "url": "http://www.sturgeon-mo.org/",
+    "long": "-92.28",
+    "name": "Sturgeon",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.23"
+  },
+  {
+    "url": "http://www.sugar-creek.mo.us/",
+    "long": "-94.44",
+    "name": "Sugar Creek",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.1"
+  },
+  {
+    "url": "http://www.cityofoakgrove.com/",
+    "long": "-94.12",
+    "name": "Oak Grove",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39"
+  },
+  {
+    "url": "http://www.bluespringsgov.com/",
+    "long": "-94.28",
+    "name": "Blue Springs",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.01"
+  },
+  {
+    "url": "http://www.oaklandmo.org/",
+    "long": "-90.38",
+    "name": "Oakland",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.57"
+  },
+  {
+    "url": "http://www.cityofodessamo.com/",
+    "long": "-93.95",
+    "name": "Odessa",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.99"
+  },
+  {
+    "url": "http://www.sunset-hills.com/",
+    "long": "-90.4",
+    "name": "Sunset Hills",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.53"
+  },
+  {
+    "url": "http://www.ofallon.mo.us/",
+    "long": "-90.69",
+    "name": "O'Fallon",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.81"
+  },
+  {
+    "url": "http://www.eureka.mo.us/",
+    "long": "-90.62",
+    "name": "Eureka",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.5"
+  },
+  {
+    "url": "http://www.boonville-mo.org/",
+    "long": "-92.74",
+    "name": "Boonville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.97"
+  },
+  {
+    "url": "http://www.kirksvillecity.com/",
+    "long": "-92.58",
+    "name": "Kirksville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "40.19"
+  },
+  {
+    "url": "http://www.ci.kirkwood.mo.us/",
+    "long": "-90.4",
+    "name": "Kirkwood",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.58"
+  },
+  {
+    "url": "http://www.olivettemo.com/",
+    "long": "-90.37",
+    "name": "Olivette",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.66"
+  },
+  {
+    "url": "http://www.ci.excelsior-springs.mo.us/",
+    "long": "-94.22",
+    "name": "Excelsior Springs",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.33"
+  },
+  {
+    "url": "http://www.osagebeach.org/",
+    "long": "-92.61",
+    "name": "Osage Beach",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.15"
+  },
+  {
+    "url": "http://www.cityofbranson.org/",
+    "long": "-93.21",
+    "name": "Branson",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.64"
+  },
+  {
+    "url": "http://www.town-and-country.org/",
+    "long": "-90.46",
+    "name": "Town and Country",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.61"
+  },
+  {
+    "url": "http://www.brentwoodmo.org/",
+    "long": "-90.34",
+    "name": "Brentwood",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.61"
+  },
+  {
+    "url": "http://www.farmington-mo.gov/",
+    "long": "-90.42",
+    "name": "Farmington",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.78"
+  },
+  {
+    "url": "http://www.bridgetonmo.com",
+    "long": "-90.41",
+    "name": "Bridgeton",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.76"
+  },
+  {
+    "url": "http://overlandmo.org/",
+    "long": "-90.36",
+    "name": "Overland",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.7"
+  },
+  {
+    "url": "http://www.fentonmo.org/",
+    "long": "-90.43",
+    "name": "Fenton",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.51"
+  },
+  {
+    "url": "http://www.lakesaintlouis.com/",
+    "long": "-90.78",
+    "name": "Lake Saint Louis",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.79"
+  },
+  {
+    "url": "http://www.ozarkmissouri.com/",
+    "long": "-93.2",
+    "name": "Ozark",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.02"
+  },
+  {
+    "url": "http://www.fergusoncity.com/",
+    "long": "-90.3",
+    "name": "Ferguson",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.74"
+  },
+  {
+    "url": "http://www.cityoffestus.org/",
+    "long": "-90.39",
+    "name": "Festus",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.22"
+  },
+  {
+    "url": "http://www.pacificmissouri.com/",
+    "long": "-90.74",
+    "name": "Pacific",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.48"
+  },
+  {
+    "url": "http://www.parkhillsmo.net/",
+    "long": "-90.51",
+    "name": "Park Hills",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.85"
+  },
+  {
+    "url": "http://www.parkvillemo.com/",
+    "long": "-94.68",
+    "name": "Parkville",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.19"
+  },
+  {
+    "url": "http://www.ci.union.mo.us/",
+    "long": "-91",
+    "name": "Union",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.45"
+  },
+  {
+    "url": "http://www.florissantmo.com/",
+    "long": "-90.32",
+    "name": "Florissant",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.78"
+  },
+  {
+    "url": "http://www.pasadenahills.com/",
+    "long": "-90.29",
+    "name": "Pasadena Hills",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.7"
+  },
+  {
+    "url": "http://www.ucitymo.org/",
+    "long": "-90.3",
+    "name": "University City",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.65"
+  },
+  {
+    "url": "http://www.lebanonmissouri.org/",
+    "long": "-92.66",
+    "name": "Lebanon",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.68"
+  },
+  {
+    "url": "http://www.cityofls.net/",
+    "long": "-94.38",
+    "name": "Lees Summit",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.91"
+  },
+  {
+    "url": "http://www.cityofpiedmont.com/",
+    "long": "-90.69",
+    "name": "Piedmont",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.15"
+  },
+  {
+    "url": "http://fulton.missouri.org/",
+    "long": "-91.94",
+    "name": "Fulton",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.84"
+  },
+  {
+    "url": "http://www.ci.liberty.mo.us/",
+    "long": "-94.41",
+    "name": "Liberty",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.24"
+  },
+  {
+    "url": "http://www.camdentoncity.com/",
+    "long": "-92.74",
+    "name": "Camdenton",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38"
+  },
+  {
+    "url": "http://www.cameron-mo.com/",
+    "long": "-94.24",
+    "name": "Cameron",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.74"
+  },
+  {
+    "url": "http://www.plattecity.org/",
+    "long": "-94.78",
+    "name": "Platte City",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.37"
+  },
+  {
+    "url": "http://www.cityofcapegirardeau.org/",
+    "long": "-89.51",
+    "name": "Cape Girardeau",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.3"
+  },
+  {
+    "url": "http://www.pleasanthill.com",
+    "long": "-94.26",
+    "name": "Pleasant Hill",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.78"
+  },
+  {
+    "url": "http://www.gladstone.mo.us/",
+    "long": "-94.55",
+    "name": "Gladstone",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.2"
+  },
+  {
+    "url": "http://www.glendalemo.org/",
+    "long": "-90.37",
+    "name": "Glendale",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.59"
+  },
+  {
+    "url": "http://www.warrensburg-mo.com/",
+    "long": "-93.73",
+    "name": "Warrensburg",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.76"
+  },
+  {
+    "url": "http://www.warrenton-mo.org/",
+    "long": "-91.14",
+    "name": "Warrenton",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.81"
+  },
+  {
+    "url": "http://mo-warsaw.civicplus.com/",
+    "long": "-93.38",
+    "name": "Warsaw",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.24"
+  },
+  {
+    "url": "http://poplarbluff.org/",
+    "long": "-90.39",
+    "name": "Poplar Bluff",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.75"
+  },
+  {
+    "url": "http://www.warsonwoods.com/",
+    "long": "-90.38",
+    "name": "Warson Woods",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.6"
+  },
+  {
+    "url": "http://www.ci.washington.mo.us/",
+    "long": "-91.01",
+    "name": "Washington",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.55"
+  },
+  {
+    "url": "http://www.cityofgrainvalley.org/",
+    "long": "-94.19",
+    "name": "Grain Valley",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.01"
+  },
+  {
+    "url": "http://www.centraliamo.org/",
+    "long": "-92.13",
+    "name": "Centralia",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.21"
+  },
+  {
+    "url": "http://www.grandview.org/",
+    "long": "-94.53",
+    "name": "Grandview",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.88"
+  },
+  {
+    "url": "http://www.webstergroves.org/",
+    "long": "-90.35",
+    "name": "Webster Groves",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.59"
+  },
+  {
+    "url": "http://www.chesterfield.mo.us/",
+    "long": "-90.57",
+    "name": "Chesterfield",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.66"
+  },
+  {
+    "url": "http://www.raymore.com/",
+    "long": "-94.45",
+    "name": "Raymore",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.8"
+  },
+  {
+    "url": "http://www.raytown.mo.us/",
+    "long": "-94.46",
+    "name": "Raytown",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39"
+  },
+  {
+    "url": "http://www.chillicothecity.org/",
+    "long": "-93.55",
+    "name": "Chillicothe",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.79"
+  },
+  {
+    "url": "http://www.manchestermo.gov/",
+    "long": "-90.5",
+    "name": "Manchester",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "38.59"
+  },
+  {
+    "url": "http://www.cityofmonett.com/",
+    "long": "-93.92",
+    "name": "Monett",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.92"
+  },
+  {
+    "url": "http://www.sikeston.org/",
+    "long": "-89.58",
+    "name": "Sikeston",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "36.87"
+  },
+  {
+    "url": "http://www.joplinmo.org/",
+    "long": "-94.51",
+    "name": "Joplin",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "37.08"
+  },
+  {
+    "url": "http://www.kcmo.org/",
+    "long": "-94.57",
+    "name": "Kansas City",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.09"
+  },
+  {
+    "url": "http://www.cameron-mo.com/",
+    "long": "-94.24",
+    "name": "Cameron",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.74"
+  },
+  {
+    "url": "http://www.kcmo.org/",
+    "long": "-94.57",
+    "name": "Kansas City",
+    "state": {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    "lat": "39.09"
+  }
+]
