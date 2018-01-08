@@ -1,0 +1,54 @@
+.example-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px hsl(200, 60%, 85%);
+  background-color: hsl(200, 60%, 92%);
+  padding: 15px;
+
+  .example-component {
+    overflow: auto;
+
+    button {
+      margin-bottom: 2px;
+    }
+  }
+
+  .example-files {
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 580px;
+
+    .example-file-chooser {
+      display: flex;
+      flex-direction: row;
+      color: #4d4d4d;
+
+      .example-file {
+        background-color: #aed7ea;
+        border: solid 1px #72b9da;
+        border-bottom-width: 0px;
+        //border-radius: 2px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        margin-right: 1px;
+        padding: 6px 10px;
+        cursor: pointer;
+
+        &.selected {
+          background-color: #1f5a75;
+          color: white;
+        }
+      }
+    }
+
+    .example-source {
+      border: solid 1px hsl(200, 60%, 80%);
+      margin: 0px !important;
+      flex: 1;
+    }
+
+  }
+}

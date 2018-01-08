@@ -9,7 +9,7 @@ module.exports = {
     const newItem = {
       text: text,
       children: [],
-      isLeaf: false
+      isLeaf: isLeaf
     }
     parent.children = parent.children || [];
     parent.children.push(newItem);
@@ -71,9 +71,6 @@ module.exports = {
   },
 
   removeItem: (scope, id) => {
-    //let node = _findNode(scope.s.rootItem.children, dataToFind, keys);
-    //let nodeTobeRemoved = _findNode
-    //console.log('removing... ' + id)
     let node = scope.api.findNode(id);
     let parentNode = _getParentItem(scope, node);
     let childIndex = parentNode.children.findIndex((child) => {
@@ -81,6 +78,13 @@ module.exports = {
     });
 
     parentNode.children.splice(childIndex, 1);
+
+    if (scope.state.selectedItem && scope.state.selectedItem.id === id)  {
+      scope.setState({
+        selectedItem: undefined
+      });
+    }
+
     scope.forceUpdate();
 
     // if (parentNode.children.length === 0) {

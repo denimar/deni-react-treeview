@@ -47,6 +47,7 @@ html,body,#root {
     .menu {
       $border-color: darken(#f2f2f2, 4%);
       width: 240px;
+      min-width: 240px;
       color: #006064;
       display: block;
       //border: solid 2px blue;
@@ -98,51 +99,6 @@ html,body,#root {
       display: inline-flex;
       justify-content: space-around;
       flex: 1;
-
-      .body {
-        // border: solid 1px red;
-        display: flex;
-        justify-content: space-around;
-        flex: 1;
-        flex-direction: column;
-        padding: 15px;
-        // background-color: #F7FAFD;
-
-        &.nomatch {
-          background-color: #FFF0F0;
-          color: #ff0000;
-          font-size: 18px;
-          border-top: solid 1px #ff0000;
-        }
-
-        .example-preview-title {
-          width: 100%;
-          height: 30px;
-          color: #4A148C;
-          box-sizing: border-box;
-          font-family: tahoma;
-          font-size: 12px;
-          display: block;
-          // border: solid 1px green;
-        }
-
-        .example-preview-container {
-          position: relative;
-          width: 100%;
-          box-sizing: border-box;
-          display: flex;
-          // border: solid 1px orange;
-          flex: 1;
-
-          .example-preview-iframe {
-            justify-content: space-around;
-            flex: 1;
-            border: solid 1px lighten(#1565C0, 50%);
-          }
-
-        }
-
-      }
 
     }
 

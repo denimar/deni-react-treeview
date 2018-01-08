@@ -8,8 +8,6 @@ import treeviewApiFn from './deni-react-treeview.api'
 class DeniReactTreeView extends React.Component {
 
   constructor(props) {
-    alert('criating 01');
-
     super(props);
     this.state = {
       theme: props.theme
@@ -31,10 +29,14 @@ class DeniReactTreeView extends React.Component {
         children = this.props.items;
       }
     }
+    let className = 'deni-react-treeview-container unselectable ' + self.state.theme;
+    if (this.props.className) {
+      className += ' ' + this.props.className;
+    }
 
     return (
       (children !== undefined) ? (
-        <div className={'deni-react-treeview-container unselectable ' + self.state.theme}>
+        <div className={ className }>
           {domTreeviewItem}
           {_createComponentsChildren(self, domTreeviewItem, 1, children)}
         </div>

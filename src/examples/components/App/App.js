@@ -7,8 +7,6 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-
-    console.log(props.children);
   }
 
   render() {
@@ -25,15 +23,17 @@ class App extends React.Component {
 
                 return (
                   <div key={menuItem.id}>
-                    <div className="menu-item">{menuItem.title}</div>
-                    {childrenItems}
+                    <div className="menu-item">{ menuItem.title }</div>
+                    { childrenItems }
                   </div>
                 )
               })
             }
           </div>
           <div className="body-container">
-            {this.props.children}
+            {
+              this.props.children
+            }
           </div>
         </div>
       </div>

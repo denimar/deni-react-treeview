@@ -1,18 +1,6 @@
 import {ROOT_ITEM} from './deni-react-treeview.constant'
 import axios from 'axios';
 
-var newId = 1;
-
-function setId(items) {
-  items.forEach(item => {
-    item.id = newId;
-    newId++;
-    if (item.children) {
-      setId(item.children);
-    }
-  });
-}
-
 module.exports = {
 
   loadingSetup(treeview) {
@@ -41,7 +29,6 @@ module.exports = {
 
   load(item) {
     let self = this;
-    newId = 1;
     return new Promise(function(success, reject) {
 
       if (self.props.url || self.props.json) {
@@ -53,9 +40,6 @@ module.exports = {
 
         axios.get(urlToLoad)
           .then(res => {
-            setId(res.data);
-            console.log(JSON.stringify(res.data));
-
             self.api.loadData(res.data, item);
             success(res.data);
           });

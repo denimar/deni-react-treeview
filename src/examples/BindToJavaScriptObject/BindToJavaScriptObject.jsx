@@ -1,12 +1,12 @@
 import React from 'react';
-import TreeView from '../src/deni-react-treeview/deni-react-treeview';
+import TreeView from '../../deni-react-treeview/deni-react-treeview';
 
 class Example extends React.Component{
 
   render() {
 
     return (
-      <TreeView items={fruitsAndVegetables} />
+      <TreeView items={ fruitsAndVegetables } />
     );
   }
 

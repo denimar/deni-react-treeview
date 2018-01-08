@@ -1,156 +1,242 @@
 import React from 'react'
-//import Theming from './components/examples/Theming'
-//import LazyLoad from './components/examples/LazyLoad'
-//import Events from './components/examples/Events'
-//import AutoLoad from './components/examples/AutoLoad'
-//import ManualLazyLoad from './components/examples/ManualLazyLoad'
 
-import LazyLoad from './components/examples/LazyLoad'
-import ApiTests from './components/examples/ApiTests'
-import LoadWithSetState from './components/examples/LoadWithSetState'
-import BindToLocalJson from './binding-to-local-json'
+import BindToLocalJson from './BindToLocalJson'
+import BindToRemoteJson from './BindToRemoteJson'
+import BindToRemoteJsonLazyLoad from './BindToRemoteJsonLazyLoad'
+import BindToJavaScriptObject from './BindToJavaScriptObject'
+import PredefinedThemes from './PredefinedThemes'
+import ThemeCustomization from './ThemeCustomization'
+import AutoLoadFalse from './AutoLoadFalse'
+import MarginItems from './MarginItems'
+import SelectRow from './SelectRow'
+import ShowCheckBox from './ShowCheckBox'
+import ShowIconFalse from './ShowIconFalse'
+import ShowRootTrue from './ShowRootTrue'
+import ThemeIqualMetro from './ThemeIqualMetro'
+import ActionButtons from './ActionButtons'
+import OnRenderItem from './OnRenderItem'
+import ApiTests from './api/ApiTests'
+import AddItem from './api/AddItem'
+import RemoveItem from './api/RemoveItem'
 
 module.exports = {
-    items: [
+  items: [
+    {
+      "id": 1,
+      "title": "Binding",
+      "children": [
         {
-            "id": 1,
-            "title": "Binding",
-            "jsfiddle": "tc8Lovb7",
-            "route": "binding",
-            "children": [
-                {
-                    "id": 102,
-                    "title": "to a JSON",
-                    "description": "Binding to a JSON file, which might comes locally or remotelly.",
-                    "component": BindToLocalJson,
-                    "jsfiddle": "tc8Lovb7",
-                    "route": "json"
-                }, {
-                    "id": 103,
-                    "title": "to a remote JSON (Lazy Load)",
-                    "description": "to a remote JSON (Lazy Load) dfdsjflkdsjf dlsfjk",
-                    //"component": LazyLoad,
-                    "jsfiddle": "o7npugrt",
-                    "route": "lazy-load"
-                }, {
-                    "id": 104,
-                    "title": "Binding to a Javascript object",
-                    "description": "Binding to a Javascript object",
-                    "jsfiddle": "7mox9ne3",
-                    "route": "javascript"
-                }
-            ]
-        }, {
-            "id": 2,
-            "title": "Theming",
-            "route": "theming",
-            "jsfiddle": "tc8Lovb7",
-            "children": [
-                {
-                    "id": 201,
-                    "title": "Predefined Themes",
-                    "jsfiddle": "xgcmnk5q",
-                    "description": "Predefined Themes lçdsfklj lksdjlkjflksdj sdlkfjasd",
-                    "route": "predefined-themes"
-                }, {
-                    "id": 202,
-                    "title": "Theme Customization",
-                    "jsfiddle": "p89c2ryy",
-                    "description": "Theme Customization lçdsfklj lksdjlkjflksdj sdlkfjasd",
-                    "route": "theme-customization"
-                }
-            ]
-        }, {
-            "id": 3,
-            "title": "Events",
-            "route": "events",
-            "jsfiddle": "tc8Lovb7",
-            "children": [
-                {
-                    "id": 301,
-                    "title": "Events Example",
-                    "jsfiddle": "gbdyyjoc",
-                    "description": 'Events Example todo... finish it',
-                    "route": "events"
-                }
-            ]
-        }, {
-            "id": 4,
-            "title": "Options",
-            "route": "options",
-            "jsfiddle": "tc8Lovb7",
-            "children": [
-                {
-                    "id": 401,
-                    "title": "autoLoad = false",
-                    "jsfiddle": "yynzedks",
-                    "description": 'TODO: implement this example',
-                    "route": "autoload"
-                }, {
-                    "id": 402,
-                    "title": "manual lazyLoad",
-                    "jsfiddle": "qp72drx0",
-                    "description": 'TODO: implement this example',
-                    //"component": Theming,
-                    "route": "lazyload"
-                }, {
-                    "id": 403,
-                    "title": "marginItems",
-                    "jsfiddle": "tc8Lovb7",
-                    "description": 'TODO: implement this example',
-                    "route": "marginitems"
-                }, {
-                    "id": 404,
-                    "title": "selectRow",
-                    "jsfiddle": "tc8Lovb7",
-                    "description": 'TODO: implement this example',
-                    "route": "selectrow"
-                }, {
-                    "id": 405,
-                    "title": "showCheckbox",
-                    "jsfiddle": "tc8Lovb7",
-                    "description": '...',
-                    "route": "showcheckbox"
-                }, {
-                    "id": 406,
-                    "title": "showIcon",
-                    "description": 'TODO: implement this example',
-                    "route": "showicon"
-                }, {
-                    "id": 407,
-                    "title": "showRoot",
-                    "jsfiddle": "tc8Lovb7",
-                    "description": 'TODO: implement this example',
-                    "route": "showroot"
-                }, {
-                    "id": 408,
-                    "title": "theme",
-                    "jsfiddle": "xgcmnk5q",
-                    "description": '...',
-                    "route": "theme"
-                },
-                {
-                    "id": 997,
-                    "title": "Lazy Load",
-                    "component": LazyLoad,
-                    "description": "Lazy load items",
-                    "route": "lazy"
-                },
-                {
-                    "id": 998,
-                    "title": "Testing API",
-                    "component": ApiTests,
-                    "description": "Testing API",
-                    "route": "apitests"
-                },
-                {
-                    "id": 999,
-                    "title": "Testing Load with SetState",
-                    "component": LoadWithSetState,
-                    "description": "Testing Load with Set State",
-                    "route": "setstate"
-                }
-            ]
+          "id": 102,
+          "route": "local-json",
+          "title": "to a local JSON",
+          "description": "Binding to a JSON file, which might comes locally or remotelly.",
+          "component": BindToLocalJson,
+          "files": [
+            "BindToLocalJson/BindToLocalJson.jsx",
+            "data/countries-by-continents.json"
+          ],
+        },
+        {
+          "id": 103,
+          "route": "remote-json",
+          "title": "to a remote JSON",
+          "description": "to a remote JSON",
+          "component": BindToRemoteJson,
+          "files": [
+            "BindToRemoteJson/BindToRemoteJson.jsx"
+          ],
+        },
+        {
+          "id": 104,
+          "route": "lazy-load",
+          "title": "to a remote JSON (Lazy Load)",
+          "description": "to a remote JSON (Lazy Load) dfdsjflkdsjf dlsfjk",
+          "component": BindToRemoteJsonLazyLoad,
+          "files": [
+            "BindToRemoteJsonLazyLoad/BindToRemoteJsonLazyLoad.jsx"
+          ]
+        },
+        {
+          "id": 105,
+          "route": "javascript",
+          "title": "Binding to a Javascript object",
+          "description": "Binding to a Javascript object",
+          "component": BindToJavaScriptObject,
+          "files": [
+            "BindToJavaScriptObject/BindToJavaScriptObject.jsx"
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Theming",
+      "children": [
+        {
+          "id": 201,
+          "route": "predefined-themes",
+          "title": "Predefined Themes",
+          "description": "Predefined Themes lçdsfklj lksdjlkjflksdj sdlkfjasd",
+          "component": PredefinedThemes,
+          "files": [
+            "PredefinedThemes/PredefinedThemes.jsx",
+            "PredefinedThemes/PredefinedThemes.scss"
+          ]
+        },
+        {
+          "id": 202,
+          "route": "theme-customization",
+          "title": "Theme Customization",
+          "description": "Theme Customization lçdsfklj lksdjlkjflksdj sdlkfjasd",
+          "component": ThemeCustomization,
+          "files": [
+            "ThemeCustomization/ThemeCustomization.jsx",
+            "ThemeCustomization/ThemeCustomization.scss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Events",
+      "children": [
+        {
+          "id": 301,
+          "title": "Events Example",
+          "jsfiddle": "gbdyyjoc",
+          "description": "Events Example todo... finish it",
+          "route": "events"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Options",
+      "children": [
+        {
+          "id": 401,
+          "route": "autoload",
+          "title": "autoLoad = false",
+          "description": "TODO: implement this example",
+          "component": AutoLoadFalse,
+          "files": [
+            "AutoLoadFalse/AutoLoadFalse.jsx"
+          ]
+        },
+        {
+          "id": 402,
+          "route": "lazyload",
+          "title": "manual lazyLoad (LazyLoad = true)",
+          "description": "TODO: implement this example",
+        },
+        {
+          "id": 403,
+          "route": "marginitems",
+          "title": "marginItems = 80",
+          "description": "TODO: implement this example",
+          "component": MarginItems,
+          "files": [
+            "MarginItems/MarginItems.jsx"
+          ]
+        },
+        {
+          "id": 404,
+          "route": "selectrow",
+          "title": "selectRow = true",
+          "description": "TODO: implement this example",
+          "component": SelectRow,
+          "files": [
+            "SelectRow/SelectRow.jsx"
+          ]
+        },
+        {
+          "id": 405,
+          "route": "showcheckbox",
+          "title": "showCheckbox = true",
+          "description": "...",
+          "component": ShowCheckBox,
+          "files": [
+            "ShowCheckBox/ShowCheckBox.jsx"
+          ]
+        },
+        {
+          "id": 406,
+          "route": "showicon",
+          "title": "showIcon = false",
+          "description": "TODO: implement this example",
+          "component": ShowIconFalse,
+          "files": [
+            "ShowIconFalse/ShowIconFalse.jsx"
+          ]
+        },
+        {
+          "id": 407,
+          "route": "showroot",
+          "title": "showRoot = true",
+          "description": "TODO: implement this example",
+          "component": ShowRootTrue,
+          "files": [
+            "ShowRootTrue/ShowRootTrue.jsx"
+          ]
+        },
+        {
+          "id": 408,
+          "route": "theme",
+          "title": "Theme = \"metro\"",
+          "description": "...",
+          "component": ThemeIqualMetro,
+          "files": [
+            "ThemeIqualMetro/ThemeIqualMetro.jsx"
+          ]
+        },
+        {
+          "id": 409,
+          "route": "onrenderitem",
+          "title": "onRenderItem",
+          "description": "...",
+          "component": OnRenderItem,
+          "files": [
+            "OnRenderItem/OnRenderItem.jsx",
+            "OnRenderItem/OnRenderItem.scss"
+          ]
+        },
+        {
+          "id": 410,
+          "route": "actionbuttons",
+          "title": "Action Buttons",
+          "description": "...",
+          "component": ActionButtons,
+          "files": [
+            "ActionButtons/ActionButtons.jsx"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "API",
+      "children": [
+        {
+          "id": 501,
+          "route": "additem",
+          "title": "Add Item",
+          "description": "TODO: implement this example",
+          "component": AddItem,
+          "files": [
+            "api/AddItem/AddItem.jsx"
+          ]
+        },
+        {
+          "id": 502,
+          "route": "removeitem",
+          "title": "Remove Item",
+          "description": "TODO: implement this example",
+          "component": RemoveItem,
+          "files": [
+            "api/RemoveItem/RemoveItem.jsx"
+          ]
+        }
+      ]
+    }
+  ]
 }

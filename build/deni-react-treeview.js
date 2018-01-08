@@ -1755,8 +1755,6 @@ var DeniReactTreeView = function (_React$Component) {
   function DeniReactTreeView(props) {
     _classCallCheck(this, DeniReactTreeView);
 
-    alert('criating 01');
-
     var _this = _possibleConstructorReturn(this, (DeniReactTreeView.__proto__ || Object.getPrototypeOf(DeniReactTreeView)).call(this, props));
 
     _this.state = {
