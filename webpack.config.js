@@ -31,7 +31,7 @@ plugins.push(new ExtractTextPlugin({
   allChunks: true
 }));
 
-let config = {
+var config = {
   entry: [
     APP_DIR + '/examples/index.js'
   ],

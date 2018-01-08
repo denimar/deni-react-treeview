@@ -1269,6 +1269,18 @@ var _axios2 = _interopRequireDefault(_axios);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var newId = 1;
+
+function setId(items) {
+  items.forEach(function (item) {
+    item.id = newId;
+    newId++;
+    if (item.children) {
+      setId(item.children);
+    }
+  });
+}
+
 module.exports = {
   loadingSetup: function loadingSetup(treeview) {
     //by props.url
@@ -1294,6 +1306,7 @@ module.exports = {
   },
   load: function load(item) {
     var self = this;
+    newId = 1;
     return new Promise(function (success, reject) {
 
       if (self.props.url || self.props.json) {
@@ -1304,6 +1317,9 @@ module.exports = {
         }
 
         _axios2.default.get(urlToLoad).then(function (res) {
+          setId(res.data);
+          console.log(JSON.stringify(res.data));
+
           self.api.loadData(res.data, item);
           success(res.data);
         });
@@ -1781,10 +1797,14 @@ var DeniReactTreeView = function (_React$Component) {
           children = this.props.items;
         }
       }
+      var className = 'deni-react-treeview-container unselectable ' + self.state.theme;
+      if (this.props.className) {
+        className += ' ' + this.props.className;
+      }
 
       return children !== undefined ? _react2.default.createElement(
         'div',
-        { className: 'deni-react-treeview-container unselectable ' + self.state.theme },
+        { className: className },
         domTreeviewItem,
         _createComponentsChildren(self, domTreeviewItem, 1, children)
       ) : _react2.default.createElement('div', { className: 'deni-react-treeview-container unselectable' });
@@ -1857,7 +1877,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".deni-react-treeview-container {\n  font-family: tahoma,arial;\n  font-size: 12px;\n  padding: 0px;\n  overflow-x: auto;\n  overflow-y: auto;\n  border: solid 1px;\n  border-color: #a5c7e3;\n  width: 250px;\n  height: 350px;\n  background-color: #fafafa; }\n  .deni-react-treeview-container * {\n    box-sizing: border-box; }\n    .deni-react-treeview-container *.unselectable {\n      -webkit-touch-callout: none;\n      /* iOS Safari */\n      -webkit-user-select: none;\n      /* Chrome/Safari/Opera */\n      -khtml-user-select: none;\n      /* Konqueror */\n      -moz-user-select: none;\n      /* Firefox */\n      -ms-user-select: none;\n      /* Internet Explorer/Edge */\n      user-select: none;\n      /* Non-prefixed version, currently\n                                  not supported by any browser */ }\n", ""]);
+exports.push([module.i, ".deni-react-treeview-container {\n  font-family: tahoma,arial;\n  font-size: 12px;\n  padding: 0px;\n  overflow-x: auto;\n  overflow-y: auto;\n  border: solid 1px;\n  border-color: #a5c7e3;\n  width: 400px;\n  height: 350px;\n  background-color: #fafafa; }\n  .deni-react-treeview-container * {\n    box-sizing: border-box; }\n    .deni-react-treeview-container *.unselectable {\n      -webkit-touch-callout: none;\n      /* iOS Safari */\n      -webkit-user-select: none;\n      /* Chrome/Safari/Opera */\n      -khtml-user-select: none;\n      /* Konqueror */\n      -moz-user-select: none;\n      /* Firefox */\n      -ms-user-select: none;\n      /* Internet Explorer/Edge */\n      user-select: none;\n      /* Non-prefixed version, currently\n                                  not supported by any browser */ }\n", ""]);
 
 // exports
 
@@ -4962,7 +4982,7 @@ module.exports = {
     var newItem = {
       text: text,
       children: [],
-      isLeaf: false
+      isLeaf: isLeaf
     };
     parent.children = parent.children || [];
     parent.children.push(newItem);
@@ -5024,9 +5044,6 @@ module.exports = {
   },
 
   removeItem: function removeItem(scope, id) {
-    //let node = _findNode(scope.s.rootItem.children, dataToFind, keys);
-    //let nodeTobeRemoved = _findNode
-    //console.log('removing... ' + id)
     var node = scope.api.findNode(id);
     var parentNode = _getParentItem(scope, node);
     var childIndex = parentNode.children.findIndex(function (child) {
@@ -5034,6 +5051,13 @@ module.exports = {
     });
 
     parentNode.children.splice(childIndex, 1);
+
+    if (scope.state.selectedItem && scope.state.selectedItem.id === id) {
+      scope.setState({
+        selectedItem: undefined
+      });
+    }
+
     scope.forceUpdate();
 
     // if (parentNode.children.length === 0) {
