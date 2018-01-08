@@ -63,7 +63,7 @@ class Example extends React.Component {
           </div>
           <SyntaxHighlighter className="example-source" language='javascript' style={docco}>
             {
-              this.state.sourceContent.replace('../../deni-react-treeview/deni-react-treeview', 'deni-react-treeview')
+              this.state.sourceContent.replace('../../../src/deni-react-treeview/deni-react-treeview', 'deni-react-treeview')
             }
           </SyntaxHighlighter>
         </div>

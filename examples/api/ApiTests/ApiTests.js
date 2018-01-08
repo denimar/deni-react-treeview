@@ -1,5 +1,5 @@
 import React from 'react';
-import TreeView from '../../../deni-react-treeview/deni-react-treeview';
+import TreeView from '../../../../src/deni-react-treeview/deni-react-treeview';
 
 import './ApiTests.scss'
 import FaTrashO from 'react-icons/lib/fa/trash-o';

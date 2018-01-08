@@ -1,5 +1,5 @@
 import React from 'react'
-import TreeView from '../../deni-react-treeview/deni-react-treeview'
+import TreeView from '../../../src/deni-react-treeview/deni-react-treeview'
 import './ThemeCustomization.scss'
 
 class Example extends React.Component {

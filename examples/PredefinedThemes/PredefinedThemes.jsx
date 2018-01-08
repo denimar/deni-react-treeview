@@ -1,5 +1,5 @@
 import React from 'react'
-import TreeView from '../../deni-react-treeview/deni-react-treeview'
+import TreeView from '../../../src/deni-react-treeview/deni-react-treeview'
 import './PredefinedThemes.scss'
 
 let jsonUrl = 'https://denifakedata.herokuapp.com/tree/countries';
