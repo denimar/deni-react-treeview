@@ -9,7 +9,6 @@ var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var env = process.env.WEBPACK_ENV || 'dev';
 var APP_DIR = path.resolve(__dirname, 'src');
 var GHPAGES_DIR = path.resolve(__dirname, 'gh-pages');
-//var BUILD_DIR = path.resolve(__dirname, 'dist');
 
 var YOUR_APPLICATIONS_NAME = 'deni-react-treeview';
 
@@ -36,10 +35,6 @@ var config = {
   entry: [
     GHPAGES_DIR + '/examples/index.js'
   ],
-  // output: {
-  //   path: BUILD_DIR,
-  //   filename: './' + outputFile
-  // },
   module: {
     rules: [
       {
@@ -86,7 +81,8 @@ var config = {
   devServer: {
     contentBase: APPLICATION_BASEPATH,
     compress: true,
-    port: DEV_SERVER_PORT
+    port: DEV_SERVER_PORT,
+    open: true
   }
 };
 

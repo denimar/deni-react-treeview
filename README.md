@@ -50,6 +50,7 @@ Added to your react component
 * theme ```(string)```
 
 ## Events
+* OnRenderItem
 * onBeforeLoad
 * onAfterLoad
 * onSelectItem

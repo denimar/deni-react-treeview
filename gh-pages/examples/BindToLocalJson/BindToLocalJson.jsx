@@ -5,7 +5,7 @@ class Example extends React.Component {
 
   render() {
     return (
-      <TreeView className="binding-to-local-json" json="./data/countries-by-continents.json" />
+      <TreeView json="./data/countries-by-continents.json" />
     );
   }
 

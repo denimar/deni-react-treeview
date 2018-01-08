@@ -3,16 +3,6 @@ import axios from 'axios';
 
 var newId = 1;
 
-function setId(items) {
-  items.forEach(item => {
-    item.id = newId;
-    newId++;
-    if (item.children) {
-      setId(item.children);
-    }
-  });
-}
-
 module.exports = {
 
   loadingSetup(treeview) {
@@ -48,14 +38,12 @@ module.exports = {
         let urlToLoad = self.props.url || self.props.json;
         if (self.props.lazyLoad) {
           let currentItem = item || self.state.rootItem || ROOT_ITEM;
+          delete currentItem['children'];
           urlToLoad += '?lazyLoad=true&item=' + JSON.stringify(currentItem);
         }
 
         axios.get(urlToLoad)
           .then(res => {
-            setId(res.data);
-            console.log(JSON.stringify(res.data));
-
             self.api.loadData(res.data, item);
             success(res.data);
           });

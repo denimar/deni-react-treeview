@@ -58,8 +58,8 @@ function _createComponentsChildren (treeview, parent, level, children) {
             let domTreeviewItem = <DeniReactTreeViewItem treeview={treeview} parent={parent} level={level} key={child.id} item={child} />;
             return (
               <div key={child.id}>
-                {domTreeviewItem}
-                {_createComponentsChildren(treeview, domTreeviewItem, level+1, child.children)}
+                { domTreeviewItem }
+                { _createComponentsChildren(treeview, domTreeviewItem, level+1, child.children) }
               </div>
             )
           })
