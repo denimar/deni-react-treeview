@@ -13,11 +13,11 @@ TODO: In the future I will implement the tests, Cloud CI.
 ## Installing with NPM
 
 ```
-npm install deni-react-treeview --save ```(React 16)```
+npm install deni-react-treeview --save (React 16)
 
 or
 
-npm install deni-react-treeview@0.1.13 --save ```(React 15)```
+npm install deni-react-treeview@0.1.13 --save (React 15)
 ```
 
 ## Usage
