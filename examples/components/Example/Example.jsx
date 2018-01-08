@@ -47,25 +47,31 @@ class Example extends React.Component {
         <div className="example-files">
           <div className="example-file-chooser">
             {
-              files.map((fileName, index) => {
-                return (
-                  <div
-                    key={ index }
-                    ref={ 'example-file' + index }
-                    className="example-file"
-                    onClick={ this.exampleFileClick.bind(this, 'example-file' + index, fileName) }
-                  >
-                    { this._extractFileName(fileName) }
-                  </div>
-                )
-              })
+              files.length > 0 ? (
+                files.map((fileName, index) => {
+                  return (
+                    <div
+                      key={ index }
+                      ref={ 'example-file' + index }
+                      className="example-file"
+                      onClick={ this.exampleFileClick.bind(this, 'example-file' + index, fileName) }
+                    >
+                      { this._extractFileName(fileName) }
+                    </div>
+                  )
+                })
+              ) : null
             }
           </div>
-          <SyntaxHighlighter className="example-source" language='javascript' style={docco}>
-            {
-              this.state.sourceContent.replace('../../../src/deni-react-treeview/deni-react-treeview', 'deni-react-treeview')
-            }
-          </SyntaxHighlighter>
+          {
+            files.length > 0 ? (
+              <SyntaxHighlighter className="example-source" language='javascript' style={docco}>
+                {
+                  this.state.sourceContent.replace('../../../src/deni-react-treeview/deni-react-treeview', 'deni-react-treeview')
+                }
+              </SyntaxHighlighter>
+            ) : null
+          }  
         </div>
       </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 
+import UnderDevelopment from './UnderDevelopment'
 import BindToLocalJson from './BindToLocalJson'
 import BindToRemoteJson from './BindToRemoteJson'
 import BindToRemoteJsonLazyLoad from './BindToRemoteJsonLazyLoad'
@@ -50,7 +51,7 @@ module.exports = {
           "id": 104,
           "route": "lazy-load",
           "title": "to a remote JSON (Lazy Load)",
-          "description": "to a remote JSON (Lazy Load) dfdsjflkdsjf dlsfjk",
+          "description": "to a remote JSON (Lazy Load)",
           "component": BindToRemoteJsonLazyLoad,
           "files": [
             "BindToRemoteJsonLazyLoad/BindToRemoteJsonLazyLoad.jsx"
@@ -97,19 +98,6 @@ module.exports = {
       ]
     },
     {
-      "id": 3,
-      "title": "Events",
-      "children": [
-        {
-          "id": 301,
-          "title": "Events Example",
-          "jsfiddle": "gbdyyjoc",
-          "description": "Events Example todo... finish it",
-          "route": "events"
-        }
-      ]
-    },
-    {
       "id": 4,
       "title": "Options",
       "children": [
@@ -126,8 +114,12 @@ module.exports = {
         {
           "id": 402,
           "route": "lazyload",
-          "title": "manual lazyLoad (LazyLoad = true)",
+          "title": "lazyLoad = true",
           "description": "TODO: implement this example",
+          "component": BindToRemoteJsonLazyLoad,
+          "files": [
+            "BindToRemoteJsonLazyLoad/BindToRemoteJsonLazyLoad.jsx"
+          ]
         },
         {
           "id": 403,
@@ -190,20 +182,9 @@ module.exports = {
           ]
         },
         {
-          "id": 409,
-          "route": "onrenderitem",
-          "title": "onRenderItem",
-          "description": "...",
-          "component": OnRenderItem,
-          "files": [
-            "OnRenderItem/OnRenderItem.jsx",
-            "OnRenderItem/OnRenderItem.scss"
-          ]
-        },
-        {
           "id": 410,
           "route": "actionbuttons",
-          "title": "Action Buttons",
+          "title": "actionButtons",
           "description": "...",
           "component": ActionButtons,
           "files": [
@@ -237,6 +218,71 @@ module.exports = {
           ]
         }
       ]
-    }
+    },
+    {
+      "id": 6,
+      "title": "Events",
+      "children": [
+        {
+          "id": 601,
+          "route": "onrenderitem",
+          "title": "onRenderItem",
+          "description": "...",
+          "component": OnRenderItem,
+          "files": [
+            "OnRenderItem/OnRenderItem.jsx",
+            "OnRenderItem/OnRenderItem.scss"
+          ]
+        },
+        {
+          "id": 602,
+          "route": "onbeforeLoad",
+          "title": "onBeforeLoad",
+          "description": "...",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 603,
+          "route": "onafterLoad",
+          "title": "onAfterLoad",
+          "description": "...",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 604,
+          "route": "onselectItem",
+          "title": "onSelectItem",
+          "description": "...",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 605,
+          "route": "onexpanded",
+          "title": "onExpanded",
+          "description": "...",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 606,
+          "route": "oncolapsed",
+          "title": "onColapsed",
+          "description": "...",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 607,
+          "route": "onlazyLoad",
+          "title": "onLazyLoad",
+          "description": "...",
+          "component": UnderDevelopment,
+          "files": []
+        }
+      ]
+    },
   ]
 }
