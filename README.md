@@ -26,6 +26,7 @@ Added to your react component
 ```html
   <TreeView json="https://denimar.github.io/static-data/countries.json" showCheckbox={true} </TreeView>
 ```
+For more details: [examples](https://denimar.github.io/deni-react-treeview/examples)
 
 ## API
 [documentation](https://denimar.github.io/deni-react-treeview/api.html)
