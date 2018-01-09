@@ -27,12 +27,12 @@ menuItems.items.map(menuItem => {
     );
   });
 })
+
 appChildren.push(
-  <Redirect from="/" to="/local-json"/>
-)
-appChildren.push(
-  <Redirect from="/#" to="/local-json"/>
-)
+  <Route exact path="/" render={() => (
+    <Redirect to="/local-json" />
+  )} />
+);
 
 ReactDOM.render(
   <HashRouter>

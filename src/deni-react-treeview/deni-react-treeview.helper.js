@@ -60,7 +60,7 @@ module.exports = {
       } else {
         self.setState({
           loading: false
-        });        
+        });
         let msg = 'To use load function you must define lazyLoad:true or a valid url.';
         console.error(msg);
         reject(msg);
@@ -72,14 +72,13 @@ module.exports = {
   // item is a optional param that when it is set data must be an array (children)
   //
   loadData(data, item) {
+    //
+    let dataToLoad = data || [];
 
     //onBeforeLoad event
     if (this.props.onBeforeLoad) {
-      this.props.onBeforeLoad(item);
+      this.props.onBeforeLoad(dataToLoad, item);
     }
-
-    //
-    let dataToLoad = data || [];
 
     //
     if (item) {
@@ -97,7 +96,7 @@ module.exports = {
 
     //onAfterLoad event
     if (this.props.onAfterLoad) {
-      this.props.onAfterLoad(this.state.rootItem, item);
+      this.props.onAfterLoad(dataToLoad, item);
     }
 
   }

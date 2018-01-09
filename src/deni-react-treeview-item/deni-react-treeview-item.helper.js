@@ -193,8 +193,6 @@ module.exports = {
       conclusion();
       resolveEventOnColapsed();
     } else {
-      console.log(item);
-
       if (treeview.props.lazyLoad) {
         self.setState({loading: true});
 
