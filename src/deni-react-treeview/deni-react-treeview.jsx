@@ -33,14 +33,17 @@ class DeniReactTreeView extends React.Component {
     if (this.props.className) {
       className += ' ' + this.props.className;
     }
+    if (this.state.loading) {
+      className += ' loading';
+    }
 
     return (
       (children !== undefined) ? (
-        <div className={ className }>
+        <div className={ className } >
           {domTreeviewItem}
           {_createComponentsChildren(self, domTreeviewItem, 1, children)}
         </div>
-      ) : <div className='deni-react-treeview-container unselectable'></div>
+      ) : <div className={ className }></div>
     )
   }
 

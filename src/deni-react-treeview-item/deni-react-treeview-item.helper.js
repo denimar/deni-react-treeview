@@ -47,7 +47,7 @@ module.exports = {
   getClassExpandButton (treeview, treeviewItem, item) {
     let classNames = ['expand-button'];
 
-    if (((item.children && item.children.length > 0)  || (treeview.props.lazyLoad))) {
+    if (((item.children && item.children.length > 0)  || (!item.isLeaf && treeview.props.lazyLoad))) {
       classNames.push('hasChild');
 
       if (item.expanded) {
@@ -172,7 +172,6 @@ module.exports = {
     const conclusion = () => {
       item.expanded = !item.expanded;
       treeview.setState({
-        loading: false,
         selectedItem: item
       });
       self.setState({

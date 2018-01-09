@@ -1,8 +1,6 @@
 import {ROOT_ITEM} from './deni-react-treeview.constant'
 import axios from 'axios';
 
-var newId = 1;
-
 module.exports = {
 
   loadingSetup(treeview) {
@@ -31,7 +29,11 @@ module.exports = {
 
   load(item) {
     let self = this;
-    newId = 1;
+
+    self.setState({
+      loading: true
+    });
+
     return new Promise(function(success, reject) {
 
       if (self.props.url || self.props.json) {
@@ -44,12 +46,21 @@ module.exports = {
 
         axios.get(urlToLoad)
           .then(res => {
+            self.setState({
+              loading: false
+            });
             self.api.loadData(res.data, item);
             success(res.data);
           });
       } else if (self.props.lazyLoad) {
+        self.setState({
+          loading: false
+        });
         reject('TODO: under construction');
       } else {
+        self.setState({
+          loading: false
+        });        
         let msg = 'To use load function you must define lazyLoad:true or a valid url.';
         console.error(msg);
         reject(msg);
