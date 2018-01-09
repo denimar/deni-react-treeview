@@ -1,24 +1,35 @@
 import React from 'react'
 
-import UnderDevelopment from './UnderDevelopment'
-import BindToLocalJson from './BindToLocalJson'
-import BindToRemoteJson from './BindToRemoteJson'
-import BindToRemoteJsonLazyLoad from './BindToRemoteJsonLazyLoad'
-import BindToJavaScriptObject from './BindToJavaScriptObject'
-import PredefinedThemes from './PredefinedThemes'
-import ThemeCustomization from './ThemeCustomization'
-import AutoLoadFalse from './AutoLoadFalse'
-import MarginItems from './MarginItems'
-import SelectRow from './SelectRow'
-import ShowCheckBox from './ShowCheckBox'
-import ShowIconFalse from './ShowIconFalse'
-import ShowRootTrue from './ShowRootTrue'
-import ThemeIqualMetro from './ThemeIqualMetro'
-import ActionButtons from './ActionButtons'
-import OnRenderItem from './OnRenderItem'
+import UnderDevelopment from './components/UnderDevelopment'
+
+import BindToLocalJson from './binding/BindToLocalJson'
+import BindToRemoteJson from './binding/BindToRemoteJson'
+import BindToRemoteJsonLazyLoad from './binding/BindToRemoteJsonLazyLoad'
+import BindToJavaScriptObject from './binding/BindToJavaScriptObject'
+
+import PredefinedThemes from './theming/PredefinedThemes'
+import ThemeCustomization from './theming/ThemeCustomization'
+
+import AutoLoadFalse from './options/AutoLoadFalse'
+import MarginItems from './options/MarginItems'
+import SelectRow from './options/SelectRow'
+import ShowCheckBox from './options/ShowCheckBox'
+import ShowIconFalse from './options/ShowIconFalse'
+import ShowRootTrue from './options/ShowRootTrue'
+import ThemeIqualMetro from './options/ThemeIqualMetro'
+import ActionButtons from './options/ActionButtons'
+
 import ApiTests from './api/ApiTests'
 import AddItem from './api/AddItem'
 import RemoveItem from './api/RemoveItem'
+
+import OnRenderItem from './events/OnRenderItem'
+import OnBeforeLoad from './events/OnBeforeLoad'
+import OnAfterLoad from './events/OnAfterLoad'
+import OnSelectItem from './events/OnSelectItem'
+import OnExpanded from './events/OnExpanded'
+import OnColapsed from './events/OnColapsed'
+import OnLazyLoad from './events/OnLazyLoad'
 
 module.exports = {
   items: [
@@ -30,10 +41,9 @@ module.exports = {
           "id": 102,
           "route": "local-json",
           "title": "to a local JSON",
-          "description": "Binding to a JSON file, which might comes locally or remotelly.",
           "component": BindToLocalJson,
           "files": [
-            "BindToLocalJson/BindToLocalJson.jsx",
+            "binding/BindToLocalJson/BindToLocalJson.jsx",
             "data/countries-by-continents.json"
           ],
         },
@@ -41,30 +51,27 @@ module.exports = {
           "id": 103,
           "route": "remote-json",
           "title": "to a remote JSON",
-          "description": "to a remote JSON",
           "component": BindToRemoteJson,
           "files": [
-            "BindToRemoteJson/BindToRemoteJson.jsx"
+            "binding/BindToRemoteJson/BindToRemoteJson.jsx"
           ],
         },
         {
           "id": 104,
           "route": "lazy-load",
           "title": "to a remote JSON (Lazy Load)",
-          "description": "to a remote JSON (Lazy Load)",
           "component": BindToRemoteJsonLazyLoad,
           "files": [
-            "BindToRemoteJsonLazyLoad/BindToRemoteJsonLazyLoad.jsx"
+            "binding/BindToRemoteJsonLazyLoad/BindToRemoteJsonLazyLoad.jsx"
           ]
         },
         {
           "id": 105,
           "route": "javascript",
           "title": "Binding to a Javascript object",
-          "description": "Binding to a Javascript object",
           "component": BindToJavaScriptObject,
           "files": [
-            "BindToJavaScriptObject/BindToJavaScriptObject.jsx"
+            "binding/BindToJavaScriptObject/BindToJavaScriptObject.jsx"
           ]
         }
       ]
@@ -77,22 +84,20 @@ module.exports = {
           "id": 201,
           "route": "predefined-themes",
           "title": "Predefined Themes",
-          "description": "Predefined Themes lçdsfklj lksdjlkjflksdj sdlkfjasd",
           "component": PredefinedThemes,
           "files": [
-            "PredefinedThemes/PredefinedThemes.jsx",
-            "PredefinedThemes/PredefinedThemes.scss"
+            "theming/PredefinedThemes/PredefinedThemes.jsx",
+            "theming/PredefinedThemes/PredefinedThemes.scss"
           ]
         },
         {
           "id": 202,
           "route": "theme-customization",
           "title": "Theme Customization",
-          "description": "Theme Customization lçdsfklj lksdjlkjflksdj sdlkfjasd",
           "component": ThemeCustomization,
           "files": [
-            "ThemeCustomization/ThemeCustomization.jsx",
-            "ThemeCustomization/ThemeCustomization.scss"
+            "theming/ThemeCustomization/ThemeCustomization.jsx",
+            "theming/ThemeCustomization/ThemeCustomization.scss"
           ]
         }
       ]
@@ -105,90 +110,81 @@ module.exports = {
           "id": 401,
           "route": "autoload",
           "title": "autoLoad = false",
-          "description": "TODO: implement this example",
           "component": AutoLoadFalse,
           "files": [
-            "AutoLoadFalse/AutoLoadFalse.jsx"
+            "options/AutoLoadFalse/AutoLoadFalse.jsx"
           ]
         },
         {
           "id": 402,
           "route": "lazyload",
           "title": "lazyLoad = true",
-          "description": "TODO: implement this example",
           "component": BindToRemoteJsonLazyLoad,
           "files": [
-            "BindToRemoteJsonLazyLoad/BindToRemoteJsonLazyLoad.jsx"
+            "binding/BindToRemoteJsonLazyLoad/BindToRemoteJsonLazyLoad.jsx"
           ]
         },
         {
           "id": 403,
           "route": "marginitems",
           "title": "marginItems = 80",
-          "description": "TODO: implement this example",
           "component": MarginItems,
           "files": [
-            "MarginItems/MarginItems.jsx"
+            "options/MarginItems/MarginItems.jsx"
           ]
         },
         {
           "id": 404,
           "route": "selectrow",
           "title": "selectRow = true",
-          "description": "TODO: implement this example",
           "component": SelectRow,
           "files": [
-            "SelectRow/SelectRow.jsx"
+            "options/SelectRow/SelectRow.jsx"
           ]
         },
         {
           "id": 405,
           "route": "showcheckbox",
           "title": "showCheckbox = true",
-          "description": "...",
           "component": ShowCheckBox,
           "files": [
-            "ShowCheckBox/ShowCheckBox.jsx"
+            "options/ShowCheckBox/ShowCheckBox.jsx"
           ]
         },
         {
           "id": 406,
           "route": "showicon",
           "title": "showIcon = false",
-          "description": "TODO: implement this example",
           "component": ShowIconFalse,
           "files": [
-            "ShowIconFalse/ShowIconFalse.jsx"
+            "options/ShowIconFalse/ShowIconFalse.jsx"
           ]
         },
         {
           "id": 407,
           "route": "showroot",
           "title": "showRoot = true",
-          "description": "TODO: implement this example",
           "component": ShowRootTrue,
           "files": [
-            "ShowRootTrue/ShowRootTrue.jsx"
+            "options/ShowRootTrue/ShowRootTrue.jsx"
           ]
         },
         {
           "id": 408,
           "route": "theme",
           "title": "Theme = \"metro\"",
-          "description": "...",
           "component": ThemeIqualMetro,
           "files": [
-            "ThemeIqualMetro/ThemeIqualMetro.jsx"
+            "options/ThemeIqualMetro/ThemeIqualMetro.jsx"
           ]
         },
         {
           "id": 410,
           "route": "actionbuttons",
           "title": "actionButtons",
-          "description": "...",
           "component": ActionButtons,
           "files": [
-            "ActionButtons/ActionButtons.jsx"
+            "options/ActionButtons/ActionButtons.jsx"
           ]
         }
       ]
@@ -200,8 +196,7 @@ module.exports = {
         {
           "id": 501,
           "route": "additem",
-          "title": "Add Item",
-          "description": "TODO: implement this example",
+          "title": "addItem(text, isLeaf, parentNode)",
           "component": AddItem,
           "files": [
             "api/AddItem/AddItem.jsx"
@@ -210,12 +205,88 @@ module.exports = {
         {
           "id": 502,
           "route": "removeitem",
-          "title": "Remove Item",
-          "description": "TODO: implement this example",
+          "title": "removeItem(id)",
           "component": RemoveItem,
           "files": [
             "api/RemoveItem/RemoveItem.jsx"
           ]
+        },
+        {
+          "id": 503,
+          "route": "findfolder",
+          "title": "findFolder(folderToFind)",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 504,
+          "route": "findnode",
+          "title": "findNode(nodeToFind)",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 505,
+          "route": "finditem",
+          "title": "findItem(itemToFind)",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 506,
+          "route": "getitems",
+          "title": "getItems()",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 507,
+          "route": "getparentnode",
+          "title": "getParentNode(item)",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 508,
+          "route": "getrootitem",
+          "title": "getRootItem()",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 509,
+          "route": "getselecteditem",
+          "title": "getSelectedItem()",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 510,
+          "route": "load",
+          "title": "load()",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 511,
+          "route": "loaddata",
+          "title": "loadData(data)",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 512,
+          "route": "selectitem",
+          "title": "selectItem(item)",
+          "component": UnderDevelopment,
+          "files": []
+        },
+        {
+          "id": 513,
+          "route": "settheme",
+          "title": "setTheme(newTheme)",
+          "component": UnderDevelopment,
+          "files": []
         }
       ]
     },
@@ -227,60 +298,65 @@ module.exports = {
           "id": 601,
           "route": "onrenderitem",
           "title": "onRenderItem",
-          "description": "...",
           "component": OnRenderItem,
           "files": [
-            "OnRenderItem/OnRenderItem.jsx",
-            "OnRenderItem/OnRenderItem.scss"
+            "events/OnRenderItem/OnRenderItem.jsx",
+            "events/OnRenderItem/OnRenderItem.scss"
           ]
         },
         {
           "id": 602,
           "route": "onbeforeLoad",
           "title": "onBeforeLoad",
-          "description": "...",
-          "component": UnderDevelopment,
-          "files": []
+          "component": OnBeforeLoad,
+          "files": [
+            "events/OnBeforeLoad/OnBeforeLoad.jsx",
+          ]
         },
         {
           "id": 603,
           "route": "onafterLoad",
           "title": "onAfterLoad",
-          "description": "...",
-          "component": UnderDevelopment,
-          "files": []
+          "component": OnAfterLoad,
+          "files": [
+            "events/OnAfterLoad/OnAfterLoad.jsx",
+          ]
         },
         {
           "id": 604,
           "route": "onselectItem",
           "title": "onSelectItem",
-          "description": "...",
-          "component": UnderDevelopment,
-          "files": []
+          "component": OnSelectItem,
+          "files": [
+            "events/OnSelectItem/OnSelectItem.jsx",
+          ]
         },
         {
           "id": 605,
           "route": "onexpanded",
           "title": "onExpanded",
-          "description": "...",
-          "component": UnderDevelopment,
-          "files": []
+          "component": OnExpanded,
+          "files": [
+            "events/OnExpanded/OnExpanded.jsx",
+          ]
         },
         {
           "id": 606,
           "route": "oncolapsed",
           "title": "onColapsed",
-          "description": "...",
-          "component": UnderDevelopment,
-          "files": []
+          "component": OnColapsed,
+          "files": [
+            "events/OnColapsed/OnColapsed.jsx",
+          ]
         },
         {
           "id": 607,
           "route": "onlazyLoad",
-          "title": "onLazyLoad",
-          "description": "...",
-          "component": UnderDevelopment,
-          "files": []
+          "title": "onLazyLoad (Manual Lazy Load)",
+          "component": OnLazyLoad,
+          "files": [
+            "events/OnLazyLoad/OnLazyLoad.jsx",
+          ]
         }
       ]
     },

@@ -1,11 +1,7 @@
-import React from 'react'
-import TreeView from '../../../../../src/deni-react-treeview/deni-react-treeview';
+import React from 'react';
+import TreeView from '../../../../src/deni-react-treeview/deni-react-treeview';
 
-class AutoLoad extends React.Component {
-
-  constructor(props) {
-  	super(props);
-  }
+class Example extends React.Component {
 
   dataLoad() {
     this.refs.treeview.api.load();
@@ -17,12 +13,13 @@ class AutoLoad extends React.Component {
         <button onClick={this.dataLoad.bind(this)}>Click to Load</button>
         <TreeView
           ref="treeview"
-          autoLoad={false}
+          autoLoad={ false }
           json="https://denifakedata.herokuapp.com/tree/countries"
         />
       </div>
     )
   }
+
 }
 
-export default AutoLoad
+export default Example;

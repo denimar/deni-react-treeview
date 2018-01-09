@@ -14,18 +14,20 @@ class Example extends React.Component {
 
   exampleFileClick(ref, fileName) {
     let elem = this.refs[ref];
-    //let parent = elem.parent;
-    elem.parentElement.querySelectorAll('.example-file').forEach(item => {
-      item.classList.remove('selected');
-    });
-    elem.classList.add('selected');
 
-    this._loadFile(fileName, textContent => {
-      this.setState({
-        fileName: fileName,
-        sourceContent: textContent
+    if (elem) {
+      elem.parentElement.querySelectorAll('.example-file').forEach(item => {
+        item.classList.remove('selected');
       });
-    });
+      elem.classList.add('selected');
+
+      this._loadFile(fileName, textContent => {
+        this.setState({
+          fileName: fileName,
+          sourceContent: textContent
+        });
+      });
+    }  
   }
 
   render() {
@@ -65,17 +67,25 @@ class Example extends React.Component {
           </div>
           {
             files.length > 0 ? (
-              <SyntaxHighlighter className="example-source" language='javascript' style={docco}>
+              <SyntaxHighlighter className="example-source" language='javascript' style={ docco }>
                 {
-                  this.state.sourceContent.replace('../../../src/deni-react-treeview/deni-react-treeview', 'deni-react-treeview')
+                  this._getFileName(this.state.sourceContent)
                 }
               </SyntaxHighlighter>
             ) : null
-          }  
+          }
         </div>
       </div>
     )
 
+  }
+
+  _getFileName(filePath) {
+    filePath = filePath.replace('src/deni-react-treeview/deni-react-treeview', 'deni-react-treeview');
+    while (filePath.indexOf('../') !== -1) {
+      filePath = filePath.replace('../', '');
+    }
+    return filePath;
   }
 
   _loadFile(fileName, callback) {
