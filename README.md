@@ -24,7 +24,7 @@ npm install deni-react-treeview@0.1.13 --save (React 15)
 
 Added to your react component
 ```html
-  <TreeView json="https://denimar.github.io/static-data/countries.json" showCheckbox={true} </TreeView>
+    <TreeView url="https://denifakedata.herokuapp.com/tree/countries" /> 
 ```
 For more details: [examples](https://denimar.github.io/deni-react-treeview/examples)
 
