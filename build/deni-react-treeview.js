@@ -7,7 +7,7 @@
 		exports["TreeView"] = factory(require("react"));
 	else
 		root["TreeView"] = factory(root["React"]);
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_3__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_4__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,11 +70,93 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "build/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 15);
+/******/ 	return __webpack_require__(__webpack_require__.s = 16);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -130,7 +212,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(18);
+var	fixUrls = __webpack_require__(19);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -446,14 +528,14 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var bind = __webpack_require__(9);
-var isBuffer = __webpack_require__(31);
+var bind = __webpack_require__(10);
+var isBuffer = __webpack_require__(32);
 
 /*global toString:true*/
 
@@ -756,7 +838,7 @@ module.exports = {
 
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -946,20 +1028,20 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_3__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_4__;
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
-var utils = __webpack_require__(1);
-var normalizeHeaderName = __webpack_require__(33);
+var utils = __webpack_require__(2);
+var normalizeHeaderName = __webpack_require__(34);
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -975,10 +1057,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(10);
+    adapter = __webpack_require__(11);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(10);
+    adapter = __webpack_require__(11);
   }
   return adapter;
 }
@@ -1049,10 +1131,10 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1094,7 +1176,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 module.exports = emptyFunction;
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1151,10 +1233,10 @@ function invariant(condition, format, a, b, c, d, e, f) {
 }
 
 module.exports = invariant;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1173,31 +1255,19 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _deniReactTreeview = __webpack_require__(28);
+var _deniReactTreeview = __webpack_require__(29);
 
-var _axios = __webpack_require__(29);
+var _axios = __webpack_require__(30);
 
 var _axios2 = _interopRequireDefault(_axios);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var newId = 1;
-
-function setId(items) {
-  items.forEach(function (item) {
-    item.id = newId;
-    newId++;
-    if (item.children) {
-      setId(item.children);
-    }
-  });
-}
 
 module.exports = {
   loadingSetup: function loadingSetup(treeview) {
@@ -1216,7 +1286,7 @@ module.exports = {
   setTheme: function setTheme(treeview, newTheme) {
     //theme
     var theme = newTheme || 'classic';
-    __webpack_require__(48)("./" + newTheme + '-theme.scss');
+    __webpack_require__(49)("./" + newTheme + '-theme.scss');
 
     treeview.setState({
       theme: newTheme
@@ -1224,7 +1294,11 @@ module.exports = {
   },
   load: function load(item) {
     var self = this;
-    newId = 1;
+
+    self.setState({
+      loading: true
+    });
+
     return new Promise(function (success, reject) {
 
       if (self.props.url || self.props.json) {
@@ -1236,13 +1310,21 @@ module.exports = {
         }
 
         _axios2.default.get(urlToLoad).then(function (res) {
-          setId(res.data);
+          self.setState({
+            loading: false
+          });
           self.api.loadData(res.data, item);
           success(res.data);
         });
       } else if (self.props.lazyLoad) {
+        self.setState({
+          loading: false
+        });
         reject('TODO: under construction');
       } else {
+        self.setState({
+          loading: false
+        });
         var msg = 'To use load function you must define lazyLoad:true or a valid url.';
         console.error(msg);
         reject(msg);
@@ -1255,14 +1337,13 @@ module.exports = {
   // item is a optional param that when it is set data must be an array (children)
   //
   loadData: function loadData(data, item) {
+    //
+    var dataToLoad = data || [];
 
     //onBeforeLoad event
     if (this.props.onBeforeLoad) {
-      this.props.onBeforeLoad(item);
+      this.props.onBeforeLoad(dataToLoad, item);
     }
-
-    //
-    var dataToLoad = data || [];
 
     //
     if (item) {
@@ -1280,7 +1361,7 @@ module.exports = {
 
     //onAfterLoad event
     if (this.props.onAfterLoad) {
-      this.props.onAfterLoad(this.state.rootItem, item);
+      this.props.onAfterLoad(dataToLoad, item);
     }
   }
 };
@@ -1302,7 +1383,7 @@ function _resolveRootItem(items) {
 }
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1320,19 +1401,19 @@ module.exports = function bind(fn, thisArg) {
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
-var utils = __webpack_require__(1);
-var settle = __webpack_require__(34);
-var buildURL = __webpack_require__(36);
-var parseHeaders = __webpack_require__(37);
-var isURLSameOrigin = __webpack_require__(38);
-var createError = __webpack_require__(11);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(39);
+var utils = __webpack_require__(2);
+var settle = __webpack_require__(35);
+var buildURL = __webpack_require__(37);
+var parseHeaders = __webpack_require__(38);
+var isURLSameOrigin = __webpack_require__(39);
+var createError = __webpack_require__(12);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(40);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -1429,7 +1510,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(40);
+      var cookies = __webpack_require__(41);
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -1505,16 +1586,16 @@ module.exports = function xhrAdapter(config) {
   });
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(35);
+var enhanceError = __webpack_require__(36);
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -1533,7 +1614,7 @@ module.exports = function createError(message, config, code, request, response) 
 
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1545,7 +1626,7 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1571,7 +1652,7 @@ module.exports = Cancel;
 
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1585,7 +1666,7 @@ module.exports = Cancel;
 
 
 
-var emptyFunction = __webpack_require__(5);
+var emptyFunction = __webpack_require__(6);
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -1637,10 +1718,10 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 module.exports = warning;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1652,25 +1733,25 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(16);
+__webpack_require__(17);
 
-var _deniReactTreeviewItem = __webpack_require__(19);
+var _deniReactTreeviewItem = __webpack_require__(20);
 
 var _deniReactTreeviewItem2 = _interopRequireDefault(_deniReactTreeviewItem);
 
-var _deniReactTreeview = __webpack_require__(8);
+var _deniReactTreeview = __webpack_require__(9);
 
 var _deniReactTreeview2 = _interopRequireDefault(_deniReactTreeview);
 
-var _deniReactTreeview3 = __webpack_require__(69);
+var _deniReactTreeview3 = __webpack_require__(70);
 
 var _deniReactTreeview4 = _interopRequireDefault(_deniReactTreeview3);
 
-var _deniReactTreeview5 = __webpack_require__(75);
+var _deniReactTreeview5 = __webpack_require__(76);
 
 var _deniReactTreeview6 = _interopRequireDefault(_deniReactTreeview5);
 
@@ -1718,13 +1799,18 @@ var DeniReactTreeView = function (_React$Component) {
       if (this.props.className) {
         className += ' ' + this.props.className;
       }
+      var hasItems = children !== undefined && children.length > 0;
+      if (this.state.loading && (!this.props.lazyLoad || !hasItems)) {
+        className += ' loading';
+      }
+      var showComponent = hasItems && (!this.state.loading || this.props.lazyLoad);
 
-      return children !== undefined ? _react2.default.createElement(
+      return showComponent ? _react2.default.createElement(
         'div',
         { className: className },
         domTreeviewItem,
         _createComponentsChildren(self, domTreeviewItem, 1, children)
-      ) : _react2.default.createElement('div', { className: 'deni-react-treeview-container unselectable' });
+      ) : _react2.default.createElement('div', { className: className });
     }
   }]);
 
@@ -1755,13 +1841,13 @@ function _createComponentsChildren(treeview, parent, level, children) {
 exports.default = DeniReactTreeView;
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(17);
+var content = __webpack_require__(18);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1769,7 +1855,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -1786,13 +1872,21 @@ if(false) {
 }
 
 /***/ }),
-/* 17 */
-/***/ (function(module, exports) {
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container {\n  font-family: tahoma,arial;\n  font-size: 12px;\n  padding: 0px;\n  overflow-x: auto;\n  overflow-y: auto;\n  border: solid 1px;\n  border-color: #a5c7e3;\n  width: 400px;\n  height: 350px;\n  background-color: #fafafa; }\n  .deni-react-treeview-container * {\n    box-sizing: border-box; }\n    .deni-react-treeview-container *.unselectable {\n      -webkit-touch-callout: none;\n      /* iOS Safari */\n      -webkit-user-select: none;\n      /* Chrome/Safari/Opera */\n      -khtml-user-select: none;\n      /* Konqueror */\n      -moz-user-select: none;\n      /* Firefox */\n      -ms-user-select: none;\n      /* Internet Explorer/Edge */\n      user-select: none;\n      /* Non-prefixed version, currently\n                                  not supported by any browser */ }\n  .deni-react-treeview-container.loading {\n    background-image: url(\"data:image/gif;base64,R0lGODlhEAAQALMMAKqooJGOhp2bk7e1rZ2bkre1rJCPhqqon8PBudDOxXd1bISCef///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAMACwAAAAAEAAQAAAET5DJyYyhmAZ7sxQEs1nMsmACGJKmSaVEOLXnK1PuBADepCiMg/DQ+/2GRI8RKOxJfpTCIJNIYArS6aRajWYZCASDa41Ow+Fx2YMWOyfpTAQAIfkEBQAADAAsAAAAABAAEAAABE6QyckEoZgKe7MEQMUxhoEd6FFdQWlOqTq15SlT9VQM3rQsjMKO5/n9hANixgjc9SQ/CgKRUSgw0ynFapVmGYkEg3v1gsPibg8tfk7CnggAIfkEBQAADAAsAAAAABAAEAAABE2QycnOoZjaA/IsRWV1goCBoMiUJTW8A0XMBPZmM4Ug3hQEjN2uZygahDyP0RBMEpmTRCKzWGCkUkq1SsFOFQrG1tr9gsPc3jnco4A9EQAh+QQFAAAMACwAAAAAEAAQAAAETpDJyUqhmFqbJ0LMIA7McWDfF5LmAVApOLUvLFMmlSTdJAiM3a73+wl5HYKSEET2lBSFIhMIYKRSimFriGIZiwWD2/WCw+Jt7xxeU9qZCAAh+QQFAAAMACwAAAAAEAAQAAAETZDJyRCimFqbZ0rVxgwF9n3hSJbeSQ2rCWIkpSjddBzMfee7nQ/XCfJ+OQYAQFksMgQBxumkEKLSCfVpMDCugqyW2w18xZmuwZycdDsRACH5BAUAAAwALAAAAAAQABAAAARNkMnJUqKYWpunUtXGIAj2feFIlt5JrWybkdSydNNQMLaND7pC79YBFnY+HENHMRgyhwPGaQhQotGm00oQMLBSLYPQ9QIASrLAq5x0OxEAIfkEBQAADAAsAAAAABAAEAAABE2QycmUopham+da1cYkCfZ94UiW3kmtbJuRlGF0E4Iwto3rut6tA9wFAjiJjkIgZAYDTLNJgUIpgqyAcTgwCuACJssAdL3gpLmbpLAzEQA7\");\n    background-repeat: no-repeat;\n    background-position-x: 6px;\n    background-position-y: 6px; }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports) {
 
 
@@ -1887,7 +1981,7 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1899,13 +1993,13 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(20);
+__webpack_require__(21);
 
-var _deniReactTreeviewItem = __webpack_require__(22);
+var _deniReactTreeviewItem = __webpack_require__(23);
 
 var _deniReactTreeviewItem2 = _interopRequireDefault(_deniReactTreeviewItem);
 
@@ -1978,13 +2072,13 @@ var DeniReactTreeViewItem = function (_React$Component) {
 exports.default = DeniReactTreeViewItem;
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(21);
+var content = __webpack_require__(22);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -1992,7 +2086,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -2009,25 +2103,33 @@ if(false) {
 }
 
 /***/ }),
-/* 21 */
-/***/ (function(module, exports) {
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.classic {\n  border-color: #a5c7e3; }\n  .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic {\n    color: #245075 !important;\n    border-color: #76aad5 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic:hover.select-row {\n      background-color: #ebf3f9; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic.selected {\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #c4daed !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .checkbox {\n      border-color: #adcce6 !important; }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .checkbox.selected {\n        border-color: #7eafd7 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .expand-button {\n      color: #245075 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text:hover:not(.select-row) {\n      background-color: #ebf3f9; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text.selected {\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARlJREFUeNqsUz1PwzAUPDtOUASpYKkQVWcQA/+DhbLA32CoKAMSTAwgFsQfQWLoX4GRDFXGIiqiyk4e7wUWmg8phJPOtvzunc6WrYgIXaD06KKhij0eD2uqUxBeDC9OmcNKCYd7ujm7ryodXz5ong6UPpqcP9+O76y1vwS+7yOOY1jr0OttlQyiaB0n148TAyK9XFqkaboiSTEYDNnkDUkyKxkkiSQkzQbwsiyHcBXz+Tv6/W1m+QiSEDT1igTO5RBWYbH4rNwPw/AnQU5ek0EdCj33SgLjHEHYzoAkgfmHBDmZuktsQqHPvxN0MyCbbWjtIQjWWhlIj/QqtT+6QrSz+6ef9DF7VTwFzE2madnu5K2prt/5S4ABADcIlSf6Ag8YAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZpJREFUeNqkU0tLQkEUPjN3ShAzF66CaNGiaNEviFpLgbSpXf2ACIqgFkELaVFhtAratQ8qokU/oFVbMQtJvWpWGvYwtet9TWfu1QorvOGBb84M5/WdOTOEcw7tCKHBlT8sMIhr4BfLGXC4BrALM8QUoveHG9oPQ/NhwVCQbOjp0C5F6zDiwE7Aed/p5tKWruufTlY8bkqliqVN8wvH6wvhydWd5UYdkYCqqgaKotQTCEewnJuDBSqVmshOrWhKgCJVqeHcKtiGKdqTgGIOQmwGum7AxVUKinXKzX1/1y5Xp6g8gpe8iBxuGZhcKjyXQZIkmBkfczS62YnRQCKX75/b3t8QDNhD8QX83V5Ipe7Bybug2Pt5NJ7A4nEqGOQKT+Bzu0HTDNB1syUYYxCJy0kwzIRogb0rKjAiQVXXHLVQrqqvsZtsFu8hbyXwe73WeMQtO5GonJGxuiyeC+Oa4fF5PEirw9nbx9FdxtN5eMwkzcgRnoeCa9DVM/CvH/R2l+axkz3clQguOFjw1f+FUzEQCqJG2v3OHwIMAOW1JPnAAAJxAAAAAElFTkSuQmCC\"); }\n\n.deni-react-treeview-item-container {\n  align-items: center;\n  display: flex;\n  height: 22px;\n  margin-top: 2px;\n  margin-bottom: 3px;\n  width: 100%; }\n  .deni-react-treeview-item-container * {\n    box-sizing: border-box; }\n    .deni-react-treeview-item-container *.unselectable {\n      -webkit-touch-callout: none;\n      /* iOS Safari */\n      -webkit-user-select: none;\n      /* Chrome/Safari/Opera */\n      -khtml-user-select: none;\n      /* Konqueror */\n      -moz-user-select: none;\n      /* Firefox */\n      -ms-user-select: none;\n      /* Internet Explorer/Edge */\n      user-select: none;\n      /* Non-prefixed version, currently\n                                  not supported by any browser */ }\n  .deni-react-treeview-item-container.hidden {\n    display: none; }\n  .deni-react-treeview-item-container:hover.select-row {\n    border-style: dotted;\n    border-width: 1px;\n    border-color: silver;\n    background-color: transparent;\n    cursor: pointer;\n    border-left: 0;\n    border-right: 0;\n    z-index: 1; }\n    .deni-react-treeview-item-container:hover.select-row.selected {\n      border-top: 0;\n      border-bottom: 0; }\n  .deni-react-treeview-item-container:hover .action-button {\n    visibility: visible;\n    opacity: 1; }\n  .deni-react-treeview-item-container.selected {\n    outline: solid 1px;\n    outline-color: #ebf3f9;\n    z-index: 2; }\n  .deni-react-treeview-item-container .expand-button {\n    width: 18px;\n    height: 16px;\n    color: #245075;\n    font-size: 22px;\n    padding-top: 0px;\n    cursor: pointer;\n    text-align: center;\n    align-items: center;\n    display: none;\n    flex-direction: row;\n    font-family: courier new;\n    font-weight: bold; }\n    .deni-react-treeview-item-container .expand-button.hasChild {\n      display: flex; }\n    .deni-react-treeview-item-container .expand-button.expanded {\n      font-size: 24px; }\n      .deni-react-treeview-item-container .expand-button.expanded:before {\n        content: '-'; }\n    .deni-react-treeview-item-container .expand-button.colapsed:before {\n      content: '+'; }\n    .deni-react-treeview-item-container .expand-button.loading {\n      background-image: url(\"data:image/gif;base64,R0lGODlhEAAQALMMAKqooJGOhp2bk7e1rZ2bkre1rJCPhqqon8PBudDOxXd1bISCef///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAMACwAAAAAEAAQAAAET5DJyYyhmAZ7sxQEs1nMsmACGJKmSaVEOLXnK1PuBADepCiMg/DQ+/2GRI8RKOxJfpTCIJNIYArS6aRajWYZCASDa41Ow+Fx2YMWOyfpTAQAIfkEBQAADAAsAAAAABAAEAAABE6QyckEoZgKe7MEQMUxhoEd6FFdQWlOqTq15SlT9VQM3rQsjMKO5/n9hANixgjc9SQ/CgKRUSgw0ynFapVmGYkEg3v1gsPibg8tfk7CnggAIfkEBQAADAAsAAAAABAAEAAABE2QycnOoZjaA/IsRWV1goCBoMiUJTW8A0XMBPZmM4Ug3hQEjN2uZygahDyP0RBMEpmTRCKzWGCkUkq1SsFOFQrG1tr9gsPc3jnco4A9EQAh+QQFAAAMACwAAAAAEAAQAAAETpDJyUqhmFqbJ0LMIA7McWDfF5LmAVApOLUvLFMmlSTdJAiM3a73+wl5HYKSEET2lBSFIhMIYKRSimFriGIZiwWD2/WCw+Jt7xxeU9qZCAAh+QQFAAAMACwAAAAAEAAQAAAETZDJyRCimFqbZ0rVxgwF9n3hSJbeSQ2rCWIkpSjddBzMfee7nQ/XCfJ+OQYAQFksMgQBxumkEKLSCfVpMDCugqyW2w18xZmuwZycdDsRACH5BAUAAAwALAAAAAAQABAAAARNkMnJUqKYWpunUtXGIAj2feFIlt5JrWybkdSydNNQMLaND7pC79YBFnY+HENHMRgyhwPGaQhQotGm00oQMLBSLYPQ9QIASrLAq5x0OxEAIfkEBQAADAAsAAAAABAAEAAABE2QycmUopham+da1cYkCfZ94UiW3kmtbJuRlGF0E4Iwto3rut6tA9wFAjiJjkIgZAYDTLNJgUIpgqyAcTgwCuACJssAdL3gpLmbpLAzEQA7\");\n      background-repeat: no-repeat; }\n      .deni-react-treeview-item-container .expand-button.loading:before {\n        content: ' '; }\n    .deni-react-treeview-item-container .expand-button:hover {\n      color: #282d3e; }\n  .deni-react-treeview-item-container .checkbox {\n    width: 14px;\n    height: 14px;\n    border: solid 1px;\n    border-color: #adcce6;\n    border-radius: 2px;\n    display: inline-table;\n    cursor: pointer;\n    margin-right: 3px; }\n    .deni-react-treeview-item-container .checkbox.hidden {\n      display: none; }\n    .deni-react-treeview-item-container .checkbox.checked {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcUlEQVQ4jZVR30tTcRw99/u9P5x36s1fA5d1lZWYpTdfCtRtiQmbmflWgTF78qnsL7D9BfPFBymSwEgjKE3QCKYPRmWml0TIDF1mc0NzVzc3NnW3hzBERul5/HDO+ZzP+TA4CrohE4Z08JSXBcr7eMrdY48glghDRq/JTtksFmB5y4+Pa1MyOayeMrT9krlGtpmrYUwzwH68Bpl8uv1QCbgHrCJyYodTrsf32AIAQGeSAAgOlYAlrOdW6XXwHIuoHkFZdjk+rargCNf5X4P0RwZXaXaJvdKk4GdiCeXZlQhEg5j5NeujhLr/nNAFBQQKGKhog7onzugxSoQhHlfZTYSTGnINeRA5I57NvQBL2NbJJlUj6ILHIhVNO07W9eSkHZtGNzz7ivM0WZxSrpiDLYRRnHEK71cmEN2Jdk42qWMAwIJB++2yFhg4AZflWvTO9bfPPvwiiZzhcX56nuuqpQGBnWVYMkrgj6xgKqj6KEPde0sIGMDIi1hLrGJzN4Q759tgL6xyUUJHW8+1YIckIPIiOMJj6NswKKHN7xontb8p0QgplNAu2s1WxPUY4noMtkIbiiUZFaaz2MA6ThiK4PWNYUHzud9emejbXzLFEF77awPy5vamYjNbEUcca7tBVORUIIwN5KeZ4A8HMPR1WB1v+HDj4JcoAOiv9IFQvSZHtiNKdUEVCGWwmgwik8+CgYjo/fwU28mEw/fkRyClAQDEXyYGYo6YPB+aV6zmGmQJmcgTTPAujmFBW3R7HeN9B8Upceb56R7nmzp9cL1f717q1OtGrNP/4jOphhcGK+8LVLgrUF6jhDaP1HvVVDwA+A0rr9F+/wY4EQAAAABJRU5ErkJggg==\");\n      background-size: 10px 10px;\n      background-color: transparent;\n      background-repeat: no-repeat;\n      background-position: center; }\n    .deni-react-treeview-item-container .checkbox.undetermined {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA4SURBVChTY3iDF4Ckf/z5gRVBpZ9/e44VQaWvvr969cNVTBIqfeTlEawIKr3n2R6siB7SOMGbNwBflQU0aOd8igAAAABJRU5ErkJggg==\");\n      background-size: 10px 10px;\n      background-color: transparent;\n      background-repeat: no-repeat;\n      background-position: center; }\n    .deni-react-treeview-item-container .checkbox.selected {\n      border-color: #629ecf;\n      background-color: white; }\n  .deni-react-treeview-item-container .icon-and-text {\n    display: flex;\n    align-items: center;\n    padding-left: 5px;\n    padding-right: 5px;\n    border-radius: 3px;\n    cursor: pointer;\n    height: 22px; }\n    .deni-react-treeview-item-container .icon-and-text.select-row {\n      flex: 1;\n      justify-content: space-around; }\n      .deni-react-treeview-item-container .icon-and-text.select-row:hover {\n        border-width: 0px;\n        padding-left: 5px; }\n    .deni-react-treeview-item-container .icon-and-text:hover {\n      border-style: dotted;\n      border-width: 1px;\n      border-color: silver;\n      background-color: transparent;\n      padding-left: calc(5px - 1px); }\n    .deni-react-treeview-item-container .icon-and-text.selected {\n      border: 1px solid;\n      border-color: #95bddf;\n      padding-left: calc(5px - 1px);\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-item-container .icon-and-text .icon {\n      width: 16px;\n      height: 16px;\n      display: inline-block;\n      background-repeat: no-repeat;\n      margin-right: 5px;\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARlJREFUeNqsUz1PwzAUPDtOUASpYKkQVWcQA/+DhbLA32CoKAMSTAwgFsQfQWLoX4GRDFXGIiqiyk4e7wUWmg8phJPOtvzunc6WrYgIXaD06KKhij0eD2uqUxBeDC9OmcNKCYd7ujm7ryodXz5ong6UPpqcP9+O76y1vwS+7yOOY1jr0OttlQyiaB0n148TAyK9XFqkaboiSTEYDNnkDUkyKxkkiSQkzQbwsiyHcBXz+Tv6/W1m+QiSEDT1igTO5RBWYbH4rNwPw/AnQU5ek0EdCj33SgLjHEHYzoAkgfmHBDmZuktsQqHPvxN0MyCbbWjtIQjWWhlIj/QqtT+6QrSz+6ef9DF7VTwFzE2madnu5K2prt/5S4ABADcIlSf6Ag8YAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-item-container .icon-and-text .icon.hidden {\n        display: none; }\n      .deni-react-treeview-item-container .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-item-container .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZpJREFUeNqkU0tLQkEUPjN3ShAzF66CaNGiaNEviFpLgbSpXf2ACIqgFkELaVFhtAratQ8qokU/oFVbMQtJvWpWGvYwtet9TWfu1QorvOGBb84M5/WdOTOEcw7tCKHBlT8sMIhr4BfLGXC4BrALM8QUoveHG9oPQ/NhwVCQbOjp0C5F6zDiwE7Aed/p5tKWruufTlY8bkqliqVN8wvH6wvhydWd5UYdkYCqqgaKotQTCEewnJuDBSqVmshOrWhKgCJVqeHcKtiGKdqTgGIOQmwGum7AxVUKinXKzX1/1y5Xp6g8gpe8iBxuGZhcKjyXQZIkmBkfczS62YnRQCKX75/b3t8QDNhD8QX83V5Ipe7Bybug2Pt5NJ7A4nEqGOQKT+Bzu0HTDNB1syUYYxCJy0kwzIRogb0rKjAiQVXXHLVQrqqvsZtsFu8hbyXwe73WeMQtO5GonJGxuiyeC+Oa4fF5PEirw9nbx9FdxtN5eMwkzcgRnoeCa9DVM/CvH/R2l+axkz3clQguOFjw1f+FUzEQCqJG2v3OHwIMAOW1JPnAAAJxAAAAAElFTkSuQmCC\"); }\n    .deni-react-treeview-item-container .icon-and-text .text {\n      display: inline-block;\n      height: 22px;\n      align-items: center;\n      display: flex;\n      flex: 1;\n      justify-content: flex-start; }\n      .deni-react-treeview-item-container .icon-and-text .text .text-inner {\n        white-space: nowrap;\n        flex: 1;\n        height: 22px;\n        align-items: center;\n        flex-direction: row;\n        display: flex; }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _deniReactTreeviewItem = __webpack_require__(23);
+var _deniReactTreeviewItem = __webpack_require__(24);
 
-var _actionButtons = __webpack_require__(24);
+var _actionButtons = __webpack_require__(25);
 
 var _actionButtons2 = _interopRequireDefault(_actionButtons);
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -2076,7 +2178,7 @@ module.exports = {
   getClassExpandButton: function getClassExpandButton(treeview, treeviewItem, item) {
     var classNames = ['expand-button'];
 
-    if (item.children && item.children.length > 0 || treeview.props.lazyLoad) {
+    if (item.children && item.children.length > 0 || !item.isLeaf && treeview.props.lazyLoad) {
       classNames.push('hasChild');
 
       if (item.expanded) {
@@ -2191,7 +2293,6 @@ module.exports = {
     var conclusion = function conclusion() {
       item.expanded = !item.expanded;
       treeview.setState({
-        loading: false,
         selectedItem: item
       });
       self.setState({
@@ -2213,8 +2314,6 @@ module.exports = {
       conclusion();
       resolveEventOnColapsed();
     } else {
-      console.log(item);
-
       if (treeview.props.lazyLoad) {
         self.setState({ loading: true });
 
@@ -2347,7 +2446,7 @@ function _refreshCheckboxStateParents(treeviewItem) {
 }
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2364,7 +2463,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2374,7 +2473,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _actionButtons = __webpack_require__(25);
+var _actionButtons = __webpack_require__(26);
 
 var _actionButtons2 = _interopRequireDefault(_actionButtons);
 
@@ -2383,7 +2482,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _actionButtons2.default;
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2395,11 +2494,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(3);
+var _react = __webpack_require__(4);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(26);
+__webpack_require__(27);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2451,13 +2550,13 @@ var ActionButtons = function (_React$Component) {
 exports.default = ActionButtons;
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(27);
+var content = __webpack_require__(28);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -2465,7 +2564,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -2482,13 +2581,21 @@ if(false) {
 }
 
 /***/ }),
-/* 27 */
-/***/ (function(module, exports) {
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".action-buttons-container {\n  display: flex;\n  flex: 1;\n  justify-content: space-around; }\n  .action-buttons-container .action-buttons-container-text {\n    flex: 1;\n    justify-content: space-around; }\n  .action-buttons-container .action-button {\n    margin-right: 5px;\n    cursor: pointer;\n    opacity: 0.3;\n    visibility: hidden; }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2506,22 +2613,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(30);
+module.exports = __webpack_require__(31);
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
-var bind = __webpack_require__(9);
-var Axios = __webpack_require__(32);
-var defaults = __webpack_require__(4);
+var utils = __webpack_require__(2);
+var bind = __webpack_require__(10);
+var Axios = __webpack_require__(33);
+var defaults = __webpack_require__(5);
 
 /**
  * Create an instance of Axios
@@ -2554,15 +2661,15 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(13);
-axios.CancelToken = __webpack_require__(46);
-axios.isCancel = __webpack_require__(12);
+axios.Cancel = __webpack_require__(14);
+axios.CancelToken = __webpack_require__(47);
+axios.isCancel = __webpack_require__(13);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(47);
+axios.spread = __webpack_require__(48);
 
 module.exports = axios;
 
@@ -2571,7 +2678,7 @@ module.exports.default = axios;
 
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports) {
 
 /*!
@@ -2598,16 +2705,16 @@ function isSlowBuffer (obj) {
 
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var defaults = __webpack_require__(4);
-var utils = __webpack_require__(1);
-var InterceptorManager = __webpack_require__(41);
-var dispatchRequest = __webpack_require__(42);
+var defaults = __webpack_require__(5);
+var utils = __webpack_require__(2);
+var InterceptorManager = __webpack_require__(42);
+var dispatchRequest = __webpack_require__(43);
 
 /**
  * Create a new instance of Axios
@@ -2684,13 +2791,13 @@ module.exports = Axios;
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
+var utils = __webpack_require__(2);
 
 module.exports = function normalizeHeaderName(headers, normalizedName) {
   utils.forEach(headers, function processHeader(value, name) {
@@ -2703,13 +2810,13 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var createError = __webpack_require__(11);
+var createError = __webpack_require__(12);
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -2736,7 +2843,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2764,13 +2871,13 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
+var utils = __webpack_require__(2);
 
 function encode(val) {
   return encodeURIComponent(val).
@@ -2839,13 +2946,13 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
+var utils = __webpack_require__(2);
 
 // Headers whose duplicates are ignored by node
 // c.f. https://nodejs.org/api/http.html#http_message_headers
@@ -2899,13 +3006,13 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
+var utils = __webpack_require__(2);
 
 module.exports = (
   utils.isStandardBrowserEnv() ?
@@ -2974,7 +3081,7 @@ module.exports = (
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3017,13 +3124,13 @@ module.exports = btoa;
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
+var utils = __webpack_require__(2);
 
 module.exports = (
   utils.isStandardBrowserEnv() ?
@@ -3077,13 +3184,13 @@ module.exports = (
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
+var utils = __webpack_require__(2);
 
 function InterceptorManager() {
   this.handlers = [];
@@ -3136,18 +3243,18 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
-var transformData = __webpack_require__(43);
-var isCancel = __webpack_require__(12);
-var defaults = __webpack_require__(4);
-var isAbsoluteURL = __webpack_require__(44);
-var combineURLs = __webpack_require__(45);
+var utils = __webpack_require__(2);
+var transformData = __webpack_require__(44);
+var isCancel = __webpack_require__(13);
+var defaults = __webpack_require__(5);
+var isAbsoluteURL = __webpack_require__(45);
+var combineURLs = __webpack_require__(46);
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -3229,13 +3336,13 @@ module.exports = function dispatchRequest(config) {
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(1);
+var utils = __webpack_require__(2);
 
 /**
  * Transform the data for a request or a response
@@ -3256,7 +3363,7 @@ module.exports = function transformData(data, headers, fns) {
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3277,7 +3384,7 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3298,13 +3405,13 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Cancel = __webpack_require__(13);
+var Cancel = __webpack_require__(14);
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -3362,7 +3469,7 @@ module.exports = CancelToken;
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3396,20 +3503,20 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./base-theme.scss": 49,
-	"./classic-theme.scss": 51,
-	"./green-theme.scss": 53,
-	"./icons-theme.scss": 55,
-	"./metro-theme.scss": 57,
-	"./moonlight-theme.scss": 59,
-	"./orange-theme.scss": 61,
-	"./purple-theme.scss": 63,
-	"./red-theme.scss": 65,
-	"./silver-theme.scss": 67
+	"./base-theme.scss": 50,
+	"./classic-theme.scss": 52,
+	"./green-theme.scss": 54,
+	"./icons-theme.scss": 56,
+	"./metro-theme.scss": 58,
+	"./moonlight-theme.scss": 60,
+	"./orange-theme.scss": 62,
+	"./purple-theme.scss": 64,
+	"./red-theme.scss": 66,
+	"./silver-theme.scss": 68
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -3425,16 +3532,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 48;
+webpackContext.id = 49;
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(50);
+var content = __webpack_require__(51);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3442,7 +3549,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3459,19 +3566,27 @@ if(false) {
 }
 
 /***/ }),
-/* 50 */
-/***/ (function(module, exports) {
+/* 51 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(52);
+var content = __webpack_require__(53);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3479,7 +3594,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3496,19 +3611,27 @@ if(false) {
 }
 
 /***/ }),
-/* 52 */
-/***/ (function(module, exports) {
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.classic {\n  border-color: #a5c7e3; }\n  .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic {\n    color: #245075 !important;\n    border-color: #76aad5 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic:hover.select-row {\n      background-color: #ebf3f9; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic.selected {\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #c4daed !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .checkbox {\n      border-color: #adcce6 !important; }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .checkbox.selected {\n        border-color: #7eafd7 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .expand-button {\n      color: #245075 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text:hover:not(.select-row) {\n      background-color: #ebf3f9; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text.selected {\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARlJREFUeNqsUz1PwzAUPDtOUASpYKkQVWcQA/+DhbLA32CoKAMSTAwgFsQfQWLoX4GRDFXGIiqiyk4e7wUWmg8phJPOtvzunc6WrYgIXaD06KKhij0eD2uqUxBeDC9OmcNKCYd7ujm7ryodXz5ong6UPpqcP9+O76y1vwS+7yOOY1jr0OttlQyiaB0n148TAyK9XFqkaboiSTEYDNnkDUkyKxkkiSQkzQbwsiyHcBXz+Tv6/W1m+QiSEDT1igTO5RBWYbH4rNwPw/AnQU5ek0EdCj33SgLjHEHYzoAkgfmHBDmZuktsQqHPvxN0MyCbbWjtIQjWWhlIj/QqtT+6QrSz+6ef9DF7VTwFzE2madnu5K2prt/5S4ABADcIlSf6Ag8YAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZpJREFUeNqkU0tLQkEUPjN3ShAzF66CaNGiaNEviFpLgbSpXf2ACIqgFkELaVFhtAratQ8qokU/oFVbMQtJvWpWGvYwtet9TWfu1QorvOGBb84M5/WdOTOEcw7tCKHBlT8sMIhr4BfLGXC4BrALM8QUoveHG9oPQ/NhwVCQbOjp0C5F6zDiwE7Aed/p5tKWruufTlY8bkqliqVN8wvH6wvhydWd5UYdkYCqqgaKotQTCEewnJuDBSqVmshOrWhKgCJVqeHcKtiGKdqTgGIOQmwGum7AxVUKinXKzX1/1y5Xp6g8gpe8iBxuGZhcKjyXQZIkmBkfczS62YnRQCKX75/b3t8QDNhD8QX83V5Ipe7Bybug2Pt5NJ7A4nEqGOQKT+Bzu0HTDNB1syUYYxCJy0kwzIRogb0rKjAiQVXXHLVQrqqvsZtsFu8hbyXwe73WeMQtO5GonJGxuiyeC+Oa4fF5PEirw9nbx9FdxtN5eMwkzcgRnoeCa9DVM/CvH/R2l+axkz3clQguOFjw1f+FUzEQCqJG2v3OHwIMAOW1JPnAAAJxAAAAAElFTkSuQmCC\"); }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(54);
+var content = __webpack_require__(55);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3516,7 +3639,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3533,19 +3656,27 @@ if(false) {
 }
 
 /***/ }),
-/* 54 */
-/***/ (function(module, exports) {
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.green {\n  border-color: #a4e4dd; }\n  .deni-react-treeview-container.green .deni-react-treeview-item-container.green {\n    color: #23766c !important;\n    border-color: #75d6cb !important; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green:hover.select-row {\n      background-color: #ebf9f7; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green.selected {\n      background: #ebf9f7;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf9f7 0%, #9ce2da 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf9f7 0%, #9ce2da 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf9f7 0%, #9ce2da 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #c3eee9 !important; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green .checkbox {\n      border-color: #ace7e0 !important; }\n      .deni-react-treeview-container.green .deni-react-treeview-item-container.green .checkbox.selected {\n        border-color: #7cd9ce !important; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green .expand-button {\n      color: #23766c !important; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green .icon-and-text:hover:not(.select-row) {\n      background-color: #ebf9f7; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green .icon-and-text.selected {\n      background: #ebf9f7;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf9f7 0%, #9ce2da 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf9f7 0%, #9ce2da 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf9f7 0%, #9ce2da 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.green .deni-react-treeview-item-container.green .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAAl2cEFnAAAAEAAAABAAXMatwwAAAWxJREFUOMuNk7tKA0EYhb/VFcFSKx8gKbSys9XgE6UPJLV5DA2oYGFhJVb2NjYGRBAVtPAWcbMz8x+LnV0TEzEHlmEu55vzz+wkwFyt1Qz8Ur/TXQf6gAET85VqraamqdZqCtgGloA0fvNAMupPAU6e7ibA1+1d6nD2X7IUYOAdxJG52O493HDd3p0A1+Gq3+luARcV4NXl3GWfHO33xha3/y77vISkAC8+52i/N3XHv1SH836nu1klADh8vAUgyBDgJJwFvMTQDCFOn+9prKyWnJ0U4C2ewSB4kggIEk4ij4Cib2TB8xHXAysxwRCAD+8QwiS8ijaX4czwMrxEbsYg+BKQpADvVQKHSUV8K8oYVgmKVHKO7AfA2DW+uhzFiRBNzoww0pcPfFkYB/hhcYhlEo0YLNZfWhQCmVnpzxJgrdZqXs18fz9/5AFwnAALwAbQAJZn9H8Bl8BZ+TASYDHCZlEAcsAnkmb0TNc3NFIRbjU1Sg4AAAAldEVYdGNyZWF0ZS1kYXRlADIwMDktMTEtMTVUMTY6MDg6NDEtMDc6MDAkruHgAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDEwLTAyLTE2VDE5OjQ4OjUzLTA3OjAwUejsLAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMC0wMS0xMVQwOToxODoyOC0wNzowMJqAOpsAAAA1dEVYdExpY2Vuc2UAaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvTEdQTC8yLjEvO8G0GAAAACV0RVh0bW9kaWZ5LWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMHsfl9QAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAADXRFWHRTb3VyY2UATnV2b2xhrE818QAAADR0RVh0U291cmNlX1VSTABodHRwOi8vd3d3Lmljb24ta2luZy5jb20vcHJvamVjdHMvbnV2b2xhL3Y9tFIAAAAASUVORK5CYII=\"); }\n      .deni-react-treeview-container.green .deni-react-treeview-item-container.green .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.green .deni-react-treeview-item-container.green .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAAl2cEFnAAAAEAAAABAAXMatwwAAAbxJREFUOMuN0r1qVEEYBuAn8QRBwcJY6AVsoyDYWFoYy1yAkE68AQ0EbLbYUlitvQBFrYIsWgTR+BPttPCXtdGIBqMx2WyM7jlnPos9izFq4gvDFDPvz/fODGG4Vp8sbUK70TyENnJboVafjNfdlT9WrT4ZOI5dyLADQ5v5GbxZ6/wh3JqqG+f2dqkyWCsLEJVF4GlnSWuq/pvoOM/bjeYYHmMdkcFK0ZOnZGR4GMx8/uDJdOtfI9+G7qv22Y/Xb1zK4Gve65+WvF3vejLdcuXsOXuykX92N36+cQEvMugUv4p+2V0Bz1a/KiJJEfIIZYRbi++NjR7YqHM4g+X8B3j//Zv5mzPOnDqtWxbKSPKUlBFKoZeSTpG7evmydqM5jfnfEiys9l+jTw55JRAoI1kvC92qcLzDvarE3GLvuy93Hjg5MaFT5NIG1xQhBClpXb02cH+ETxksrCxbmp0zSBOi32mEopq/jCT18o3u91FksDQ7Z9+JY46O7rdWFgIpUrVXAtW9yv0xdqv+zcFaffK5/0S70byIJj4ghjCCIxjD3m34XdzFQxSDBIN9ZyW2FUr0BmQYioj/Tf9X/ARABRLKQS2ItQAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMTZUMTk6NDg6NTMtMDc6MDBR6OwsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMwLTA3OjAwZcV0YgAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAANdEVYdFNvdXJjZQBOdXZvbGGsTzXxAAAANHRFWHRTb3VyY2VfVVJMAGh0dHA6Ly93d3cuaWNvbi1raW5nLmNvbS9wcm9qZWN0cy9udXZvbGEvdj20UgAAAABJRU5ErkJggg==\"); }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(56);
+var content = __webpack_require__(57);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3553,7 +3684,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3570,19 +3701,27 @@ if(false) {
 }
 
 /***/ }),
-/* 56 */
-/***/ (function(module, exports) {
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(58);
+var content = __webpack_require__(59);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3590,7 +3729,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3607,19 +3746,27 @@ if(false) {
 }
 
 /***/ }),
-/* 58 */
-/***/ (function(module, exports) {
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.metro {\n  background-color: #32394d !important;\n  border-color: #b7bed1; }\n  .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro {\n    color: #d8e6f3 !important; }\n    .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro:hover {\n      background-color: transparent !important; }\n    .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro.selected {\n      background: #3373a8;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #3373a8 0%, #1b3d59 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #3373a8 0%, #1b3d59 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #3373a8 0%, #1b3d59 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #89b6db !important; }\n    .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro .checkbox {\n      border-color: #adcce6 !important; }\n      .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro .checkbox.selected {\n        border-color: #629ecf !important;\n        background-color: transparent; }\n    .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro .expand-button {\n      color: #d8e6f3 !important; }\n    .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro .icon-and-text:hover {\n      background-color: transparent !important; }\n    .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro .icon-and-text.selected {\n      background: #478dc7;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #478dc7 0%, #275880 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #478dc7 0%, #275880 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #478dc7 0%, #275880 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      border-color: #95bddf; }\n    .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAJdnBBZwAAABAAAAAQAFzGrcMAAADvSURBVCjPfdGxSgNREIXhb80Wgk1AQVArX0AQkrcQW9k8Qcr0dlb2Qp7AysbSxsZ0GhtLGzshaJEmbhJ277Vw3RATPN1wfn6GmST6P8nZ6cbt7zDq3t8YK5eILC6SxdaFPY0lQxYv6+FAx19bSo4oEb26roFOv7X/1DdKmfjwsLLcod3z2BheyeIg9uL69KKTlIktbwiCUqlQiIaO4DhlglxS16VSaW4KzRqIolJQKBWCQg5SvlaAUDkqIMdEpCqCICgWwMyPJVZVEBDMzZCOui/9LYOVO0y9u3s2Tmxra2uufeXYY6KhacfmWmDq8xuQL5PixDBZGgAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMjBUMjM6MjQ6NDctMDc6MDDdsZPxAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMyLTA3OjAw8lplSwAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAAA10RVh0U291cmNlAE51dm9sYaxPNfEAAAA0dEVYdFNvdXJjZV9VUkwAaHR0cDovL3d3dy5pY29uLWtpbmcuY29tL3Byb2plY3RzL251dm9sYS92PbRSAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.metro .deni-react-treeview-item-container.metro .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAJdnBBZwAAABAAAAAQAFzGrcMAAAEZSURBVCjPfdExS8NQEMDx/2vfIEKhoIu6+QlcGpz9Ag4ukn6CIrh3dnVyMJ9AFx0cFFwKHTIItggKhZZSFBVS6lAkSSvmvXNItNaAd9NxvzsOTgn/h9rdLlx8F8Na44yxmDnhyixcqRywSlGYpXLl8AevUM3t0jAFBIUw4CQDVa+yduupoRjlSp0EDdzR+3Ogv9881RCmS+lRZ3EO7B01+xoiAF6AJwwWg6XFRmqcDLwRsMMEi8FgSYg5x2+DhhgYwa+25YMJcN+hoyHinZAtYgRLgmARrvDbPNLVMCKgRIwg2Cw/0/kHXjWMKbHJNAMpeub4ki4hoR7W8NZp5L8U0OIGUSzh4FDOgT7XDCgoipRZZiEHQgKJ4AsJ/pBiuU0XWgAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMTZUMTk6NDg6NTMtMDc6MDBR6OwsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMwLTA3OjAwZcV0YgAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAAA10RVh0U291cmNlAE51dm9sYaxPNfEAAAA0dEVYdFNvdXJjZV9VUkwAaHR0cDovL3d3dy5pY29uLWtpbmcuY29tL3Byb2plY3RzL251dm9sYS92PbRSAAAAAElFTkSuQmCC\"); }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(60);
+var content = __webpack_require__(61);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3627,7 +3774,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3644,19 +3791,27 @@ if(false) {
 }
 
 /***/ }),
-/* 60 */
-/***/ (function(module, exports) {
+/* 61 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.moonlight {\n  background-color: #404040 !important;\n  border-color: #c4c4c4; }\n  .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight {\n    color: #d8e6f3 !important; }\n    .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight:hover {\n      background-color: transparent !important; }\n    .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight.selected {\n      background: #fbc656;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #fbc656 0%, #E59E06 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #fbc656 0%, #E59E06 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #fbc656 0%, #E59E06 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #89b6db !important;\n      color: black !important; }\n    .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight .checkbox {\n      border-color: white !important; }\n      .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight .checkbox.selected {\n        background-color: transparent; }\n    .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight .expand-button {\n      color: #d8e6f3 !important; }\n    .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight .icon-and-text:hover {\n      background-color: transparent !important; }\n    .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight .icon-and-text.selected {\n      background: #fbc656;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #fbc656 0%, #E59E06 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #fbc656 0%, #E59E06 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #fbc656 0%, #E59E06 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      border-color: #95bddf;\n      color: #0c1a27; }\n    .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAJdnBBZwAAABAAAAAQAFzGrcMAAADvSURBVCjPfdGxSgNREIXhb80Wgk1AQVArX0AQkrcQW9k8Qcr0dlb2Qp7AysbSxsZ0GhtLGzshaJEmbhJ277Vw3RATPN1wfn6GmST6P8nZ6cbt7zDq3t8YK5eILC6SxdaFPY0lQxYv6+FAx19bSo4oEb26roFOv7X/1DdKmfjwsLLcod3z2BheyeIg9uL69KKTlIktbwiCUqlQiIaO4DhlglxS16VSaW4KzRqIolJQKBWCQg5SvlaAUDkqIMdEpCqCICgWwMyPJVZVEBDMzZCOui/9LYOVO0y9u3s2Tmxra2uufeXYY6KhacfmWmDq8xuQL5PixDBZGgAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMjBUMjM6MjQ6NDctMDc6MDDdsZPxAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMyLTA3OjAw8lplSwAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAAA10RVh0U291cmNlAE51dm9sYaxPNfEAAAA0dEVYdFNvdXJjZV9VUkwAaHR0cDovL3d3dy5pY29uLWtpbmcuY29tL3Byb2plY3RzL251dm9sYS92PbRSAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.moonlight .deni-react-treeview-item-container.moonlight .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAJdnBBZwAAABAAAAAQAFzGrcMAAAEZSURBVCjPfdExS8NQEMDx/2vfIEKhoIu6+QlcGpz9Ag4ukn6CIrh3dnVyMJ9AFx0cFFwKHTIItggKhZZSFBVS6lAkSSvmvXNItNaAd9NxvzsOTgn/h9rdLlx8F8Na44yxmDnhyixcqRywSlGYpXLl8AevUM3t0jAFBIUw4CQDVa+yduupoRjlSp0EDdzR+3Ogv9881RCmS+lRZ3EO7B01+xoiAF6AJwwWg6XFRmqcDLwRsMMEi8FgSYg5x2+DhhgYwa+25YMJcN+hoyHinZAtYgRLgmARrvDbPNLVMCKgRIwg2Cw/0/kHXjWMKbHJNAMpeub4ki4hoR7W8NZp5L8U0OIGUSzh4FDOgT7XDCgoipRZZiEHQgKJ4AsJ/pBiuU0XWgAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMTZUMTk6NDg6NTMtMDc6MDBR6OwsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMwLTA3OjAwZcV0YgAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAAA10RVh0U291cmNlAE51dm9sYaxPNfEAAAA0dEVYdFNvdXJjZV9VUkwAaHR0cDovL3d3dy5pY29uLWtpbmcuY29tL3Byb2plY3RzL251dm9sYS92PbRSAAAAAElFTkSuQmCC\"); }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(62);
+var content = __webpack_require__(63);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3664,7 +3819,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3681,19 +3836,27 @@ if(false) {
 }
 
 /***/ }),
-/* 62 */
-/***/ (function(module, exports) {
+/* 63 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.orange {\n  border-color: #ffd68a; }\n  .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange {\n    color: #9a6300 !important;\n    border-color: #ffc04d !important; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange:hover.select-row {\n      background-color: #fff6e6; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange.selected {\n      background: #fff6e6;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #fff6e6 0%, #ffd280 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #fff6e6 0%, #ffd280 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #fff6e6 0%, #ffd280 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #ffe4b3 !important; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .checkbox {\n      border-color: #ffd994 !important; }\n      .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .checkbox.selected {\n        border-color: #ffc457 !important; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .expand-button {\n      color: #9a6300 !important; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .icon-and-text:hover:not(.select-row) {\n      background-color: #fff6e6; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .icon-and-text.selected {\n      background: #fff6e6;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #fff6e6 0%, #ffd280 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #fff6e6 0%, #ffd280 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #fff6e6 0%, #ffd280 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAAl2cEFnAAAAEAAAABAAXMatwwAAAUhJREFUOMuVkzFPwkAYhp9DjIkLif4Lndhc1TjD0NG/xeYGkyGxLGwEFxddXEg0Ji5uaAgYLEe59hy+Hkepxvomby7N5X3u7derAiphQMKWml2OgRcgheL+WmGAtXpWcBhggTNgH6hm3gHUZr4KwNt9AdzozAipDf5qJoDFRHZtCqoi63OfRmdWbExt1OxyCtx5wHwM70/02i3KKAwYOogAvsb02q0fT/wVQm3Y7HLiGwC83sqaGnESi1cajJZXe7iC+qXjXKwbrGehKhI2WdjoPCyew2LqAIcZ4EMeo4mcYlPfwmiBOZDRfuigBBBlAD31ABP7QBIXW+TuQZQR52MJuzm4QGog2Wi03AYsP8k1sakPODtwsoJV5PJaAUdhwKj09/M38hq4UcAuUAfOgYOS+QXwCAzcj6GAvQxWRgkQA0ZZa//bPqdvnGDV3fmRiIwAAAAldEVYdGNyZWF0ZS1kYXRlADIwMDktMTEtMTVUMTY6MDg6NDEtMDc6MDAkruHgAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDEwLTAyLTIwVDIzOjI0OjQ3LTA3OjAw3bGT8QAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMC0wMS0xMVQwOToxODozMi0wNzowMPJaZUsAAAA1dEVYdExpY2Vuc2UAaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvTEdQTC8yLjEvO8G0GAAAACV0RVh0bW9kaWZ5LWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMHsfl9QAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAADXRFWHRTb3VyY2UATnV2b2xhrE818QAAADR0RVh0U291cmNlX1VSTABodHRwOi8vd3d3Lmljb24ta2luZy5jb20vcHJvamVjdHMvbnV2b2xhL3Y9tFIAAAAASUVORK5CYII=\"); }\n      .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.orange .deni-react-treeview-item-container.orange .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAAl2cEFnAAAAEAAAABAAXMatwwAAAZNJREFUOMul0z9rU1EcxvFParVIt74HB/8g+AIkQ8fgJt2TxamLL0NQB11cksWpg0YkY8EaxSIqRWnB6KJRKTWJWmvTpPePw7m3aW1tBR+4/O7lnOf7POfALWCsWhL7Q5WGs3iHbYdovFoSl28tHLBUXK40TGMRQ6RIsjkCgNXX++wBWpw/qlUADDfCV5pQGAvzwxP7m+1p1UcaAL86xEOOnQj73sypNdsHnrlaMg+vVl29/dKdDLA22tFpqTXbytfuc3Lq77c3W7yBlQDY7I0WPr8I89NzomE4TjwkiVi6y7nLuzHnA6CfAbrv1ZZi5Suz9L8HU25OIqItNntqcw9VGupo72nwo/c1gLZ2mfMWSWSwHZsYrOfpH/E4A3QMfnbde0t55lIAZiZxBkgTSUrtwUKe/gxr4/Ct11VvGaWnSXjPq2fPVmR3ehPRONRbzJxm8tRFBus7iaFFsgOot+Tpi5iEAs5US5b9oyoNN3EdX5AWcBwXMI2pI/wbeISniPIG+ZzIYIcpFn6sndsopGnqf/QbDPTQm7MpVhcAAAAldEVYdGNyZWF0ZS1kYXRlADIwMDktMTEtMTVUMTY6MDg6NDEtMDc6MDAkruHgAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDEwLTAyLTE2VDE5OjQ4OjUzLTA3OjAwUejsLAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMC0wMS0xMVQwOToxODozMC0wNzowMGXFdGIAAAA1dEVYdExpY2Vuc2UAaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvTEdQTC8yLjEvO8G0GAAAACV0RVh0bW9kaWZ5LWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMHsfl9QAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAADXRFWHRTb3VyY2UATnV2b2xhrE818QAAADR0RVh0U291cmNlX1VSTABodHRwOi8vd3d3Lmljb24ta2luZy5jb20vcHJvamVjdHMvbnV2b2xhL3Y9tFIAAAAASUVORK5CYII=\"); }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(64);
+var content = __webpack_require__(65);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3701,7 +3864,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3718,19 +3881,27 @@ if(false) {
 }
 
 /***/ }),
-/* 64 */
-/***/ (function(module, exports) {
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.purple {\n  border-color: #ff8aff; }\n  .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple {\n    color: #9a009a !important;\n    border-color: #ff4dff !important; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple:hover.select-row {\n      background-color: #ffe6ff; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple.selected {\n      background: #ffe6ff;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ffe6ff 0%, #ff80ff 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ffe6ff 0%, #ff80ff 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ffe6ff 0%, #ff80ff 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #ffb3ff !important; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .checkbox {\n      border-color: #ff94ff !important; }\n      .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .checkbox.selected {\n        border-color: #ff57ff !important; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .expand-button {\n      color: #9a009a !important; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .icon-and-text:hover:not(.select-row) {\n      background-color: #ffe6ff; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .icon-and-text.selected {\n      background: #ffe6ff;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ffe6ff 0%, #ff80ff 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ffe6ff 0%, #ff80ff 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ffe6ff 0%, #ff80ff 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAAl2cEFnAAAAEAAAABAAXMatwwAAAXpJREFUOMuNk79uFDEQhz9fFiElHUj7DkBxoktLEDVvsF2KeyC0da6JFEXKE0RRijRUEJGKIgVFpFP+cSR367VnhsLeheSC2J80msKaz78Zjx0wqspaeKTpbPIG+A4osHLeqypr+3URV6IqawO2gHWgyLEGuL/rC4CLU78C/vR1G8Yc/s9ZAeB/KgCm4EYpnx8vE+SxxpxNZ5N3wEkPuL8Ubs4Duzv7DFFV1kcdpABY3ii7O/tP3/gvjTmaziabBcDiKg35x+cGAI2GCcTW0GBEb2gAVePb3h2vPm50mA8JcJkAza3iRgkgIeXoE0yCIa0RFkYz1w7wsgBo8hD9XFE1TMHkD0CCId5QgeiN5rYHuOTgOjuYK5YBEnIbPt3cuwjJxYM96IiLK8EyPLWRe88zkWjEILT3+hDQ3iXiMjvpWpBoYDl3YIuI7x00DnhdlfXZ8PfrN3IPOHDAM+At8B54MbB+CXwBDruP4YDnGTZEArRAdGY2sOZp/QaJqg76kpduogAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMjBUMjM6MjQ6NDctMDc6MDDdsZPxAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMzLTA3OjAwVC1u/wAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAANdEVYdFNvdXJjZQBOdXZvbGGsTzXxAAAANHRFWHRTb3VyY2VfVVJMAGh0dHA6Ly93d3cuaWNvbi1raW5nLmNvbS9wcm9qZWN0cy9udXZvbGEvdj20UgAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.purple .deni-react-treeview-item-container.purple .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAAl2cEFnAAAAEAAAABAAXMatwwAAAcVJREFUOMulkz9rFFEUxX+zTBCTRmTxA1hYRBTyGVKo/a69qKUELIQtrRYCKpZiIYJpzBSxEmUDixqSwjTC7oI2rpIQlnEz7L/ZmXnvXou3k0RXE8HTHHjv3XPOvZfnAYVSsWr5DUFYuQh8ATKOgV8qVu3y6tL0TZlGEFYWgS0gBRSQCR8KAHRa6VT98uoSlFk/KZUPYMZOVAW8guOd7YSpZL+migH1AUZdi2RQmHHvPr8eUW+v/LHnUrG6DrCTNu5u9l488QHiH3LwYP9rRr29wv2ndzh9pvDX4d0rP34INJ1AdLiEvdbI8acEmykqIJkiFlqvhly4OntU57IPkPRcgqht+DgIuHXzNklPEOuKrVHUgrEZ40h4+eYZQVhZA777AOPICXR7IbmgGMVmimQg4pIYTUiHc7n7N+Cda2FfGAz7NEZvuX7lBnFk0cnGbaqous2ICmsfnufum0DHB+j2OzTjmnMfiCsGZBL9oAVNjrq/B4wP0IxrXJq9xvmFcyR9gdxRFAQ3C6M041ruvgXMAXjAfKlYbfCPCMLKI+ABsAuoB8wAC8AicPaE+gFQBzYAkyfI+dRE7DhY3Mcy+YGnqvwPfgIS/ACI7unyYgAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMTZUMTk6NDg6NTMtMDc6MDBR6OwsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMwLTA3OjAwZcV0YgAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAANdEVYdFNvdXJjZQBOdXZvbGGsTzXxAAAANHRFWHRTb3VyY2VfVVJMAGh0dHA6Ly93d3cuaWNvbi1raW5nLmNvbS9wcm9qZWN0cy9udXZvbGEvdj20UgAAAABJRU5ErkJggg==\"); }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(66);
+var content = __webpack_require__(67);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3738,7 +3909,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3755,19 +3926,27 @@ if(false) {
 }
 
 /***/ }),
-/* 66 */
-/***/ (function(module, exports) {
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.red {\n  border-color: #ff8a8a; }\n  .deni-react-treeview-container.red .deni-react-treeview-item-container.red {\n    color: #9a0000 !important;\n    border-color: #ff4d4d !important; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red:hover.select-row {\n      background-color: #ffe6e6; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red.selected {\n      background: #ffe6e6;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ffe6e6 0%, #ff8080 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ffe6e6 0%, #ff8080 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ffe6e6 0%, #ff8080 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #ffb3b3 !important; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red .checkbox {\n      border-color: #ff9494 !important; }\n      .deni-react-treeview-container.red .deni-react-treeview-item-container.red .checkbox.selected {\n        border-color: #ff5757 !important; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red .expand-button {\n      color: #9a0000 !important; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red .icon-and-text:hover:not(.select-row) {\n      background-color: #ffe6e6; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red .icon-and-text.selected {\n      background: #ffe6e6;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ffe6e6 0%, #ff8080 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ffe6e6 0%, #ff8080 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ffe6e6 0%, #ff8080 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.red .deni-react-treeview-item-container.red .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAAl2cEFnAAAAEAAAABAAXMatwwAAAWJJREFUOMuVkz1Ow0AQhT+bICSKLaD0DaCiowXEEVKhnCsHcCqaHCCKaKBFNKlSp4oTJ46i+Ge9QzG2CTGI8KSRtZp9377Rrj3AD40pOVAvSa6BKeCAVr9RaIy4zaZVoTEC3APnQKeqE8Db93cA7Pt7C/w0m0EQjP9K1gGQOAZAnMPzfcQ58tFIIYcKgkkvSe6AtwbgoohyOmXY73OMQmNeaogC5nOG/f7PJ/6mIHjpJcmtjhBFABSvr9osS7AWyXMoCiRNkSwD58gGA8663Rrz2IwAIKsV+H7LTFl+rbdbZL2uAZcKWCwAcHEMzmnVKbIM8ly/1iJpqvtUno6wXGqC9VrNImqyFrJMTz9I8e0dNNcYRYhz2rFWN1dmrEWqBG3AZsP+KIg0BqxVQAWWooDdrvanHnAVGjM5/v6aF/kMDD3gFLgBHoCLI/074AMY1z+GB5xVsGNUAjlgPRH5b/pv+gRoTwXgH8kELwAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMjBUMjM6MjQ6NDctMDc6MDDdsZPxAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMxLTA3OjAww7J/1gAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAANdEVYdFNvdXJjZQBOdXZvbGGsTzXxAAAANHRFWHRTb3VyY2VfVVJMAGh0dHA6Ly93d3cuaWNvbi1raW5nLmNvbS9wcm9qZWN0cy9udXZvbGEvdj20UgAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.red .deni-react-treeview-item-container.red .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.red .deni-react-treeview-item-container.red .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAAASAAAAEgARslrPgAAAAl2cEFnAAAAEAAAABAAXMatwwAAAb5JREFUOMulkz9rFEEYxn8rm7vCRYgfQ0GwTB3YLsSPIDamCFf4PTRwVQQLhSCENBeQKw4SRBGTKkHINYYLKFgkudvb3BD3Zt+Z12JuY/Q0EXyad/4wz/N7h5kIuNFMEsdvahhzF/gMlFyhuJkkbqnTmd5J04OGMfPADmABBfyk/jQAcN3u1PmlTgfSdOs6qhhAjQkzVYgiUEV2d5ki+5XqO6DBYDBArSWq1QAYt1qs9Xp/7LmZJFsAn0SevCiK5zGAPz0NAIA7PGSt1+Px+jrR7OxfL281TZ8B3UCQZRcbsr8f6t4eWIt6D2UJIow3NqgtLFz2uRcIJgbu6IjX5+c8Wl5G8xwVAWvBOVQELQp0OOTl5iYNY1rA10AwHAKQn5yEVs7OQAS1NqR7j4owdo6Z0ahK/wK8CwT9PsVgwBtrebi4iGZZQBeBsgxj71Hg1fZ2lf4ROI4Bsn6ftrUA+DwH7ycXIhf4iFCoXk5/D0gM0LaWB/U6t+bm0NEoGHgf3sWEREVoW1ul7wA3ASLgTjNJDvhHNYxZAZ4C3wCNgBngPjAP3L7mvAHeAh8AqQiqWp+YXSVH+FhSLUSqyv/oB6MeAo7+cQ+tAAAAJXRFWHRjcmVhdGUtZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwJK7h4AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxMC0wMi0xNlQxOTo0ODo1My0wNzowMFHo7CwAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTAtMDEtMTFUMDk6MTg6MzEtMDc6MDDDsn/WAAAANXRFWHRMaWNlbnNlAGh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL0xHUEwvMi4xLzvBtBgAAAAldEVYdG1vZGlmeS1kYXRlADIwMDktMTEtMTVUMTY6MDg6NDEtMDc6MDB7H5fUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA10RVh0U291cmNlAE51dm9sYaxPNfEAAAA0dEVYdFNvdXJjZV9VUkwAaHR0cDovL3d3dy5pY29uLWtpbmcuY29tL3Byb2plY3RzL251dm9sYS92PbRSAAAAAElFTkSuQmCC\"); }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(68);
+var content = __webpack_require__(69);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -3775,7 +3954,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(0)(content, options);
+var update = __webpack_require__(1)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -3792,19 +3971,27 @@ if(false) {
 }
 
 /***/ }),
-/* 68 */
-/***/ (function(module, exports) {
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: Missing binding /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/vendor/linux-x64-57/binding.node\nNode Sass could not find a binding for your current environment: Linux 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Linux 64-bit with Node.js 4.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/binding.js:15:13)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (module.js:643:30)\n    at Object.Module._extensions..js (module.js:654:10)\n    at Module.load (module.js:556:32)\n    at tryModuleLoad (module.js:499:12)\n    at Function.Module._load (module.js:491:3)\n    at Module.require (module.js:587:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:182:3)\n    at NormalModule.build (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModule.js:275:15)\n    at Compilation.buildModule (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:151:10)\n    at factoryCallback (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/Compilation.js:344:12)\n    at factory (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:241:5)\n    at applyPluginsAsyncWaterfall (/home/denimar/Desktop/Denimar/personal/apps/deni-react-treeview/node_modules/webpack/lib/NormalModuleFactory.js:94:13)");
+exports = module.exports = __webpack_require__(0)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".deni-react-treeview-container.silver {\n  border-color: #c4c4c4; }\n  .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver {\n    color: #4c4c4c !important;\n    border-color: #a6a6a6 !important; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver:hover.select-row {\n      background-color: #f2f2f2; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver.selected {\n      background: #f2f2f2;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #f2f2f2 0%, #bfbfbf 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #f2f2f2 0%, #bfbfbf 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #f2f2f2 0%, #bfbfbf 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #d9d9d9 !important; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .checkbox {\n      border-color: #c9c9c9 !important; }\n      .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .checkbox.selected {\n        border-color: #ababab !important; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .expand-button {\n      color: #4c4c4c !important; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .icon-and-text:hover:not(.select-row) {\n      background-color: #f2f2f2; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .icon-and-text.selected {\n      background: #f2f2f2;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #f2f2f2 0%, #bfbfbf 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #f2f2f2 0%, #bfbfbf 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #f2f2f2 0%, #bfbfbf 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAJdnBBZwAAABAAAAAQAFzGrcMAAADvSURBVCjPfdGxSgNREIXhb80Wgk1AQVArX0AQkrcQW9k8Qcr0dlb2Qp7AysbSxsZ0GhtLGzshaJEmbhJ277Vw3RATPN1wfn6GmST6P8nZ6cbt7zDq3t8YK5eILC6SxdaFPY0lQxYv6+FAx19bSo4oEb26roFOv7X/1DdKmfjwsLLcod3z2BheyeIg9uL69KKTlIktbwiCUqlQiIaO4DhlglxS16VSaW4KzRqIolJQKBWCQg5SvlaAUDkqIMdEpCqCICgWwMyPJVZVEBDMzZCOui/9LYOVO0y9u3s2Tmxra2uufeXYY6KhacfmWmDq8xuQL5PixDBZGgAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMjBUMjM6MjQ6NDctMDc6MDDdsZPxAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMyLTA3OjAw8lplSwAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAAA10RVh0U291cmNlAE51dm9sYaxPNfEAAAA0dEVYdFNvdXJjZV9VUkwAaHR0cDovL3d3dy5pY29uLWtpbmcuY29tL3Byb2plY3RzL251dm9sYS92PbRSAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.silver .deni-react-treeview-item-container.silver .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAJdnBBZwAAABAAAAAQAFzGrcMAAAEZSURBVCjPfdExS8NQEMDx/2vfIEKhoIu6+QlcGpz9Ag4ukn6CIrh3dnVyMJ9AFx0cFFwKHTIItggKhZZSFBVS6lAkSSvmvXNItNaAd9NxvzsOTgn/h9rdLlx8F8Na44yxmDnhyixcqRywSlGYpXLl8AevUM3t0jAFBIUw4CQDVa+yduupoRjlSp0EDdzR+3Ogv9881RCmS+lRZ3EO7B01+xoiAF6AJwwWg6XFRmqcDLwRsMMEi8FgSYg5x2+DhhgYwa+25YMJcN+hoyHinZAtYgRLgmARrvDbPNLVMCKgRIwg2Cw/0/kHXjWMKbHJNAMpeub4ki4hoR7W8NZp5L8U0OIGUSzh4FDOgT7XDCgoipRZZiEHQgKJ4AsJ/pBiuU0XWgAAACV0RVh0Y3JlYXRlLWRhdGUAMjAwOS0xMS0xNVQxNjowODo0MS0wNzowMCSu4eAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTAtMDItMTZUMTk6NDg6NTMtMDc6MDBR6OwsAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDEwLTAxLTExVDA5OjE4OjMwLTA3OjAwZcV0YgAAADV0RVh0TGljZW5zZQBodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9MR1BMLzIuMS87wbQYAAAAJXRFWHRtb2RpZnktZGF0ZQAyMDA5LTExLTE1VDE2OjA4OjQxLTA3OjAwex+X1AAAAA10RVh0U291cmNlAE51dm9sYaxPNfEAAAA0dEVYdFNvdXJjZV9VUkwAaHR0cDovL3d3dy5pY29uLWtpbmcuY29tL3Byb2plY3RzL251dm9sYS92PbRSAAAAAElFTkSuQmCC\"); }\n", ""]);
+
+// exports
+
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _propTypes = __webpack_require__(70);
+var _propTypes = __webpack_require__(71);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -3842,7 +4029,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {/**
@@ -3867,17 +4054,17 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(71)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(72)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(74)();
+  module.exports = __webpack_require__(75)();
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3890,13 +4077,13 @@ if (process.env.NODE_ENV !== 'production') {
 
 
 
-var emptyFunction = __webpack_require__(5);
-var invariant = __webpack_require__(6);
-var warning = __webpack_require__(14);
-var assign = __webpack_require__(72);
+var emptyFunction = __webpack_require__(6);
+var invariant = __webpack_require__(7);
+var warning = __webpack_require__(15);
+var assign = __webpack_require__(73);
 
-var ReactPropTypesSecret = __webpack_require__(7);
-var checkPropTypes = __webpack_require__(73);
+var ReactPropTypesSecret = __webpack_require__(8);
+var checkPropTypes = __webpack_require__(74);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -4424,10 +4611,10 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
   return ReactPropTypes;
 };
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4524,7 +4711,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4538,9 +4725,9 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 if (process.env.NODE_ENV !== 'production') {
-  var invariant = __webpack_require__(6);
-  var warning = __webpack_require__(14);
-  var ReactPropTypesSecret = __webpack_require__(7);
+  var invariant = __webpack_require__(7);
+  var warning = __webpack_require__(15);
+  var ReactPropTypesSecret = __webpack_require__(8);
   var loggedTypeFailures = {};
 }
 
@@ -4588,10 +4775,10 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 
 module.exports = checkPropTypes;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4604,9 +4791,9 @@ module.exports = checkPropTypes;
 
 
 
-var emptyFunction = __webpack_require__(5);
-var invariant = __webpack_require__(6);
-var ReactPropTypesSecret = __webpack_require__(7);
+var emptyFunction = __webpack_require__(6);
+var invariant = __webpack_require__(7);
+var ReactPropTypesSecret = __webpack_require__(8);
 
 module.exports = function() {
   function shim(props, propName, componentName, location, propFullName, secret) {
@@ -4656,17 +4843,17 @@ module.exports = function() {
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _deniReactTreeviewApi = __webpack_require__(76);
+var _deniReactTreeviewApi = __webpack_require__(77);
 
 var _deniReactTreeviewApi2 = _interopRequireDefault(_deniReactTreeviewApi);
 
-var _deniReactTreeview = __webpack_require__(8);
+var _deniReactTreeview = __webpack_require__(9);
 
 var _deniReactTreeview2 = _interopRequireDefault(_deniReactTreeview);
 
@@ -4779,7 +4966,7 @@ module.exports = function (scope) {
 };
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
