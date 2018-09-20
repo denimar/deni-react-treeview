@@ -22,6 +22,7 @@ import ActionButtons from './options/ActionButtons'
 import ApiTests from './api/ApiTests'
 import AddItem from './api/AddItem'
 import RemoveItem from './api/RemoveItem'
+import SelectItem from './api/SelectItem'
 
 import OnRenderItem from './events/OnRenderItem'
 import OnBeforeLoad from './events/OnBeforeLoad'
@@ -278,7 +279,7 @@ module.exports = {
           "id": 512,
           "route": "selectitem",
           "title": "selectItem(item)",
-          "component": UnderDevelopment,
+          "component": SelectItem,
           "files": []
         },
         {

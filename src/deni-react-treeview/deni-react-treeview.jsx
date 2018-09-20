@@ -14,6 +14,13 @@ class DeniReactTreeView extends React.Component {
     };
   }
 
+  componentDidUpdate(prevProps) {
+    if (prevProps.items !== this.props.items) {
+      this.state.rootItem.children = this.props.items
+      //treeviewHelper.loadData.call(this, this.props.items);
+    }
+  }
+
   componentDidMount() {
     this.api = treeviewApiFn(this);
     treeviewHelper.setTheme(this, this.props.theme);

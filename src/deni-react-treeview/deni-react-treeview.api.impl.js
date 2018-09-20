@@ -21,9 +21,8 @@ module.exports = {
 
   findFolder: (scope, folderToFind) => {
     let dataToFind = _normalizeDataToFind(folderToFind);
-    let keys = Object.keys(dataToFind);
-    let node = _findNode(scope.state.rootItem.children, dataToFind, keys);
-    if (!node) {
+    let node = _findNode(scope.state.rootItem.children, dataToFind);
+    if (!node || dataToFind.isLeaf === true) {
       throw new Error('Folder not found!');
     } else {
       return node;
@@ -33,8 +32,7 @@ module.exports = {
   findItem: (scope, itemToFind) => {
     let dataToFind = _normalizeDataToFind(itemToFind);
       dataToFind['isLeaf'] = true;
-      let keys = Object.keys(dataToFind);
-      let node = _findNode(scope.state.rootItem.children, dataToFind, keys);
+      let node = _findNode(scope.state.rootItem.children, dataToFind);
       if (!node) {
         throw new Error('Item not found!');
       } else {
@@ -44,10 +42,9 @@ module.exports = {
 
   findNode: (scope, nodeToFind) => {
     let dataToFind = _normalizeDataToFind(nodeToFind);
-    let keys = Object.keys(dataToFind);
-    let node = _findNode(scope.state.rootItem.children, dataToFind, keys);
+    let node = _findNode(scope.state.rootItem.children, dataToFind);
     if (!node) {
-      throw new Error('Folder not found!');
+      throw new Error('Node not found!');
     } else {
       return node;
     }
@@ -110,7 +107,8 @@ module.exports = {
 }
 
 //
-function _findNode(children, dataToFind, keys) {
+function _findNode(children, dataToFind) {
+  const keys = dataToFind ? Object.keys(dataToFind) : []
   for (let index = 0 ; index < children.length ; index++) {
     let child = children[index];
     let allFieldsAreEqual = true;
@@ -128,7 +126,7 @@ function _findNode(children, dataToFind, keys) {
     }
 
     if (child.children) {
-      let searchInChildren = _findNode(child.children, dataToFind, keys);
+      let searchInChildren = _findNode(child.children, dataToFind);
       if (searchInChildren) {
         return searchInChildren;
       }
