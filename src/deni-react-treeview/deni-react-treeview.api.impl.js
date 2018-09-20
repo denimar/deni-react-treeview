@@ -206,4 +206,7 @@ function _selectNode(scope, item) {
   scope.setState({
     selectedItem: item
   });
+  if (scope.props.onSelectItem) {
+    scope.props.onSelectItem(item);
+  }  
 }
