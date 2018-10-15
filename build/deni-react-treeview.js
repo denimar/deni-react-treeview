@@ -1717,7 +1717,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".deni-react-treeview-container {\n  font-family: tahoma,arial;\n  font-size: 12px;\n  padding: 0px;\n  overflow-x: auto;\n  overflow-y: auto;\n  border: solid 1px;\n  border-color: #a5c7e3;\n  width: 400px;\n  height: 350px;\n  background-color: #fafafa; }\n  .deni-react-treeview-container * {\n    box-sizing: border-box; }\n    .deni-react-treeview-container *.unselectable {\n      -webkit-touch-callout: none;\n      /* iOS Safari */\n      -webkit-user-select: none;\n      /* Chrome/Safari/Opera */\n      -khtml-user-select: none;\n      /* Konqueror */\n      -moz-user-select: none;\n      /* Firefox */\n      -ms-user-select: none;\n      /* Internet Explorer/Edge */\n      user-select: none;\n      /* Non-prefixed version, currently\n                                  not supported by any browser */ }\n  .deni-react-treeview-container.loading {\n    background-image: url(\"data:image/gif;base64,R0lGODlhEAAQALMMAKqooJGOhp2bk7e1rZ2bkre1rJCPhqqon8PBudDOxXd1bISCef///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAMACwAAAAAEAAQAAAET5DJyYyhmAZ7sxQEs1nMsmACGJKmSaVEOLXnK1PuBADepCiMg/DQ+/2GRI8RKOxJfpTCIJNIYArS6aRajWYZCASDa41Ow+Fx2YMWOyfpTAQAIfkEBQAADAAsAAAAABAAEAAABE6QyckEoZgKe7MEQMUxhoEd6FFdQWlOqTq15SlT9VQM3rQsjMKO5/n9hANixgjc9SQ/CgKRUSgw0ynFapVmGYkEg3v1gsPibg8tfk7CnggAIfkEBQAADAAsAAAAABAAEAAABE2QycnOoZjaA/IsRWV1goCBoMiUJTW8A0XMBPZmM4Ug3hQEjN2uZygahDyP0RBMEpmTRCKzWGCkUkq1SsFOFQrG1tr9gsPc3jnco4A9EQAh+QQFAAAMACwAAAAAEAAQAAAETpDJyUqhmFqbJ0LMIA7McWDfF5LmAVApOLUvLFMmlSTdJAiM3a73+wl5HYKSEET2lBSFIhMIYKRSimFriGIZiwWD2/WCw+Jt7xxeU9qZCAAh+QQFAAAMACwAAAAAEAAQAAAETZDJyRCimFqbZ0rVxgwF9n3hSJbeSQ2rCWIkpSjddBzMfee7nQ/XCfJ+OQYAQFksMgQBxumkEKLSCfVpMDCugqyW2w18xZmuwZycdDsRACH5BAUAAAwALAAAAAAQABAAAARNkMnJUqKYWpunUtXGIAj2feFIlt5JrWybkdSydNNQMLaND7pC79YBFnY+HENHMRgyhwPGaQhQotGm00oQMLBSLYPQ9QIASrLAq5x0OxEAIfkEBQAADAAsAAAAABAAEAAABE2QycmUopham+da1cYkCfZ94UiW3kmtbJuRlGF0E4Iwto3rut6tA9wFAjiJjkIgZAYDTLNJgUIpgqyAcTgwCuACJssAdL3gpLmbpLAzEQA7\");\n    background-repeat: no-repeat;\n    background-position-x: 6px;\n    background-position-y: 6px; }\n", ""]);
+exports.push([module.i, ".deni-react-treeview-container {\n  font-family: tahoma,arial;\n  font-size: 12px;\n  padding: 0px;\n  overflow-x: auto;\n  overflow-y: auto;\n  border: solid 1px;\n  border-color: #a5c7e3;\n  width: 400px;\n  height: 350px;\n  background-color: #fafafa; }\n  .deni-react-treeview-container * {\n    box-sizing: border-box; }\n    .deni-react-treeview-container *.unselectable {\n      -webkit-touch-callout: none;\n      /* iOS Safari */\n      -webkit-user-select: none;\n      /* Chrome/Safari/Opera */\n      -khtml-user-select: none;\n      /* Konqueror */\n      -moz-user-select: none;\n      /* Firefox */\n      -ms-user-select: none;\n      /* Internet Explorer/Edge */\n      user-select: none;\n      /* Non-prefixed version, currently\r\n                                  not supported by any browser */ }\n  .deni-react-treeview-container.loading {\n    background-image: url(\"data:image/gif;base64,R0lGODlhEAAQALMMAKqooJGOhp2bk7e1rZ2bkre1rJCPhqqon8PBudDOxXd1bISCef///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAMACwAAAAAEAAQAAAET5DJyYyhmAZ7sxQEs1nMsmACGJKmSaVEOLXnK1PuBADepCiMg/DQ+/2GRI8RKOxJfpTCIJNIYArS6aRajWYZCASDa41Ow+Fx2YMWOyfpTAQAIfkEBQAADAAsAAAAABAAEAAABE6QyckEoZgKe7MEQMUxhoEd6FFdQWlOqTq15SlT9VQM3rQsjMKO5/n9hANixgjc9SQ/CgKRUSgw0ynFapVmGYkEg3v1gsPibg8tfk7CnggAIfkEBQAADAAsAAAAABAAEAAABE2QycnOoZjaA/IsRWV1goCBoMiUJTW8A0XMBPZmM4Ug3hQEjN2uZygahDyP0RBMEpmTRCKzWGCkUkq1SsFOFQrG1tr9gsPc3jnco4A9EQAh+QQFAAAMACwAAAAAEAAQAAAETpDJyUqhmFqbJ0LMIA7McWDfF5LmAVApOLUvLFMmlSTdJAiM3a73+wl5HYKSEET2lBSFIhMIYKRSimFriGIZiwWD2/WCw+Jt7xxeU9qZCAAh+QQFAAAMACwAAAAAEAAQAAAETZDJyRCimFqbZ0rVxgwF9n3hSJbeSQ2rCWIkpSjddBzMfee7nQ/XCfJ+OQYAQFksMgQBxumkEKLSCfVpMDCugqyW2w18xZmuwZycdDsRACH5BAUAAAwALAAAAAAQABAAAARNkMnJUqKYWpunUtXGIAj2feFIlt5JrWybkdSydNNQMLaND7pC79YBFnY+HENHMRgyhwPGaQhQotGm00oQMLBSLYPQ9QIASrLAq5x0OxEAIfkEBQAADAAsAAAAABAAEAAABE2QycmUopham+da1cYkCfZ94UiW3kmtbJuRlGF0E4Iwto3rut6tA9wFAjiJjkIgZAYDTLNJgUIpgqyAcTgwCuACJssAdL3gpLmbpLAzEQA7\");\n    background-repeat: no-repeat;\n    background-position-x: 6px;\n    background-position-y: 6px; }\n", ""]);
 
 // exports
 
@@ -1948,7 +1948,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, ".deni-react-treeview-container.classic {\n  border-color: #a5c7e3; }\n  .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic {\n    color: #245075 !important;\n    border-color: #76aad5 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic:hover.select-row {\n      background-color: #ebf3f9; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic.selected {\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #c4daed !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .checkbox {\n      border-color: #adcce6 !important; }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .checkbox.selected {\n        border-color: #7eafd7 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .expand-button {\n      color: #245075 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text:hover:not(.select-row) {\n      background-color: #ebf3f9; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text.selected {\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARlJREFUeNqsUz1PwzAUPDtOUASpYKkQVWcQA/+DhbLA32CoKAMSTAwgFsQfQWLoX4GRDFXGIiqiyk4e7wUWmg8phJPOtvzunc6WrYgIXaD06KKhij0eD2uqUxBeDC9OmcNKCYd7ujm7ryodXz5ong6UPpqcP9+O76y1vwS+7yOOY1jr0OttlQyiaB0n148TAyK9XFqkaboiSTEYDNnkDUkyKxkkiSQkzQbwsiyHcBXz+Tv6/W1m+QiSEDT1igTO5RBWYbH4rNwPw/AnQU5ek0EdCj33SgLjHEHYzoAkgfmHBDmZuktsQqHPvxN0MyCbbWjtIQjWWhlIj/QqtT+6QrSz+6ef9DF7VTwFzE2madnu5K2prt/5S4ABADcIlSf6Ag8YAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZpJREFUeNqkU0tLQkEUPjN3ShAzF66CaNGiaNEviFpLgbSpXf2ACIqgFkELaVFhtAratQ8qokU/oFVbMQtJvWpWGvYwtet9TWfu1QorvOGBb84M5/WdOTOEcw7tCKHBlT8sMIhr4BfLGXC4BrALM8QUoveHG9oPQ/NhwVCQbOjp0C5F6zDiwE7Aed/p5tKWruufTlY8bkqliqVN8wvH6wvhydWd5UYdkYCqqgaKotQTCEewnJuDBSqVmshOrWhKgCJVqeHcKtiGKdqTgGIOQmwGum7AxVUKinXKzX1/1y5Xp6g8gpe8iBxuGZhcKjyXQZIkmBkfczS62YnRQCKX75/b3t8QDNhD8QX83V5Ipe7Bybug2Pt5NJ7A4nEqGOQKT+Bzu0HTDNB1syUYYxCJy0kwzIRogb0rKjAiQVXXHLVQrqqvsZtsFu8hbyXwe73WeMQtO5GonJGxuiyeC+Oa4fF5PEirw9nbx9FdxtN5eMwkzcgRnoeCa9DVM/CvH/R2l+axkz3clQguOFjw1f+FUzEQCqJG2v3OHwIMAOW1JPnAAAJxAAAAAElFTkSuQmCC\"); }\n\n.deni-react-treeview-item-container {\n  align-items: center;\n  display: flex;\n  height: 22px;\n  margin-top: 2px;\n  margin-bottom: 3px;\n  width: 100%; }\n  .deni-react-treeview-item-container * {\n    box-sizing: border-box; }\n    .deni-react-treeview-item-container *.unselectable {\n      -webkit-touch-callout: none;\n      /* iOS Safari */\n      -webkit-user-select: none;\n      /* Chrome/Safari/Opera */\n      -khtml-user-select: none;\n      /* Konqueror */\n      -moz-user-select: none;\n      /* Firefox */\n      -ms-user-select: none;\n      /* Internet Explorer/Edge */\n      user-select: none;\n      /* Non-prefixed version, currently\n                                  not supported by any browser */ }\n  .deni-react-treeview-item-container.hidden {\n    display: none; }\n  .deni-react-treeview-item-container:hover.select-row {\n    border-style: dotted;\n    border-width: 1px;\n    border-color: silver;\n    background-color: transparent;\n    cursor: pointer;\n    border-left: 0;\n    border-right: 0;\n    z-index: 1; }\n    .deni-react-treeview-item-container:hover.select-row.selected {\n      border-top: 0;\n      border-bottom: 0; }\n  .deni-react-treeview-item-container:hover .action-button {\n    visibility: visible;\n    opacity: 1; }\n  .deni-react-treeview-item-container.selected {\n    outline: solid 1px;\n    outline-color: #ebf3f9;\n    z-index: 2; }\n  .deni-react-treeview-item-container .expand-button {\n    width: 18px;\n    height: 16px;\n    color: #245075;\n    font-size: 22px;\n    padding-top: 0px;\n    cursor: pointer;\n    text-align: center;\n    align-items: center;\n    display: none;\n    flex-direction: row;\n    font-family: courier new;\n    font-weight: bold; }\n    .deni-react-treeview-item-container .expand-button.hasChild {\n      display: flex; }\n    .deni-react-treeview-item-container .expand-button.expanded {\n      font-size: 24px; }\n      .deni-react-treeview-item-container .expand-button.expanded:before {\n        content: '-'; }\n    .deni-react-treeview-item-container .expand-button.colapsed:before {\n      content: '+'; }\n    .deni-react-treeview-item-container .expand-button.loading {\n      background-image: url(\"data:image/gif;base64,R0lGODlhEAAQALMMAKqooJGOhp2bk7e1rZ2bkre1rJCPhqqon8PBudDOxXd1bISCef///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAMACwAAAAAEAAQAAAET5DJyYyhmAZ7sxQEs1nMsmACGJKmSaVEOLXnK1PuBADepCiMg/DQ+/2GRI8RKOxJfpTCIJNIYArS6aRajWYZCASDa41Ow+Fx2YMWOyfpTAQAIfkEBQAADAAsAAAAABAAEAAABE6QyckEoZgKe7MEQMUxhoEd6FFdQWlOqTq15SlT9VQM3rQsjMKO5/n9hANixgjc9SQ/CgKRUSgw0ynFapVmGYkEg3v1gsPibg8tfk7CnggAIfkEBQAADAAsAAAAABAAEAAABE2QycnOoZjaA/IsRWV1goCBoMiUJTW8A0XMBPZmM4Ug3hQEjN2uZygahDyP0RBMEpmTRCKzWGCkUkq1SsFOFQrG1tr9gsPc3jnco4A9EQAh+QQFAAAMACwAAAAAEAAQAAAETpDJyUqhmFqbJ0LMIA7McWDfF5LmAVApOLUvLFMmlSTdJAiM3a73+wl5HYKSEET2lBSFIhMIYKRSimFriGIZiwWD2/WCw+Jt7xxeU9qZCAAh+QQFAAAMACwAAAAAEAAQAAAETZDJyRCimFqbZ0rVxgwF9n3hSJbeSQ2rCWIkpSjddBzMfee7nQ/XCfJ+OQYAQFksMgQBxumkEKLSCfVpMDCugqyW2w18xZmuwZycdDsRACH5BAUAAAwALAAAAAAQABAAAARNkMnJUqKYWpunUtXGIAj2feFIlt5JrWybkdSydNNQMLaND7pC79YBFnY+HENHMRgyhwPGaQhQotGm00oQMLBSLYPQ9QIASrLAq5x0OxEAIfkEBQAADAAsAAAAABAAEAAABE2QycmUopham+da1cYkCfZ94UiW3kmtbJuRlGF0E4Iwto3rut6tA9wFAjiJjkIgZAYDTLNJgUIpgqyAcTgwCuACJssAdL3gpLmbpLAzEQA7\");\n      background-repeat: no-repeat; }\n      .deni-react-treeview-item-container .expand-button.loading:before {\n        content: ' '; }\n    .deni-react-treeview-item-container .expand-button:hover {\n      color: #282d3e; }\n  .deni-react-treeview-item-container .checkbox {\n    width: 14px;\n    height: 14px;\n    border: solid 1px;\n    border-color: #adcce6;\n    border-radius: 2px;\n    display: inline-table;\n    cursor: pointer;\n    margin-right: 3px; }\n    .deni-react-treeview-item-container .checkbox.hidden {\n      display: none; }\n    .deni-react-treeview-item-container .checkbox.checked {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcUlEQVQ4jZVR30tTcRw99/u9P5x36s1fA5d1lZWYpTdfCtRtiQmbmflWgTF78qnsL7D9BfPFBymSwEgjKE3QCKYPRmWml0TIDF1mc0NzVzc3NnW3hzBERul5/HDO+ZzP+TA4CrohE4Z08JSXBcr7eMrdY48glghDRq/JTtksFmB5y4+Pa1MyOayeMrT9krlGtpmrYUwzwH68Bpl8uv1QCbgHrCJyYodTrsf32AIAQGeSAAgOlYAlrOdW6XXwHIuoHkFZdjk+rargCNf5X4P0RwZXaXaJvdKk4GdiCeXZlQhEg5j5NeujhLr/nNAFBQQKGKhog7onzugxSoQhHlfZTYSTGnINeRA5I57NvQBL2NbJJlUj6ILHIhVNO07W9eSkHZtGNzz7ivM0WZxSrpiDLYRRnHEK71cmEN2Jdk42qWMAwIJB++2yFhg4AZflWvTO9bfPPvwiiZzhcX56nuuqpQGBnWVYMkrgj6xgKqj6KEPde0sIGMDIi1hLrGJzN4Q759tgL6xyUUJHW8+1YIckIPIiOMJj6NswKKHN7xontb8p0QgplNAu2s1WxPUY4noMtkIbiiUZFaaz2MA6ThiK4PWNYUHzud9emejbXzLFEF77awPy5vamYjNbEUcca7tBVORUIIwN5KeZ4A8HMPR1WB1v+HDj4JcoAOiv9IFQvSZHtiNKdUEVCGWwmgwik8+CgYjo/fwU28mEw/fkRyClAQDEXyYGYo6YPB+aV6zmGmQJmcgTTPAujmFBW3R7HeN9B8Upceb56R7nmzp9cL1f717q1OtGrNP/4jOphhcGK+8LVLgrUF6jhDaP1HvVVDwA+A0rr9F+/wY4EQAAAABJRU5ErkJggg==\");\n      background-size: 10px 10px;\n      background-color: transparent;\n      background-repeat: no-repeat;\n      background-position: center; }\n    .deni-react-treeview-item-container .checkbox.undetermined {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA4SURBVChTY3iDF4Ckf/z5gRVBpZ9/e44VQaWvvr969cNVTBIqfeTlEawIKr3n2R6siB7SOMGbNwBflQU0aOd8igAAAABJRU5ErkJggg==\");\n      background-size: 10px 10px;\n      background-color: transparent;\n      background-repeat: no-repeat;\n      background-position: center; }\n    .deni-react-treeview-item-container .checkbox.selected {\n      border-color: #629ecf;\n      background-color: white; }\n  .deni-react-treeview-item-container .icon-and-text {\n    display: flex;\n    align-items: center;\n    padding-left: 5px;\n    padding-right: 5px;\n    border-radius: 3px;\n    cursor: pointer;\n    height: 22px; }\n    .deni-react-treeview-item-container .icon-and-text.select-row {\n      flex: 1;\n      justify-content: space-around; }\n      .deni-react-treeview-item-container .icon-and-text.select-row:hover {\n        border-width: 0px;\n        padding-left: 5px; }\n    .deni-react-treeview-item-container .icon-and-text:hover {\n      border-style: dotted;\n      border-width: 1px;\n      border-color: silver;\n      background-color: transparent;\n      padding-left: calc(5px - 1px); }\n    .deni-react-treeview-item-container .icon-and-text.selected {\n      border: 1px solid;\n      border-color: #95bddf;\n      padding-left: calc(5px - 1px);\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-item-container .icon-and-text .icon {\n      width: 16px;\n      height: 16px;\n      display: inline-block;\n      background-repeat: no-repeat;\n      margin-right: 5px;\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARlJREFUeNqsUz1PwzAUPDtOUASpYKkQVWcQA/+DhbLA32CoKAMSTAwgFsQfQWLoX4GRDFXGIiqiyk4e7wUWmg8phJPOtvzunc6WrYgIXaD06KKhij0eD2uqUxBeDC9OmcNKCYd7ujm7ryodXz5ong6UPpqcP9+O76y1vwS+7yOOY1jr0OttlQyiaB0n148TAyK9XFqkaboiSTEYDNnkDUkyKxkkiSQkzQbwsiyHcBXz+Tv6/W1m+QiSEDT1igTO5RBWYbH4rNwPw/AnQU5ek0EdCj33SgLjHEHYzoAkgfmHBDmZuktsQqHPvxN0MyCbbWjtIQjWWhlIj/QqtT+6QrSz+6ef9DF7VTwFzE2madnu5K2prt/5S4ABADcIlSf6Ag8YAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-item-container .icon-and-text .icon.hidden {\n        display: none; }\n      .deni-react-treeview-item-container .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-item-container .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZpJREFUeNqkU0tLQkEUPjN3ShAzF66CaNGiaNEviFpLgbSpXf2ACIqgFkELaVFhtAratQ8qokU/oFVbMQtJvWpWGvYwtet9TWfu1QorvOGBb84M5/WdOTOEcw7tCKHBlT8sMIhr4BfLGXC4BrALM8QUoveHG9oPQ/NhwVCQbOjp0C5F6zDiwE7Aed/p5tKWruufTlY8bkqliqVN8wvH6wvhydWd5UYdkYCqqgaKotQTCEewnJuDBSqVmshOrWhKgCJVqeHcKtiGKdqTgGIOQmwGum7AxVUKinXKzX1/1y5Xp6g8gpe8iBxuGZhcKjyXQZIkmBkfczS62YnRQCKX75/b3t8QDNhD8QX83V5Ipe7Bybug2Pt5NJ7A4nEqGOQKT+Bzu0HTDNB1syUYYxCJy0kwzIRogb0rKjAiQVXXHLVQrqqvsZtsFu8hbyXwe73WeMQtO5GonJGxuiyeC+Oa4fF5PEirw9nbx9FdxtN5eMwkzcgRnoeCa9DVM/CvH/R2l+axkz3clQguOFjw1f+FUzEQCqJG2v3OHwIMAOW1JPnAAAJxAAAAAElFTkSuQmCC\"); }\n    .deni-react-treeview-item-container .icon-and-text .text {\n      display: inline-block;\n      height: 22px;\n      align-items: center;\n      display: flex;\n      flex: 1;\n      justify-content: flex-start; }\n      .deni-react-treeview-item-container .icon-and-text .text .text-inner {\n        white-space: nowrap;\n        flex: 1;\n        height: 22px;\n        align-items: center;\n        flex-direction: row;\n        display: flex; }\n", ""]);
+exports.push([module.i, ".deni-react-treeview-container.classic {\n  border-color: #a5c7e3; }\n  .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic {\n    color: #245075 !important;\n    border-color: #76aad5 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic:hover.select-row {\n      background-color: #ebf3f9; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic:hover:not(.select-row) {\n      background-color: transparent; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic.selected {\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */\n      outline-color: #c4daed !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .checkbox {\n      border-color: #adcce6 !important; }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .checkbox.selected {\n        border-color: #7eafd7 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .expand-button {\n      color: #245075 !important; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text:hover.select-row {\n      background-color: transparent; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text:hover:not(.select-row) {\n      background-color: #ebf3f9; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text.select-row {\n      border: 0;\n      padding: 1px; }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text.selected {\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARlJREFUeNqsUz1PwzAUPDtOUASpYKkQVWcQA/+DhbLA32CoKAMSTAwgFsQfQWLoX4GRDFXGIiqiyk4e7wUWmg8phJPOtvzunc6WrYgIXaD06KKhij0eD2uqUxBeDC9OmcNKCYd7ujm7ryodXz5ong6UPpqcP9+O76y1vwS+7yOOY1jr0OttlQyiaB0n148TAyK9XFqkaboiSTEYDNnkDUkyKxkkiSQkzQbwsiyHcBXz+Tv6/W1m+QiSEDT1igTO5RBWYbH4rNwPw/AnQU5ek0EdCj33SgLjHEHYzoAkgfmHBDmZuktsQqHPvxN0MyCbbWjtIQjWWhlIj/QqtT+6QrSz+6ef9DF7VTwFzE2madnu5K2prt/5S4ABADcIlSf6Ag8YAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-container.classic .deni-react-treeview-item-container.classic .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZpJREFUeNqkU0tLQkEUPjN3ShAzF66CaNGiaNEviFpLgbSpXf2ACIqgFkELaVFhtAratQ8qokU/oFVbMQtJvWpWGvYwtet9TWfu1QorvOGBb84M5/WdOTOEcw7tCKHBlT8sMIhr4BfLGXC4BrALM8QUoveHG9oPQ/NhwVCQbOjp0C5F6zDiwE7Aed/p5tKWruufTlY8bkqliqVN8wvH6wvhydWd5UYdkYCqqgaKotQTCEewnJuDBSqVmshOrWhKgCJVqeHcKtiGKdqTgGIOQmwGum7AxVUKinXKzX1/1y5Xp6g8gpe8iBxuGZhcKjyXQZIkmBkfczS62YnRQCKX75/b3t8QDNhD8QX83V5Ipe7Bybug2Pt5NJ7A4nEqGOQKT+Bzu0HTDNB1syUYYxCJy0kwzIRogb0rKjAiQVXXHLVQrqqvsZtsFu8hbyXwe73WeMQtO5GonJGxuiyeC+Oa4fF5PEirw9nbx9FdxtN5eMwkzcgRnoeCa9DVM/CvH/R2l+axkz3clQguOFjw1f+FUzEQCqJG2v3OHwIMAOW1JPnAAAJxAAAAAElFTkSuQmCC\"); }\n\n.deni-react-treeview-item-container {\n  align-items: center;\n  display: flex;\n  height: 22px;\n  margin-top: 2px;\n  margin-bottom: 3px;\n  width: 100%; }\n  .deni-react-treeview-item-container * {\n    box-sizing: border-box; }\n    .deni-react-treeview-item-container *.unselectable {\n      -webkit-touch-callout: none;\n      /* iOS Safari */\n      -webkit-user-select: none;\n      /* Chrome/Safari/Opera */\n      -khtml-user-select: none;\n      /* Konqueror */\n      -moz-user-select: none;\n      /* Firefox */\n      -ms-user-select: none;\n      /* Internet Explorer/Edge */\n      user-select: none;\n      /* Non-prefixed version, currently\r\n                                  not supported by any browser */ }\n  .deni-react-treeview-item-container.hidden {\n    display: none; }\n  .deni-react-treeview-item-container:hover.select-row {\n    border-style: dotted;\n    border-width: 1px;\n    border-color: silver;\n    background-color: transparent;\n    cursor: pointer;\n    border-left: 0;\n    border-right: 0;\n    z-index: 1; }\n    .deni-react-treeview-item-container:hover.select-row.selected {\n      border-top: 0;\n      border-bottom: 0; }\n  .deni-react-treeview-item-container:hover .action-button {\n    visibility: visible;\n    opacity: 1; }\n  .deni-react-treeview-item-container.selected {\n    outline: solid 1px;\n    outline-color: #ebf3f9;\n    z-index: 2; }\n  .deni-react-treeview-item-container .expand-button {\n    width: 18px;\n    height: 16px;\n    color: #245075;\n    font-size: 22px;\n    padding-top: 0px;\n    cursor: pointer;\n    text-align: center;\n    align-items: center;\n    display: none;\n    flex-direction: row;\n    font-family: courier new;\n    font-weight: bold; }\n    .deni-react-treeview-item-container .expand-button.hasChild {\n      display: flex; }\n    .deni-react-treeview-item-container .expand-button.expanded {\n      font-size: 24px; }\n      .deni-react-treeview-item-container .expand-button.expanded:before {\n        content: '-'; }\n    .deni-react-treeview-item-container .expand-button.colapsed:before {\n      content: '+'; }\n    .deni-react-treeview-item-container .expand-button.loading {\n      background-image: url(\"data:image/gif;base64,R0lGODlhEAAQALMMAKqooJGOhp2bk7e1rZ2bkre1rJCPhqqon8PBudDOxXd1bISCef///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAAMACwAAAAAEAAQAAAET5DJyYyhmAZ7sxQEs1nMsmACGJKmSaVEOLXnK1PuBADepCiMg/DQ+/2GRI8RKOxJfpTCIJNIYArS6aRajWYZCASDa41Ow+Fx2YMWOyfpTAQAIfkEBQAADAAsAAAAABAAEAAABE6QyckEoZgKe7MEQMUxhoEd6FFdQWlOqTq15SlT9VQM3rQsjMKO5/n9hANixgjc9SQ/CgKRUSgw0ynFapVmGYkEg3v1gsPibg8tfk7CnggAIfkEBQAADAAsAAAAABAAEAAABE2QycnOoZjaA/IsRWV1goCBoMiUJTW8A0XMBPZmM4Ug3hQEjN2uZygahDyP0RBMEpmTRCKzWGCkUkq1SsFOFQrG1tr9gsPc3jnco4A9EQAh+QQFAAAMACwAAAAAEAAQAAAETpDJyUqhmFqbJ0LMIA7McWDfF5LmAVApOLUvLFMmlSTdJAiM3a73+wl5HYKSEET2lBSFIhMIYKRSimFriGIZiwWD2/WCw+Jt7xxeU9qZCAAh+QQFAAAMACwAAAAAEAAQAAAETZDJyRCimFqbZ0rVxgwF9n3hSJbeSQ2rCWIkpSjddBzMfee7nQ/XCfJ+OQYAQFksMgQBxumkEKLSCfVpMDCugqyW2w18xZmuwZycdDsRACH5BAUAAAwALAAAAAAQABAAAARNkMnJUqKYWpunUtXGIAj2feFIlt5JrWybkdSydNNQMLaND7pC79YBFnY+HENHMRgyhwPGaQhQotGm00oQMLBSLYPQ9QIASrLAq5x0OxEAIfkEBQAADAAsAAAAABAAEAAABE2QycmUopham+da1cYkCfZ94UiW3kmtbJuRlGF0E4Iwto3rut6tA9wFAjiJjkIgZAYDTLNJgUIpgqyAcTgwCuACJssAdL3gpLmbpLAzEQA7\");\n      background-repeat: no-repeat; }\n      .deni-react-treeview-item-container .expand-button.loading:before {\n        content: ' '; }\n    .deni-react-treeview-item-container .expand-button:hover {\n      color: #282d3e; }\n  .deni-react-treeview-item-container .checkbox {\n    width: 14px;\n    height: 14px;\n    border: solid 1px;\n    border-color: #adcce6;\n    border-radius: 2px;\n    display: inline-table;\n    cursor: pointer;\n    margin-right: 3px; }\n    .deni-react-treeview-item-container .checkbox.hidden {\n      display: none; }\n    .deni-react-treeview-item-container .checkbox.checked {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcUlEQVQ4jZVR30tTcRw99/u9P5x36s1fA5d1lZWYpTdfCtRtiQmbmflWgTF78qnsL7D9BfPFBymSwEgjKE3QCKYPRmWml0TIDF1mc0NzVzc3NnW3hzBERul5/HDO+ZzP+TA4CrohE4Z08JSXBcr7eMrdY48glghDRq/JTtksFmB5y4+Pa1MyOayeMrT9krlGtpmrYUwzwH68Bpl8uv1QCbgHrCJyYodTrsf32AIAQGeSAAgOlYAlrOdW6XXwHIuoHkFZdjk+rargCNf5X4P0RwZXaXaJvdKk4GdiCeXZlQhEg5j5NeujhLr/nNAFBQQKGKhog7onzugxSoQhHlfZTYSTGnINeRA5I57NvQBL2NbJJlUj6ILHIhVNO07W9eSkHZtGNzz7ivM0WZxSrpiDLYRRnHEK71cmEN2Jdk42qWMAwIJB++2yFhg4AZflWvTO9bfPPvwiiZzhcX56nuuqpQGBnWVYMkrgj6xgKqj6KEPde0sIGMDIi1hLrGJzN4Q759tgL6xyUUJHW8+1YIckIPIiOMJj6NswKKHN7xontb8p0QgplNAu2s1WxPUY4noMtkIbiiUZFaaz2MA6ThiK4PWNYUHzud9emejbXzLFEF77awPy5vamYjNbEUcca7tBVORUIIwN5KeZ4A8HMPR1WB1v+HDj4JcoAOiv9IFQvSZHtiNKdUEVCGWwmgwik8+CgYjo/fwU28mEw/fkRyClAQDEXyYGYo6YPB+aV6zmGmQJmcgTTPAujmFBW3R7HeN9B8Upceb56R7nmzp9cL1f717q1OtGrNP/4jOphhcGK+8LVLgrUF6jhDaP1HvVVDwA+A0rr9F+/wY4EQAAAABJRU5ErkJggg==\");\n      background-size: 10px 10px;\n      background-color: transparent;\n      background-repeat: no-repeat;\n      background-position: center; }\n    .deni-react-treeview-item-container .checkbox.undetermined {\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA4SURBVChTY3iDF4Ckf/z5gRVBpZ9/e44VQaWvvr969cNVTBIqfeTlEawIKr3n2R6siB7SOMGbNwBflQU0aOd8igAAAABJRU5ErkJggg==\");\n      background-size: 10px 10px;\n      background-color: transparent;\n      background-repeat: no-repeat;\n      background-position: center; }\n    .deni-react-treeview-item-container .checkbox.selected {\n      border-color: #629ecf;\n      background-color: white; }\n  .deni-react-treeview-item-container .icon-and-text {\n    display: flex;\n    align-items: center;\n    padding-left: 5px;\n    padding-right: 5px;\n    border-radius: 3px;\n    cursor: pointer;\n    height: 22px; }\n    .deni-react-treeview-item-container .icon-and-text.select-row {\n      flex: 1;\n      justify-content: space-around; }\n      .deni-react-treeview-item-container .icon-and-text.select-row:hover {\n        border-width: 0px;\n        padding-left: 5px; }\n    .deni-react-treeview-item-container .icon-and-text:hover {\n      border-style: dotted;\n      border-width: 1px;\n      border-color: silver;\n      background-color: transparent;\n      padding-left: calc(5px - 1px); }\n    .deni-react-treeview-item-container .icon-and-text.selected {\n      border: 1px solid;\n      border-color: #95bddf;\n      padding-left: calc(5px - 1px);\n      background: #ebf3f9;\n      /* Old browsers */\n      background: -moz-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* FF3.6-15 */\n      background: -webkit-linear-gradient(top, #ebf3f9 0%, #9DC2E1 100%);\n      /* Chrome10-25,Safari5.1-6 */\n      background: linear-gradient(to bottom, #ebf3f9 0%, #9DC2E1 100%);\n      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$selection-background-start-color, endColorstr=$end-color,GradientType=0 );\n      /* IE6-9 */ }\n    .deni-react-treeview-item-container .icon-and-text .icon {\n      width: 16px;\n      height: 16px;\n      display: inline-block;\n      background-repeat: no-repeat;\n      margin-right: 5px;\n      background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARlJREFUeNqsUz1PwzAUPDtOUASpYKkQVWcQA/+DhbLA32CoKAMSTAwgFsQfQWLoX4GRDFXGIiqiyk4e7wUWmg8phJPOtvzunc6WrYgIXaD06KKhij0eD2uqUxBeDC9OmcNKCYd7ujm7ryodXz5ong6UPpqcP9+O76y1vwS+7yOOY1jr0OttlQyiaB0n148TAyK9XFqkaboiSTEYDNnkDUkyKxkkiSQkzQbwsiyHcBXz+Tv6/W1m+QiSEDT1igTO5RBWYbH4rNwPw/AnQU5ek0EdCj33SgLjHEHYzoAkgfmHBDmZuktsQqHPvxN0MyCbbWjtIQjWWhlIj/QqtT+6QrSz+6ef9DF7VTwFzE2madnu5K2prt/5S4ABADcIlSf6Ag8YAAAAAElFTkSuQmCC\"); }\n      .deni-react-treeview-item-container .icon-and-text .icon.hidden {\n        display: none; }\n      .deni-react-treeview-item-container .icon-and-text .icon.isleaf {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjElEQVR42o2SW0hUURSG/32OhnhAqJDCzF6kN0lLGtJCtLQyKIMotRjBy1sqVEZS9mKZBdKFHBJpJEKD0urBvAchhqY5kp6MHkRlMhpHR2fOHuZybu3KxhEr+/fL3g/rWx9rL4Kl1La+ta0XwiNUTVf9sgJF0yB5FVCfAqt9Lnx8yt7Ph4Qc6btVtIigkN+XJ28s9MTeHQLPETipF3aXB7NOJ2wLXnyamYVlwgq/jN5Fj+9QX3WhZxXg8ethmpMSzwA666rDxSBOKsHhViBa7XC5ndgWuRH1PSP9XlnJZJDFFYBHXe/p6bQEIanoGTZECJDhh98jg6gc5ue+oqwkBXlp8TB3WfBiYLx3yuYwiqbS6QDA3DVEjWk7BZ7n8Kc09IzAEBsFm+RG6+BndFsmhsdMxYkBwIO2d7QwI1HIrmgH0XmEMo7MA5qiQ9PZQF0SrDNOpBq2YPPWcLT0i+KYqTQuALjzvJeePZr8V4Nf0fHF4cD49DzKHnaKo7Uly4Cqpg568WS6kH21GxpREIZQEKKxEo4ZaXDJfrgWJBwwxGBPfDTONbxigOJlQLm5jVYaD65hAHgUP77ZKY5fbxI/BAPOm9vpTWOGkH2lExzHIKwrYYcnPNQwnhnpkKjGukciddcm5N9tFkdNJasBaxnouo5J2wKOVTaKYjDggrmDVhvThVOX2S9wPOu8tGnk5+zAMRPqk7HfEI2kuEjk32tmvxAEKK1rpTUFh9c00JjBFDPIYgYrAAW3W2hdcZaQU9GGdWwJOMIFCnRNxY+X5FaxLyEK6ckxOFPzdCUg90YjbbyUK+A/Mk89yCyvFwfvBy1SbF6VLWF7TIRPUdV/FRNNh6qowsDHyaG5l9d2fwfyXD4gAGnljAAAAABJRU5ErkJggg==\"); }\n      .deni-react-treeview-item-container .icon-and-text .icon.expanded {\n        background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZpJREFUeNqkU0tLQkEUPjN3ShAzF66CaNGiaNEviFpLgbSpXf2ACIqgFkELaVFhtAratQ8qokU/oFVbMQtJvWpWGvYwtet9TWfu1QorvOGBb84M5/WdOTOEcw7tCKHBlT8sMIhr4BfLGXC4BrALM8QUoveHG9oPQ/NhwVCQbOjp0C5F6zDiwE7Aed/p5tKWruufTlY8bkqliqVN8wvH6wvhydWd5UYdkYCqqgaKotQTCEewnJuDBSqVmshOrWhKgCJVqeHcKtiGKdqTgGIOQmwGum7AxVUKinXKzX1/1y5Xp6g8gpe8iBxuGZhcKjyXQZIkmBkfczS62YnRQCKX75/b3t8QDNhD8QX83V5Ipe7Bybug2Pt5NJ7A4nEqGOQKT+Bzu0HTDNB1syUYYxCJy0kwzIRogb0rKjAiQVXXHLVQrqqvsZtsFu8hbyXwe73WeMQtO5GonJGxuiyeC+Oa4fF5PEirw9nbx9FdxtN5eMwkzcgRnoeCa9DVM/CvH/R2l+axkz3clQguOFjw1f+FUzEQCqJG2v3OHwIMAOW1JPnAAAJxAAAAAElFTkSuQmCC\"); }\n    .deni-react-treeview-item-container .icon-and-text .text {\n      display: inline-block;\n      height: 22px;\n      align-items: center;\n      display: flex;\n      flex: 1;\n      justify-content: flex-start; }\n      .deni-react-treeview-item-container .icon-and-text .text .text-inner {\n        white-space: nowrap;\n        flex: 1;\n        height: 22px;\n        align-items: center;\n        flex-direction: row;\n        display: flex; }\n", ""]);
 
 // exports
 
@@ -1973,313 +1973,321 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = {
-  getClassItem: function getClassItem(treeview, item, level, selectRow) {
-    var classNames = ['deni-react-treeview-item-container'];
+    getClassItem: function getClassItem(treeview, item, level, selectRow) {
+        var classNames = ['deni-react-treeview-item-container'];
 
-    classNames.push('unselectable');
+        classNames.push('unselectable');
 
-    if (item.root === true && treeview.props.showRoot === false) {
-      classNames.push('hidden');
-    } else {
-      classNames.push(treeview.state.theme);
-      classNames.push('level-' + level);
-
-      if (selectRow) {
-        classNames.push('select-row');
-        if (this.isSelected(treeview, item)) {
-          classNames.push('selected');
-        }
-      }
-    }
-
-    return classNames.join(' ');
-  },
-  getClassIcon: function getClassIcon(treeview, item) {
-    var classNames = ['icon'];
-
-    if (treeview.props.showIcon) {
-      if (item.isLeaf && !(item.children && item.children.length > 0)) {
-        //when it has children, so is no longer has to be leaf
-        classNames.push('isleaf');
-      }
-
-      if (item.expanded) {
-        classNames.push('expanded');
-      }
-    } else {
-      classNames.push('hidden');
-    }
-
-    return classNames.join(' ');
-  },
-  getClassExpandButton: function getClassExpandButton(treeview, treeviewItem, item) {
-    var classNames = ['expand-button'];
-
-    if (item.children && item.children.length > 0 || !item.isLeaf && treeview.props.lazyLoad) {
-      classNames.push('hasChild');
-
-      if (item.expanded) {
-        classNames.push('expanded');
-      } else {
-        classNames.push('colapsed');
-      }
-    }
-
-    if (treeviewItem.state && treeviewItem.state.loading) {
-      classNames.push('loading');
-    }
-
-    if (this.isSelected(treeview, item)) {
-      classNames.push('selected');
-    }
-
-    return classNames.join(' ');
-  },
-  getClassCheckbox: function getClassCheckbox(treeview, item) {
-    var classNames = ['checkbox'];
-
-    if (treeview.props.showCheckbox) {
-      if (item.state === _deniReactTreeviewItem.CHECKBOX_STATE.CHECKED) {
-        classNames.push('checked');
-      } else if (item.state === _deniReactTreeviewItem.CHECKBOX_STATE.UNDETERMINED) {
-        classNames.push('undetermined');
-      }
-
-      if (this.isSelected(treeview, item)) {
-        classNames.push('selected');
-      }
-    } else {
-      classNames.push('hidden');
-    }
-
-    return classNames.join(' ');
-  },
-  getClassIconAndText: function getClassIconAndText(treeview, item, selectRow) {
-    var classNames = ['icon-and-text'];
-
-    if (selectRow) {
-      classNames.push('select-row');
-    }
-
-    if (!selectRow && this.isSelected(treeview, item)) {
-      classNames.push('selected');
-    }
-
-    return classNames.join(' ');
-  },
-  getInnerText: function getInnerText(treeview, item) {
-    if (treeview.props.actionButtons) {
-      return _react2.default.createElement(_actionButtons2.default, { item: item, buttons: treeview.props.actionButtons, onActionButtonClick: treeview.props.onActionButtonClick.bind(this) });
-    } else {
-      if (treeview.props.onRenderItem) {
-        return treeview.props.onRenderItem(item, treeview);
-      } else {
-        return item.text;
-      }
-    }
-  },
-  isUndetermined: function isUndetermined(item) {
-    return item.state === _deniReactTreeviewItem.CHECKBOX_STATE.UNDETERMINED;
-  },
-  isSelected: function isSelected(treeview, item) {
-    return treeview.state.selectedItem === item;
-  },
-  treeviewItemContainerDoubleClick: function treeviewItemContainerDoubleClick(helper, treeview, selectRow, event) {
-    var canContinue = selectRow;
-
-    if (!canContinue) {
-      var target = event.target;
-      canContinue = target.classList.contains('icon-and-text') || target.classList.contains('icon') || target.classList.contains('text-inner') || target.classList.contains('text');
-    }
-
-    if (canContinue) {
-      var item = this.props.item;
-      if (item.isLeaf) {
-        //TODO: Create a event here
-      } else {
-        helper.treeviewItemExpandButtonMouseDown.apply(this, treeview, item);
-      }
-    }
-  },
-  treeviewItemContainerMouseDown: function treeviewItemContainerMouseDown(treeview, selectRow, event) {
-    var self = this;
-
-    if (treeview.state.selectedItem !== self.props.item) {
-      var target = event.target;
-      var finishRoutine = function finishRoutine() {
-        treeview.setState({
-          selectedItem: self.props.item
-        });
-      };
-
-      if (selectRow) {
-        finishRoutine();
-      } else {
-        if (target.classList.contains('icon-and-text') || target.classList.contains('icon') || target.classList.contains('text-inner') || target.classList.contains('text') || target.classList.contains('action-buttons-container-text')) {
-          finishRoutine();
-        }
-      }
-
-      if (treeview.props.onSelectItem) {
-        treeview.props.onSelectItem(self.props.item);
-      }
-    }
-  },
-  treeviewItemExpandButtonMouseDown: function treeviewItemExpandButtonMouseDown(treeview, item) {
-    var self = this;
-    var conclusion = function conclusion() {
-      item.expanded = !item.expanded;
-      treeview.setState({
-        selectedItem: item
-      });
-      self.setState({
-        loading: false
-      });
-    };
-    var resolveEventOnColapsed = function resolveEventOnColapsed() {
-      if (treeview.props.onColapsed) {
-        treeview.props.onColapsed(item);
-      }
-    };
-    var resolveEventOnExpanded = function resolveEventOnExpanded() {
-      if (treeview.props.onExpanded) {
-        treeview.props.onExpanded(item);
-      }
-    };
-
-    if (item.expanded) {
-      conclusion();
-      resolveEventOnColapsed();
-    } else {
-      if (treeview.props.lazyLoad) {
-        self.setState({ loading: true });
-
-        if (treeview.props.lazyLoad && treeview.props.onLazyLoad) {
-          treeview.props.onLazyLoad(item, function (children) {
-            treeview.api.loadData(children, item);
-            conclusion();
-          });
+        if (item.root === true && treeview.props.showRoot === false) {
+            classNames.push('hidden');
         } else {
-          treeview.api.load(item).then(function () {
-            conclusion();
-          });
+            classNames.push(treeview.state.theme);
+            classNames.push('level-' + level);
+
+            if (selectRow) {
+                classNames.push('select-row');
+                if (this.isSelected(treeview, item)) {
+                    classNames.push('selected');
+                }
+            }
         }
-      } else {
-        conclusion();
-      }
 
-      resolveEventOnExpanded();
+        return classNames.join(' ');
+    },
+    getClassIcon: function getClassIcon(treeview, item) {
+        var classNames = ['icon'];
+
+        if (treeview.props.showIcon) {
+            if (item.isLeaf && !(item.children && item.children.length > 0)) {
+                //when it has children, so is no longer has to be leaf
+                classNames.push('isleaf');
+            }
+
+            if (item.expanded) {
+                classNames.push('expanded');
+            }
+        } else {
+            classNames.push('hidden');
+        }
+
+        return classNames.join(' ');
+    },
+    getClassExpandButton: function getClassExpandButton(treeview, treeviewItem, item) {
+        var classNames = ['expand-button'];
+
+        if (item.children && item.children.length > 0 || !item.isLeaf && treeview.props.lazyLoad) {
+            classNames.push('hasChild');
+
+            if (item.expanded) {
+                classNames.push('expanded');
+            } else {
+                classNames.push('colapsed');
+            }
+        }
+
+        if (treeviewItem.state && treeviewItem.state.loading) {
+            classNames.push('loading');
+        }
+
+        if (this.isSelected(treeview, item)) {
+            classNames.push('selected');
+        }
+
+        return classNames.join(' ');
+    },
+    getClassCheckbox: function getClassCheckbox(treeview, item) {
+        var classNames = ['checkbox'];
+
+        if (treeview.props.showCheckbox) {
+            if (item.state === _deniReactTreeviewItem.CHECKBOX_STATE.CHECKED) {
+                classNames.push('checked');
+            } else if (item.state === _deniReactTreeviewItem.CHECKBOX_STATE.UNDETERMINED) {
+                classNames.push('undetermined');
+            }
+
+            if (this.isSelected(treeview, item)) {
+                classNames.push('selected');
+            }
+        } else {
+            classNames.push('hidden');
+        }
+
+        return classNames.join(' ');
+    },
+    getClassIconAndText: function getClassIconAndText(treeview, item, selectRow) {
+        var classNames = ['icon-and-text'];
+
+        if (selectRow) {
+            classNames.push('select-row');
+        }
+
+        if (!selectRow && this.isSelected(treeview, item)) {
+            classNames.push('selected');
+        }
+
+        return classNames.join(' ');
+    },
+    getInnerText: function getInnerText(treeview, item) {
+        if (treeview.props.actionButtons) {
+            return _react2.default.createElement(_actionButtons2.default, { item: item, buttons: treeview.props.actionButtons, onActionButtonClick: treeview.props.onActionButtonClick.bind(this) });
+        } else {
+            if (treeview.props.onRenderItem) {
+                return treeview.props.onRenderItem(item, treeview);
+            } else {
+                return item.text;
+            }
+        }
+    },
+    isUndetermined: function isUndetermined(item) {
+        return item.state === _deniReactTreeviewItem.CHECKBOX_STATE.UNDETERMINED;
+    },
+    isSelected: function isSelected(treeview, item) {
+        return treeview.state.selectedItem === item;
+    },
+    treeviewItemContainerDoubleClick: function treeviewItemContainerDoubleClick(helper, treeview, selectRow, event) {
+        var canContinue = selectRow;
+
+        if (!canContinue) {
+            var target = event.target;
+            canContinue = target.classList.contains('icon-and-text') || target.classList.contains('icon') || target.classList.contains('text-inner') || target.classList.contains('text');
+        }
+
+        if (canContinue) {
+            var item = this.props.item;
+            if (item.isLeaf) {
+                //TODO: Create a event here
+            } else {
+                helper.treeviewItemExpandButtonMouseDown.apply(this, treeview, item);
+            }
+        }
+    },
+    treeviewItemContainerMouseDown: function treeviewItemContainerMouseDown(treeview, selectRow, event) {
+        var self = this;
+
+        if (treeview.state.selectedItem !== self.props.item) {
+            var target = event.target;
+            var finishRoutine = function finishRoutine() {
+                treeview.setState({
+                    selectedItem: self.props.item
+                });
+            };
+
+            if (selectRow) {
+                finishRoutine();
+            } else {
+                if (target.classList.contains('icon-and-text') || target.classList.contains('icon') || target.classList.contains('text-inner') || target.classList.contains('text') || target.classList.contains('action-buttons-container-text')) {
+                    finishRoutine();
+                }
+            }
+
+            if (treeview.props.onSelectItem) {
+                treeview.props.onSelectItem(self.props.item);
+            }
+        }
+    },
+    treeviewItemExpandButtonMouseDown: function treeviewItemExpandButtonMouseDown(treeview, item) {
+        var self = this;
+        var conclusion = function conclusion() {
+            item.expanded = !item.expanded;
+            treeview.setState({
+                selectedItem: item
+            });
+            self.setState({
+                loading: false
+            });
+        };
+        var resolveEventOnColapsed = function resolveEventOnColapsed() {
+            if (treeview.props.onColapsed) {
+                treeview.props.onColapsed(item);
+            }
+        };
+        var resolveEventOnExpanded = function resolveEventOnExpanded() {
+            if (treeview.props.onExpanded) {
+                treeview.props.onExpanded(item);
+            }
+        };
+
+        if (item.expanded) {
+            conclusion();
+            resolveEventOnColapsed();
+        } else {
+            if (treeview.props.lazyLoad) {
+                self.setState({ loading: true });
+
+                if (treeview.props.lazyLoad && treeview.props.onLazyLoad) {
+                    treeview.props.onLazyLoad(item, function (children) {
+                        treeview.api.loadData(children, item);
+                        conclusion();
+                    });
+                } else {
+                    treeview.api.load(item).then(function () {
+                        conclusion();
+                    });
+                }
+            } else {
+                conclusion();
+            }
+
+            resolveEventOnExpanded();
+        }
+    },
+    treeviewItemCheckboxMouseDown: function treeviewItemCheckboxMouseDown(helper, treeview, item) {
+        var treeviewItem = this;
+
+        var resolveEventOnChecked = function resolveEventOnChecked() {
+            if (treeview.props.onCheckItem) {
+                treeview.props.onCheckItem(item);
+            }
+        };
+
+        if (_isChecked(item)) {
+            helper.uncheckNode(treeviewItem, item);
+        } else {
+            helper.checkNode(treeviewItem, item);
+        }
+
+        treeview.setState({
+            selectedItem: item
+        });
+
+        resolveEventOnChecked();
+    },
+
+
+    //
+    checkNode: function checkNode(treeviewItem, item) {
+        item.state = _deniReactTreeviewItem.CHECKBOX_STATE.CHECKED;
+        _refreshCheckboxStateChildren(item);
+        _refreshCheckboxStateParents(treeviewItem);
+    },
+
+
+    //
+    uncheckNode: function uncheckNode(treeviewItem, item) {
+        item.state = _deniReactTreeviewItem.CHECKBOX_STATE.UNCHECKED;
+        _refreshCheckboxStateChildren(item);
+        _refreshCheckboxStateParents(treeviewItem);
     }
-  },
-  treeviewItemCheckboxMouseDown: function treeviewItemCheckboxMouseDown(helper, treeview, item) {
-    var treeviewItem = this;
-
-    if (_isChecked(item)) {
-      helper.uncheckNode(treeviewItem, item);
-    } else {
-      helper.checkNode(treeviewItem, item);
-    }
-
-    treeview.setState({
-      selectedItem: item
-    });
-  },
-
-
-  //
-  checkNode: function checkNode(treeviewItem, item) {
-    item.state = _deniReactTreeviewItem.CHECKBOX_STATE.CHECKED;
-    _refreshCheckboxStateChildren(item);
-    _refreshCheckboxStateParents(treeviewItem);
-  },
-
-
-  //
-  uncheckNode: function uncheckNode(treeviewItem, item) {
-    item.state = _deniReactTreeviewItem.CHECKBOX_STATE.UNCHECKED;
-    _refreshCheckboxStateChildren(item);
-    _refreshCheckboxStateParents(treeviewItem);
-  }
 };
 
 //
 function _getActionButtonByName(buttonName) {
-  switch (buttonName) {
-    case 'trash':
-      return '';
-    default:
+    switch (buttonName) {
+        case 'trash':
+            return '';
+        default:
 
-  }
-  if (buttonName === 'trash') {} else
+    }
+    if (buttonName === 'trash') {} else
 
-    // (<FaTrashO size="15" color='#ff6666' />),
-    // (<FaEdit size="15" color='#006699' />)
+        // (<FaTrashO size="15" color='#ff6666' />),
+        // (<FaEdit size="15" color='#006699' />)
 
-    here;
+        here;
 }
 
 //
 function _isChecked(item) {
-  return item.state === _deniReactTreeviewItem.CHECKBOX_STATE.CHECKED;
+    return item.state === _deniReactTreeviewItem.CHECKBOX_STATE.CHECKED;
 }
 
 //
 function _isUnchecked(item) {
-  return item.state === _deniReactTreeviewItem.CHECKBOX_STATE.UNCHECKED;
+    return item.state === _deniReactTreeviewItem.CHECKBOX_STATE.UNCHECKED;
 }
 
 ///
 function _refreshCheckboxStateChildren(item) {
-  if (item.children) {
-    item.children.forEach(function (child) {
-      child.state = item.state;
-      _refreshCheckboxStateChildren(child);
-    });
-  }
+    if (item.children) {
+        item.children.forEach(function (child) {
+            child.state = item.state;
+            _refreshCheckboxStateChildren(child);
+        });
+    }
 }
 
 function _allItemsAreChecked(items) {
-  for (var index = 0; index < items.length; index++) {
-    var item = items[index];
+    for (var index = 0; index < items.length; index++) {
+        var item = items[index];
 
-    if (!_isChecked(item)) {
-      return false;
+        if (!_isChecked(item)) {
+            return false;
+        }
     }
-  }
-  return true;
+    return true;
 }
 
 function _allItemsAreUnchecked(items) {
-  for (var index = 0; index < items.length; index++) {
-    var item = items[index];
+    for (var index = 0; index < items.length; index++) {
+        var item = items[index];
 
-    if (!_isUnchecked(item)) {
-      return false;
+        if (!_isUnchecked(item)) {
+            return false;
+        }
     }
-  }
-  return true;
+    return true;
 }
 
 function _refreshCheckboxStateParents(treeviewItem) {
-  var parentTreeviewItem = treeviewItem.props.parent;
-  if (parentTreeviewItem) {
-    var siblingItems = parentTreeviewItem.props.item.children;
-    var allSiblingsAreChecked = _allItemsAreChecked(siblingItems);
+    var parentTreeviewItem = treeviewItem.props.parent;
+    if (parentTreeviewItem) {
+        var siblingItems = parentTreeviewItem.props.item.children;
+        var allSiblingsAreChecked = _allItemsAreChecked(siblingItems);
 
-    //
-    if (allSiblingsAreChecked) {
-      parentTreeviewItem.props.item.state = _deniReactTreeviewItem.CHECKBOX_STATE.CHECKED;
-    } else {
-      var allSiblingsAreUnchecked = _allItemsAreUnchecked(siblingItems);
-      if (allSiblingsAreUnchecked) {
-        parentTreeviewItem.props.item.state = _deniReactTreeviewItem.CHECKBOX_STATE.UNCHECKED;
-      } else {
-        parentTreeviewItem.props.item.state = _deniReactTreeviewItem.CHECKBOX_STATE.UNDETERMINED;
-      }
+        //
+        if (allSiblingsAreChecked) {
+            parentTreeviewItem.props.item.state = _deniReactTreeviewItem.CHECKBOX_STATE.CHECKED;
+        } else {
+            var allSiblingsAreUnchecked = _allItemsAreUnchecked(siblingItems);
+            if (allSiblingsAreUnchecked) {
+                parentTreeviewItem.props.item.state = _deniReactTreeviewItem.CHECKBOX_STATE.UNCHECKED;
+            } else {
+                parentTreeviewItem.props.item.state = _deniReactTreeviewItem.CHECKBOX_STATE.UNDETERMINED;
+            }
+        }
+
+        _refreshCheckboxStateParents(parentTreeviewItem);
     }
-
-    _refreshCheckboxStateParents(parentTreeviewItem);
-  }
 }
 
 /***/ }),
@@ -3836,33 +3844,34 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 module.exports = {
 
-  propTypes: {
-    autoLoad: _propTypes2.default.bool,
-    items: _propTypes2.default.oneOfType([_propTypes2.default.array, _propTypes2.default.object]),
-    lazyLoad: _propTypes2.default.bool,
-    marginItems: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number]),
-    onAfterLoad: _propTypes2.default.func,
-    onBeforeLoad: _propTypes2.default.func,
-    onRenderItem: _propTypes2.default.func,
-    onSelectItem: _propTypes2.default.func,
-    selectRow: _propTypes2.default.bool,
-    showCheckbox: _propTypes2.default.bool,
-    showIcon: _propTypes2.default.bool,
-    showRoot: _propTypes2.default.bool,
-    theme: _propTypes2.default.string,
-    url: _propTypes2.default.string
-  },
+    propTypes: {
+        autoLoad: _propTypes2.default.bool,
+        items: _propTypes2.default.oneOfType([_propTypes2.default.array, _propTypes2.default.object]),
+        lazyLoad: _propTypes2.default.bool,
+        marginItems: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.number]),
+        onAfterLoad: _propTypes2.default.func,
+        onBeforeLoad: _propTypes2.default.func,
+        onRenderItem: _propTypes2.default.func,
+        onSelectItem: _propTypes2.default.func,
+        onCheckItem: _propTypes2.default.func,
+        selectRow: _propTypes2.default.bool,
+        showCheckbox: _propTypes2.default.bool,
+        showIcon: _propTypes2.default.bool,
+        showRoot: _propTypes2.default.bool,
+        theme: _propTypes2.default.string,
+        url: _propTypes2.default.string
+    },
 
-  defaultProps: {
-    autoLoad: true,
-    lazyLoad: false,
-    marginItems: 30,
-    selectRow: false,
-    showCheckbox: false,
-    showIcon: true,
-    showRoot: false,
-    theme: 'classic'
-  }
+    defaultProps: {
+        autoLoad: true,
+        lazyLoad: false,
+        marginItems: 30,
+        selectRow: false,
+        showCheckbox: false,
+        showIcon: true,
+        showRoot: false,
+        theme: 'classic'
+    }
 };
 
 /***/ }),
@@ -4744,108 +4753,108 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 module.exports = function (scope) {
 
-  return {
+    return {
 
-    //
-    //
-    //
-    addItem: function addItem(text, isLeaf, parentNode) {
-      return _deniReactTreeviewApi2.default.addItem(scope, text, isLeaf, parentNode);
-    },
+        //
+        //
+        //
+        addItem: function addItem(text, isLeaf, parentNode) {
+            return _deniReactTreeviewApi2.default.addItem(scope, text, isLeaf, parentNode);
+        },
 
-    //
-    // folderToFind can be passed as a "id" or as a "object" ex:
-    //
-    //  treeviewEl.api.findFolder(456) //456 is a id value or
-    //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
-    //
-    findFolder: function findFolder(folderToFind) {
-      return _deniReactTreeviewApi2.default.findFolder(scope, folderToFind);
-    },
+        //
+        // folderToFind can be passed as a "id" or as a "object" ex:
+        //
+        //  treeviewEl.api.findFolder(456) //456 is a id value or
+        //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
+        //
+        findFolder: function findFolder(folderToFind) {
+            return _deniReactTreeviewApi2.default.findFolder(scope, folderToFind);
+        },
 
-    //
-    // folderToFind can be passed as a "id" or as a "object" ex:
-    //
-    //  treeviewEl.api.findFolder(456) //456 is a id value or
-    //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
-    //
-    findNode: function findNode(nodeToFind) {
-      return _deniReactTreeviewApi2.default.findNode(scope, nodeToFind);
-    },
+        //
+        // folderToFind can be passed as a "id" or as a "object" ex:
+        //
+        //  treeviewEl.api.findFolder(456) //456 is a id value or
+        //  treeviewEl.api.findFolder({name: 'Brazil'}) //it will searches for the first folder that match the passed data and leaf is not true
+        //
+        findNode: function findNode(nodeToFind) {
+            return _deniReactTreeviewApi2.default.findNode(scope, nodeToFind);
+        },
 
-    //
-    // itemToFind can be passed as a "id" or as a "object" ex:
-    //
-    //  treeviewEl.api.findItem(357) //357 is a id value or
-    //  treeviewEl.api.findItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
-    //
-    findItem: function findItem(itemToFind) {
-      return _deniReactTreeviewApi2.default.findItem(scope, itemToFind);
-    },
+        //
+        // itemToFind can be passed as a "id" or as a "object" ex:
+        //
+        //  treeviewEl.api.findItem(357) //357 is a id value or
+        //  treeviewEl.api.findItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
+        //
+        findItem: function findItem(itemToFind) {
+            return _deniReactTreeviewApi2.default.findItem(scope, itemToFind);
+        },
 
-    //
-    //
-    //
-    getItems: function getItems() {
-      return _deniReactTreeviewApi2.default.getItems(scope);
-    },
+        //
+        //
+        //
+        getItems: function getItems() {
+            return _deniReactTreeviewApi2.default.getItems(scope);
+        },
 
-    //
-    //
-    //
-    getParentNode: function getParentNode(item) {
-      return _deniReactTreeviewApi2.default.getParentNode(scope, item);
-    },
+        //
+        //
+        //
+        getParentNode: function getParentNode(item) {
+            return _deniReactTreeviewApi2.default.getParentNode(scope, item);
+        },
 
-    //
-    //
-    //
-    getRootItem: function getRootItem() {
-      return _deniReactTreeviewApi2.default.getRootItem(scope);
-    },
+        //
+        //
+        //
+        getRootItem: function getRootItem() {
+            return _deniReactTreeviewApi2.default.getRootItem(scope);
+        },
 
-    //
-    //
-    //
-    getSelectedItem: function getSelectedItem() {
-      return _deniReactTreeviewApi2.default.getSelectedItem(scope);
-    },
+        //
+        //
+        //
+        getSelectedItem: function getSelectedItem() {
+            return _deniReactTreeviewApi2.default.getSelectedItem(scope);
+        },
 
-    //
-    //
-    //
-    load: _deniReactTreeview2.default.load.bind(scope),
+        //
+        //
+        //
+        load: _deniReactTreeview2.default.load.bind(scope),
 
-    //
-    //
-    //
-    loadData: _deniReactTreeview2.default.loadData.bind(scope),
+        //
+        //
+        //
+        loadData: _deniReactTreeview2.default.loadData.bind(scope),
 
-    //
-    //
-    //
-    removeItem: function removeItem(id) {
-      _deniReactTreeviewApi2.default.removeItem(scope, id);
-    },
+        //
+        //
+        //
+        removeItem: function removeItem(id) {
+            _deniReactTreeviewApi2.default.removeItem(scope, id);
+        },
 
-    //
-    // itemToFind can be passed as a "id" or as a "object" ex:
-    //
-    //  treeviewEl.api.selectItem(357) //357 is a id value or
-    //  treeviewEl.api.selectItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
-    //
-    selectItem: function selectItem(itemToFind) {
-      _deniReactTreeviewApi2.default.selectItem(scope, itemToFind);
-    },
+        //
+        // itemToFind can be passed as a "id" or as a "object" ex:
+        //
+        //  treeviewEl.api.selectItem(357) //357 is a id value or
+        //  treeviewEl.api.selectItem({name: 'Dog'}) //it will searches for the first item that match the passed data and leaf is true
+        //
+        selectItem: function selectItem(itemToFind) {
+            _deniReactTreeviewApi2.default.selectItem(scope, itemToFind);
+        },
 
-    //
-    //
-    //
-    setTheme: function setTheme(newTheme) {
-      _deniReactTreeview2.default.setTheme(scope, newTheme);
-    }
+        //
+        //
+        //
+        setTheme: function setTheme(newTheme) {
+            _deniReactTreeview2.default.setTheme(scope, newTheme);
+        }
 
-  };
+    };
 };
 
 /***/ }),
