@@ -29,7 +29,7 @@ menuItems.items.map(menuItem => {
 })
 
 appChildren.push(
-  <Route exact path="/" render={() => (
+  <Route key={ 999999 }exact path="/" render={() => (
     <Redirect to="/local-json" />
   )} />
 );

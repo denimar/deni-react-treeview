@@ -19,7 +19,9 @@ class App extends React.Component {
           <div className="menu">
             {
               menuItems.items.map(menuItem => {
-                var childrenItems = menuItem.children.map(children => <div key={children.id} className="menu-item child"><NavLink activeClassName="active" to={`/${children.route}`}>{children.title}</NavLink></div>);
+                const childrenItems = menuItem.children.map(children => 
+                  <div key={ children.id } className="menu-item child"><NavLink activeClassName="active" to={`/${ children.route }`}>{children.title}</NavLink></div>
+                )
 
                 return (
                   <div key={menuItem.id}>
