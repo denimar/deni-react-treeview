@@ -9,34 +9,34 @@ import Example from './components/Example'
 import NotMatch from './components/NotMatch'
 
 const ExampleContainer = (component, files) => {
-  return (
-    <Example component={component} files={ files } />
-  );
+    return (
+        <Example component={component} files={ files } />
+    );
 }
 
 const appChildren = [];
 menuItems.items.map(menuItem => {
-  return menuItem.children.map(child => {
-    appChildren.push(
-      <Route
-        key={ child.id }
-        path={ '/' + child.route }
-        component={ ExampleContainer.bind(this, child.component, child.files) }
-      >
-      </Route>
-    );
-  });
+    return menuItem.children.map(child => {
+        appChildren.push(
+            <Route
+                key={ child.id }
+                path={ '/' + child.route }
+                component={ ExampleContainer.bind(this, child.component, child.files) }
+            >
+            </Route>
+        );
+    });
 })
 
 appChildren.push(
-  <Route key={ 999999 }exact path="/" render={() => (
-    <Redirect to="/local-json" />
-  )} />
+    <Route exact path="/" render={() => (
+        <Redirect to="/local-json" />
+    )} />
 );
 
 ReactDOM.render(
-  <HashRouter>
-    <Route path="/" component={() => (<App children={ appChildren } />)}></Route>
-  </HashRouter>,
-  document.getElementById('root')
+    <HashRouter>
+        <Route path="/" component={() => (<App children={ appChildren } />)}></Route>
+    </HashRouter>,
+    document.getElementById('root')
 );

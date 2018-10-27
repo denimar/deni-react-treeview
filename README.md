@@ -58,6 +58,7 @@ For more details: [examples](https://denimar.github.io/deni-react-treeview/examp
 * onExpanded
 * onColapsed
 * onLazyLoad
+* onCheckItem
 
 #### json example
 
