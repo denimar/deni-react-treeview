@@ -48,7 +48,7 @@ class DeniReactTreeView extends React.Component {
 
     return (
       (showComponent) ? (
-        <div className={ className } >
+        <div className={ className } { ...this.props } >
           {domTreeviewItem}
           {_createComponentsChildren(self, domTreeviewItem, 1, children)}
         </div>
