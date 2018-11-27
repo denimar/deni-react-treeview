@@ -45,10 +45,11 @@ class DeniReactTreeView extends React.Component {
       className += ' loading';
     }
     let showComponent = hasItems && (!this.state.loading || this.props.lazyLoad);
+    let style = this.props.style || undefined
 
     return (
       (showComponent) ? (
-        <div className={ className } { ...this.props } >
+        <div className={ className } style={ style } >
           {domTreeviewItem}
           {_createComponentsChildren(self, domTreeviewItem, 1, children)}
         </div>
