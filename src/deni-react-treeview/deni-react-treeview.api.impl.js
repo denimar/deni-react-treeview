@@ -206,6 +206,22 @@ function _selectNode(scope, item) {
   scope.setState({
     selectedItem: item
   });
+  setTimeout(() => {
+    if (scope.container) {
+      let selectedRowElem
+      if (scope.props.selectRow) {
+        selectedRowElem = scope.container.querySelector('.deni-react-treeview-item-container.selected')
+      } else {
+        const selectedElem = scope.container.querySelector('.icon-and-text.selected')
+        if (selectedElem) {
+          selectedRowElem = selectedElem.closest('.deni-react-treeview-item-container')
+        }  
+      }
+      if (selectedRowElem) {
+        selectedRowElem.scrollIntoViewIfNeeded()
+      }
+    }
+  })
   if (scope.props.onSelectItem) {
     scope.props.onSelectItem(item);
   }  
