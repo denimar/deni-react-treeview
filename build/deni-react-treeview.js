@@ -1624,6 +1624,8 @@ var DeniReactTreeView = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
+      var _this2 = this;
+
       var self = this;
       var domTreeviewItem = _react2.default.createElement(_deniReactTreeviewItem2.default, { root: true, treeview: self, level: 0, item: this.state.rootItem });
       var children = this.state.rootItem && this.state.rootItem.children;
@@ -1645,7 +1647,9 @@ var DeniReactTreeView = function (_React$Component) {
 
       return showComponent ? _react2.default.createElement(
         'div',
-        { className: className, style: style },
+        { ref: function ref(elem) {
+            return _this2.container = elem;
+          }, className: className, style: style },
         domTreeviewItem,
         _createComponentsChildren(self, domTreeviewItem, 1, children)
       ) : _react2.default.createElement('div', { className: className });
@@ -2098,7 +2102,7 @@ module.exports = {
             if (item.isLeaf) {
                 //TODO: Create a event here
             } else {
-                helper.treeviewItemExpandButtonMouseDown.apply(this, treeview, item);
+                helper.treeviewItemExpandButtonMouseDown.apply(this, [treeview, item]);
             }
         }
     },
@@ -5071,6 +5075,22 @@ function _selectNode(scope, item) {
   });
   scope.setState({
     selectedItem: item
+  });
+  setTimeout(function () {
+    if (scope.container) {
+      var selectedRowElem = void 0;
+      if (scope.props.selectRow) {
+        selectedRowElem = scope.container.querySelector('.deni-react-treeview-item-container.selected');
+      } else {
+        var selectedElem = scope.container.querySelector('.icon-and-text.selected');
+        if (selectedElem) {
+          selectedRowElem = selectedElem.closest('.deni-react-treeview-item-container');
+        }
+      }
+      if (selectedRowElem) {
+        selectedRowElem.scrollIntoViewIfNeeded();
+      }
+    }
   });
   if (scope.props.onSelectItem) {
     scope.props.onSelectItem(item);
