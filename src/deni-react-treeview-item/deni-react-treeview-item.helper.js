@@ -137,7 +137,7 @@ module.exports = {
             if (item.isLeaf) {
                 //TODO: Create a event here
             } else {
-                helper.treeviewItemExpandButtonMouseDown.apply(this, treeview, item);
+                helper.treeviewItemExpandButtonMouseDown.apply(this, [treeview, item]);
             }
         }
     },
