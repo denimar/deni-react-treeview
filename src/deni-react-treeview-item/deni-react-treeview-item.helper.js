@@ -162,7 +162,13 @@ module.exports = {
             }
 
             if (treeview.props.onSelectItem) {
-                treeview.props.onSelectItem(self.props.item);
+                const shouldFireEvent = (treeview.props.selectRow && event.target.classList.contains('deni-react-treeview-item-container')) || 
+                                        (!treeview.props.selectRow && event.target.classList.contains('text-inner')) 
+                
+                
+                if (shouldFireEvent) {
+                    treeview.props.onSelectItem(self.props.item);
+                }    
             }
         }
     },
