@@ -1265,7 +1265,7 @@ module.exports = {
 };
 
 function _resolveRootItem(items) {
-  var rootItem = _deniReactTreeview.ROOT_ITEM;
+  var rootItem = Object.assign({}, _deniReactTreeview.ROOT_ITEM);
 
   if (items) {
     if (items instanceof Array) {
