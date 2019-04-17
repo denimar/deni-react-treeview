@@ -104,7 +104,7 @@ module.exports = {
 }
 
 function _resolveRootItem(items) {
-  let rootItem = ROOT_ITEM;
+  let rootItem = Object.assign({}, ROOT_ITEM);
 
   if (items) {
     if (items instanceof Array) {
