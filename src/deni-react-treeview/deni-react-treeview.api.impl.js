@@ -9,7 +9,7 @@ module.exports = {
     const newItem = {
       text: text,
       children: [],
-      isLeaf: isLeaf
+      isLeaf: isLeaf,
     }
     parent.children = parent.children || [];
     parent.children.push(newItem);
@@ -31,13 +31,13 @@ module.exports = {
 
   findItem: (scope, itemToFind) => {
     let dataToFind = _normalizeDataToFind(itemToFind);
-      dataToFind['isLeaf'] = true;
-      let node = _findNode(scope.state.rootItem.children, dataToFind);
-      if (!node) {
-        throw new Error('Item not found!');
-      } else {
-        return node;
-      }
+    dataToFind['isLeaf'] = true;
+    let node = _findNode(scope.state.rootItem.children, dataToFind);
+    if (!node) {
+      throw new Error('Item not found!');
+    } else {
+      return node;
+    }
   },
 
   findNode: (scope, nodeToFind) => {
@@ -48,6 +48,10 @@ module.exports = {
     } else {
       return node;
     }
+  },
+
+  expandAll: (scope) => {
+    _expand(scope.state.rootItem);
   },
 
   getItems: (scope) => {
@@ -76,9 +80,9 @@ module.exports = {
 
     parentNode.children.splice(childIndex, 1);
 
-    if (scope.state.selectedItem && scope.state.selectedItem.id === id)  {
+    if (scope.state.selectedItem && scope.state.selectedItem.id === id) {
       scope.setState({
-        selectedItem: undefined
+        selectedItem: undefined,
       });
     }
 
@@ -109,11 +113,11 @@ module.exports = {
 //
 function _findNode(children, dataToFind) {
   const keys = dataToFind ? Object.keys(dataToFind) : []
-  for (let index = 0 ; index < children.length ; index++) {
+  for (let index = 0; index < children.length; index++) {
     let child = children[index];
     let allFieldsAreEqual = true;
 
-    for (let index2 = 0 ; index2 < keys.length ; index2++) {
+    for (let index2 = 0; index2 < keys.length; index2++) {
       let key = keys[index2];
 
       if (child[key] !== dataToFind[key]) {
@@ -156,9 +160,9 @@ function _getParentItems(scope, item) {
 
 //
 function _getParentItem(scope, item, parentItem) {
-  let parent = parentItem  || scope.state.rootItem;
+  let parent = parentItem || scope.state.rootItem;
   let itemsToFind = parent.children;
-  for (let index = 0 ; index < itemsToFind.length ; index++) {
+  for (let index = 0; index < itemsToFind.length; index++) {
     let itemToFind = itemsToFind[index];
     if (itemToFind.id === item.id) {
       return parent;
@@ -185,9 +189,9 @@ function _getParentItem(scope, item, parentItem) {
 //
 function _normalizeDataToFind(dataToFind) {
   let normalizedData = {};
-  if ((typeof  dataToFind === 'number') || (typeof  dataToFind === 'string')) {
+  if ((typeof dataToFind === 'number') || (typeof dataToFind === 'string')) {
     normalizedData['id'] = dataToFind;
-  } else if (typeof  dataToFind === 'object') {
+  } else if (typeof dataToFind === 'object') {
     normalizedData = dataToFind;
   } else {
     throw new Error('Parameter set in a wrong way.');
@@ -198,13 +202,13 @@ function _normalizeDataToFind(dataToFind) {
 //
 function _selectNode(scope, item) {
   let parentItems = _getParentItems(scope, item);
-  parentItems.forEach(function(parent) {
+  parentItems.forEach(function (parent) {
     if (!parent.expanded) {
       parent.expanded = true;
     }
   });
   scope.setState({
-    selectedItem: item
+    selectedItem: item,
   });
   setTimeout(() => {
     if (scope.container) {
@@ -215,7 +219,7 @@ function _selectNode(scope, item) {
         const selectedElem = scope.container.querySelector('.icon-and-text.selected')
         if (selectedElem) {
           selectedRowElem = selectedElem.closest('.deni-react-treeview-item-container')
-        }  
+        }
       }
       if (selectedRowElem) {
         selectedRowElem.scrollIntoViewIfNeeded()
@@ -224,5 +228,16 @@ function _selectNode(scope, item) {
   })
   if (scope.props.onSelectItem) {
     scope.props.onSelectItem(item);
-  }  
+  }
+}
+
+function _expand(item) {
+  if (item.children) {
+    item.children.forEach((i) => {
+      if (i.children) {
+        i.expanded = true;
+        _expand(i);
+      }
+    });
+  }
 }

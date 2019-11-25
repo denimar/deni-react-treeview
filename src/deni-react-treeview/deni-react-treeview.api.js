@@ -23,6 +23,11 @@ module.exports = (scope) => {
     },
 
     //
+    // Expand all the children from the rootItem recursively
+    expandAll: () => {
+      treeviewApiImpl.expandAll(scope);
+    },
+    //
     // folderToFind can be passed as a "id" or as a "object" ex:
     //
     //  treeviewEl.api.findFolder(456) //456 is a id value or
@@ -103,7 +108,7 @@ module.exports = (scope) => {
     //
     setTheme: (newTheme) => {
       treeviewHelper.setTheme(scope, newTheme);
-    }
+    },
 
   }
 

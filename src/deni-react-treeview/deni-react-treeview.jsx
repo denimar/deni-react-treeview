@@ -5,19 +5,26 @@ import treeviewHelper from './deni-react-treeview.helper'
 import treeviewProps from './deni-react-treeview.props'
 import treeviewApiFn from './deni-react-treeview.api'
 
+
 class DeniReactTreeView extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      theme: props.theme
+      theme: props.theme,
+      expandAll: props.expandAll,
     };
+    this.expandAllFinished = this.expandAllFinished.bind(this);
   }
 
-  componentDidUpdate(prevProps) {
-    if (prevProps.items !== this.props.items) {
-      this.state.rootItem.children = this.props.items
+  componentDidUpdate(prevProps, prevState) {
+    const { items } = this.props;
+    if (prevProps.items !== items) {
+      this.state.rootItem.children = items;
       //treeviewHelper.loadData.call(this, this.props.items);
+    }
+    if (prevState.rootItem !== this.state.rootItem && this.state.expandAll) {
+      this.expandAllFinished();
     }
   }
 
@@ -25,6 +32,10 @@ class DeniReactTreeView extends React.Component {
     this.api = treeviewApiFn(this);
     treeviewHelper.setTheme(this, this.props.theme);
     treeviewHelper.loadingSetup(this);
+  }
+
+  expandAllFinished() {
+    this.setState({ expandAll: false });
   }
 
   render() {
@@ -49,11 +60,11 @@ class DeniReactTreeView extends React.Component {
 
     return (
       (showComponent) ? (
-        <div ref={(elem) => this.container = elem} className={ className } style={ style } >
+        <div ref={(elem) => this.container = elem} className={className} style={style} >
           {domTreeviewItem}
-          {_createComponentsChildren(self, domTreeviewItem, 1, children)}
+          {_createComponentsChildren(self, domTreeviewItem, 1, children, this.state.expandAll)}
         </div>
-      ) : <div className={ className }></div>
+      ) : <div className={className}></div>
     )
   }
 
@@ -62,17 +73,23 @@ class DeniReactTreeView extends React.Component {
 //DeniReactTreeView.propTypes = treeviewProps.propTypes;
 DeniReactTreeView.defaultProps = treeviewProps.defaultProps;
 
-function _createComponentsChildren (treeview, parent, level, children) {
+function _createComponentsChildren(treeview, parent, level, children, expandAll = false) {
+  if (expandAll) {
+    children = children.map(c => {
+      c.expanded = true;
+      return c;
+    });
+  }
   return (
     <div>
       {
         (parent.props.item && parent.props.item.expanded && children && children.length) ?
-          children.map(function(child) {
-            let domTreeviewItem = <DeniReactTreeViewItem treeview={treeview} parent={parent} level={level} key={child.id} item={child} />;
+          children.map(function (child) {
+            let domTreeviewItem = <DeniReactTreeViewItem expandAll={expandAll} treeview={treeview} parent={parent} level={level} key={child.id} item={child} />;
             return (
               <div key={child.id}>
-                { domTreeviewItem }
-                { _createComponentsChildren(treeview, domTreeviewItem, level+1, child.children) }
+                {domTreeviewItem}
+                {_createComponentsChildren(treeview, domTreeviewItem, level + 1, child.children)}
               </div>
             )
           })
