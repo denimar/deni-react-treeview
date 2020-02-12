@@ -73,6 +73,7 @@
   }
 
   .expand-button {
+    min-width: $expand-button-width;
     width: $expand-button-width;
     height: $expand-button-height;
     color: darken($base-color, 45%);
@@ -118,6 +119,7 @@
   }
 
   .checkbox {
+    min-width: $checkbox-width;
     width: $checkbox-width;
     height: $checkbox-height;
     border: solid 1px;
