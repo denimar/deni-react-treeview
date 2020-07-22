@@ -1,0 +1,3582 @@
+[
+  {
+    "url": "http://www.paynesvillemn.com/",
+    "long": "-94.71",
+    "name": "Paynesville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.38"
+  },
+  {
+    "url": "http://www.ci.woodbury.mn.us/",
+    "long": "-92.95",
+    "name": "Woodbury",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.92"
+  },
+  {
+    "url": "http://www.minnesotalake.com/",
+    "long": "-93.83",
+    "name": "Minnesota Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.84"
+  },
+  {
+    "url": "http://www.stlouispark.org/",
+    "long": "-93.34",
+    "name": "Saint Louis Park",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.94"
+  },
+  {
+    "url": "http://www.cityofwoodlandmn.org/",
+    "long": "-93.5",
+    "name": "Woodland",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.94"
+  },
+  {
+    "url": "http://www.frazeecity.com/",
+    "long": "-95.7",
+    "name": "Frazee",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.72"
+  },
+  {
+    "url": "http://eminnetonka.com/",
+    "long": "-93.5",
+    "name": "Minnetonka",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.91"
+  },
+  {
+    "url": "http://www.ci.minnetonka-beach.mn.us/",
+    "long": "-93.57",
+    "name": "Minnetonka Beach",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.93"
+  },
+  {
+    "url": "http://thomson.govoffice.com/",
+    "long": "-92.39",
+    "name": "Thomson",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.66"
+  },
+  {
+    "url": "http://www.ci.arden-hills.mn.us/",
+    "long": "-93.15",
+    "name": "Arden Hills",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.05"
+  },
+  {
+    "url": "http://www.ci.minnetrista.mn.us/",
+    "long": "-93.71",
+    "name": "Minnetrista",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.93"
+  },
+  {
+    "url": "http://www.stmaryspoint.org/",
+    "long": "-92.76",
+    "name": "Saint Marys Point",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.91"
+  },
+  {
+    "url": "http://www.dellwood.us/",
+    "long": "-92.97",
+    "name": "Dellwood",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.08"
+  },
+  {
+    "url": "http://www.cityoflesueur.com/",
+    "long": "-93.91",
+    "name": "Le Sueur",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.46"
+  },
+  {
+    "url": "http://www.pelicanrapids.com/",
+    "long": "-96.08",
+    "name": "Pelican Rapids",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.57"
+  },
+  {
+    "url": "http://www.ci.burnsville.mn.us/",
+    "long": "-93.27",
+    "name": "Burnsville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.76"
+  },
+  {
+    "url": "http://www.ci.st-michael.mn.us/",
+    "long": "-93.66",
+    "name": "Saint Michael",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.2"
+  },
+  {
+    "url": "http://www.ci.argyle.mn.us/",
+    "long": "-96.82",
+    "name": "Argyle",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "48.33"
+  },
+  {
+    "url": "http://www.stpaul.gov/",
+    "long": "-93.09",
+    "name": "Saint Paul",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.94"
+  },
+  {
+    "url": "http://www.stpaulpark.govoffice.com/",
+    "long": "-92.99",
+    "name": "Saint Paul Park",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.84"
+  },
+  {
+    "url": "http://www.ci.st-peter.mn.us/",
+    "long": "-93.95",
+    "name": "Saint Peter",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.32"
+  },
+  {
+    "url": "http://www.ci.worthington.mn.us/",
+    "long": "-95.59",
+    "name": "Worthington",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.61"
+  },
+  {
+    "url": "http://www.ci.fridley.mn.us/",
+    "long": "-93.26",
+    "name": "Fridley",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.08"
+  },
+  {
+    "url": "http://www.pequotlakes-mn.gov/",
+    "long": "-94.3",
+    "name": "Pequot Lakes",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.6"
+  },
+  {
+    "url": "http://www.cityoftonkabay.net/",
+    "long": "-93.59",
+    "name": "Tonka Bay",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.9"
+  },
+  {
+    "url": "http://www.byronmn.com/",
+    "long": "-92.64",
+    "name": "Byron",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.03"
+  },
+  {
+    "url": "http://www.ci.detroit-lakes.mn.us/",
+    "long": "-95.84",
+    "name": "Detroit Lakes",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.81"
+  },
+  {
+    "url": "http://www.montevideomn.org/",
+    "long": "-95.72",
+    "name": "Montevideo",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.94"
+  },
+  {
+    "url": "http://www.cityofperham.com/",
+    "long": "-95.57",
+    "name": "Perham",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.59"
+  },
+  {
+    "url": "http://www.caledonia.govoffice.com/",
+    "long": "-91.49",
+    "name": "Caledonia",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.63"
+  },
+  {
+    "url": "http://www.ci.monticello.mn.us/",
+    "long": "-93.79",
+    "name": "Monticello",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.3"
+  },
+  {
+    "url": "http://www.cityoftower.com/",
+    "long": "-92.27",
+    "name": "Tower",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.8"
+  },
+  {
+    "url": "http://tracy.govoffice.com/",
+    "long": "-95.61",
+    "name": "Tracy",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.23"
+  },
+  {
+    "url": "http://www.wyomingmn.org/",
+    "long": "-92.99",
+    "name": "Wyoming",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.33"
+  },
+  {
+    "url": "http://www.ci.dodgecenter.mn.us/",
+    "long": "-92.85",
+    "name": "Dodge Center",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.02"
+  },
+  {
+    "url": "http://www.ci.moorhead.mn.us/",
+    "long": "-96.76",
+    "name": "Moorhead",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.87"
+  },
+  {
+    "url": "http://www.sandstone.govoffice.com/",
+    "long": "-92.86",
+    "name": "Sandstone",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.13"
+  },
+  {
+    "url": "http://www.ci.cambridge.mn.us/",
+    "long": "-93.22",
+    "name": "Cambridge",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.57"
+  },
+  {
+    "url": "http://www.trimont.govoffice.com/",
+    "long": "-94.7",
+    "name": "Trimont",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.76"
+  },
+  {
+    "url": "http://www.exploregaylord.org/",
+    "long": "-94.22",
+    "name": "Gaylord",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.55"
+  },
+  {
+    "url": "http://www.gemlakemn.org/",
+    "long": "-93.03",
+    "name": "Gem Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.05"
+  },
+  {
+    "url": "http://www.frontiernet.net/~trumanmn/",
+    "long": "-94.43",
+    "name": "Truman",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.82"
+  },
+  {
+    "url": "http://www.ci.zumbrota.mn.us/",
+    "long": "-92.66",
+    "name": "Zumbrota",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.29"
+  },
+  {
+    "url": "http://www.ci.aurora.mn.us/",
+    "long": "-92.23",
+    "name": "Aurora",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.52"
+  },
+  {
+    "url": "http://www.dovermn.org/",
+    "long": "-92.13",
+    "name": "Dover",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.97"
+  },
+  {
+    "url": "http://www.sartellmn.com/",
+    "long": "-94.2",
+    "name": "Sartell",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.62"
+  },
+  {
+    "url": "http://www.canby.govoffice.com/",
+    "long": "-96.27",
+    "name": "Canby",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.7"
+  },
+  {
+    "url": "http://pinecity.govoffice.com/",
+    "long": "-92.96",
+    "name": "Pine City",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.82"
+  },
+  {
+    "url": "http://www.ci.sauk-centre.mn.us/",
+    "long": "-94.95",
+    "name": "Sauk Centre",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.73"
+  },
+  {
+    "url": "http://www.ci.austin.mn.us/",
+    "long": "-92.97",
+    "name": "Austin",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.66"
+  },
+  {
+    "url": "http://cc.pineislandmn.com/",
+    "long": "-92.64",
+    "name": "Pine Island",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.2"
+  },
+  {
+    "url": "http://www.ci.sauk-rapids.mn.us/",
+    "long": "-94.16",
+    "name": "Sauk Rapids",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.59"
+  },
+  {
+    "url": "http://www.ci.cannon-falls.mn.us//",
+    "long": "-92.9",
+    "name": "Cannon Falls",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.5"
+  },
+  {
+    "url": "http://www.hopkinsmn.com/",
+    "long": "-93.46",
+    "name": "Hopkins",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.92"
+  },
+  {
+    "url": "http://www.cityofsavage.com/",
+    "long": "-93.33",
+    "name": "Savage",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.77"
+  },
+  {
+    "url": "http://www.cityofavonmn.com/",
+    "long": "-94.45",
+    "name": "Avon",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.6"
+  },
+  {
+    "url": "http://www.babbitt-mn.com/",
+    "long": "-91.94",
+    "name": "Babbitt",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.7"
+  },
+  {
+    "url": "http://houston.govoffice.com/",
+    "long": "-91.56",
+    "name": "Houston",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.76"
+  },
+  {
+    "url": "http://www.backusmn.com/",
+    "long": "-94.51",
+    "name": "Backus",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.82"
+  },
+  {
+    "url": "http://lilydale.govoffice.com/",
+    "long": "-93.12",
+    "name": "Lilydale",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.91"
+  },
+  {
+    "url": "http://www.ci.morris.mn.us/",
+    "long": "-95.91",
+    "name": "Morris",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.58"
+  },
+  {
+    "url": "http://www.duluthmn.gov/",
+    "long": "-92.1",
+    "name": "Duluth",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.78"
+  },
+  {
+    "url": "http://www.howard-lake.mn.us/",
+    "long": "-94.07",
+    "name": "Howard Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.06"
+  },
+  {
+    "url": "http://www.hoytlakes.com/",
+    "long": "-92.13",
+    "name": "Hoyt Lakes",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.51"
+  },
+  {
+    "url": "http://www.twinvalley.govoffice.com/",
+    "long": "-96.25",
+    "name": "Twin Valley",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.26"
+  },
+  {
+    "url": "http://www.cityofgibbon.com/",
+    "long": "-94.52",
+    "name": "Gibbon",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.53"
+  },
+  {
+    "url": "http://www.ci.morristown.mn.us/",
+    "long": "-93.44",
+    "name": "Morristown",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.22"
+  },
+  {
+    "url": "http://www.gilbertmn.org/",
+    "long": "-92.46",
+    "name": "Gilbert",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.48"
+  },
+  {
+    "url": "http://www.progressivepipestone.com/",
+    "long": "-96.31",
+    "name": "Pipestone",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44"
+  },
+  {
+    "url": "http://www.plainviewmn.com/",
+    "long": "-92.17",
+    "name": "Plainview",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.16"
+  },
+  {
+    "url": "http://www.ci.hugo.mn.us/",
+    "long": "-92.99",
+    "name": "Hugo",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.15"
+  },
+  {
+    "url": "http://www.tyler.govoffice.com/",
+    "long": "-96.13",
+    "name": "Tyler",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.27"
+  },
+  {
+    "url": "http://www.mortonmn.com/",
+    "long": "-94.98",
+    "name": "Morton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.55"
+  },
+  {
+    "url": "http://www.cityofcarlton.com/",
+    "long": "-92.42",
+    "name": "Carlton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.66"
+  },
+  {
+    "url": "http://cityofsebeka.com/",
+    "long": "-95.08",
+    "name": "Sebeka",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.62"
+  },
+  {
+    "url": "http://www.ci.eagan.mn.us/",
+    "long": "-93.16",
+    "name": "Eagan",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.8"
+  },
+  {
+    "url": "http://www.lindstrom.mn.org/",
+    "long": "-92.84",
+    "name": "Lindstrom",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.38"
+  },
+  {
+    "url": "http://www.eaglebendmn.com/",
+    "long": "-95.03",
+    "name": "Eagle Bend",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.16"
+  },
+  {
+    "url": "http://www.ci.lino-lakes.mn.us/",
+    "long": "-93.08",
+    "name": "Lino Lakes",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.16"
+  },
+  {
+    "url": "http://www.eaglelakemn.com/",
+    "long": "-93.88",
+    "name": "Eagle Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.16"
+  },
+  {
+    "url": "http://www.ci.glencoe.mn.us/",
+    "long": "-94.15",
+    "name": "Glencoe",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.76"
+  },
+  {
+    "url": "http://www.cityofmound.com/",
+    "long": "-93.66",
+    "name": "Mound",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.93"
+  },
+  {
+    "url": "http://carver.govoffice.com/",
+    "long": "-93.62",
+    "name": "Carver",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.76"
+  },
+  {
+    "url": "http://www.ci.hutchinson.mn.us/",
+    "long": "-94.36",
+    "name": "Hutchinson",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.88"
+  },
+  {
+    "url": "http://www.lismore.govoffice2.com/",
+    "long": "-95.94",
+    "name": "Lismore",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.74"
+  },
+  {
+    "url": "http://www.ci.mounds-view.mn.us/",
+    "long": "-93.2",
+    "name": "Mounds View",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.1"
+  },
+  {
+    "url": "http://www.ci.shakopee.mn.us/",
+    "long": "-93.52",
+    "name": "Shakopee",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.79"
+  },
+  {
+    "url": "http://www.barnesvillemn.com/",
+    "long": "-96.41",
+    "name": "Barnesville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.65"
+  },
+  {
+    "url": "http://www.cityofupsala.com/",
+    "long": "-94.57",
+    "name": "Upsala",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.81"
+  },
+  {
+    "url": "http://eastbethel.govoffice.com/",
+    "long": "-93.2",
+    "name": "East Bethel",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.31"
+  },
+  {
+    "url": "http://www.ci.little-canada.mn.us/",
+    "long": "-93.08",
+    "name": "Little Canada",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.02"
+  },
+  {
+    "url": "http://www.mtniron.com/",
+    "long": "-92.62",
+    "name": "Mountain Iron",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.53"
+  },
+  {
+    "url": "http://www.ci.plymouth.mn.us/",
+    "long": "-93.45",
+    "name": "Plymouth",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.01"
+  },
+  {
+    "url": "http://www.mountainlakemn.com/",
+    "long": "-94.92",
+    "name": "Mountain Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.93"
+  },
+  {
+    "url": "http://www.egf.mn/",
+    "long": "-97.02",
+    "name": "East Grand Forks",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.92"
+  },
+  {
+    "url": "http://independence.govoffice.com/",
+    "long": "-93.7",
+    "name": "Independence",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.02"
+  },
+  {
+    "url": "http://www.eastgulllake.govoffice.com/",
+    "long": "-94.35",
+    "name": "East Gull Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.4"
+  },
+  {
+    "url": "http://www.ci.golden-valley.mn.us/",
+    "long": "-93.34",
+    "name": "Golden Valley",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45"
+  },
+  {
+    "url": "http://www.cityvadnaisheights.com/",
+    "long": "-93.07",
+    "name": "Vadnais Heights",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.05"
+  },
+  {
+    "url": "http://www.ci.international-falls.mn.us/",
+    "long": "-93.41",
+    "name": "International Falls",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "48.6"
+  },
+  {
+    "url": "http://www.ci.inver-grove-heights.mn.us/",
+    "long": "-93.04",
+    "name": "Inver Grove Heights",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.84"
+  },
+  {
+    "url": "http://www.centervillemn.com/",
+    "long": "-93.05",
+    "name": "Centerville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.16"
+  },
+  {
+    "url": "http://sherburn.govoffice.com/",
+    "long": "-94.72",
+    "name": "Sherburn",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.65"
+  },
+  {
+    "url": "http://ci.champlin.mn.us/",
+    "long": "-93.39",
+    "name": "Champlin",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.18"
+  },
+  {
+    "url": "http://goodview.govoffice.com/",
+    "long": "-91.69",
+    "name": "Goodview",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.06"
+  },
+  {
+    "url": "http://www.uslink.net/~nashwauk/",
+    "long": "-93.16",
+    "name": "Nashwauk",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.38"
+  },
+  {
+    "url": "http://www.ci.baxter.mn.us/",
+    "long": "-94.28",
+    "name": "Baxter",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.34"
+  },
+  {
+    "url": "http://www.edenprairie.org/",
+    "long": "-93.47",
+    "name": "Eden Prairie",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.85"
+  },
+  {
+    "url": "http://www.ci.chanhassen.mn.us/",
+    "long": "-93.53",
+    "name": "Chanhassen",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.86"
+  },
+  {
+    "url": "http://www.ci.isanti.mn.us/",
+    "long": "-93.24",
+    "name": "Isanti",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.49"
+  },
+  {
+    "url": "http://www.ci.long-lake.mn.us/",
+    "long": "-93.57",
+    "name": "Long Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.98"
+  },
+  {
+    "url": "http://bayport.govoffice.com/",
+    "long": "-92.78",
+    "name": "Bayport",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.02"
+  },
+  {
+    "url": "http://www.ci.chaska.mn.us/",
+    "long": "-93.6",
+    "name": "Chaska",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.78"
+  },
+  {
+    "url": "http://www.shoreviewmn.gov/",
+    "long": "-93.14",
+    "name": "Shoreview",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.07"
+  },
+  {
+    "url": "http://edenvalley.govoffice.com/",
+    "long": "-94.54",
+    "name": "Eden Valley",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.32"
+  },
+  {
+    "url": "http://www.ci.shorewood.mn.us/",
+    "long": "-93.58",
+    "name": "Shorewood",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.9"
+  },
+  {
+    "url": "http://www.ci.chatfield.mn.us/",
+    "long": "-92.18",
+    "name": "Chatfield",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.84"
+  },
+  {
+    "url": "http://www.longprairie.net/",
+    "long": "-94.86",
+    "name": "Long Prairie",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.97"
+  },
+  {
+    "url": "http://www.ci.edina.mn.us/",
+    "long": "-93.34",
+    "name": "Edina",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.88"
+  },
+  {
+    "url": "http://www.lonsdale.govoffice.com/",
+    "long": "-93.42",
+    "name": "Lonsdale",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.48"
+  },
+  {
+    "url": "http://www.ivanhoe.govoffice.com/",
+    "long": "-96.24",
+    "name": "Ivanhoe",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.46"
+  },
+  {
+    "url": "http://www.prestonmn.org/",
+    "long": "-92.08",
+    "name": "Preston",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.67"
+  },
+  {
+    "url": "http://www.silverbay.com/",
+    "long": "-91.25",
+    "name": "Silver Bay",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.29"
+  },
+  {
+    "url": "http://www.ci.victoria.mn.us/",
+    "long": "-93.66",
+    "name": "Victoria",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.85"
+  },
+  {
+    "url": "http://www.nevis.govoffice.com/",
+    "long": "-94.83",
+    "name": "Nevis",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.96"
+  },
+  {
+    "url": "http://princetonmn.org/",
+    "long": "-93.58",
+    "name": "Princeton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.56"
+  },
+  {
+    "url": "http://www.cityofsilverlake.org/",
+    "long": "-94.19",
+    "name": "Silver Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.9"
+  },
+  {
+    "url": "http://janesville.govoffice.com/",
+    "long": "-93.7",
+    "name": "Janesville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.11"
+  },
+  {
+    "url": "http://www.cityofpriorlake.com/",
+    "long": "-93.42",
+    "name": "Prior Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.71"
+  },
+  {
+    "url": "http://www.ci.new-brighton.mn.us/",
+    "long": "-93.2",
+    "name": "New Brighton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.06"
+  },
+  {
+    "url": "http://www.ci.chisago.mn.us/",
+    "long": "-92.88",
+    "name": "Chisago City",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.37"
+  },
+  {
+    "url": "http://www.ci.proctor.mn.us/",
+    "long": "-92.22",
+    "name": "Proctor",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.74"
+  },
+  {
+    "url": "http://www.chisholm.govoffice.com/",
+    "long": "-92.88",
+    "name": "Chisholm",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.48"
+  },
+  {
+    "url": "http://grandrapids.govoffice.com/",
+    "long": "-93.53",
+    "name": "Grand Rapids",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.23"
+  },
+  {
+    "url": "http://www.virginia-mn.com/",
+    "long": "-92.53",
+    "name": "Virginia",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.52"
+  },
+  {
+    "url": "http://www.ci.becker.mn.us/",
+    "long": "-93.87",
+    "name": "Becker",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.39"
+  },
+  {
+    "url": "http://www.ci.circle-pines.mn.us/",
+    "long": "-93.15",
+    "name": "Circle Pines",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.14"
+  },
+  {
+    "url": "http://www.ci.new-hope.mn.us/",
+    "long": "-93.38",
+    "name": "New Hope",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.03"
+  },
+  {
+    "url": "http://www.wabasha.org/",
+    "long": "-92.03",
+    "name": "Wabasha",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.38"
+  },
+  {
+    "url": "http://www.cityofluverne.org/",
+    "long": "-96.21",
+    "name": "Luverne",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.65"
+  },
+  {
+    "url": "http://www.waconia.org/",
+    "long": "-93.78",
+    "name": "Waconia",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.85"
+  },
+  {
+    "url": "http://www.ci.elk-river.mn.us/",
+    "long": "-93.56",
+    "name": "Elk River",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.3"
+  },
+  {
+    "url": "http://www.newmarketcity.com/",
+    "long": "-93.35",
+    "name": "New Market",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.57"
+  },
+  {
+    "url": "http://www.ci.grant.mn.us/",
+    "long": "-92.91",
+    "name": "Grant",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.08"
+  },
+  {
+    "url": "http://www.ci.ramsey.mn.us/",
+    "long": "-93.45",
+    "name": "Ramsey",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.26"
+  },
+  {
+    "url": "http://www.clarkfieldminnesota.com/",
+    "long": "-95.8",
+    "name": "Clarkfield",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.79"
+  },
+  {
+    "url": "http://www.ci.elko.mn.us/",
+    "long": "-93.32",
+    "name": "Elko",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.56"
+  },
+  {
+    "url": "http://www.randall.govoffice2.com/",
+    "long": "-94.5",
+    "name": "Randall",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.09"
+  },
+  {
+    "url": "http://www.wadena.org/",
+    "long": "-95.13",
+    "name": "Wadena",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.44"
+  },
+  {
+    "url": "http://www.belleplainemn.com/",
+    "long": "-93.76",
+    "name": "Belle Plaine",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.62"
+  },
+  {
+    "url": "http://www.jordan.govoffice.com/",
+    "long": "-93.62",
+    "name": "Jordan",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.66"
+  },
+  {
+    "url": "http://www.ci.new-prague.mn.us/",
+    "long": "-93.57",
+    "name": "New Prague",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.54"
+  },
+  {
+    "url": "http://slayton.govoffice.com/",
+    "long": "-95.75",
+    "name": "Slayton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.98"
+  },
+  {
+    "url": "http://www.sleepyeye-mn.com/",
+    "long": "-94.72",
+    "name": "Sleepy Eye",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.29"
+  },
+  {
+    "url": "http://www.cityofnewrichlandmn.com/",
+    "long": "-93.49",
+    "name": "New Richland",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.89"
+  },
+  {
+    "url": "http://www.waitepark.org/",
+    "long": "-94.22",
+    "name": "Waite Park",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.55"
+  },
+  {
+    "url": "http://www.clearwatercity.com/",
+    "long": "-94.04",
+    "name": "Clearwater",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.41"
+  },
+  {
+    "url": "http://www.madeliamn.com/",
+    "long": "-94.41",
+    "name": "Madelia",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.05"
+  },
+  {
+    "url": "http://www.ci.new-ulm.mn.us/",
+    "long": "-94.46",
+    "name": "New Ulm",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.31"
+  },
+  {
+    "url": "http://newyorkmills.govoffice2.com/",
+    "long": "-95.37",
+    "name": "New York Mills",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.51"
+  },
+  {
+    "url": "http://www.belview.org/",
+    "long": "-95.32",
+    "name": "Belview",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.6"
+  },
+  {
+    "url": "http://www.ci.madison.mn.us/",
+    "long": "-96.19",
+    "name": "Madison",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45"
+  },
+  {
+    "url": "http://www.ci.bemidji.mn.us/",
+    "long": "-94.88",
+    "name": "Bemidji",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.47"
+  },
+  {
+    "url": "http://www.madisonlake.govoffice2.com/",
+    "long": "-93.81",
+    "name": "Madison Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.2"
+  },
+  {
+    "url": "http://www.red-wing.org/",
+    "long": "-92.53",
+    "name": "Red Wing",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.56"
+  },
+  {
+    "url": "http://www.ci.newport.mn.us/",
+    "long": "-93",
+    "name": "Newport",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.86"
+  },
+  {
+    "url": "http://www.cityofkasson.com/",
+    "long": "-92.75",
+    "name": "Kasson",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.02"
+  },
+  {
+    "url": "http://www.ci.redwood-falls.mn.us/",
+    "long": "-95.11",
+    "name": "Redwood Falls",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.53"
+  },
+  {
+    "url": "http://www.greenfield.govoffice.com/",
+    "long": "-93.69",
+    "name": "Greenfield",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.1"
+  },
+  {
+    "url": "http://www.bensonmn.org/",
+    "long": "-95.6",
+    "name": "Benson",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.31"
+  },
+  {
+    "url": "http://www.keewatin.govoffice.com/",
+    "long": "-93.07",
+    "name": "Keewatin",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.39"
+  },
+  {
+    "url": "http://www.ci.mahtomedi.mn.us/",
+    "long": "-92.95",
+    "name": "Mahtomedi",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.06"
+  },
+  {
+    "url": "http://www.wanamingo.net/",
+    "long": "-92.79",
+    "name": "Wanamingo",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.3"
+  },
+  {
+    "url": "http://kelliher.govoffice.com/",
+    "long": "-94.44",
+    "name": "Kelliher",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.94"
+  },
+  {
+    "url": "http://www.southstpaul.org/",
+    "long": "-93.03",
+    "name": "South Saint Paul",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.89"
+  },
+  {
+    "url": "http://www.greenwoodmn.com/",
+    "long": "-93.55",
+    "name": "Greenwood",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.91"
+  },
+  {
+    "url": "http://www.cityofkennedy.com/",
+    "long": "-96.9",
+    "name": "Kennedy",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "48.64"
+  },
+  {
+    "url": "http://www.ci.nisswa.mn.us",
+    "long": "-94.28",
+    "name": "Nisswa",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.52"
+  },
+  {
+    "url": "http://www.ci.renville.mn.us/",
+    "long": "-95.21",
+    "name": "Renville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.78"
+  },
+  {
+    "url": "http://www.cityofkenyon.com/",
+    "long": "-92.98",
+    "name": "Kenyon",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.27"
+  },
+  {
+    "url": "http://bigfalls.govoffice.com/",
+    "long": "-93.8",
+    "name": "Big Falls",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "48.19"
+  },
+  {
+    "url": "http://www.biglakemn.org/",
+    "long": "-93.74",
+    "name": "Big Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.33"
+  },
+  {
+    "url": "http://www.mankato-mn.gov/",
+    "long": "-93.99",
+    "name": "Mankato",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.16"
+  },
+  {
+    "url": "http://www.ci.waseca.mn.us/",
+    "long": "-93.5",
+    "name": "Waseca",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.07"
+  },
+  {
+    "url": "http://www.cohasset-mn.com/",
+    "long": "-93.62",
+    "name": "Cohasset",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.26"
+  },
+  {
+    "url": "http://www.cokato.mn.us/",
+    "long": "-94.18",
+    "name": "Cokato",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.07"
+  },
+  {
+    "url": "http://www.springgrovemn.com/",
+    "long": "-91.63",
+    "name": "Spring Grove",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.56"
+  },
+  {
+    "url": "http://www.coldspring.govoffice.com/",
+    "long": "-94.42",
+    "name": "Cold Spring",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.45"
+  },
+  {
+    "url": "http://www.ci.kettle-river.mn.us/",
+    "long": "-92.87",
+    "name": "Kettle River",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.49"
+  },
+  {
+    "url": "http://www.mantorville.com/",
+    "long": "-92.75",
+    "name": "Mantorville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.06"
+  },
+  {
+    "url": "http://www.cityofbigfork.com/",
+    "long": "-93.65",
+    "name": "Bigfork",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.74"
+  },
+  {
+    "url": "http://www.cityofhadley.com/",
+    "long": "-95.85",
+    "name": "Hadley",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44"
+  },
+  {
+    "url": "http://www.ci.richfield.mn.us/",
+    "long": "-93.28",
+    "name": "Richfield",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.88"
+  },
+  {
+    "url": "http://www.ci.maple-grove.mn.us/",
+    "long": "-93.45",
+    "name": "Maple Grove",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.07"
+  },
+  {
+    "url": "http://www.ci.north-branch.mn.us/",
+    "long": "-92.98",
+    "name": "North Branch",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.51"
+  },
+  {
+    "url": "http://www.ci.watertown.mn.us/",
+    "long": "-93.84",
+    "name": "Watertown",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.96"
+  },
+  {
+    "url": "http://springpark.govoffice.com/",
+    "long": "-93.63",
+    "name": "Spring Park",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.93"
+  },
+  {
+    "url": "http://www.ci.cologne.mn.us/",
+    "long": "-93.78",
+    "name": "Cologne",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.77"
+  },
+  {
+    "url": "http://ci.waterville.mn.us",
+    "long": "-93.56",
+    "name": "Waterville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.21"
+  },
+  {
+    "url": "http://www.ci.columbia-heights.mn.us/",
+    "long": "-93.26",
+    "name": "Columbia Heights",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.04"
+  },
+  {
+    "url": "http://maplelakemn.org/",
+    "long": "-94",
+    "name": "Maple Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.22"
+  },
+  {
+    "url": "http://www.ci.columbus.mn.us/",
+    "long": "-93.05",
+    "name": "Columbus",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.26"
+  },
+  {
+    "url": "http://www.mapleplain.com/",
+    "long": "-93.65",
+    "name": "Maple Plain",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45"
+  },
+  {
+    "url": "http://www.northmankato.com/",
+    "long": "-94.03",
+    "name": "North Mankato",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.17"
+  },
+  {
+    "url": "http://birchwood.govoffice.com/",
+    "long": "-92.97",
+    "name": "Birchwood",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.06"
+  },
+  {
+    "url": "http://www.cityofnorth-oaks.com/",
+    "long": "-93.07",
+    "name": "North Oaks",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.1"
+  },
+  {
+    "url": "http://www.birdislandcity.com/",
+    "long": "-94.89",
+    "name": "Bird Island",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.76"
+  },
+  {
+    "url": "http://www.halstad.com/",
+    "long": "-96.82",
+    "name": "Halstad",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.35"
+  },
+  {
+    "url": "http://www.comfrey.govoffice.com/",
+    "long": "-94.9",
+    "name": "Comfrey",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.11"
+  },
+  {
+    "url": "http://www.evelethmn.com/",
+    "long": "-92.53",
+    "name": "Eveleth",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.46"
+  },
+  {
+    "url": "http://www.ci.north-saint-paul.mn.us/",
+    "long": "-92.99",
+    "name": "North Saint Paul",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.01"
+  },
+  {
+    "url": "http://www.ci.ham-lake.mn.us/",
+    "long": "-93.24",
+    "name": "Ham Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.25"
+  },
+  {
+    "url": "http://www.mapletonmn.com/",
+    "long": "-93.95",
+    "name": "Mapleton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.92"
+  },
+  {
+    "url": "http://www.ci.waverly.mn.us/",
+    "long": "-93.96",
+    "name": "Waverly",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.06"
+  },
+  {
+    "url": "http://www.ci.maplewood.mn.us/",
+    "long": "-92.99",
+    "name": "Maplewood",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.95"
+  },
+  {
+    "url": "http://www.ci.northfield.mn.us/",
+    "long": "-93.16",
+    "name": "Northfield",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.45"
+  },
+  {
+    "url": "http://www.wayzata.org/",
+    "long": "-93.5",
+    "name": "Wayzata",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.97"
+  },
+  {
+    "url": "http://www.ci.excelsior.mn.us/",
+    "long": "-93.56",
+    "name": "Excelsior",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.9"
+  },
+  {
+    "url": "http://www.ci.robbinsdale.mn.us/",
+    "long": "-93.33",
+    "name": "Robbinsdale",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.03"
+  },
+  {
+    "url": "http://eyota.govoffice.com/",
+    "long": "-92.22",
+    "name": "Eyota",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.98"
+  },
+  {
+    "url": "http://www.blackduckmn.com/",
+    "long": "-94.54",
+    "name": "Blackduck",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.73"
+  },
+  {
+    "url": "http://www.rochestermn.gov",
+    "long": "-92.46",
+    "name": "Rochester",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.02"
+  },
+  {
+    "url": "http://www.stacymn.org/",
+    "long": "-92.98",
+    "name": "Stacy",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.39"
+  },
+  {
+    "url": "http://www.ci.blaine.mn.us/",
+    "long": "-93.23",
+    "name": "Blaine",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.16"
+  },
+  {
+    "url": "http://marine.govoffice.com/",
+    "long": "-92.77",
+    "name": "Marine on Saint Croix",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.36"
+  },
+  {
+    "url": "http://www.ci.coon-rapids.mn.us/",
+    "long": "-93.28",
+    "name": "Coon Rapids",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.11"
+  },
+  {
+    "url": "http://www.cityoffairfax-mn.gov/",
+    "long": "-94.72",
+    "name": "Fairfax",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.52"
+  },
+  {
+    "url": "http://hancock.govoffice.com/",
+    "long": "-95.79",
+    "name": "Hancock",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.49"
+  },
+  {
+    "url": "http://wells.govoffice.com/",
+    "long": "-93.72",
+    "name": "Wells",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.74"
+  },
+  {
+    "url": "http://www.ci.corcoran.mn.us/",
+    "long": "-93.54",
+    "name": "Corcoran",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.09"
+  },
+  {
+    "url": "http://www.cityofrockford.org/",
+    "long": "-93.73",
+    "name": "Rockford",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.08"
+  },
+  {
+    "url": "http://www.fairmont.org/",
+    "long": "-94.46",
+    "name": "Fairmont",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.65"
+  },
+  {
+    "url": "http://www.hanovermn.org/",
+    "long": "-93.66",
+    "name": "Hanover",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.15"
+  },
+  {
+    "url": "http://lacrescent.govoffice.com/",
+    "long": "-91.3",
+    "name": "La Crescent",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.82"
+  },
+  {
+    "url": "http://www.cityofnya.com/",
+    "long": "-93.92",
+    "name": "Norwood Young America",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.77"
+  },
+  {
+    "url": "http://www.rockvillecity.org/",
+    "long": "-94.34",
+    "name": "Rockville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.47"
+  },
+  {
+    "url": "http://www.bloomingprairie.com/",
+    "long": "-93.05",
+    "name": "Blooming Prairie",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.86"
+  },
+  {
+    "url": "http://www.ci.oak-grove.mn.us/",
+    "long": "-93.32",
+    "name": "Oak Grove",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.34"
+  },
+  {
+    "url": "http://www.ci.falcon-heights.mn.us/",
+    "long": "-93.16",
+    "name": "Falcon Heights",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.99"
+  },
+  {
+    "url": "http://www.ci.bloomington.mn.us/",
+    "long": "-93.29",
+    "name": "Bloomington",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.84"
+  },
+  {
+    "url": "http://www.cityofoakparkheights.com/",
+    "long": "-92.79",
+    "name": "Oak Park Heights",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.03"
+  },
+  {
+    "url": "http://www.harmony.mn.us/",
+    "long": "-92.01",
+    "name": "Harmony",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.55"
+  },
+  {
+    "url": "http://www.cityofrogers.org/",
+    "long": "-93.55",
+    "name": "Rogers",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.18"
+  },
+  {
+    "url": "http://www.ci.west-saint-paul.mn.us/",
+    "long": "-93.1",
+    "name": "West Saint Paul",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.91"
+  },
+  {
+    "url": "http://www.becity.org/",
+    "long": "-94.1",
+    "name": "Blue Earth",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.63"
+  },
+  {
+    "url": "http://www.cottage-grove.org/",
+    "long": "-92.94",
+    "name": "Cottage Grove",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.82"
+  },
+  {
+    "url": "http://www.ci.oakdale.mn.us/",
+    "long": "-92.96",
+    "name": "Oakdale",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.96"
+  },
+  {
+    "url": "http://cottonwood.govoffice2.com/",
+    "long": "-95.67",
+    "name": "Cottonwood",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.6"
+  },
+  {
+    "url": "http://www.ci.faribault.mn.us/",
+    "long": "-93.26",
+    "name": "Faribault",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.29"
+  },
+  {
+    "url": "http://mayer.govoffice.com/",
+    "long": "-93.88",
+    "name": "Mayer",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.88"
+  },
+  {
+    "url": "http://www.stewartvillemn.com/",
+    "long": "-92.48",
+    "name": "Stewartville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.85"
+  },
+  {
+    "url": "http://www.ci.stillwater.mn.us/",
+    "long": "-92.8",
+    "name": "Stillwater",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.05"
+  },
+  {
+    "url": "http://www.ci.farmington.mn.us/",
+    "long": "-93.14",
+    "name": "Farmington",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.64"
+  },
+  {
+    "url": "http://www.lakebentonminnesota.com/",
+    "long": "-96.28",
+    "name": "Lake Benton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.26"
+  },
+  {
+    "url": "http://www.lakecitygov.com/",
+    "long": "-92.26",
+    "name": "Lake City",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.44"
+  },
+  {
+    "url": "http://www.ci.lake-crystal.mn.us/",
+    "long": "-94.21",
+    "name": "Lake Crystal",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.1"
+  },
+  {
+    "url": "http://www.ci.hastings.mn.us/",
+    "long": "-92.85",
+    "name": "Hastings",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.74"
+  },
+  {
+    "url": "http://www.ci.afton.mn.us/",
+    "long": "-92.78",
+    "name": "Afton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.9"
+  },
+  {
+    "url": "http://www.lakeelmo.org/",
+    "long": "-92.87",
+    "name": "Lake Elmo",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.99"
+  },
+  {
+    "url": "http://www.cityofwheaton.com/",
+    "long": "-96.49",
+    "name": "Wheaton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.8"
+  },
+  {
+    "url": "http://www.crookston.mn.us/",
+    "long": "-96.6",
+    "name": "Crookston",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.77"
+  },
+  {
+    "url": "http://www.olivia.mn.us/",
+    "long": "-94.98",
+    "name": "Olivia",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.77"
+  },
+  {
+    "url": "http://city.roseau.mn.us/",
+    "long": "-95.76",
+    "name": "Roseau",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "48.84"
+  },
+  {
+    "url": "http://www.whitebearlake.org/",
+    "long": "-93",
+    "name": "White Bear Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.08"
+  },
+  {
+    "url": "http://www.ci.aitkin.mn.us/",
+    "long": "-93.71",
+    "name": "Aitkin",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.53"
+  },
+  {
+    "url": "http://www.boyriver.com/",
+    "long": "-94.12",
+    "name": "Boy River",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.16"
+  },
+  {
+    "url": "http://www.ci.fergus-falls.mn.us/",
+    "long": "-96.07",
+    "name": "Fergus Falls",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.28"
+  },
+  {
+    "url": "http://crosslake.govoffice.com/",
+    "long": "-94.11",
+    "name": "Cross Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.65"
+  },
+  {
+    "url": "http://www.hawley.govoffice.com/",
+    "long": "-96.31",
+    "name": "Hawley",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.88"
+  },
+  {
+    "url": "http://www.ci.rosemount.mn.us/",
+    "long": "-93.12",
+    "name": "Rosemount",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.73"
+  },
+  {
+    "url": "http://www.ci.roseville.mn.us/",
+    "long": "-93.15",
+    "name": "Roseville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45"
+  },
+  {
+    "url": "http://www.braham.com/",
+    "long": "-93.17",
+    "name": "Braham",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.72"
+  },
+  {
+    "url": "http://www.sturgeonlakemn.com/",
+    "long": "-92.82",
+    "name": "Sturgeon Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.38"
+  },
+  {
+    "url": "http://www.ci.brainerd.mn.us/",
+    "long": "-94.2",
+    "name": "Brainerd",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.35"
+  },
+  {
+    "url": "http://www.ci.crystal.mn.us/",
+    "long": "-93.36",
+    "name": "Crystal",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.03"
+  },
+  {
+    "url": "http://www.hayfieldmn.com/",
+    "long": "-92.84",
+    "name": "Hayfield",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.89"
+  },
+  {
+    "url": "http://www.ci.albany.mn.us/",
+    "long": "-94.57",
+    "name": "Albany",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.62"
+  },
+  {
+    "url": "http://www.ci.orono.mn.us/",
+    "long": "-93.6",
+    "name": "Orono",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.97"
+  },
+  {
+    "url": "http://lakelillian.govoffice.com/",
+    "long": "-94.87",
+    "name": "Lake Lillian",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.94"
+  },
+  {
+    "url": "http://www.oronoco.com/",
+    "long": "-92.53",
+    "name": "Oronoco",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.16"
+  },
+  {
+    "url": "http://www.city.albertlea.org/",
+    "long": "-93.36",
+    "name": "Albert Lea",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.64"
+  },
+  {
+    "url": "http://www.medfordminnesota.com/",
+    "long": "-93.24",
+    "name": "Medford",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.17"
+  },
+  {
+    "url": "http://www.fishermn.com/",
+    "long": "-96.8",
+    "name": "Fisher",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.8"
+  },
+  {
+    "url": "http://www.ci.medicine-lake.mn.us/",
+    "long": "-93.41",
+    "name": "Medicine Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.99"
+  },
+  {
+    "url": "http://www.ci.medina.mn.us/",
+    "long": "-93.58",
+    "name": "Medina",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.03"
+  },
+  {
+    "url": "http://www.ci.albertville.mn.us/",
+    "long": "-93.65",
+    "name": "Albertville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.23"
+  },
+  {
+    "url": "http://www.ortonville.net/",
+    "long": "-96.44",
+    "name": "Ortonville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.3"
+  },
+  {
+    "url": "http://www.cityofbreezypointmn.us/",
+    "long": "-94.21",
+    "name": "Breezy Point",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.61"
+  },
+  {
+    "url": "http://hector.govoffice.com/",
+    "long": "-94.71",
+    "name": "Hector",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.74"
+  },
+  {
+    "url": "http://www.roundlk.net/",
+    "long": "-95.46",
+    "name": "Round Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.54"
+  },
+  {
+    "url": "http://www.ci.willmar.mn.us/",
+    "long": "-95.04",
+    "name": "Willmar",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.12"
+  },
+  {
+    "url": "http://lscb.govoffice.com/",
+    "long": "-92.76",
+    "name": "Lake Saint Croix Beach",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.92"
+  },
+  {
+    "url": "http://www.ci.melrose.mn.us/",
+    "long": "-94.8",
+    "name": "Melrose",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.67"
+  },
+  {
+    "url": "http://floodwood.govoffice.com/",
+    "long": "-92.91",
+    "name": "Floodwood",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.92"
+  },
+  {
+    "url": "http://lakeosakismn.com/city/",
+    "long": "-95.15",
+    "name": "Osakis",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.86"
+  },
+  {
+    "url": "http://www.cityoflakeshore.com/",
+    "long": "-94.36",
+    "name": "Lake Shore",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.48"
+  },
+  {
+    "url": "http://www.sunfishlake.org/",
+    "long": "-93.09",
+    "name": "Sunfish Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.87"
+  },
+  {
+    "url": "http://www.mendota-heights.com/",
+    "long": "-93.13",
+    "name": "Mendota Heights",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.88"
+  },
+  {
+    "url": "http://www.ci.alexandria.mn.us/",
+    "long": "-95.37",
+    "name": "Alexandria",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.88"
+  },
+  {
+    "url": "http://rushford.govoffice.com/",
+    "long": "-91.75",
+    "name": "Rushford",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.8"
+  },
+  {
+    "url": "http://www.cityofdanube.com/",
+    "long": "-95.09",
+    "name": "Danube",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.79"
+  },
+  {
+    "url": "http://www.discoverosseo.com/",
+    "long": "-93.4",
+    "name": "Osseo",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.11"
+  },
+  {
+    "url": "http://www.lakefieldmn.com/",
+    "long": "-95.17",
+    "name": "Lakefield",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.67"
+  },
+  {
+    "url": "http://www.lakelandmn.com/",
+    "long": "-92.76",
+    "name": "Lakeland",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.95"
+  },
+  {
+    "url": "http://www.cityofbrooklyncenter.org/",
+    "long": "-93.33",
+    "name": "Brooklyn Center",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.07"
+  },
+  {
+    "url": "http://lakelandshores.govoffice.com/",
+    "long": "-92.76",
+    "name": "Lakeland Shores",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.94"
+  },
+  {
+    "url": "http://www.brooklynpark.org/",
+    "long": "-93.35",
+    "name": "Brooklyn Park",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.09"
+  },
+  {
+    "url": "http://www.ci.otsego.mn.us/",
+    "long": "-93.59",
+    "name": "Otsego",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.27"
+  },
+  {
+    "url": "http://www.windom-mn.com/",
+    "long": "-95.11",
+    "name": "Windom",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.86"
+  },
+  {
+    "url": "http://www.ci.forest-lake.mn.us/",
+    "long": "-92.98",
+    "name": "Forest Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.27"
+  },
+  {
+    "url": "http://brooten.govoffice.com/",
+    "long": "-95.12",
+    "name": "Brooten",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.5"
+  },
+  {
+    "url": "http://dassel.com/",
+    "long": "-94.3",
+    "name": "Dassel",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.08"
+  },
+  {
+    "url": "http://www.cityofmilaca.org/",
+    "long": "-93.65",
+    "name": "Milaca",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.75"
+  },
+  {
+    "url": "http://www.browerville.govoffice.com/",
+    "long": "-94.86",
+    "name": "Browerville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.08"
+  },
+  {
+    "url": "http://www.ci.lakeville.mn.us/",
+    "long": "-93.24",
+    "name": "Lakeville",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.64"
+  },
+  {
+    "url": "http://www.milan.govoffice.com/",
+    "long": "-95.91",
+    "name": "Milan",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.1"
+  },
+  {
+    "url": "http://www.dawsonmn.com/",
+    "long": "-96.05",
+    "name": "Dawson",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.93"
+  },
+  {
+    "url": "http://www.ci.owatonna.mn.us/",
+    "long": "-93.22",
+    "name": "Owatonna",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.08"
+  },
+  {
+    "url": "http://www.cityofdaytonmn.com/",
+    "long": "-93.51",
+    "name": "Dayton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.24"
+  },
+  {
+    "url": "http://www.ci.saint-anthony.mn.us/",
+    "long": "-93.21",
+    "name": "Saint Anthony",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.02"
+  },
+  {
+    "url": "http://www.winnebago.govoffice.com/",
+    "long": "-94.16",
+    "name": "Winnebago",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.76"
+  },
+  {
+    "url": "http://www.hermantownmn.com/",
+    "long": "-92.23",
+    "name": "Hermantown",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.8"
+  },
+  {
+    "url": "http://www.staugusta.govoffice2.com/",
+    "long": "-94.19",
+    "name": "Saint Augusta",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.45"
+  },
+  {
+    "url": "http://www.heronlakecity.org/",
+    "long": "-95.32",
+    "name": "Heron Lake",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.79"
+  },
+  {
+    "url": "http://www.ci.st-bonifacius.mn.us/",
+    "long": "-93.74",
+    "name": "Saint Bonifacius",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.9"
+  },
+  {
+    "url": "http://www.cityofwinona-mn.com/",
+    "long": "-91.63",
+    "name": "Winona",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.04"
+  },
+  {
+    "url": "http://www.stcharlesmn.org/",
+    "long": "-92.06",
+    "name": "Saint Charles",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.96"
+  },
+  {
+    "url": "http://www.cityofdeephaven.org/",
+    "long": "-93.52",
+    "name": "Deephaven",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.92"
+  },
+  {
+    "url": "http://www.fosston.com/",
+    "long": "-95.75",
+    "name": "Fosston",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.57"
+  },
+  {
+    "url": "http://www.winsted.mn.us/",
+    "long": "-94.04",
+    "name": "Winsted",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.96"
+  },
+  {
+    "url": "http://www.ci.andover.mn.us/",
+    "long": "-93.29",
+    "name": "Andover",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.23"
+  },
+  {
+    "url": "http://www.stclair.govoffice2.com/",
+    "long": "-93.85",
+    "name": "Saint Clair",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.08"
+  },
+  {
+    "url": "http://www.hibbing.mn.us/",
+    "long": "-92.93",
+    "name": "Hibbing",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "47.42"
+  },
+  {
+    "url": "http://www.winthropminnesota.com/",
+    "long": "-94.36",
+    "name": "Winthrop",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.54"
+  },
+  {
+    "url": "http://ci.stcloud.mn.us/",
+    "long": "-94.16",
+    "name": "Saint Cloud",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.56"
+  },
+  {
+    "url": "http://ci.park-rapids.mn.us/",
+    "long": "-95.05",
+    "name": "Park Rapids",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.92"
+  },
+  {
+    "url": "http://stfrancis.govoffice.com/",
+    "long": "-93.35",
+    "name": "Saint Francis",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.38"
+  },
+  {
+    "url": "http://www.taylorsfalls.govoffice.com/",
+    "long": "-92.65",
+    "name": "Taylors Falls",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.4"
+  },
+  {
+    "url": "http://www.ci.buffalo.mn.us/",
+    "long": "-93.87",
+    "name": "Buffalo",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.17"
+  },
+  {
+    "url": "http://www.ci.minneapolis.mn.us/",
+    "long": "-93.26",
+    "name": "Minneapolis",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.97"
+  },
+  {
+    "url": "http://www.annandale.mn.us/",
+    "long": "-94.12",
+    "name": "Annandale",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.26"
+  },
+  {
+    "url": "http://stjames.govoffice.com/",
+    "long": "-94.62",
+    "name": "Saint James",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.98"
+  },
+  {
+    "url": "http://www.ci.anoka.mn.us/",
+    "long": "-93.38",
+    "name": "Anoka",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.19"
+  },
+  {
+    "url": "http://www.parkersprairie.net/",
+    "long": "-95.32",
+    "name": "Parkers Prairie",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.15"
+  },
+  {
+    "url": "http://www.hillcitymn.com/",
+    "long": "-93.59",
+    "name": "Hill City",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "46.99"
+  },
+  {
+    "url": "http://stjoseph.govoffice.com/",
+    "long": "-94.31",
+    "name": "Saint Joseph",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.56"
+  },
+  {
+    "url": "http://www.ci.lauderdale.mn.us/",
+    "long": "-93.2",
+    "name": "Lauderdale",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.99"
+  },
+  {
+    "url": "http://www.ci.apple-valley.mn.us/",
+    "long": "-93.21",
+    "name": "Apple Valley",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.73"
+  },
+  {
+    "url": "http://www.delano.mn.us/",
+    "long": "-93.78",
+    "name": "Delano",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.04"
+  },
+  {
+    "url": "http://home.mchsi.com/~franklin/",
+    "long": "-94.88",
+    "name": "Franklin",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.52"
+  },
+  {
+    "url": "http://edenvalley.govoffice.com/",
+    "long": "-94.54",
+    "name": "Eden Valley",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.32"
+  },
+  {
+    "url": "http://www.ci.chatfield.mn.us/",
+    "long": "-92.18",
+    "name": "Chatfield",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.84"
+  },
+  {
+    "url": "http://www.ci.new-prague.mn.us/",
+    "long": "-93.57",
+    "name": "New Prague",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.54"
+  },
+  {
+    "url": "http://www.clearwatercity.com/",
+    "long": "-94.04",
+    "name": "Clearwater",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.41"
+  },
+  {
+    "url": "http://www.comfrey.govoffice.com/",
+    "long": "-94.9",
+    "name": "Comfrey",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "44.11"
+  },
+  {
+    "url": "http://www.bloomingprairie.com/",
+    "long": "-93.05",
+    "name": "Blooming Prairie",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "43.86"
+  },
+  {
+    "url": "http://www.cityofdaytonmn.com/",
+    "long": "-93.51",
+    "name": "Dayton",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.24"
+  },
+  {
+    "url": "http://ci.stcloud.mn.us/",
+    "long": "-94.16",
+    "name": "Saint Cloud",
+    "state": {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    "lat": "45.56"
+  }
+]

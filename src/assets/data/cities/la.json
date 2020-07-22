@@ -1,0 +1,682 @@
+[
+  {
+    "url": "http://www.townofgoldenmeadow.com/",
+    "long": "-90.26",
+    "name": "Golden Meadow",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.37"
+  },
+  {
+    "url": "http://gonzalesla.com/",
+    "long": "-90.92",
+    "name": "Gonzales",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.23"
+  },
+  {
+    "url": "http://www.gretnala.com/",
+    "long": "-90.05",
+    "name": "Gretna",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.91"
+  },
+  {
+    "url": "http://www.hammond.org/",
+    "long": "-90.46",
+    "name": "Hammond",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.5"
+  },
+  {
+    "url": "http://townofhornbeck.com/",
+    "long": "-93.39",
+    "name": "Hornbeck",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "31.32"
+  },
+  {
+    "url": "http://www.tpcg.org/",
+    "long": "-90.7195348",
+    "name": "Houma",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.5957696"
+  },
+  {
+    "url": "http://www.cityofjennings.com/",
+    "long": "-92.65",
+    "name": "Jennings",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.22"
+  },
+  {
+    "url": "http://www.townofjonesboro.org/",
+    "long": "-92.71",
+    "name": "Jonesboro",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.24"
+  },
+  {
+    "url": "http://www.kenner.la.us/",
+    "long": "-90.24",
+    "name": "Kenner",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.99"
+  },
+  {
+    "url": "http://www.lafayettela.gov/",
+    "long": "-92.01",
+    "name": "Lafayette",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.22"
+  },
+  {
+    "url": "http://www.cityoflakecharles.com/",
+    "long": "-93.21",
+    "name": "Lake Charles",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.22"
+  },
+  {
+    "url": "http://www.townoflivingston.com/",
+    "long": "-90.74",
+    "name": "Livingston",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.5"
+  },
+  {
+    "url": "http://www.townoflockport.com/",
+    "long": "-90.53",
+    "name": "Lockport",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.64"
+  },
+  {
+    "url": "http://www.loreauville.us/",
+    "long": "-91.73",
+    "name": "Loreauville",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.05"
+  },
+  {
+    "url": "http://www.cityofmandeville.com/",
+    "long": "-90.06",
+    "name": "Mandeville",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.35"
+  },
+  {
+    "url": "http://www.mindenusa.com/",
+    "long": "-93.28",
+    "name": "Minden",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.61"
+  },
+  {
+    "url": "http://www.ci.monroe.la.us/",
+    "long": "-92.11",
+    "name": "Monroe",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.5"
+  },
+  {
+    "url": "http://www.cityofmc.com/",
+    "long": "-91.2",
+    "name": "Morgan City",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.69"
+  },
+  {
+    "url": "http://www.natchitochesla.gov/",
+    "long": "-93.08",
+    "name": "Natchitoches",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "31.76"
+  },
+  {
+    "url": "http://www.cityofnewiberia.com/",
+    "long": "-91.81",
+    "name": "New Iberia",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30"
+  },
+  {
+    "url": "http://www.cityofno.com/",
+    "long": "-90.07",
+    "name": "New Orleans",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.95"
+  },
+  {
+    "url": "http://www.newroads.net/",
+    "long": "-91.43",
+    "name": "New Roads",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.7"
+  },
+  {
+    "url": "http://www.cityofopelousas.com/",
+    "long": "-92.08",
+    "name": "Opelousas",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.53"
+  },
+  {
+    "url": "http://pineville.net/",
+    "long": "-92.43",
+    "name": "Pineville",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "31.32"
+  },
+  {
+    "url": "http://www.plaquemine.org/",
+    "long": "-91.23",
+    "name": "Plaquemine",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.28"
+  },
+  {
+    "url": "http://www.cityofponchatoula.com/",
+    "long": "-90.44",
+    "name": "Ponchatoula",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.43"
+  },
+  {
+    "url": "http://www.portallen.org/",
+    "long": "-91.21",
+    "name": "Port Allen",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.45"
+  },
+  {
+    "url": "http://www.portvincent.govoffice2.com/",
+    "long": "-90.84",
+    "name": "Port Vincent",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.33"
+  },
+  {
+    "url": "http://www.rayne.org/",
+    "long": "-92.26",
+    "name": "Rayne",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.23"
+  },
+  {
+    "url": "http://www.ruston.org/",
+    "long": "-92.63",
+    "name": "Ruston",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.52"
+  },
+  {
+    "url": "http://www.stfrancisville.net/",
+    "long": "-91.37",
+    "name": "Saint Francisville",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.77"
+  },
+  {
+    "url": "http://www.cityofstgabriel.us/",
+    "long": "-91.09",
+    "name": "Saint Gabriel",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.25"
+  },
+  {
+    "url": "http://townofsaintjoseph.com/",
+    "long": "-91.23",
+    "name": "Saint Joseph",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "31.91"
+  },
+  {
+    "url": "http://www.addisla.org/",
+    "long": "-91.26",
+    "name": "Addis",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.35"
+  },
+  {
+    "url": "http://www.ci.shreveport.la.us/",
+    "long": "-93.75",
+    "name": "Shreveport",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.52"
+  },
+  {
+    "url": "http://www.cityofalexandriala.com/",
+    "long": "-92.44",
+    "name": "Alexandria",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "31.31"
+  },
+  {
+    "url": "http://www.arcadialouisiana.org/",
+    "long": "-92.92",
+    "name": "Arcadia",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.54"
+  },
+  {
+    "url": "http://www.slidell.la.us/",
+    "long": "-89.78",
+    "name": "Slidell",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.27"
+  },
+  {
+    "url": "http://www.cityspringhillla.us/",
+    "long": "-93.46",
+    "name": "Springhill",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "33"
+  },
+  {
+    "url": "http://www.sulphur.org/",
+    "long": "-93.37",
+    "name": "Sulphur",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.23"
+  },
+  {
+    "url": "http://brgov.com/",
+    "long": "-91.15",
+    "name": "Baton Rouge",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.45"
+  },
+  {
+    "url": "http://www.sunset.govoffice2.com/",
+    "long": "-92.06",
+    "name": "Sunset",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.41"
+  },
+  {
+    "url": "http://www.bernicela.org/",
+    "long": "-92.65",
+    "name": "Bernice",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.82"
+  },
+  {
+    "url": "http://www.townofberwick.org/",
+    "long": "-91.21",
+    "name": "Berwick",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.69"
+  },
+  {
+    "url": "http://www.ci.thibodaux.la.us/",
+    "long": "-90.82",
+    "name": "Thibodaux",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.79"
+  },
+  {
+    "url": "http://www.townofblanchard.us/",
+    "long": "-93.89",
+    "name": "Blanchard",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.58"
+  },
+  {
+    "url": "http://www.bogalusa.org/",
+    "long": "-89.84",
+    "name": "Bogalusa",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.79"
+  },
+  {
+    "url": "http://www.bossiercity.org/",
+    "long": "-93.73",
+    "name": "Bossier City",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.51"
+  },
+  {
+    "url": "http://www.broussardla.com/",
+    "long": "-91.96",
+    "name": "Broussard",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.14"
+  },
+  {
+    "url": "http://www.vpla.com/",
+    "long": "-92.27",
+    "name": "Ville Platte",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.68"
+  },
+  {
+    "url": "http://www.bruslyla.com",
+    "long": "-91.25",
+    "name": "Brusly",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.39"
+  },
+  {
+    "url": "http://cityofvinton.com/",
+    "long": "-93.58",
+    "name": "Vinton",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.19"
+  },
+  {
+    "url": "http://www.washington-la.org/",
+    "long": "-92.05",
+    "name": "Washington",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.61"
+  },
+  {
+    "url": "http://townofwelsh.com/",
+    "long": "-92.82",
+    "name": "Welsh",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.23"
+  },
+  {
+    "url": "http://www.carencro.org/",
+    "long": "-92.04",
+    "name": "Carencro",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.31"
+  },
+  {
+    "url": "http://www.cityofwestwego.com/",
+    "long": "-90.14",
+    "name": "Westwego",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "29.9"
+  },
+  {
+    "url": "http://www.townofchatham.org/",
+    "long": "-92.45",
+    "name": "Chatham",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.3"
+  },
+  {
+    "url": "http://www.choudrant.org/",
+    "long": "-92.51",
+    "name": "Choudrant",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.53"
+  },
+  {
+    "url": "http://www.cityofwinnfield.com/",
+    "long": "-92.63",
+    "name": "Winnfield",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "31.92"
+  },
+  {
+    "url": "http://youngsville.us/",
+    "long": "-91.99",
+    "name": "Youngsville",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.09"
+  },
+  {
+    "url": "http://zwollela.net/",
+    "long": "-93.64",
+    "name": "Zwolle",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "31.63"
+  },
+  {
+    "url": "http://www.cityofcovingtonla.com/",
+    "long": "-90.1",
+    "name": "Covington",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.47"
+  },
+  {
+    "url": "http://crowley-la.com/",
+    "long": "-92.37",
+    "name": "Crowley",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.21"
+  },
+  {
+    "url": "http://www.eunice-la.com/",
+    "long": "-92.41",
+    "name": "Eunice",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.49"
+  },
+  {
+    "url": "http://www.farmerville.org/",
+    "long": "-92.4",
+    "name": "Farmerville",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "32.77"
+  },
+  {
+    "url": "http://www.townofferriday.com/",
+    "long": "-91.55",
+    "name": "Ferriday",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "31.63"
+  },
+  {
+    "url": "http://www.townoffranklinton.com/",
+    "long": "-90.15",
+    "name": "Franklinton",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.84"
+  },
+  {
+    "url": "http://frenchsettlement-la.gov/",
+    "long": "-90.79",
+    "name": "French Settlement",
+    "state": {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    "lat": "30.29"
+  }
+]

@@ -1,0 +1,1152 @@
+[
+  {
+    "url": "http://www.cityofrahway.com/",
+    "long": "-74.27",
+    "name": "Rahway",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.6"
+  },
+  {
+    "url": "http://www.ramseynj.com/",
+    "long": "-74.14",
+    "name": "Ramsey",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41.05"
+  },
+  {
+    "url": "http://www.ridgefieldpark.org/",
+    "long": "-74.02",
+    "name": "Ridgefield Park",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.85"
+  },
+  {
+    "url": "http://www.ridgewoodnj.net/",
+    "long": "-74.11",
+    "name": "Ridgewood",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.97"
+  },
+  {
+    "url": "http://www.ringwoodnj.net/",
+    "long": "-74.24",
+    "name": "Ringwood",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41.11"
+  },
+  {
+    "url": "http://www.gibbsboro.com/",
+    "long": "-74.96",
+    "name": "Gibbsboro",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.83"
+  },
+  {
+    "url": "http://www.glenrocknj.net/",
+    "long": "-74.13",
+    "name": "Glen Rock",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.96"
+  },
+  {
+    "url": "http://www.roselandnj.org/",
+    "long": "-74.29",
+    "name": "Roseland",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.82"
+  },
+  {
+    "url": "http://www.rosellepark.org/",
+    "long": "-74.26",
+    "name": "Roselle Park",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.66"
+  },
+  {
+    "url": "http://www.hackensack.org/",
+    "long": "-74.04",
+    "name": "Hackensack",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.88"
+  },
+  {
+    "url": "http://www.rutherford-nj.com/",
+    "long": "-74.1",
+    "name": "Rutherford",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.82"
+  },
+  {
+    "url": "http://www.hackettstown.net/",
+    "long": "-74.82",
+    "name": "Hackettstown",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.85"
+  },
+  {
+    "url": "http://www.haddonheights.lib.nj.us/",
+    "long": "-75.06",
+    "name": "Haddon Heights",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.87"
+  },
+  {
+    "url": "http://www.sayreville.com/",
+    "long": "-74.36",
+    "name": "Sayreville",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.45"
+  },
+  {
+    "url": "http://www.sea-isle-city.nj.us/",
+    "long": "-74.69",
+    "name": "Sea Isle City",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.15"
+  },
+  {
+    "url": "http://www.secaucusnj.org/",
+    "long": "-74.05",
+    "name": "Secaucus",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.78"
+  },
+  {
+    "url": "http://www.shipbottom.org/",
+    "long": "-74.18",
+    "name": "Ship Bottom",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.64"
+  },
+  {
+    "url": "http://www.somervillenj.org/",
+    "long": "-74.6",
+    "name": "Somerville",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.57"
+  },
+  {
+    "url": "http://www.harveycedars.org/",
+    "long": "-74.13",
+    "name": "Harvey Cedars",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.7"
+  },
+  {
+    "url": "http://www.hasbrouck-heights.nj.us/",
+    "long": "-74.08",
+    "name": "Hasbrouck Heights",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.85"
+  },
+  {
+    "url": "http://www.hawthornenj.org/",
+    "long": "-74.15",
+    "name": "Hawthorne",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.94"
+  },
+  {
+    "url": "http://www.highbridge.org/",
+    "long": "-74.89",
+    "name": "High Bridge",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.66"
+  },
+  {
+    "url": "http://www.southplainfieldnj.com/",
+    "long": "-74.41",
+    "name": "South Plainfield",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.57"
+  },
+  {
+    "url": "http://www.southrivernj.org/",
+    "long": "-74.38",
+    "name": "South River",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.44"
+  },
+  {
+    "url": "http://www.hightstownborough.com/",
+    "long": "-74.52",
+    "name": "Hightstown",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.26"
+  },
+  {
+    "url": "http://www.hillsdalenj.org/",
+    "long": "-74.04",
+    "name": "Hillsdale",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41"
+  },
+  {
+    "url": "http://www.spotswoodboro.com/",
+    "long": "-74.39",
+    "name": "Spotswood",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.39"
+  },
+  {
+    "url": "http://www.hobokennj.org/",
+    "long": "-74.03",
+    "name": "Hoboken",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.74"
+  },
+  {
+    "url": "http://www.springlakehts.com/",
+    "long": "-74.03",
+    "name": "Spring Lake Heights",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.15"
+  },
+  {
+    "url": "http://www.hopatcong.org/",
+    "long": "-74.65",
+    "name": "Hopatcong",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.93"
+  },
+  {
+    "url": "http://www.stone-harbor.nj.us/",
+    "long": "-74.75",
+    "name": "Stone Harbor",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.05"
+  },
+  {
+    "url": "http://www.stratfordnj.org/",
+    "long": "-75.01",
+    "name": "Stratford",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.82"
+  },
+  {
+    "url": "http://www.ci.summit.nj.us/",
+    "long": "-74.35",
+    "name": "Summit",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.74"
+  },
+  {
+    "url": "http://www.islandheightsgov.com/",
+    "long": "-74.14",
+    "name": "Island Heights",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.94"
+  },
+  {
+    "url": "http://www.cityofjerseycity.com/",
+    "long": "-74.07",
+    "name": "Jersey City",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.72"
+  },
+  {
+    "url": "http://www.tenaflynj.org/",
+    "long": "-73.96",
+    "name": "Tenafly",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.92"
+  },
+  {
+    "url": "http://www.kearnyusa.com/",
+    "long": "-74.14",
+    "name": "Kearny",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.76"
+  },
+  {
+    "url": "http://www.tintonfalls.com/",
+    "long": "-74.1",
+    "name": "Tinton Falls",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.3"
+  },
+  {
+    "url": "http://www.trentonnj.org/",
+    "long": "-74.74",
+    "name": "Trenton",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.21"
+  },
+  {
+    "url": "http://www.lavallette.org/",
+    "long": "-74.06",
+    "name": "Lavallette",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.97"
+  },
+  {
+    "url": "http://www.ventnorcity.org/",
+    "long": "-74.47",
+    "name": "Ventnor City",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.34"
+  },
+  {
+    "url": "http://www.vinelandcity.org/",
+    "long": "-75.02",
+    "name": "Vineland",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.48"
+  },
+  {
+    "url": "http://www.lincolnpark.org/",
+    "long": "-74.3",
+    "name": "Lincoln Park",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.92"
+  },
+  {
+    "url": "http://www.allendalenj.gov/",
+    "long": "-74.12",
+    "name": "Allendale",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41.04"
+  },
+  {
+    "url": "http://www.waldwickpd.org/",
+    "long": "-74.11",
+    "name": "Waldwick",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41.01"
+  },
+  {
+    "url": "http://www.cityofasburypark.com",
+    "long": "-74.01",
+    "name": "Asbury Park",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.22"
+  },
+  {
+    "url": "http://www.cityofatlanticcity.org/",
+    "long": "-74.42",
+    "name": "Atlantic City",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.36"
+  },
+  {
+    "url": "http://www.ahnj.com/",
+    "long": "-74.03",
+    "name": "Atlantic Highlands",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.4"
+  },
+  {
+    "url": "http://www.longbranch.org/",
+    "long": "-73.99",
+    "name": "Long Branch",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.3"
+  },
+  {
+    "url": "http://www.avalonboro.org/",
+    "long": "-74.71",
+    "name": "Avalon",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.1"
+  },
+  {
+    "url": "http://watchungnj.com/",
+    "long": "-74.45",
+    "name": "Watchung",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.63"
+  },
+  {
+    "url": "http://barnegatlight.org/",
+    "long": "-74.1",
+    "name": "Barnegat Light",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.75"
+  },
+  {
+    "url": "http://www.bayonnenj.org/",
+    "long": "-74.11",
+    "name": "Bayonne",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.66"
+  },
+  {
+    "url": "http://www.rosenet.org/gov/",
+    "long": "-74.41",
+    "name": "Madison",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.75"
+  },
+  {
+    "url": "http://www.beachhaven-nj.gov",
+    "long": "-74.24",
+    "name": "Beach Haven",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.55"
+  },
+  {
+    "url": "http://www.magnolia-nj.org/",
+    "long": "-75.03",
+    "name": "Magnolia",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.85"
+  },
+  {
+    "url": "http://www.beachwoodusa.com/",
+    "long": "-74.19",
+    "name": "Beachwood",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.93"
+  },
+  {
+    "url": "http://www.manasquan-nj.com/",
+    "long": "-74.04",
+    "name": "Manasquan",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.12"
+  },
+  {
+    "url": "http://www.bellmawr.com/",
+    "long": "-75.09",
+    "name": "Bellmawr",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.86"
+  },
+  {
+    "url": "http://www.belviderenj.com",
+    "long": "-75.07",
+    "name": "Belvidere",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.82"
+  },
+  {
+    "url": "http://www.westpaterson.com/",
+    "long": "-74.19",
+    "name": "West Paterson",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.88"
+  },
+  {
+    "url": "http://www.mantoloking.org/",
+    "long": "-74.04",
+    "name": "Mantoloking",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.03"
+  },
+  {
+    "url": "http://westfieldnj.net/",
+    "long": "-74.34",
+    "name": "Westfield",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.65"
+  },
+  {
+    "url": "http://www.margate-nj.com/",
+    "long": "-74.5",
+    "name": "Margate City",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.32"
+  },
+  {
+    "url": "http://www.medfordlakes.com/",
+    "long": "-74.8",
+    "name": "Medford Lakes",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.85"
+  },
+  {
+    "url": "http://www.mendhamnj.org/",
+    "long": "-74.6",
+    "name": "Mendham",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.77"
+  },
+  {
+    "url": "http://www.boonton.org/",
+    "long": "-74.4",
+    "name": "Boonton",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.9"
+  },
+  {
+    "url": "http://www.merchantville.com/",
+    "long": "-75.06",
+    "name": "Merchantville",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.94"
+  },
+  {
+    "url": "http://www.woodbury.nj.us/",
+    "long": "-75.15",
+    "name": "Woodbury",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.83"
+  },
+  {
+    "url": "http://www.wclnj.com/",
+    "long": "-74.06",
+    "name": "Woodcliff Lake",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41.02"
+  },
+  {
+    "url": "http://www.wood-ridgenj.org/",
+    "long": "-74.08",
+    "name": "Wood-Ridge",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.84"
+  },
+  {
+    "url": "http://www.briellenj.com/",
+    "long": "-74.05",
+    "name": "Brielle",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.1"
+  },
+  {
+    "url": "http://www.brigantinebeachnj.com/",
+    "long": "-74.36",
+    "name": "Brigantine",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.41"
+  },
+  {
+    "url": "http://www.ci.millville.nj.us/",
+    "long": "-75.03",
+    "name": "Millville",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.4"
+  },
+  {
+    "url": "http://www.burlingtonnj.us/",
+    "long": "-74.86",
+    "name": "Burlington",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.07"
+  },
+  {
+    "url": "http://www.butlerborough.com/",
+    "long": "-74.34",
+    "name": "Butler",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41"
+  },
+  {
+    "url": "http://www.montvale.org/",
+    "long": "-74.02",
+    "name": "Montvale",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41.04"
+  },
+  {
+    "url": "http://www.caldwellnjonline.com/",
+    "long": "-74.27",
+    "name": "Caldwell",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.83"
+  },
+  {
+    "url": "http://www.ci.camden.nj.us/",
+    "long": "-75.11",
+    "name": "Camden",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.92"
+  },
+  {
+    "url": "http://www.capemaycity.com/",
+    "long": "-74.9",
+    "name": "Cape May",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "38.93"
+  },
+  {
+    "url": "http://www.ci.mount-arlington.nj.us/",
+    "long": "-74.63",
+    "name": "Mount Arlington",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.92"
+  },
+  {
+    "url": "http://www.ci.carteret.nj.us/",
+    "long": "-74.22",
+    "name": "Carteret",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.57"
+  },
+  {
+    "url": "http://www.mtnlakes.org/",
+    "long": "-74.43",
+    "name": "Mountain Lakes",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.89"
+  },
+  {
+    "url": "http://www.chesterborough.org/",
+    "long": "-74.69",
+    "name": "Chester",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.78"
+  },
+  {
+    "url": "http://www.neptunecitynj.com/",
+    "long": "-74.02",
+    "name": "Neptune City",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.2"
+  },
+  {
+    "url": "http://www.netcong.org/",
+    "long": "-74.7",
+    "name": "Netcong",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.89"
+  },
+  {
+    "url": "http://www.newbrunswick.com/",
+    "long": "-74.45",
+    "name": "New Brunswick",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.48"
+  },
+  {
+    "url": "http://www.newprov.org/",
+    "long": "-74.4",
+    "name": "New Providence",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.69"
+  },
+  {
+    "url": "http://www.clintonnj.gov/",
+    "long": "-74.9",
+    "name": "Clinton",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.63"
+  },
+  {
+    "url": "http://www.ci.newark.nj.us./",
+    "long": "-74.17",
+    "name": "Newark",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.73"
+  },
+  {
+    "url": "http://www.closterboro.com/",
+    "long": "-73.96",
+    "name": "Closter",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.97"
+  },
+  {
+    "url": "http://www.collingswood.com/",
+    "long": "-75.07",
+    "name": "Collingswood",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.91"
+  },
+  {
+    "url": "http://www.northplainfield.org/",
+    "long": "-74.42",
+    "name": "North Plainfield",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.63"
+  },
+  {
+    "url": "http://www.oakland-nj.org/",
+    "long": "-74.26",
+    "name": "Oakland",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41.01"
+  },
+  {
+    "url": "http://www.dover.nj.us/",
+    "long": "-74.56",
+    "name": "Dover",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.88"
+  },
+  {
+    "url": "http://oldtappan.net/",
+    "long": "-73.99",
+    "name": "Old Tappan",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "41.01"
+  },
+  {
+    "url": "http://www.eastorange-nj.org/",
+    "long": "-74.2",
+    "name": "East Orange",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.76"
+  },
+  {
+    "url": "http://www.eatontownnj.com/",
+    "long": "-74.05",
+    "name": "Eatontown",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.29"
+  },
+  {
+    "url": "http://www.cityofpassaic.com/",
+    "long": "-74.12",
+    "name": "Passaic",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.85"
+  },
+  {
+    "url": "http://www.patersonnj.gov/",
+    "long": "-74.17",
+    "name": "Paterson",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.91"
+  },
+  {
+    "url": "http://www.elizabethnj.org/",
+    "long": "-74.21",
+    "name": "Elizabeth",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.66"
+  },
+  {
+    "url": "http://www.penningtonboro.org/",
+    "long": "-74.79",
+    "name": "Pennington",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.32"
+  },
+  {
+    "url": "http://www.cityofenglewood.org/",
+    "long": "-73.97",
+    "name": "Englewood",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.89"
+  },
+  {
+    "url": "http://www.ci.perthamboy.nj.us/",
+    "long": "-74.26",
+    "name": "Perth Amboy",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.5"
+  },
+  {
+    "url": "http://www.englishtownnj.com/",
+    "long": "-74.35",
+    "name": "Englishtown",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.29"
+  },
+  {
+    "url": "http://www.pinehillboronj.com/",
+    "long": "-74.99",
+    "name": "Pine Hill",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.78"
+  },
+  {
+    "url": "http://www.fairhavennj.org/",
+    "long": "-74.03",
+    "name": "Fair Haven",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.36"
+  },
+  {
+    "url": "http://www.fairlawn.org/",
+    "long": "-74.13",
+    "name": "Fair Lawn",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.94"
+  },
+  {
+    "url": "http://www.pitman.org/",
+    "long": "-75.13",
+    "name": "Pitman",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "39.73"
+  },
+  {
+    "url": "http://www.plainfield.com/",
+    "long": "-74.4",
+    "name": "Plainfield",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.63"
+  },
+  {
+    "url": "http://www.visitfanwood.com/",
+    "long": "-74.38",
+    "name": "Fanwood",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.64"
+  },
+  {
+    "url": "http://www.ptboro.com/",
+    "long": "-74.06",
+    "name": "Point Pleasant",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.08"
+  },
+  {
+    "url": "http://www.pointpleasantbeach.org/",
+    "long": "-74.04",
+    "name": "Point Pleasant Beach",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.09"
+  },
+  {
+    "url": "http://www.florhamparkboro.net/",
+    "long": "-74.38",
+    "name": "Florham Park",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.78"
+  },
+  {
+    "url": "http://www.fortleenj.org/",
+    "long": "-73.97",
+    "name": "Fort Lee",
+    "state": {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    "lat": "40.85"
+  }
+]

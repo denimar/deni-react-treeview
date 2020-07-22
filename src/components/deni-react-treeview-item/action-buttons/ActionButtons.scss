@@ -1,0 +1,17 @@
+.action-buttons-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+
+  .action-buttons-container-text {
+    flex: 1;
+    justify-content: space-around;
+  }
+
+  .action-button {
+    margin-right: 5px;
+    cursor: pointer;
+    opacity: 0.3;
+    visibility: hidden;
+  }
+}

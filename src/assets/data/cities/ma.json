@@ -1,0 +1,432 @@
+[
+  {
+    "url": "http://www.cambridgema.gov/",
+    "long": "-71.1",
+    "name": "Cambridge",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.37"
+  },
+  {
+    "url": "http://www.city.waltham.ma.us/",
+    "long": "-71.23",
+    "name": "Waltham",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.37"
+  },
+  {
+    "url": "http://www.ci.chelsea.ma.us/",
+    "long": "-71.03",
+    "name": "Chelsea",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.39"
+  },
+  {
+    "url": "http://www.ci.watertown.ma.us/",
+    "long": "-71.18",
+    "name": "Watertown",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.37"
+  },
+  {
+    "url": "http://www.chicopeema.gov/",
+    "long": "-72.6",
+    "name": "Chicopee",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.14"
+  },
+  {
+    "url": "http://www.ci.westfield.ma.us/",
+    "long": "-72.74",
+    "name": "Westfield",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.12"
+  },
+  {
+    "url": "http://www.easthamptonweb.com/",
+    "long": "-72.66",
+    "name": "Easthampton",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.26"
+  },
+  {
+    "url": "http://cityofwoburn.com/",
+    "long": "-71.15",
+    "name": "Woburn",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.47"
+  },
+  {
+    "url": "http://www.worcesterma.gov/",
+    "long": "-71.8",
+    "name": "Worcester",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.26"
+  },
+  {
+    "url": "http://www.ci.everett.ma.us/",
+    "long": "-71.05",
+    "name": "Everett",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.4"
+  },
+  {
+    "url": "http://www.fallriverma.org/",
+    "long": "-71.15",
+    "name": "Fall River",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "41.7"
+  },
+  {
+    "url": "http://www.ci.fitchburg.ma.us/",
+    "long": "-71.8",
+    "name": "Fitchburg",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.58"
+  },
+  {
+    "url": "http://www.franklin.ma.us/",
+    "long": "-71.39",
+    "name": "Franklin",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.08"
+  },
+  {
+    "url": "http://www.gardner-ma.gov/",
+    "long": "-71.99",
+    "name": "Gardner",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.57"
+  },
+  {
+    "url": "http://www.ci.gloucester.ma.us/",
+    "long": "-70.66",
+    "name": "Gloucester",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.61"
+  },
+  {
+    "url": "http://www.ci.haverhill.ma.us/",
+    "long": "-71.07",
+    "name": "Haverhill",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.77"
+  },
+  {
+    "url": "http://www.holyoke.org/",
+    "long": "-72.61",
+    "name": "Holyoke",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.2"
+  },
+  {
+    "url": "http://www.cityoflawrence.com/",
+    "long": "-71.16",
+    "name": "Lawrence",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.7"
+  },
+  {
+    "url": "http://www.leominster-ma.gov/",
+    "long": "-71.75",
+    "name": "Leominster",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.52"
+  },
+  {
+    "url": "http://www.lowellma.gov/",
+    "long": "-71.31",
+    "name": "Lowell",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.63"
+  },
+  {
+    "url": "http://www.ci.lynn.ma.us/",
+    "long": "-70.94",
+    "name": "Lynn",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.46"
+  },
+  {
+    "url": "http://www.ci.malden.ma.us/",
+    "long": "-71.06",
+    "name": "Malden",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.42"
+  },
+  {
+    "url": "http://www.marlborough-ma.gov/",
+    "long": "-71.55",
+    "name": "Marlborough",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.34"
+  },
+  {
+    "url": "http://www.medford.org/",
+    "long": "-71.1",
+    "name": "Medford",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.41"
+  },
+  {
+    "url": "http://www.cityofmelrose.org/",
+    "long": "-71.06",
+    "name": "Melrose",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.45"
+  },
+  {
+    "url": "http://www.ci.methuen.ma.us/",
+    "long": "-71.19",
+    "name": "Methuen",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.72"
+  },
+  {
+    "url": "http://www.newbedford-ma.gov/",
+    "long": "-70.93",
+    "name": "New Bedford",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "41.63"
+  },
+  {
+    "url": "http://www.cityofnewburyport.com/",
+    "long": "-70.87",
+    "name": "Newburyport",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.81"
+  },
+  {
+    "url": "http://www.ci.newton.ma.us/",
+    "long": "-71.2",
+    "name": "Newton",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.33"
+  },
+  {
+    "url": "http://www.northamptonma.gov/",
+    "long": "-72.64",
+    "name": "Northampton",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.32"
+  },
+  {
+    "url": "http://www.peabody-ma.gov/",
+    "long": "-70.92",
+    "name": "Peabody",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.52"
+  },
+  {
+    "url": "http://www.pittsfield-ma.org/",
+    "long": "-73.24",
+    "name": "Pittsfield",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.45"
+  },
+  {
+    "url": "http://www.quincyma.gov",
+    "long": "-71",
+    "name": "Quincy",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.25"
+  },
+  {
+    "url": "http://www.revere.org/",
+    "long": "-71.01",
+    "name": "Revere",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.4"
+  },
+  {
+    "url": "http://www.salem.com",
+    "long": "-70.89",
+    "name": "Salem",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.51"
+  },
+  {
+    "url": "http://www.agawam.ma.us/",
+    "long": "-72.61",
+    "name": "Agawam",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.06"
+  },
+  {
+    "url": "http://www.cityofattleboro.us/",
+    "long": "-71.28",
+    "name": "Attleboro",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "41.94"
+  },
+  {
+    "url": "http://www.somervillema.gov/",
+    "long": "-71.09",
+    "name": "Somerville",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.38"
+  },
+  {
+    "url": "http://www.springfieldcityhall.com",
+    "long": "-72.58",
+    "name": "Springfield",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.1"
+  },
+  {
+    "url": "http://www.beverlyma.gov/",
+    "long": "-70.88",
+    "name": "Beverly",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.55"
+  },
+  {
+    "url": "http://www.cityofboston.gov/",
+    "long": "-71.05",
+    "name": "Boston",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.35"
+  },
+  {
+    "url": "http://www.taunton-ma.gov/Pages/index",
+    "long": "-71.08",
+    "name": "Taunton",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "41.9"
+  },
+  {
+    "url": "http://www.ci.brockton.ma.us/",
+    "long": "-71.01",
+    "name": "Brockton",
+    "state": {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    "lat": "42.08"
+  }
+]

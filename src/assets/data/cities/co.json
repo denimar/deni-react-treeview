@@ -1,0 +1,1192 @@
+[
+  {
+    "url": "http://www.townofbreckenridge.com/",
+    "long": "-106.03",
+    "name": "Breckenridge",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.48"
+  },
+  {
+    "url": "http://www.brightonco.gov/",
+    "long": "-104.82",
+    "name": "Brighton",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.98"
+  },
+  {
+    "url": "http://www.ci.broomfield.co.us/",
+    "long": "-105.08",
+    "name": "Broomfield",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.92"
+  },
+  {
+    "url": "http://www.brushcolo.com/",
+    "long": "-103.62",
+    "name": "Brush",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.25"
+  },
+  {
+    "url": "http://www.canoncity.org/",
+    "long": "-105.21",
+    "name": "Cañon City",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.39"
+  },
+  {
+    "url": "http://www.carbondalegov.org/",
+    "long": "-107.21",
+    "name": "Carbondale",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.4"
+  },
+  {
+    "url": "http://www.crgov.com/",
+    "long": "-104.85",
+    "name": "Castle Rock",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.37"
+  },
+  {
+    "url": "http://www.cedaredgecolorado.com/",
+    "long": "-107.92",
+    "name": "Cedaredge",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.9"
+  },
+  {
+    "url": "http://www.centennialcolorado.com/",
+    "long": "-104.87",
+    "name": "Centennial",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.57"
+  },
+  {
+    "url": "http://www.cherryhillsvillage.com/",
+    "long": "-104.95",
+    "name": "Cherry Hills Village",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.64"
+  },
+  {
+    "url": "http://www.springsgov.com/",
+    "long": "-104.82",
+    "name": "Colorado Springs",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.83"
+  },
+  {
+    "url": "http://www.ci.commerce-city.co.us/",
+    "long": "-104.93",
+    "name": "Commerce City",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.8"
+  },
+  {
+    "url": "http://www.cityofcortez.com/",
+    "long": "-108.58",
+    "name": "Cortez",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.34"
+  },
+  {
+    "url": "http://www.ci.craig.co.us/",
+    "long": "-107.54",
+    "name": "Craig",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.51"
+  },
+  {
+    "url": "http://www.crestedbutte-co.gov/",
+    "long": "-106.98",
+    "name": "Crested Butte",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.86"
+  },
+  {
+    "url": "http://www.cripple-creek.co.us/",
+    "long": "-105.17",
+    "name": "Cripple Creek",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.74"
+  },
+  {
+    "url": "http://www.ci.dacono.co.us/",
+    "long": "-104.93",
+    "name": "Dacono",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.08"
+  },
+  {
+    "url": "http://www.deertrailcolorado.org/",
+    "long": "-104.04",
+    "name": "Deer Trail",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.61"
+  },
+  {
+    "url": "http://www.delta-co.gov/",
+    "long": "-108.06",
+    "name": "Delta",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.74"
+  },
+  {
+    "url": "http://www.denvergov.org/",
+    "long": "-104.98",
+    "name": "Denver",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.73"
+  },
+  {
+    "url": "http://www.townofdillon.com/",
+    "long": "-106.04",
+    "name": "Dillon",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.63"
+  },
+  {
+    "url": "http://www.durangogov.org/",
+    "long": "-107.88",
+    "name": "Durango",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.27"
+  },
+  {
+    "url": "http://www.townofeagle.org/",
+    "long": "-106.82",
+    "name": "Eagle",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.65"
+  },
+  {
+    "url": "http://www.eatonco.org/",
+    "long": "-104.71",
+    "name": "Eaton",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.53"
+  },
+  {
+    "url": "http://www.edgewaterco.com/",
+    "long": "-105.06",
+    "name": "Edgewater",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.75"
+  },
+  {
+    "url": "http://www.englewoodgov.org/",
+    "long": "-104.98",
+    "name": "Englewood",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.64"
+  },
+  {
+    "url": "http://www.erieco.gov/",
+    "long": "-105.04",
+    "name": "Erie",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.05"
+  },
+  {
+    "url": "http://www.estesnet.com/",
+    "long": "-105.52",
+    "name": "Estes Park",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.37"
+  },
+  {
+    "url": "http://www.cityofevans.org/",
+    "long": "-104.69",
+    "name": "Evans",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.37"
+  },
+  {
+    "url": "http://www.fairplayco.us/",
+    "long": "-106",
+    "name": "Fairplay",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.22"
+  },
+  {
+    "url": "http://www.ci.federal-heights.co.us/",
+    "long": "-104.99",
+    "name": "Federal Heights",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.85"
+  },
+  {
+    "url": "http://www.ci.firestone.co.us/",
+    "long": "-104.93",
+    "name": "Firestone",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.11"
+  },
+  {
+    "url": "http://www.fcgov.com/",
+    "long": "-105.08",
+    "name": "Fort Collins",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.58"
+  },
+  {
+    "url": "http://www.fortlupton.org/",
+    "long": "-104.81",
+    "name": "Fort Lupton",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.08"
+  },
+  {
+    "url": "http://www.cityoffortmorgan.com/",
+    "long": "-103.79",
+    "name": "Fort Morgan",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.25"
+  },
+  {
+    "url": "http://www.ci.fountain.co.us/",
+    "long": "-104.7",
+    "name": "Fountain",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.68"
+  },
+  {
+    "url": "http://www.frederickco.gov/",
+    "long": "-104.93",
+    "name": "Frederick",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.09"
+  },
+  {
+    "url": "http://www.townoffrisco.com/",
+    "long": "-106.09",
+    "name": "Frisco",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.57"
+  },
+  {
+    "url": "http://www.fruita.org/",
+    "long": "-108.72",
+    "name": "Fruita",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.15"
+  },
+  {
+    "url": "http://www.town.georgetown.co.us/",
+    "long": "-105.69",
+    "name": "Georgetown",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.7"
+  },
+  {
+    "url": "http://www.glendale.co.us/",
+    "long": "-104.93",
+    "name": "Glendale",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.7"
+  },
+  {
+    "url": "http://www.ci.glenwood-springs.co.us/",
+    "long": "-107.32",
+    "name": "Glenwood Springs",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.55"
+  },
+  {
+    "url": "http://www.ci.golden.co.us/",
+    "long": "-105.22",
+    "name": "Golden",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.75"
+  },
+  {
+    "url": "http://www.ci.grandjct.co.us/",
+    "long": "-108.55",
+    "name": "Grand Junction",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.06"
+  },
+  {
+    "url": "http://www.greeleygov.com/",
+    "long": "-104.7",
+    "name": "Greeley",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.42"
+  },
+  {
+    "url": "http://www.greenwoodvillage.com/",
+    "long": "-104.95",
+    "name": "Greenwood Village",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.61"
+  },
+  {
+    "url": "http://www.cityofgunnison-co.gov/",
+    "long": "-106.92",
+    "name": "Gunnison",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.54"
+  },
+  {
+    "url": "http://www.townofgypsum.com/",
+    "long": "-106.95",
+    "name": "Gypsum",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.64"
+  },
+  {
+    "url": "http://www.townofhayden.org/",
+    "long": "-107.25",
+    "name": "Hayden",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.49"
+  },
+  {
+    "url": "http://www.hudsoncolorado.org/",
+    "long": "-104.64",
+    "name": "Hudson",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.07"
+  },
+  {
+    "url": "http://www.idahospringsco.com/",
+    "long": "-105.51",
+    "name": "Idaho Springs",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.74"
+  },
+  {
+    "url": "http://www.townofjohnstown.com/",
+    "long": "-104.91",
+    "name": "Johnstown",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.33"
+  },
+  {
+    "url": "http://www.ci.la-junta.co.us/",
+    "long": "-103.54",
+    "name": "La Junta",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.98"
+  },
+  {
+    "url": "http://www.cityoflafayette.com/",
+    "long": "-105.08",
+    "name": "Lafayette",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.99"
+  },
+  {
+    "url": "http://www.ci.lakewood.co.us/",
+    "long": "-105.08",
+    "name": "Lakewood",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.7"
+  },
+  {
+    "url": "http://www.ci.lamar.co.us/",
+    "long": "-102.62",
+    "name": "Lamar",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.08"
+  },
+  {
+    "url": "http://www.townoflimon.com/",
+    "long": "-103.69",
+    "name": "Limon",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.26"
+  },
+  {
+    "url": "http://www.littletongov.org/",
+    "long": "-105.01",
+    "name": "Littleton",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.61"
+  },
+  {
+    "url": "http://www.cityoflonetree.com/",
+    "long": "-104.89",
+    "name": "Lone Tree",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.53"
+  },
+  {
+    "url": "http://www.ci.longmont.co.us/",
+    "long": "-105.1",
+    "name": "Longmont",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.16"
+  },
+  {
+    "url": "http://www.louisvilleco.gov/",
+    "long": "-105.13",
+    "name": "Louisville",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.97"
+  },
+  {
+    "url": "http://www.ci.loveland.co.us/",
+    "long": "-105.07",
+    "name": "Loveland",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.39"
+  },
+  {
+    "url": "http://www.townoflyons.com/",
+    "long": "-105.27",
+    "name": "Lyons",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.22"
+  },
+  {
+    "url": "http://manitousprings-co.gov/",
+    "long": "-104.91",
+    "name": "Manitou Springs",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.85"
+  },
+  {
+    "url": "http://www.townofmeeker.org/",
+    "long": "-107.91",
+    "name": "Meeker",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.03"
+  },
+  {
+    "url": "http://www.millikenco.gov/",
+    "long": "-104.85",
+    "name": "Milliken",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.32"
+  },
+  {
+    "url": "http://www.minturn.org/Government/index.html",
+    "long": "-106.43",
+    "name": "Minturn",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.58"
+  },
+  {
+    "url": "http://www.cityofmontevista.com/",
+    "long": "-106.14",
+    "name": "Monte Vista",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.57"
+  },
+  {
+    "url": "http://www.cityofmontrose.org/",
+    "long": "-107.87",
+    "name": "Montrose",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.47"
+  },
+  {
+    "url": "http://www.townofmonument.net/",
+    "long": "-104.87",
+    "name": "Monument",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.09"
+  },
+  {
+    "url": "http://town.morrison.co.us/",
+    "long": "-105.19",
+    "name": "Morrison",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.65"
+  },
+  {
+    "url": "http://www.mountain-village.co.us/",
+    "long": "-107.85",
+    "name": "Mountain Village",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.93"
+  },
+  {
+    "url": "http://www.town.nederland.co.us/",
+    "long": "-105.51",
+    "name": "Nederland",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.96"
+  },
+  {
+    "url": "http://www.newcastlecolorado.org/",
+    "long": "-107.53",
+    "name": "New Castle",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.57"
+  },
+  {
+    "url": "http://www.northglenn.org/",
+    "long": "-104.98",
+    "name": "Northglenn",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.88"
+  },
+  {
+    "url": "http://www.townofpagosasprings.com/",
+    "long": "-107",
+    "name": "Pagosa Springs",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.26"
+  },
+  {
+    "url": "http://www.ci.palmer-lake.co.us/",
+    "long": "-104.91",
+    "name": "Palmer Lake",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.12"
+  },
+  {
+    "url": "http://www.parkeronline.org/",
+    "long": "-104.76",
+    "name": "Parker",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.51"
+  },
+  {
+    "url": "http://www.plattevillegov.org/",
+    "long": "-104.82",
+    "name": "Platteville",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.21"
+  },
+  {
+    "url": "http://www.ponchaspringscolorado.us/",
+    "long": "-106.07",
+    "name": "Poncha Springs",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.51"
+  },
+  {
+    "url": "http://www.pueblo.us/",
+    "long": "-104.6",
+    "name": "Pueblo",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.25"
+  },
+  {
+    "url": "http://www.rifleco.org/",
+    "long": "-107.78",
+    "name": "Rifle",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.53"
+  },
+  {
+    "url": "http://www.ci.sheridan.co.us/",
+    "long": "-105.02",
+    "name": "Sheridan",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.64"
+  },
+  {
+    "url": "http://www.townofsilt.org/",
+    "long": "-107.65",
+    "name": "Silt",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.54"
+  },
+  {
+    "url": "http://www.silverthorne.org/",
+    "long": "-106.06",
+    "name": "Silverthorne",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.63"
+  },
+  {
+    "url": "http://www.ci.silverton.co.us/",
+    "long": "-107.66",
+    "name": "Silverton",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.81"
+  },
+  {
+    "url": "http://www.tosv.com/",
+    "long": "-106.93",
+    "name": "Snowmass Village",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.21"
+  },
+  {
+    "url": "http://www.southfork.org/index.asp",
+    "long": "-106.63",
+    "name": "South Fork",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.67"
+  },
+  {
+    "url": "http://www.steamboatsprings.net/",
+    "long": "-106.83",
+    "name": "Steamboat Springs",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.48"
+  },
+  {
+    "url": "http://www.sterlingcolo.com/",
+    "long": "-103.2",
+    "name": "Sterling",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.62"
+  },
+  {
+    "url": "http://www.strattoncolorado.com/",
+    "long": "-102.6",
+    "name": "Stratton",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.3"
+  },
+  {
+    "url": "http://www.townofsuperior.com/",
+    "long": "-105.16",
+    "name": "Superior",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.95"
+  },
+  {
+    "url": "http://www.telluride-co.gov/",
+    "long": "-107.81",
+    "name": "Telluride",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.93"
+  },
+  {
+    "url": "http://www.cityofthornton.net/",
+    "long": "-104.97",
+    "name": "Thornton",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.86"
+  },
+  {
+    "url": "http://www.timnathcolorado.org/",
+    "long": "-104.98",
+    "name": "Timnath",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.52"
+  },
+  {
+    "url": "http://www.historictrinidad.com/",
+    "long": "-104.5",
+    "name": "Trinidad",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.16"
+  },
+  {
+    "url": "http://www.vailgov.com/",
+    "long": "-106.37",
+    "name": "Vail",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.64"
+  },
+  {
+    "url": "http://www.cityofalamosa.org/",
+    "long": "-105.87",
+    "name": "Alamosa",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.46"
+  },
+  {
+    "url": "http://www.ci.arvada.co.us/",
+    "long": "-105.08",
+    "name": "Arvada",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.8"
+  },
+  {
+    "url": "http://www.aspenpitkin.com/",
+    "long": "-106.81",
+    "name": "Aspen",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.19"
+  },
+  {
+    "url": "http://www.townofwellington.com/",
+    "long": "-105",
+    "name": "Wellington",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.7"
+  },
+  {
+    "url": "http://www.auroragov.org",
+    "long": "-104.83",
+    "name": "Aurora",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.72"
+  },
+  {
+    "url": "http://www.ci.westminster.co.us/",
+    "long": "-105.03",
+    "name": "Westminster",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.83"
+  },
+  {
+    "url": "http://www.avon.org/",
+    "long": "-106.52",
+    "name": "Avon",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.63"
+  },
+  {
+    "url": "http://www.ci.wheatridge.co.us/",
+    "long": "-105.07",
+    "name": "Wheat Ridge",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.76"
+  },
+  {
+    "url": "http://www.basalt.net/",
+    "long": "-107.03",
+    "name": "Basalt",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.36"
+  },
+  {
+    "url": "http://www.bayfieldgov.org/",
+    "long": "-107.59",
+    "name": "Bayfield",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.22"
+  },
+  {
+    "url": "http://www.townofbennett.org/",
+    "long": "-104.42",
+    "name": "Bennett",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.75"
+  },
+  {
+    "url": "http://www.ci.windsor.co.us/",
+    "long": "-104.9",
+    "name": "Windsor",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.47"
+  },
+  {
+    "url": "http://www.berthoud.org/",
+    "long": "-105.08",
+    "name": "Berthoud",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.3"
+  },
+  {
+    "url": "http://www.winterparkgov.com/",
+    "long": "-105.76",
+    "name": "Winter Park",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.89"
+  },
+  {
+    "url": "http://www.city-woodlandpark.org/",
+    "long": "-105.05",
+    "name": "Woodland Park",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "38.99"
+  },
+  {
+    "url": "http://www.cityofblackhawk.org/",
+    "long": "-105.49",
+    "name": "Black Hawk",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.79"
+  },
+  {
+    "url": "http://www.wrayco.net/",
+    "long": "-102.22",
+    "name": "Wray",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.07"
+  },
+  {
+    "url": "http://www.fone.net/~blancaco/",
+    "long": "-105.51",
+    "name": "Blanca",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "37.43"
+  },
+  {
+    "url": "http://www.bouldercolorado.gov/",
+    "long": "-105.27",
+    "name": "Boulder",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.01"
+  },
+  {
+    "url": "http://www.erieco.gov/",
+    "long": "-105.04",
+    "name": "Erie",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "40.05"
+  },
+  {
+    "url": "http://www.auroragov.org",
+    "long": "-104.83",
+    "name": "Aurora",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.72"
+  },
+  {
+    "url": "http://www.basalt.net/",
+    "long": "-107.03",
+    "name": "Basalt",
+    "state": {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    "lat": "39.36"
+  }
+]
