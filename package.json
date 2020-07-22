@@ -1,17 +1,17 @@
 {
-  "name": "react-library-boilerplate",
+  "name": "deni-react-treeview",
   "license": "MIT",
   "version": "1.0.0",
   "private": false,
-  "description": "React Typescript Library Boilerplate",
-  "author": "James Olson",
-  "homepage": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate",
+  "author": "Denimar de Moraes <denimar@gmail.com>",
+  "description": "A modern, themable and configurable treeview for React.",
+  "homepage": "https://github.com/denimar/deni-react-treeview",
   "bugs": {
-    "url": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate/issues"
+    "url": "url": "https://github.com/denimar/deni-react-treeview/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixfootsixdesigns/React-Library-Boilerplate.git"
+    "url": "git@github.com:denimar/deni-react-treeview.git"
   },
   "scripts": {
     "build": "yarn clean; rollup -c; yarn postBuild",
@@ -28,10 +28,10 @@
     "test:watch": "yarn test --watch",
     "test:coverage": "jest --coverage --colors --maxWorkers=2"
   },
-  "main": "lib.cjs.js",
-  "module": "lib.esm.js",
-  "browser": "lib.umd.js",
-  "types": "index.d.ts",
+  "main": "dist/lib.cjs.js",
+  "module": "dist/lib.esm.js",
+  "browser": "dist/lib.umd.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
     "axios": "^0.19.2",
     "classnames": "^2.2.6",
