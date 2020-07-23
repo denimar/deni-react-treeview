@@ -1,1 +1,2 @@
-export * from './deni-react-treeview';
+import DeniReactTreeView from './deni-react-treeview/DeniReactTreeView';
+export default DeniReactTreeView

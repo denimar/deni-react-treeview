@@ -1,7 +1,7 @@
 {
   "name": "deni-react-treeview",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.23",
   "private": false,
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern, themable and configurable treeview for React.",
@@ -9,9 +9,6 @@
   "bugs": {
     "url": "https://github.com/denimar/deni-react-treeview/issues"
   },
-  "directories": {
-    "dist": "dist"
-  },  
   "repository": {
     "type": "git",
     "url": "git@github.com:denimar/deni-react-treeview.git"
@@ -36,18 +33,12 @@
   "browser": "lib/lib.umd.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "axios": "^0.19.2",
     "classnames": "^2.2.6",
-    "fs-extra": "^9.0.1",
-    "immer": "^7.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "peerDependencies": {
-    "classnames": "^2.2.6",
-    "react": "^16.13.1"
-  },
   "devDependencies": {
+    "axios": "^0.19.2",    
     "@babel/core": "^7.9.0",
     "@rollup/plugin-commonjs": "^11.1.0",
     "@storybook/preset-typescript": "^3.0.0",
@@ -93,7 +84,6 @@
     "view",
     "treenode",
     "tree-node",
-    "ui",
     "deni-react-treeview"
   ]  
 }

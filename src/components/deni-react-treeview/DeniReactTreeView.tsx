@@ -9,14 +9,14 @@ import { DeniReactTreeviewProps } from './DeniReactTreeviewProps';
 interface DeniReactTreeviewState {
   loading: boolean,  
   theme: string,
-  expandAll: boolean,
+  expandAll?: boolean,
 }
 
 class DeniReactTreeView extends React.Component<DeniReactTreeviewProps, DeniReactTreeviewState> {
   api: any;
   container: any;
 
-  constructor(props) {
+  constructor(props: DeniReactTreeviewProps) {
     super(props);
     this.state = {
       loading: false,

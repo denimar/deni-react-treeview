@@ -11,7 +11,6 @@ module.exports = {
           loader: require.resolve('ts-loader'),
         },
       ],
-      exclude: /node_modules/
     });
     config.resolve.extensions.push('.ts', '.tsx');
 
@@ -20,7 +19,6 @@ module.exports = {
       test: /\.scss$/,
       use: ['style-loader', 'css-loader', 'sass-loader'],
       include: path.resolve(__dirname, '../'),
-      exclude: /node_modules/
     });
 
     return config;

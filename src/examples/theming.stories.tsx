@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import DeniReactTreeView from '../components/deni-react-treeview'
+import DeniReactTreeView from '../components/deni-react-treeview/DeniReactTreeView'
 import './theming-customizations.scss'
 
 const themes = [ 'classic', 'metro', 'moonlight', 'purple', 'green', 'orange', 'red', 'silver' ]

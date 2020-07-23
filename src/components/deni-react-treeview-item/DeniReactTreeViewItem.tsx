@@ -27,16 +27,16 @@ class DeniReactTreeViewItem extends React.Component<DeniReactTreeviewItemProps> 
     const marginLeft = 5;
     const marginLeftPropValue = treeview.props['marginItems'] || 30
     const marginLeftItems: number = level === 0 ? 0 : (treeview.props['showRoot'] ? level * marginLeftPropValue : (level - 1) * marginLeftPropValue);
-    const style: any = {
+    const cssStyle: any = {
       paddingLeft: (marginLeft + marginLeftItems) + 'px',
     }
     if (!treeview.props['showRoot'] && this.props.root) {
-      style.display = 'none';
+      cssStyle.display = 'none';
     }
 
     return (
       <div 
-        style={style} 
+        style={cssStyle} 
         className={getClassItem(treeview, item, level, selectRow)} 
         onMouseDown={treeviewItemContainerMouseDown.bind(this, this.props.treeview, item, selectRow)} 
         onDoubleClick={treeviewItemContainerDoubleClick.bind(this, treeviewItemExpandButtonMouseDown, this.props.treeview, selectRow)}
