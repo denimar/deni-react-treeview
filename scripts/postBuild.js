@@ -8,5 +8,5 @@ const pkg = require('../package.json');
   fs.writeFileSync('./dist/package.json', JSON.stringify({ ...pkg }, null, 2));
 
   fs.mkdirSync('./dist/themes')
-  fse.copy('./src/components/themes', './dist/themes')
+  fse.copy('./src/components/styles', './dist/styles')
 })();
