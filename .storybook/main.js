@@ -23,14 +23,12 @@ module.exports = {
       exclude: /node_modules/
     });
 
-    config.externals = {
-      'react': {
-        root: 'React',
-          commonjs2: 'react',
-          commonjs: 'react',
-          amd: 'react',
-        }
-    }
+    // config.externals['react'] = {
+    //   root: 'React',
+    //   commonjs2: 'react',
+    //   commonjs: 'react',
+    //   amd: 'react'
+    // }  
 
     return config;
   },
