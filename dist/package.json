@@ -9,6 +9,9 @@
   "bugs": {
     "url": "https://github.com/denimar/deni-react-treeview/issues"
   },
+  "directories": {
+    "dist": "dist"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:denimar/deni-react-treeview.git"
@@ -81,5 +84,16 @@
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1"
-  }
+  },
+  "keywords": [
+    "react",
+    "treeview",
+    "tree-view",
+    "tree",
+    "view",
+    "treenode",
+    "tree-node",
+    "ui",
+    "deni-react-treeview"
+  ]
 }
