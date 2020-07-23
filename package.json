@@ -1,7 +1,7 @@
 {
   "name": "deni-react-treeview",
   "license": "MIT",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "private": false,
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern, themable and configurable treeview for React.",
@@ -38,7 +38,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "axios": "^0.19.2",    
+    "axios": "^0.19.2",
     "@babel/core": "^7.9.0",
     "@rollup/plugin-commonjs": "^11.1.0",
     "@storybook/preset-typescript": "^3.0.0",
@@ -85,5 +85,5 @@
     "treenode",
     "tree-node",
     "deni-react-treeview"
-  ]  
+  ]
 }
