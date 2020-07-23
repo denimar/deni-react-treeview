@@ -23,7 +23,7 @@
     "lint": "yarn lint:script && yarn lint:style",
     "lint:script": "eslint --ext js --ext jsx --ext ts --ext tsx src",
     "lint:style": "stylelint src",
-    "npm:publish": "npm version patch && yarn build && cd dist && npm pack && npm publish && cd ..",
+    "npm:publish": "node ./scripts/publishNPM",
     "storybook": "start-storybook -p 9001 -s ./src/assets -c .storybook",
     "test": "jest --maxWorkers=2",
     "test:watch": "yarn test --watch",
