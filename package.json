@@ -1,7 +1,7 @@
 {
   "name": "deni-react-treeview",
   "license": "MIT",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "private": false,
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern, themable and configurable treeview for React.",
