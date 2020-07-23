@@ -10,6 +10,8 @@ cd dist
 echo "packing..." 
 npm pack
 
+npm login
+
 pwd
 sleep 10
 
