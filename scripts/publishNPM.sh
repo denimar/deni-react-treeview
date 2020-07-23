@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+
 npm version patch
 
 echo "building..."
