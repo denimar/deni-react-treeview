@@ -1,14 +1,12 @@
-#!/usr/bin/env node
-
-function execute(command) {
+export function execShellCommand(cmd) {
   const exec = require('child_process').exec
-
-  exec(command, (err, stdout, stderr) => {
-    if (err) console.log(`Error publishing NPM: ${err.message}`)
-    process.stdout.write(stdout)
-  })
+  return new Promise((resolve, reject) =>
+    exec(cmd, (error, stdout, stderr) =>
+      error ? reject(new Error('Folder is Empty')) : resolve(stdout ? stdout : stderr)
+    )
+  )
 }
 
 (async () => {
-  execute('npm version patch && yarn build && cd dist && npm pack && npm publish')
+  execShellCommand('npm version patch && yarn build && cd dist && npm pack && npm publish')
 })();
