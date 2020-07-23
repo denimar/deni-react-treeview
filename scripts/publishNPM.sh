@@ -10,5 +10,7 @@ cd dist
 echo "packing..." 
 npm pack
 
+#npm login
+
 echo "publishing..."
 npm publish
