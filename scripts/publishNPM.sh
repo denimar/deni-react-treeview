@@ -7,12 +7,11 @@ yarn build
 
 cd dist
 
-sleep 5
-
 echo "packing..." 
 npm pack
 
-sleep 5
+pwd
+sleep 10
 
 echo "publishing..."
 npm publish
