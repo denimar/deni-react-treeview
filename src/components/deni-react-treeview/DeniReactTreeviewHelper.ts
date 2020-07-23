@@ -16,9 +16,9 @@ const loadingSetup = treeview => {
 }
 
 const setTheme = (treeview, newTheme) => {
-  const theme = newTheme || 'classic';
-  require('../styles/themes/' + theme + '-theme.scss')
-  treeview.setState({ theme });
+  // const theme = newTheme || 'classic';
+  // require('../styles/themes/' + theme + '-theme.scss')
+  // treeview.setState({ theme });
 }
 
 const load = (treeview, item) => {

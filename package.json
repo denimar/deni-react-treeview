@@ -1,7 +1,7 @@
 {
   "name": "deni-react-treeview",
   "license": "MIT",
-  "version": "1.0.23",
+  "version": "1.0.26",
   "private": false,
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern, themable and configurable treeview for React.",
@@ -28,10 +28,10 @@
     "test:watch": "yarn test --watch",
     "test:coverage": "jest --coverage --colors --maxWorkers=2"
   },
-  "main": "lib/lib.cjs.js",
-  "module": "lib/lib.esm.js",
-  "browser": "lib/lib.umd.js",
-  "types": "lib/index.d.ts",
+  "main": "lib.cjs.js",
+  "module": "lib.esm.js",
+  "browser": "lib.umd.js",
+  "types": "index.d.ts",
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.13.1",
