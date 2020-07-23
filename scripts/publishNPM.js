@@ -8,5 +8,9 @@ function execShellCommand(cmd) {
 }
 
 (async () => {
-  execShellCommand('npm version patch && yarn build && cd dist && npm pack && npm publish')
+  await execShellCommand('npm version patch')
+  await execShellCommand('yarn build')
+  await execShellCommand('cd dist')
+  await execShellCommand('npm pack')
+  await execShellCommand('npm publish')
 })();
