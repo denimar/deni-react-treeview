@@ -1,7 +1,7 @@
 {
   "name": "deni-react-treeview",
   "license": "MIT",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "private": false,
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern, themable and configurable treeview for React.",
@@ -23,6 +23,7 @@
     "lint": "yarn lint:script && yarn lint:style",
     "lint:script": "eslint --ext js --ext jsx --ext ts --ext tsx src",
     "lint:style": "stylelint src",
+    "npm:publish": "npm version patch && yarn build && cd dist && npm pack && npm publish && cd ..",
     "storybook": "start-storybook -p 9001 -s ./src/assets -c .storybook",
     "test": "jest --maxWorkers=2",
     "test:watch": "yarn test --watch",
