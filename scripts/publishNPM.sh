@@ -1,8 +1,13 @@
 #!/bin/bash
 npm version patch
+
+echo "building..."
 yarn build
-pwd
+
 cd dist
-pwd
+
+echo "packing..." 
 npm pack
+
+echo "publishing..."
 npm publish
