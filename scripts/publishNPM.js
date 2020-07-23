@@ -12,8 +12,10 @@ function execute(command) {
   execute('npm version patch')
   execute('yarn build')
   execute('cd dist')
+  execute('pwd')
   execute('npm pack')
   execute('npm publish')
+  execute('pwd')
 })();
 
  //&&  && cd dist && npm pack && npm publish && cd ..
