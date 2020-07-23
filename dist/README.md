@@ -1,136 +1,104 @@
-# React Library Boilerplate
+# deni-react-treeview
+A modern, themable and configurable treeview for React
 
-This react library boilerplate uses the following:
 
-- Typescript
-- Rollup
-- Prettier
-- ESLint
-- StyleLint
-- Storybook
-- SCSS
-- Jest
-- React Testing Library
+[site](https://denimar.github.io/deni-react-treeview/), [examples](https://denimar.github.io/deni-react-treeview/examples)
 
-## Setup
 
-1. Edit the `package.json` file. Set you app's name, description, version, author, homepage, bugs, and repository fields with the correct information.
-1. Run `yarn` to add all the project's dependencies.
+![alt text](https://denimar.github.io/deni-react-treeview/images/deni-react-treeview.png)
 
-## Folder Structure
 
+TODO: In the future I will implement the tests, Cloud CI.
+
+## Installing with NPM
+
+npm install deni-react-treeview --save
+
+## Usage
+
+Added to your react component
+```html
+    <TreeView url="https://denifakedata.herokuapp.com/tree/countries" /> 
 ```
-├── .storybook
-|   ├── main.js
-├── coverage
-├── dist
-├── mocks
-|   ├── styleMock.js
-├── node_modules
-├── scripts
-|   ├── postBuild.js
-├── src
-│   ├── components
-|   |   ├── Example
-|   |   ├── index.ts
-|   ├── index.ts
-├── .eslintrc.js
-├── .gitignore
-├── .prettierrc.js
-├── jest.config.js
-├── LICENSE
-├── package.json
-├── README.md
-├── rollup.config.js
-├── stylelint.config.js
-├── tsconfig.json
-```
+For more details: [examples](https://denimar.github.io/deni-react-treeview/examples)
 
-## Add a new component
+## API
+[documentation](https://denimar.github.io/deni-react-treeview/api.html)
 
-- add the new component directory in the `src/components` directory following this folder structure
+## Features
+* Cross-Browser.
+* Binding to a JSON (locally, remotely and lazy-load)
+* Predefined Themes
+* Theme Customization
+* Events
+* Checkboxes
+* And so on...
 
-```
-├── MyComponent
-|   ├── index.ts
-|   ├── MyComponent.scss
-|   ├── MyComponent.stories.tsx
-|   ├── MyComponent.tsx
-|   ├── __tests__
-|   |   ├── MyComponent.test.tsx
-```
+## Properties
+* autoLoad ```(boolean)```
+* lazyLoad ```(boolean)```
+* marginItems ```(integer)```
+* selectRow ```(boolean)```
+* showCheckbox ```(boolean)```
+* showIcon ```(boolean)```
+* showRoot ```(boolean)```
+* theme ```(string)```
 
-Once you have created your new component make sure you have exported it in the `src/components/index.ts` file. Doing so allows the component to be compiled into the final bundle using rollup.
+## Events
+* OnRenderItem
+* onBeforeLoad
+* onAfterLoad
+* onSelectItem
+* onExpanded
+* onColapsed
+* onLazyLoad
+* onCheckItem
 
-```
-// src/components/index.ts
-export * from './MyComponent';
-export * from './SomeOtherComponent';
-```
+#### json example
 
-You can develope your new component using storybook as your playground. Once you have added the `.stories.tsx` file for you new component, you can run `yarn storybook` to start the service.
-
-## Tests
-
-```
-$ yarn test
-```
-
-With coverage
-
-```
-$ yarn test:coverage
-```
-
-Watch
-
-```
-$ yarn test:watch
-```
-
-## Prettier
-
-```
-$ yarn format
-```
-
-Validate project formatting
-
-```
-$ yarn format:check
+```javascript
+[
+  {
+    id: 100,
+    text: 'Fruits',
+    children: [
+      {
+        id: 101,
+        text: 'Orange',
+        isLeaf: true
+      },
+      {
+        id: 102,
+        text: 'Banana',
+        isLeaf: true
+      }
+    ]
+  },
+  {
+    id: 200,
+    text: 'Vegetables',
+    children: [
+      {
+        id: 201,
+        text: 'Carrot',
+        isLeaf: true
+      },
+      {
+        id: 202,
+        text: 'Tomato',
+        isLeaf: true
+      }
+    ]
+  }
+]
 ```
 
-## Lint
+## License
 
-```
-$ yarn lint
-```
+[MIT.](https://raw.githubusercontent.com/denimar/deni-react-treeview/master/LICENSE-MIT)
 
-## Storybook
+## Author
 
-```
-$ yarn storybook
-```
+[Denimar de Moraes](http://github.com/denimar) (denimar@gmail.com) is a full-stack developper at the HBSis IT Solutions, Blumenau, Santa Catarina, Brazil.
 
-## Building your library
-
-```
-$ yarn build
-```
-
-The build output will go into the `dist` directory
-
-## Publishing your Library on NPM
-
-Once you have created an account on NPM you will be able to publish your library using these commands
-
-```
-$ yarn build
-$ cd dist
-$ npm pack
-$ npm publish
-```
-
-> Note: You will have to manually bump your versions in the `package.json` file.
-
-> Note: You will need to update the package.json name property with the name your library will be using on npm.
+[<img src="https://raw.githubusercontent.com/denimar/denibudget/master/linkedin-profile.png">](https://www.linkedin.com/in/denimar-moraes/?locale=en_US)

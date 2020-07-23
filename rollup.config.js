@@ -11,7 +11,7 @@ const globals = {
 
 export default {
   input: './src/index.ts',
-  externals: [
+  external: [
     ...Object.keys(pkg.dependencies),
     ...Object.keys(pkg.devDependencies),
   ],
