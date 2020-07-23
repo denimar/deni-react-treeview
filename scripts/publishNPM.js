@@ -11,6 +11,5 @@ function execShellCommand(cmd) {
   await execShellCommand('npm version patch')
   await execShellCommand('yarn build')
   await execShellCommand('cd dist')
-  await execShellCommand('npm pack')
-  await execShellCommand('npm publish')
+  await execShellCommand('npm pack && npm publish')
 })();
