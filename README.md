@@ -1,6 +1,6 @@
-# React Library Boilerplate
+# deni-react-treeview
 
-This react library boilerplate uses the following:
+A modern, themable and configurable treeview for React
 
 - Typescript
 - Rollup
@@ -131,6 +131,6 @@ $ npm pack
 $ npm publish
 ```
 
-> Note: You will have to manually bump your versions in the `package.json` file.
+[Denimar de Moraes](http://github.com/denimar) (denimar@gmail.com) is a full-stack developper at the HBSis IT Solutions, Blumenau, Santa Catarina, Brazil.
 
-> Note: You will need to update the package.json name property with the name your library will be using on npm.
+[<img src="https://raw.githubusercontent.com/denimar/denibudget/master/linkedin-profile.png">](https://www.linkedin.com/in/denimar-moraes/?locale=en_US)
