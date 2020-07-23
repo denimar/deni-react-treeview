@@ -1,7 +1,22 @@
-import React from 'react'
 import './ActionButtons.scss'
 import { ActionButtonsProps } from './ActionButtonsProps';
+import React from 'react'
 
+class ActionButtons extends React.Component<ActionButtonsProps> {
+
+  render() {
+    return (
+      <div className="action-buttons-container">
+        dfddfdfgsfgsd
+      </div>
+    )
+  }
+
+}
+
+export default ActionButtons;
+
+/*
 class ActionButtons extends React.Component<ActionButtonsProps> {
 
   constructor(props) {
@@ -33,3 +48,4 @@ class ActionButtons extends React.Component<ActionButtonsProps> {
 }
 
 export default ActionButtons;
+*/

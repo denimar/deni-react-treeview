@@ -1,3 +1,5 @@
+import React from 'react'
+
 export interface DeniReactTreeviewItemProps {
   treeview: React.Component,
   item: number,
