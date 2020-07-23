@@ -9,10 +9,7 @@ function execute(command) {
 }
 
 (async () => {
-  execute('npm version patch')
-  execute('yarn build')
-  execute('cd dist')
-  execute('pwd')
+  execute('npm version patch && yarn build && cd dist && pwd')
   execute('npm pack')
   execute('npm publish')
   execute('pwd')
