@@ -3,7 +3,6 @@ import { terser } from 'rollup-plugin-terser';
 import postcss from 'rollup-plugin-postcss';
 import commonjs from '@rollup/plugin-commonjs';
 import pkg from './package.json';
-import externalGlobals from "rollup-plugin-external-globals";
 
 const globals = {
   classnames: 'classnames',
@@ -32,20 +31,11 @@ export default {
     },
     {
       file: `./dist/${pkg.browser}`,
-      format: 'iife',
+      format: 'umd',
       name: 'lib',
       globals,
       sourcemap: true,
     },
   ],
-  plugins: [
-    commonjs(), 
-    postcss(), 
-    typescript(), 
-    terser(),
-    externalGlobals({
-      react: "React",
-      axios: 'axios'
-    })
-  ],
+  plugins: [commonjs(), postcss(), typescript(), terser()],
 };

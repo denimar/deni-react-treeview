@@ -1,7 +1,7 @@
 {
   "name": "deni-react-treeview",
   "license": "MIT",
-  "version": "1.0.83",
+  "version": "1.0.103",
   "private": false,
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern, themable and configurable treeview for React.",
@@ -24,22 +24,20 @@
     "lint:script": "eslint --ext js --ext jsx --ext ts --ext tsx src",
     "lint:style": "stylelint src",
     "npm:publish": "./scripts/publishNPM.sh",
-    "npm:publishOld": "node ./scripts/publishNPM",
     "storybook": "start-storybook -p 9001 -s ./src/assets -c .storybook",
     "test": "jest --maxWorkers=2",
     "test:watch": "yarn test --watch",
     "test:coverage": "jest --coverage --colors --maxWorkers=2"
   },
-  "main": "lib.cjs.js",
-  "module": "lib.esm.js",
-  "browser": "lib.umd.js",
+  "main": "libs/lib.cjs.js",
+  "module": "libs/lib.esm.js",
+  "browser": "libs/lib.umd.js",
   "types": "index.d.ts",
   "dependencies": {
     "axios": "^0.19.2",
     "classnames": "^2.2.6",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "rollup-plugin-external-globals": "^0.5.0"
+    "react-dom": "^16.13.1"
   },
   "peerDependencies": {
     "classnames": "^2.2.6",
@@ -70,6 +68,7 @@
     "prettier": "^2.0.4",
     "rimraf": "^3.0.2",
     "rollup": "^2.6.0",
+    "rollup-plugin-external-globals": "^0.5.0",
     "rollup-plugin-postcss": "^2.5.0",
     "rollup-plugin-terser": "^5.3.0",
     "rollup-plugin-typescript2": "^0.27.0",
