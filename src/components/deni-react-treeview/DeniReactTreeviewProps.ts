@@ -12,7 +12,7 @@ export interface DeniReactTreeviewProps {
     expandAll?: boolean,
     marginItems?: string | number,
     onAfterLoad?: void,
-    onBeforeLoad?: void,
+    onBeforeLoad?: (data: any, item: any) => void;
     onRenderItem?: (item: any, treeview: DeniReactTreeView) => JSX.Element;
     onSelectItem?: void,
     onCheckItem?: void,

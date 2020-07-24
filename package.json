@@ -25,6 +25,7 @@
     "lint:style": "stylelint src",
     "npm:publish": "./scripts/publishNPM.sh",
     "storybook": "start-storybook -p 9001 -s ./src/assets -c .storybook",
+    "storybook:build": "build-storybook -c .storybook -o .storybook/dist",
     "test": "jest --maxWorkers=2",
     "test:watch": "yarn test --watch",
     "test:coverage": "jest --coverage --colors --maxWorkers=2"

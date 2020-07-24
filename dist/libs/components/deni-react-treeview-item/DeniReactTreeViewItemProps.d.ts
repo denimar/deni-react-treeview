@@ -1,6 +1,6 @@
-import React from 'react';
+import DeniReactTreeView from '../deni-react-treeview/DeniReactTreeView';
 export interface DeniReactTreeviewItemProps {
-    treeview: React.Component;
+    treeview: DeniReactTreeView;
     item: number;
     parent?: any;
     level: number;
