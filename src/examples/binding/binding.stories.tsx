@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import DeniReactTreeView from '../components/deni-react-treeview/DeniReactTreeView'
+import DeniReactTreeView from '../../components/deni-react-treeview/DeniReactTreeView'
 
 storiesOf('Binding', module)
   .add('to a local JSON', () => <DeniReactTreeView json="./data/countries-by-continents.json" />)

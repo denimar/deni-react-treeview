@@ -8,14 +8,20 @@ class ActionButtons extends React.Component<ActionButtonsProps> {
     super(props)
   }
 
-  render() {
+  onClick(item, actionButton) {
+    debugger
+    console.log(this.props.onActionButtonClick)
+    alert('sdjçflsjdflkdsjflçkdsj')
+  }
 
+  render() {
     const actionButtons: JSX.Element[] = this.props.buttons.map((actionButton, index) => {
       return (
         <span
           key={index}
           className="action-button"
           onClick={ this.props.onActionButtonClick ? this.props.onActionButtonClick.bind(this, this.props.item, actionButton) : undefined}
+          // onClick={ this.onClick }
         >
           {actionButton}
         </span>

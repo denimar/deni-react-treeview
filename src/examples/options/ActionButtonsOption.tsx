@@ -6,11 +6,10 @@ const ActionButtonsOption: React.FC = () => {
 
   const onActionButtonClick = (item, actionButton) => {
     debugger
-    DEAL WITH THIS CLICK HERE ... NOT WORKING
     const buttonName = actionButton.type.name;
 
     switch (buttonName) {
-      case 'FaTrashO':
+      case 'FaTrash':
         alert('Action: trash, Item: ' + item.text);
         break;
       case 'FaEdit':
@@ -21,8 +20,8 @@ const ActionButtonsOption: React.FC = () => {
   }
 
   const actionButtons = [
-    (<FaTrash key={1} size="15" color="#ff704d" />),
-    (<FaEdit key={2} size="15" color="#245075" />)    
+    (<FaTrash key={1} size="15" color="#ff9980" />),
+    (<FaEdit key={2} size="15" color="#3679b0" />)    
   ];
 
   return (

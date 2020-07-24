@@ -108,6 +108,7 @@ const getClassIconAndText = (treeview, item, selectRow) => {
 const getInnerText = (treeview: DeniReactTreeView, item: any): JSX.Element => {
   if (treeview.props.actionButtons) {
       return (<ActionButtons 
+        onActionButtonClick={treeview.props.onActionButtonClick}
         buttons={treeview.props.actionButtons}       
         item={item}
       />)
