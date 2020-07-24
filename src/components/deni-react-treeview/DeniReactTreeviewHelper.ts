@@ -5,7 +5,7 @@ const loadingSetup = treeview => {
   //by props.url
   if (treeview.props.url || treeview.props.json || treeview.props.lazyLoad) {
     if (treeview.props.autoLoad !== false) {
-      treeview.api.load(treeview);
+      treeview.api.load();
     }
   } else {
     //by props.items

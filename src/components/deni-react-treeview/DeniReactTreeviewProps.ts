@@ -1,17 +1,19 @@
 import { CSSProperties } from "react";
+import DeniReactTreeView from "./DeniReactTreeView";
 
 export interface DeniReactTreeviewProps {
     className?: string,
     style?: CSSProperties,
+    actionButtons?: JSX.Element[], 
     autoLoad?: boolean,
     json?: string,
     items?: any[],
     lazyLoad?: boolean,
     expandAll?: boolean,
-    marginItems?: string | number
+    marginItems?: string | number,
     onAfterLoad?: void,
     onBeforeLoad?: void,
-    onRenderItem?: void,
+    onRenderItem?: (item: any, treeview: DeniReactTreeView) => JSX.Element;
     onSelectItem?: void,
     onCheckItem?: void,
     selectRow?: boolean,
@@ -20,4 +22,6 @@ export interface DeniReactTreeviewProps {
     showRoot?: boolean,
     theme?: string,
     url?: string,
+
+    onActionButtonClick?: (item: any, actionButton: any) => void;
 }

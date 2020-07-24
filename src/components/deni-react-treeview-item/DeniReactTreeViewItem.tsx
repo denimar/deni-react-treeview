@@ -19,14 +19,16 @@ import { DeniReactTreeviewItemProps } from './DeniReactTreeViewItemProps';
 class DeniReactTreeViewItem extends React.Component<DeniReactTreeviewItemProps> {
   constructor(props) {
     super(props);
+    this.state = { loading: false }
   }
 
   render() {
-    const { treeview, item, level, selectRow } = this.props
+    const { treeview, item, level } = this.props
+    const { selectRow, marginItems } = treeview.props
+    const marginItem = marginItems ? parseInt(marginItems.toString()) : 30
 
     const marginLeft = 5;
-    const marginLeftPropValue = treeview.props['marginItems'] || 30
-    const marginLeftItems: number = level === 0 ? 0 : (treeview.props['showRoot'] ? level * marginLeftPropValue : (level - 1) * marginLeftPropValue);
+    const marginLeftItems: number = level === 0 ? 0 : (treeview.props['showRoot'] ? level * marginItem : (level - 1) * marginItem);
     const cssStyle: any = {
       paddingLeft: (marginLeft + marginLeftItems) + 'px',
     }
@@ -39,11 +41,11 @@ class DeniReactTreeViewItem extends React.Component<DeniReactTreeviewItemProps> 
         style={cssStyle} 
         className={getClassItem(treeview, item, level, selectRow)} 
         onMouseDown={treeviewItemContainerMouseDown.bind(this, this.props.treeview, item, selectRow)} 
-        onDoubleClick={treeviewItemContainerDoubleClick.bind(this, treeviewItemExpandButtonMouseDown, this.props.treeview, selectRow)}
+        onDoubleClick={treeviewItemContainerDoubleClick.bind(this, treeviewItemExpandButtonMouseDown, this.props.treeview, this, selectRow)}
       >
         <div 
           className={getClassExpandButton(treeview, this, item)} 
-          onMouseDown={treeviewItemExpandButtonMouseDown.bind(this, this.props.treeview, item)}
+          onMouseDown={treeviewItemExpandButtonMouseDown.bind(this, this.props.treeview, this, item)}
         />
 
         <div 

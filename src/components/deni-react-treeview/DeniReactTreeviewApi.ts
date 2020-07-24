@@ -78,7 +78,7 @@ const deniReactTreeviewApi = scope => {
     //
     //
     //
-    load: load.bind(scope),
+    load: item => load(scope, item),  
 
     //
     //

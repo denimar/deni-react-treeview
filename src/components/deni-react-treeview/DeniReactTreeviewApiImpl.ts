@@ -200,6 +200,7 @@ function _selectNode(scope, item) {
     selectedItem: item,
   });
   setTimeout(() => {
+    debugger
     if (scope.container) {
       let selectedRowElem
       if (scope.props.selectRow) {

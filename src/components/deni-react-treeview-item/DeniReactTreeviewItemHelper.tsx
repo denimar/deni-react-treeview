@@ -1,6 +1,7 @@
 import React from 'react'
 import ActionButtons from "./action-buttons";
 import { CHECKBOX_STATE } from './DeniReactTreeviewItemConsts'
+import DeniReactTreeView from '../deni-react-treeview/DeniReactTreeView';
 
 const isSelected = (treeview, item) => {
   return treeview.state.selectedItem === item;
@@ -59,7 +60,7 @@ const getClassExpandButton = (treeview, treeviewItem, item) => {
       }
   }
 
-  if (treeviewItem.state && treeviewItem.state.loading) {
+  if (treeviewItem.state.loading) {
       classNames.push('loading');
   }
 
@@ -104,7 +105,7 @@ const getClassIconAndText = (treeview, item, selectRow) => {
   return classNames.join(' ');
 }
 
-const getInnerText = (treeview: any, item: any): JSX.Element => {
+const getInnerText = (treeview: DeniReactTreeView, item: any): JSX.Element => {
   if (treeview.props.actionButtons) {
       return (<ActionButtons 
         buttons={treeview.props.actionButtons}       
@@ -112,7 +113,7 @@ const getInnerText = (treeview: any, item: any): JSX.Element => {
       />)
   } else {
       if (treeview.props.onRenderItem) {
-          return treeview.props.onRenderItem(item, treeview);
+          return treeview.props.onRenderItem(item, treeview)
       } else {
           return item.text;
       }
@@ -140,7 +141,6 @@ const treeviewItemContainerDoubleClick = (treeviewItemExpandButtonMouseDown, tre
 }
 
 const treeviewItemContainerMouseDown = (treeview, item, selectRow, event) => {
-    debugger
   if (treeview.state.selectedItem !== item) {
       const target = event.target;
       const finishRoutine = function () {
@@ -169,16 +169,12 @@ const treeviewItemContainerMouseDown = (treeview, item, selectRow, event) => {
   }
 }
 
-const treeviewItemExpandButtonMouseDown = (treeview, item) => {
-    debugger
+const treeviewItemExpandButtonMouseDown = (treeview, treeviewItem, item) => {
   const conclusion = () => {
       item.expanded = !item.expanded;
-      treeview.setState({
-          selectedItem: item,
-      });
-      treeview.setState({
-          loading: false,
-      });
+      treeview.setState({ selectedItem: item });
+      treeview.setState({ loading: false });
+      treeviewItem.setState({ loading: false });
   };
   const resolveEventOnColapsed = () => {
       if (treeview.props.onColapsed) {
@@ -197,17 +193,16 @@ const treeviewItemExpandButtonMouseDown = (treeview, item) => {
   } else {
       if (treeview.props.lazyLoad) {
         treeview.setState({ loading: true });
-
-          if (treeview.props.lazyLoad && treeview.props.onLazyLoad) {
-              treeview.props.onLazyLoad(item, (children) => {
-                  treeview.api.loadData(treeview, children, item);
-                  conclusion();
-              });
-          } else {
-              treeview.api.load(treeview, item).then(function () {
-                  conclusion();
-              })
-          }
+        treeviewItem.setState({ loading: true });
+        
+        if (treeview.props.lazyLoad && treeview.props.onLazyLoad) {
+            treeview.props.onLazyLoad(item, (children) => {
+                treeview.api.loadData(treeview, children, item);
+                conclusion();
+            });
+        } else {
+            treeview.api.load(item).then(loadedData => conclusion())
+        }
 
       } else {
           conclusion();
