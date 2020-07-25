@@ -4,7 +4,7 @@ import DeniReactTreeView from '../../components/deni-react-treeview/DeniReactTre
 import OnRenderrItemsEvents from './OnRenderrItemsEvents'
 import OnBeforeLoadEvents from './OnBeforeLoadEvents'
 
-storiesOf('Events', module)  
+storiesOf('4 - Events', module)  
 .add('onRenderItem', () => <OnRenderrItemsEvents />)
 .add('onBeforeLoad', () => <OnBeforeLoadEvents />)
 .add('onAfterLoad', () => <DeniReactTreeView expandAll={true} url="https://denifakedata.herokuapp.com/tree/countries" />)

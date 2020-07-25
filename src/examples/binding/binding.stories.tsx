@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import DeniReactTreeView from '../../components/deni-react-treeview/DeniReactTreeView'
 
-storiesOf('Binding', module)
+storiesOf('0 - Binding', module)
   .add('to a local JSON', () => <DeniReactTreeView json="./data/countries-by-continents.json" />)
   .add('to a remote JSON', () => <DeniReactTreeView expandAll={true} url="https://denifakedata.herokuapp.com/tree/countries" />)
   .add('to a remote JSON (Lazy Load)', () => <DeniReactTreeView url="https://denifakedata.herokuapp.com/tree/countries" lazyLoad={ true } />)

@@ -5,7 +5,7 @@ import './theming-customizations.scss'
 
 const themes = [ 'classic', 'metro', 'moonlight', 'purple', 'green', 'orange', 'red', 'silver' ]
 
-storiesOf('Theming', module)  
+storiesOf('3 - Theming', module)  
   .add('Predefined Themes', () => <div>{ 
     themes.map((theme, index) => {
       return <DeniReactTreeView 
