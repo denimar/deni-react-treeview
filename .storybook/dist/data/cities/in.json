@@ -1,0 +1,1072 @@
+[
+  {
+    "url": "http://townofclearlake.org/",
+    "long": "-84.83",
+    "name": "Clear Lake",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.73"
+  },
+  {
+    "url": "http://www.city.west-lafayette.in.us/",
+    "long": "-86.9",
+    "name": "West Lafayette",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.42"
+  },
+  {
+    "url": "http://www.ci.south-bend.in.us/",
+    "long": "-86.25",
+    "name": "South Bend",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.68"
+  },
+  {
+    "url": "http://www.gohammond.com/web/",
+    "long": "-87.5",
+    "name": "Hammond",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.58"
+  },
+  {
+    "url": "http://www.westfield.in.gov/",
+    "long": "-86.12",
+    "name": "Westfield",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.04"
+  },
+  {
+    "url": "http://www.town.orleans.in.us/",
+    "long": "-86.45",
+    "name": "Orleans",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.66"
+  },
+  {
+    "url": "http://www.townofspeedway.org/",
+    "long": "-86.26",
+    "name": "Speedway",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.8"
+  },
+  {
+    "url": "http://www.alco.org/communities/westville/",
+    "long": "-86.9",
+    "name": "Westville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.54"
+  },
+  {
+    "url": "http://www.townofwhiteland.com/",
+    "long": "-86.07",
+    "name": "Whiteland",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.55"
+  },
+  {
+    "url": "http://www.columbiacity.net/",
+    "long": "-85.48",
+    "name": "Columbia City",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.15"
+  },
+  {
+    "url": "http://www.whitingindiana.com/",
+    "long": "-87.49",
+    "name": "Whiting",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.67"
+  },
+  {
+    "url": "http://www.columbus.in.gov/",
+    "long": "-85.92",
+    "name": "Columbus",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.2"
+  },
+  {
+    "url": "http://www.connersvillecommunity.com/",
+    "long": "-85.14",
+    "name": "Connersville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.64"
+  },
+  {
+    "url": "http://www.cityofanderson.com/",
+    "long": "-85.68",
+    "name": "Anderson",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.1"
+  },
+  {
+    "url": "http://www.winonalake.net/",
+    "long": "-85.82",
+    "name": "Winona Lake",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.22"
+  },
+  {
+    "url": "http://www.town.pendleton.in.us/",
+    "long": "-85.74",
+    "name": "Pendleton",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.99"
+  },
+  {
+    "url": "http://www.angolain.org/",
+    "long": "-84.99",
+    "name": "Angola",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.63"
+  },
+  {
+    "url": "http://www.hartfordcity.net/",
+    "long": "-85.36",
+    "name": "Hartford City",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.45"
+  },
+  {
+    "url": "http://www.lowell.net/",
+    "long": "-87.42",
+    "name": "Lowell",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.29"
+  },
+  {
+    "url": "http://www.crownpoint.in.gov/",
+    "long": "-87.36",
+    "name": "Crown Point",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.41"
+  },
+  {
+    "url": "http://www.town.cumberland.in.us/",
+    "long": "-85.95",
+    "name": "Cumberland",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.77"
+  },
+  {
+    "url": "http://www.ci.auburn.in.us/",
+    "long": "-85.05",
+    "name": "Auburn",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.36"
+  },
+  {
+    "url": "http://www.avongov.org/",
+    "long": "-86.39",
+    "name": "Avon",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.76"
+  },
+  {
+    "url": "http://www.syracusein.org/",
+    "long": "-85.75",
+    "name": "Syracuse",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.42"
+  },
+  {
+    "url": "http://www.danvilleindiana.org/",
+    "long": "-86.52",
+    "name": "Danville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.76"
+  },
+  {
+    "url": "http://www.cityofperu.org/",
+    "long": "-86.06",
+    "name": "Peru",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.75"
+  },
+  {
+    "url": "http://www.petersburg.in.gov/",
+    "long": "-87.27",
+    "name": "Petersburg",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.49"
+  },
+  {
+    "url": "http://www.terrehaute.in.gov/",
+    "long": "-87.41",
+    "name": "Terre Haute",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.46"
+  },
+  {
+    "url": "http://www.bedford.in.us/",
+    "long": "-86.48",
+    "name": "Bedford",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.86"
+  },
+  {
+    "url": "http://www.cityofdelphi.org/",
+    "long": "-86.67",
+    "name": "Delphi",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.58"
+  },
+  {
+    "url": "http://www.topekain.net/",
+    "long": "-85.53",
+    "name": "Topeka",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.53"
+  },
+  {
+    "url": "http://www.hudsontown.org/",
+    "long": "-85.08",
+    "name": "Hudson",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.53"
+  },
+  {
+    "url": "http://www.alco.org/communities/trailcreek/",
+    "long": "-86.85",
+    "name": "Trail Creek",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.69"
+  },
+  {
+    "url": "http://townofplainfield.com/",
+    "long": "-86.39",
+    "name": "Plainfield",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.7"
+  },
+  {
+    "url": "http://www.huntingburg-in.gov/",
+    "long": "-86.95",
+    "name": "Huntingburg",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.29"
+  },
+  {
+    "url": "http://www.huntington.in.us/",
+    "long": "-85.49",
+    "name": "Huntington",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.88"
+  },
+  {
+    "url": "http://www.duneacres.org/",
+    "long": "-87.08",
+    "name": "Dune Acres",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.64"
+  },
+  {
+    "url": "http://www.indy.gov",
+    "long": "-86.15",
+    "name": "Indianapolis",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.76"
+  },
+  {
+    "url": "http://www.townofdyer.com/",
+    "long": "-87.52",
+    "name": "Dyer",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.49"
+  },
+  {
+    "url": "http://www.bloomington.in.gov/",
+    "long": "-86.52",
+    "name": "Bloomington",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.16"
+  },
+  {
+    "url": "http://www.eastchicago.com/",
+    "long": "-87.45",
+    "name": "East Chicago",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.63"
+  },
+  {
+    "url": "http://www.mccordsville.org/",
+    "long": "-85.92",
+    "name": "McCordsville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.9"
+  },
+  {
+    "url": "http://www.ci.portage.in.us/",
+    "long": "-87.17",
+    "name": "Portage",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.57"
+  },
+  {
+    "url": "http://www.ci.bluffton.in.us/",
+    "long": "-85.17",
+    "name": "Bluffton",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.73"
+  },
+  {
+    "url": "http://www.townofporter.com/",
+    "long": "-87.07",
+    "name": "Porter",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.61"
+  },
+  {
+    "url": "http://www.meridianhills.org/",
+    "long": "-86.15",
+    "name": "Meridian Hills",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.89"
+  },
+  {
+    "url": "http://www.merrillville.in.gov/",
+    "long": "-87.33",
+    "name": "Merrillville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.48"
+  },
+  {
+    "url": "http://www.michianashores.com/",
+    "long": "-86.81",
+    "name": "Michiana Shores",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.75"
+  },
+  {
+    "url": "http://www.emichigancity.com/",
+    "long": "-86.89",
+    "name": "Michigan City",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.7"
+  },
+  {
+    "url": "http://www.elkhartindiana.org/",
+    "long": "-85.97",
+    "name": "Elkhart",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.68"
+  },
+  {
+    "url": "http://ellettsville.in.us/",
+    "long": "-86.62",
+    "name": "Ellettsville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.23"
+  },
+  {
+    "url": "http://www.middleburyin.org",
+    "long": "-85.7",
+    "name": "Middlebury",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.67"
+  },
+  {
+    "url": "http://www.elwoodindiana.org/",
+    "long": "-85.84",
+    "name": "Elwood",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.27"
+  },
+  {
+    "url": "http://www.brazil.in.gov/",
+    "long": "-87.12",
+    "name": "Brazil",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.52"
+  },
+  {
+    "url": "http://princeton-indiana.com/",
+    "long": "-87.56",
+    "name": "Princeton",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.35"
+  },
+  {
+    "url": "http://www.vanderburghgov.org/",
+    "long": "-87.55",
+    "name": "Evansville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "37.97"
+  },
+  {
+    "url": "http://www.ci.valparaiso.in.us/",
+    "long": "-87.06",
+    "name": "Valparaiso",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.47"
+  },
+  {
+    "url": "http://www.mishawakacity.com/",
+    "long": "-86.15",
+    "name": "Mishawaka",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.66"
+  },
+  {
+    "url": "http://www.brownsburg.org/",
+    "long": "-86.39",
+    "name": "Brownsburg",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.84"
+  },
+  {
+    "url": "http://www.jasperindiana.gov",
+    "long": "-86.93",
+    "name": "Jasper",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.39"
+  },
+  {
+    "url": "http://www.fishers.in.us/",
+    "long": "-86.01",
+    "name": "Fishers",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.95"
+  },
+  {
+    "url": "http://www.townofflora.org",
+    "long": "-86.52",
+    "name": "Flora",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.54"
+  },
+  {
+    "url": "http://www.burnsharborindiana.com/",
+    "long": "-87.13",
+    "name": "Burns Harbor",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.62"
+  },
+  {
+    "url": "http://www.butler.in.us/",
+    "long": "-84.87",
+    "name": "Butler",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.42"
+  },
+  {
+    "url": "http://www.ci.ft-wayne.in.us/",
+    "long": "-85.12",
+    "name": "Fort Wayne",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.13"
+  },
+  {
+    "url": "http://www.ci.richmond.in.us/",
+    "long": "-84.89",
+    "name": "Richmond",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.82"
+  },
+  {
+    "url": "http://www.townoffowler.com/",
+    "long": "-87.32",
+    "name": "Fowler",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.61"
+  },
+  {
+    "url": "http://www.vincennes.org/",
+    "long": "-87.52",
+    "name": "Vincennes",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.67"
+  },
+  {
+    "url": "http://www.cityofwabash.org/",
+    "long": "-85.82",
+    "name": "Wabash",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.79"
+  },
+  {
+    "url": "http://www.cityoffrankfort.net/",
+    "long": "-86.51",
+    "name": "Frankfort",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.27"
+  },
+  {
+    "url": "http://www.franklin-in.gov/",
+    "long": "-86.05",
+    "name": "Franklin",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.48"
+  },
+  {
+    "url": "http://www.rochester.in.us/",
+    "long": "-86.21",
+    "name": "Rochester",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.06"
+  },
+  {
+    "url": "http://www.walkerton.org/",
+    "long": "-86.48",
+    "name": "Walkerton",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.46"
+  },
+  {
+    "url": "http://www.ci.carmel.in.us/",
+    "long": "-86.11",
+    "name": "Carmel",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.97"
+  },
+  {
+    "url": "http://www.townofmorocco.com/",
+    "long": "-87.45",
+    "name": "Morocco",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.94"
+  },
+  {
+    "url": "http://www.warsawcity.net/",
+    "long": "-85.85",
+    "name": "Warsaw",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.23"
+  },
+  {
+    "url": "http://www.washingtonin.us/",
+    "long": "-87.17",
+    "name": "Washington",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.65"
+  },
+  {
+    "url": "http://www.cityofmuncie.com/",
+    "long": "-85.38",
+    "name": "Muncie",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.19"
+  },
+  {
+    "url": "http://www.cityofrushville.com/",
+    "long": "-85.44",
+    "name": "Rushville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.6"
+  },
+  {
+    "url": "http://www.ci.munster.in.us/",
+    "long": "-87.51",
+    "name": "Munster",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.56"
+  },
+  {
+    "url": "http://www.townofnashville.org/",
+    "long": "-86.25",
+    "name": "Nashville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.2"
+  },
+  {
+    "url": "http://www.garrettindiana.us/",
+    "long": "-85.13",
+    "name": "Garrett",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.34"
+  },
+  {
+    "url": "http://www.gary.in.us/",
+    "long": "-87.34",
+    "name": "Gary",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.59"
+  },
+  {
+    "url": "http://www.cityofnewalbany.com/",
+    "long": "-85.82",
+    "name": "New Albany",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.28"
+  },
+  {
+    "url": "http://www.stjohnin.com/",
+    "long": "-87.47",
+    "name": "Saint John",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.45"
+  },
+  {
+    "url": "http://www.newhavenin.org/",
+    "long": "-85.01",
+    "name": "New Haven",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.07"
+  },
+  {
+    "url": "http://www.ci.goshen.in.us/",
+    "long": "-85.83",
+    "name": "Goshen",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.58"
+  },
+  {
+    "url": "http://www.cityofknox.net/",
+    "long": "-86.62",
+    "name": "Knox",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.29"
+  },
+  {
+    "url": "http://www.newburgh.org/",
+    "long": "-87.4",
+    "name": "Newburgh",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "37.94"
+  },
+  {
+    "url": "http://www.cityofkokomo.org/",
+    "long": "-86.13",
+    "name": "Kokomo",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.48"
+  },
+  {
+    "url": "http://www.ci.schererville.in.us/",
+    "long": "-87.45",
+    "name": "Schererville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.47"
+  },
+  {
+    "url": "http://www.city.lafayette.in.us/",
+    "long": "-86.87",
+    "name": "Lafayette",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.41"
+  },
+  {
+    "url": "http://www.chestertonin.org/",
+    "long": "-87.06",
+    "name": "Chesterton",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.61"
+  },
+  {
+    "url": "http://www.churubusco.net/",
+    "long": "-85.31",
+    "name": "Churubusco",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.23"
+  },
+  {
+    "url": "http://www.cityofnoblesville.org/",
+    "long": "-86",
+    "name": "Noblesville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.04"
+  },
+  {
+    "url": "http://www.lakestation.in.gov/",
+    "long": "-87.23",
+    "name": "Lake Station",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.57"
+  },
+  {
+    "url": "http://www.seymourcity.com/",
+    "long": "-85.89",
+    "name": "Seymour",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.95"
+  },
+  {
+    "url": "http://www.nmanchester.org/",
+    "long": "-85.76",
+    "name": "North Manchester",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41"
+  },
+  {
+    "url": "http://town.clarksville.in.us/",
+    "long": "-85.75",
+    "name": "Clarksville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "38.29"
+  },
+  {
+    "url": "http://www.greenfieldin.org/",
+    "long": "-85.76",
+    "name": "Greenfield",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.78"
+  },
+  {
+    "url": "http://www.cityoflaporte.com/",
+    "long": "-86.72",
+    "name": "LaPorte",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.61"
+  },
+  {
+    "url": "http://www.cityofshelbyvillein.com/",
+    "long": "-85.77",
+    "name": "Shelbyville",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.52"
+  },
+  {
+    "url": "http://www.shipshewana.org/",
+    "long": "-85.58",
+    "name": "Shipshewana",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.67"
+  },
+  {
+    "url": "http://www.cityoflawrence.org/",
+    "long": "-86.02",
+    "name": "Lawrence",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.83"
+  },
+  {
+    "url": "http://www.greenwood.in.gov/",
+    "long": "-86.1",
+    "name": "Greenwood",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "39.61"
+  },
+  {
+    "url": "http://www.crownpoint.in.gov/",
+    "long": "-87.42",
+    "name": "Griffith",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "41.52"
+  },
+  {
+    "url": "http://www.bccn.boone.in.us/lebanon/",
+    "long": "-86.46",
+    "name": "Lebanon",
+    "state": {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    "lat": "40.04"
+  }
+]

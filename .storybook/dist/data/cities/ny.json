@@ -1,0 +1,1872 @@
+[
+  {
+    "url": "http://www.scarsdale.com/",
+    "long": "-73.78",
+    "name": "Scarsdale",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41"
+  },
+  {
+    "url": "http://www.norwichnewyork.net/",
+    "long": "-75.52",
+    "name": "Norwich",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.53"
+  },
+  {
+    "url": "http://www.ci.white-plains.ny.us/",
+    "long": "-73.76",
+    "name": "White Plains",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.03"
+  },
+  {
+    "url": "http://www.villageoflawrence.org/",
+    "long": "-73.72",
+    "name": "Lawrence",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.61"
+  },
+  {
+    "url": "http://www.cedarhurst.gov/",
+    "long": "-73.72",
+    "name": "Cedarhurst",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.62"
+  },
+  {
+    "url": "http://www.village.whitesboro.ny.us/",
+    "long": "-75.29",
+    "name": "Whitesboro",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.12"
+  },
+  {
+    "url": "http://www.nyack-ny.gov/",
+    "long": "-73.91",
+    "name": "Nyack",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.09"
+  },
+  {
+    "url": "http://www.oakfield.govoffice.com/",
+    "long": "-78.26",
+    "name": "Oakfield",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.06"
+  },
+  {
+    "url": "http://www.franklinvilleny.org/",
+    "long": "-78.45",
+    "name": "Franklinville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.33"
+  },
+  {
+    "url": "http://www.villageofoceanbeach.org/",
+    "long": "-73.15",
+    "name": "Ocean Beach",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.64"
+  },
+  {
+    "url": "http://village.williamsville.ny.us/",
+    "long": "-78.73",
+    "name": "Williamsville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.96"
+  },
+  {
+    "url": "http://www.freeportny.com/",
+    "long": "-73.58",
+    "name": "Freeport",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.65"
+  },
+  {
+    "url": "http://www.ogdensburg.org/",
+    "long": "-75.48",
+    "name": "Ogdensburg",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "44.69"
+  },
+  {
+    "url": "http://www.oldfieldny.org/",
+    "long": "-73.12",
+    "name": "Old Field",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.95"
+  },
+  {
+    "url": "http://www.cityofolean.com/",
+    "long": "-78.42",
+    "name": "Olean",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.07"
+  },
+  {
+    "url": "http://www.wilsonnewyork.com/",
+    "long": "-78.82",
+    "name": "Wilson",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.3"
+  },
+  {
+    "url": "http://www.cityoffulton.com/",
+    "long": "-76.41",
+    "name": "Fulton",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.32"
+  },
+  {
+    "url": "http://www.ci.oneida.ny.us/",
+    "long": "-75.65",
+    "name": "Oneida",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.09"
+  },
+  {
+    "url": "http://townofliberty.org/villagegovt.htm",
+    "long": "-74.74",
+    "name": "Liberty",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.8"
+  },
+  {
+    "url": "http://www.oneonta.ny.us/",
+    "long": "-75.06",
+    "name": "Oneonta",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.45"
+  },
+  {
+    "url": "http://www.gardencityny.net/",
+    "long": "-73.63",
+    "name": "Garden City",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.72"
+  },
+  {
+    "url": "http://www.villageoflindenhurst.com/",
+    "long": "-73.37",
+    "name": "Lindenhurst",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.68"
+  },
+  {
+    "url": "http://www.orchardparkny.org/",
+    "long": "-78.74",
+    "name": "Orchard Park",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.76"
+  },
+  {
+    "url": "http://www.erie.gov/AKRON/",
+    "long": "-78.49",
+    "name": "Akron",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.02"
+  },
+  {
+    "url": "http://www.albanyny.org/",
+    "long": "-73.75",
+    "name": "Albany",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.65"
+  },
+  {
+    "url": "http://chittenango.org/",
+    "long": "-75.86",
+    "name": "Chittenango",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.04"
+  },
+  {
+    "url": "http://www.geneseony.org/",
+    "long": "-77.81",
+    "name": "Geneseo",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.79"
+  },
+  {
+    "url": "http://www.churchville.net/",
+    "long": "-77.88",
+    "name": "Churchville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.1"
+  },
+  {
+    "url": "http://www.geneva.ny.us/",
+    "long": "-76.97",
+    "name": "Geneva",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.86"
+  },
+  {
+    "url": "http://www.sherrillny.org/",
+    "long": "-75.59",
+    "name": "Sherrill",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.07"
+  },
+  {
+    "url": "http://www.yonkersny.gov/",
+    "long": "-73.89",
+    "name": "Yonkers",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.93"
+  },
+  {
+    "url": "http://www.villageofliverpool.org/",
+    "long": "-76.21",
+    "name": "Liverpool",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.1"
+  },
+  {
+    "url": "http://www.villageofossining.org/",
+    "long": "-73.86",
+    "name": "Ossining",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.16"
+  },
+  {
+    "url": "http://www.oswegony.org/",
+    "long": "-76.51",
+    "name": "Oswego",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.45"
+  },
+  {
+    "url": "http://www.alfredny.org/",
+    "long": "-77.79",
+    "name": "Alfred",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.25"
+  },
+  {
+    "url": "http://www.allegany.org/",
+    "long": "-78.49",
+    "name": "Allegany",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.09"
+  },
+  {
+    "url": "http://www.villageofskaneateles.com/",
+    "long": "-76.42",
+    "name": "Skaneateles",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.94"
+  },
+  {
+    "url": "http://www.elockport.com/",
+    "long": "-78.69",
+    "name": "Lockport",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.17"
+  },
+  {
+    "url": "http://www.villageofotisville.com/",
+    "long": "-74.53",
+    "name": "Otisville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.47"
+  },
+  {
+    "url": "http://www.glencove-li.com/",
+    "long": "-73.63",
+    "name": "Glen Cove",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.86"
+  },
+  {
+    "url": "http://www.longbeachny.org/",
+    "long": "-73.65",
+    "name": "Long Beach",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.58"
+  },
+  {
+    "url": "http://www.cityofglensfalls.com/",
+    "long": "-73.64",
+    "name": "Glens Falls",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.3"
+  },
+  {
+    "url": "http://www.cityofgloversville.com/",
+    "long": "-74.34",
+    "name": "Gloversville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.05"
+  },
+  {
+    "url": "http://www.townofclinton.com/",
+    "long": "-75.37",
+    "name": "Clinton",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.04"
+  },
+  {
+    "url": "http://www.soduspoint.info/",
+    "long": "-76.98",
+    "name": "Sodus Point",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.27"
+  },
+  {
+    "url": "http://www.amityville.com/",
+    "long": "-73.41",
+    "name": "Amityville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.67"
+  },
+  {
+    "url": "http://www.cobleskill.org/",
+    "long": "-74.48",
+    "name": "Cobleskill",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.67"
+  },
+  {
+    "url": "http://www.palmyrany.com/",
+    "long": "-77.23",
+    "name": "Palmyra",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.06"
+  },
+  {
+    "url": "http://www.cohoes.com/",
+    "long": "-73.7",
+    "name": "Cohoes",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.77"
+  },
+  {
+    "url": "http://www.greatneckvillage.org/",
+    "long": "-73.72",
+    "name": "Great Neck",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.8"
+  },
+  {
+    "url": "http://www.greatneckplaza.net/",
+    "long": "-73.72",
+    "name": "Great Neck Plaza",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.78"
+  },
+  {
+    "url": "http://www.southamptonvillage.org/",
+    "long": "-72.38",
+    "name": "Southampton",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.88"
+  },
+  {
+    "url": "http://www.patchoguevillage.org/",
+    "long": "-73.01",
+    "name": "Patchogue",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.76"
+  },
+  {
+    "url": "http://www.villageofarcade.org/",
+    "long": "-78.42",
+    "name": "Arcade",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.53"
+  },
+  {
+    "url": "http://www.colonie.org/",
+    "long": "-73.83",
+    "name": "Colonie",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.71"
+  },
+  {
+    "url": "http://www.ardsleyvillage.com/",
+    "long": "-73.84",
+    "name": "Ardsley",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.01"
+  },
+  {
+    "url": "http://www.malvernevillage.org/",
+    "long": "-73.67",
+    "name": "Malverne",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.67"
+  },
+  {
+    "url": "http://www.cityofpeekskill.com/",
+    "long": "-73.92",
+    "name": "Peekskill",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.29"
+  },
+  {
+    "url": "http://www.pelhamny.com/",
+    "long": "-73.8",
+    "name": "Pelham",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.9"
+  },
+  {
+    "url": "http://www.village.mamaroneck.ny.us/",
+    "long": "-73.73",
+    "name": "Mamaroneck",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.94"
+  },
+  {
+    "url": "http://www.pelhammanor.org/",
+    "long": "-73.8",
+    "name": "Pelham Manor",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.89"
+  },
+  {
+    "url": "http://www.villagespringvalley.org/",
+    "long": "-74.04",
+    "name": "Spring Valley",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.11"
+  },
+  {
+    "url": "http://www.manliusvillage.org/",
+    "long": "-75.97",
+    "name": "Manlius",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43"
+  },
+  {
+    "url": "http://www.villageofperry.com/",
+    "long": "-78",
+    "name": "Perry",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.71"
+  },
+  {
+    "url": "http://www.stamfordny.com/",
+    "long": "-74.61",
+    "name": "Stamford",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.4"
+  },
+  {
+    "url": "http://attica.org/",
+    "long": "-78.28",
+    "name": "Attica",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.86"
+  },
+  {
+    "url": "http://www.ci.auburn.ny.us/",
+    "long": "-76.56",
+    "name": "Auburn",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.93"
+  },
+  {
+    "url": "http://www.villageofcorinthny.com/",
+    "long": "-73.83",
+    "name": "Corinth",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.24"
+  },
+  {
+    "url": "http://village.marcellusny.com/",
+    "long": "-76.34",
+    "name": "Marcellus",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.98"
+  },
+  {
+    "url": "http://www.phelpsny.com/",
+    "long": "-77.05",
+    "name": "Phelps",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.95"
+  },
+  {
+    "url": "http://www.cortland.org/",
+    "long": "-76.18",
+    "name": "Cortland",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.6"
+  },
+  {
+    "url": "http://www.villagehamburg.com/",
+    "long": "-78.82",
+    "name": "Hamburg",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.71"
+  },
+  {
+    "url": "http://www.townofbabylon.com/",
+    "long": "-73.32",
+    "name": "Babylon",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.69"
+  },
+  {
+    "url": "http://www.ci.massapequa-park.ny.us/",
+    "long": "-73.45",
+    "name": "Massapequa Park",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.68"
+  },
+  {
+    "url": "http://www.massenaworks.com/",
+    "long": "-74.89",
+    "name": "Massena",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "44.92"
+  },
+  {
+    "url": "http://www.coxsackie.org/",
+    "long": "-73.8",
+    "name": "Coxsackie",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.35"
+  },
+  {
+    "url": "http://www.matinecockvillage.org/",
+    "long": "-73.57",
+    "name": "Matinecock",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.87"
+  },
+  {
+    "url": "http://www.suffernvillage.com/",
+    "long": "-74.14",
+    "name": "Suffern",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.11"
+  },
+  {
+    "url": "http://www.villageofmaybrook.com/",
+    "long": "-74.21",
+    "name": "Maybrook",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.48"
+  },
+  {
+    "url": "http://village.croton-on-hudson.ny.us/",
+    "long": "-73.89",
+    "name": "Croton-on-Hudson",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.2"
+  },
+  {
+    "url": "http://villageofpittsford.org/",
+    "long": "-77.51",
+    "name": "Pittsford",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.09"
+  },
+  {
+    "url": "http://www.syracuse.ny.us/",
+    "long": "-76.14",
+    "name": "Syracuse",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.04"
+  },
+  {
+    "url": "http://www.mechanicville.com/",
+    "long": "-73.68",
+    "name": "Mechanicville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.9"
+  },
+  {
+    "url": "http://villagemedina.org/",
+    "long": "-78.38",
+    "name": "Medina",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.22"
+  },
+  {
+    "url": "http://www.villageofmenands.com/",
+    "long": "-73.72",
+    "name": "Menands",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.69"
+  },
+  {
+    "url": "http://www.batavianewyork.com/",
+    "long": "-78.18",
+    "name": "Batavia",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.99"
+  },
+  {
+    "url": "http://dansvilleny.org/",
+    "long": "-77.69",
+    "name": "Dansville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.56"
+  },
+  {
+    "url": "http://www.town.harrison.ny.us/",
+    "long": "-73.71",
+    "name": "Harrison",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.96"
+  },
+  {
+    "url": "http://www.pleasantville-ny.gov/",
+    "long": "-73.79",
+    "name": "Pleasantville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.13"
+  },
+  {
+    "url": "http://www.cityofbeacon.org/",
+    "long": "-73.96",
+    "name": "Beacon",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.5"
+  },
+  {
+    "url": "http://www.hastingsgov.org/",
+    "long": "-73.87",
+    "name": "Hastings-on-Hudson",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.99"
+  },
+  {
+    "url": "http://www.middletown-ny.com/",
+    "long": "-74.42",
+    "name": "Middletown",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.44"
+  },
+  {
+    "url": "http://www.ci.tonawanda.ny.us/",
+    "long": "-78.88",
+    "name": "City of Tonawanda",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.01"
+  },
+  {
+    "url": "http://www.bellportvillage.org/",
+    "long": "-72.93",
+    "name": "Bellport",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.75"
+  },
+  {
+    "url": "http://co.cayuga.ny.us/portbyron/",
+    "long": "-76.62",
+    "name": "Port Byron",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.03"
+  },
+  {
+    "url": "http://www.portchesterny.com/",
+    "long": "-73.66",
+    "name": "Port Chester",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41"
+  },
+  {
+    "url": "http://www.troyny.gov/",
+    "long": "-73.69",
+    "name": "Troy",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.72"
+  },
+  {
+    "url": "http://www.villageofhempstead.org/",
+    "long": "-73.61",
+    "name": "Hempstead",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.7"
+  },
+  {
+    "url": "http://www.trumansburg-ny.gov/",
+    "long": "-76.66",
+    "name": "Trumansburg",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.54"
+  },
+  {
+    "url": "http://www.portjeff.com/",
+    "long": "-73.06",
+    "name": "Port Jefferson",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.94"
+  },
+  {
+    "url": "http://portjervisny.org/",
+    "long": "-74.69",
+    "name": "Port Jervis",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.37"
+  },
+  {
+    "url": "http://www.tuckahoe.com/",
+    "long": "-73.82",
+    "name": "Tuckahoe",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.95"
+  },
+  {
+    "url": "http://www.villageofdepew.org/",
+    "long": "-78.69",
+    "name": "Depew",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.9"
+  },
+  {
+    "url": "http://www.cityofbinghamton.com/",
+    "long": "-75.91",
+    "name": "Binghamton",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.09"
+  },
+  {
+    "url": "http://www.cityofpoughkeepsie.com/",
+    "long": "-73.92",
+    "name": "Poughkeepsie",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.7"
+  },
+  {
+    "url": "http://www.monroeny.org/",
+    "long": "-74.18",
+    "name": "Monroe",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.33"
+  },
+  {
+    "url": "http://www.dobbsferry.com/",
+    "long": "-73.87",
+    "name": "Dobbs Ferry",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.01"
+  },
+  {
+    "url": "http://www.hillburn.org/",
+    "long": "-74.16",
+    "name": "Hillburn",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.12"
+  },
+  {
+    "url": "http://www.hiltonny.org/",
+    "long": "-77.79",
+    "name": "Hilton",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.28"
+  },
+  {
+    "url": "http://co.cayuga.ny.us/unionsprings/",
+    "long": "-76.69",
+    "name": "Union Springs",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.83"
+  },
+  {
+    "url": "http://www.dryden-ny.org/",
+    "long": "-76.29",
+    "name": "Dryden",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.49"
+  },
+  {
+    "url": "http://www.villageofmonticello.com/",
+    "long": "-74.68",
+    "name": "Monticello",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.65"
+  },
+  {
+    "url": "http://www.village.holland-patent.ny.us/",
+    "long": "-75.25",
+    "name": "Holland Patent",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.24"
+  },
+  {
+    "url": "http://www.cityofutica.com/",
+    "long": "-75.23",
+    "name": "Utica",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.1"
+  },
+  {
+    "url": "http://www.village.boonville.ny.us/",
+    "long": "-75.33",
+    "name": "Boonville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.48"
+  },
+  {
+    "url": "http://co.cayuga.ny.us/villageofmoravia/",
+    "long": "-76.42",
+    "name": "Moravia",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.71"
+  },
+  {
+    "url": "http://www.east-aurora.ny.us/",
+    "long": "-78.61",
+    "name": "East Aurora",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.76"
+  },
+  {
+    "url": "http://www.cityofhornell.com/",
+    "long": "-77.66",
+    "name": "Hornell",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.32"
+  },
+  {
+    "url": "http://www.town.east-hampton.ny.us/",
+    "long": "-72.18",
+    "name": "East Hampton",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.96"
+  },
+  {
+    "url": "http://www.redhook.org/",
+    "long": "-73.87",
+    "name": "Red Hook",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.99"
+  },
+  {
+    "url": "http://www.horseheads.org/",
+    "long": "-76.82",
+    "name": "Horseheads",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.16"
+  },
+  {
+    "url": "http://www.villageofeasthills.org/",
+    "long": "-73.62",
+    "name": "East Hills",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.79"
+  },
+  {
+    "url": "http://www.villageofmountmorris.com/",
+    "long": "-77.87",
+    "name": "Mount Morris",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.72"
+  },
+  {
+    "url": "http://www.ci.mount-vernon.ny.us/",
+    "long": "-73.83",
+    "name": "Mount Vernon",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.91"
+  },
+  {
+    "url": "http://www.victorny.org/",
+    "long": "-77.4",
+    "name": "Victor",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.98"
+  },
+  {
+    "url": "http://www.villageofeastrockaway.org/",
+    "long": "-73.66",
+    "name": "East Rockaway",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.64"
+  },
+  {
+    "url": "http://eastwilliston.org/",
+    "long": "-73.63",
+    "name": "East Williston",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.75"
+  },
+  {
+    "url": "http://brockportny.org/",
+    "long": "-77.93",
+    "name": "Brockport",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.21"
+  },
+  {
+    "url": "http://villageofbronxville.com/",
+    "long": "-73.83",
+    "name": "Bronxville",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.93"
+  },
+  {
+    "url": "http://www.ilionny.com/",
+    "long": "-75.03",
+    "name": "Ilion",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.01"
+  },
+  {
+    "url": "http://www.villageofelbridge.com/",
+    "long": "-76.44",
+    "name": "Elbridge",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.03"
+  },
+  {
+    "url": "http://www.villageofbuchanan.org/",
+    "long": "-73.93",
+    "name": "Buchanan",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.26"
+  },
+  {
+    "url": "http://www.ci.buffalo.ny.us/",
+    "long": "-78.87",
+    "name": "Buffalo",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.88"
+  },
+  {
+    "url": "http://www.irvingtonny.gov/",
+    "long": "-73.867",
+    "name": "Village of Irvington",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.0391"
+  },
+  {
+    "url": "http://www.cityofrochester.gov/",
+    "long": "-77.61",
+    "name": "Rochester",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.15"
+  },
+  {
+    "url": "http://www.newhartfordtown.com/",
+    "long": "-75.28",
+    "name": "New Hartford",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.07"
+  },
+  {
+    "url": "http://www.rvcny.us/",
+    "long": "-73.64",
+    "name": "Rockville Centre",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.65"
+  },
+  {
+    "url": "http://www.ci.ithaca.ny.us/",
+    "long": "-76.49",
+    "name": "Ithaca",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.44"
+  },
+  {
+    "url": "http://www.vnhp.org/",
+    "long": "-73.68",
+    "name": "New Hyde Park",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.73"
+  },
+  {
+    "url": "http://www.romenewyork.com/",
+    "long": "-75.45",
+    "name": "Rome",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.21"
+  },
+  {
+    "url": "http://www.ci.elmira.ny.us/",
+    "long": "-76.8",
+    "name": "Elmira",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.08"
+  },
+  {
+    "url": "http://www.villageofnewpaltz.org/",
+    "long": "-74.08",
+    "name": "New Paltz",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.74"
+  },
+  {
+    "url": "http://www.newrochelleny.com/",
+    "long": "-73.78",
+    "name": "New Rochelle",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.91"
+  },
+  {
+    "url": "http://www.waterfordny.org/",
+    "long": "-73.68",
+    "name": "Waterford",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.79"
+  },
+  {
+    "url": "http://www.elmsfordny.org/",
+    "long": "-73.82",
+    "name": "Elmsford",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.05"
+  },
+  {
+    "url": "http://www.citywatertown.org/",
+    "long": "-75.91",
+    "name": "Watertown",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.97"
+  },
+  {
+    "url": "http://www.johnsoncityny.org/",
+    "long": "-75.95",
+    "name": "Johnson City",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.11"
+  },
+  {
+    "url": "http://www.nyc.gov/",
+    "long": "-74",
+    "name": "New York",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.71"
+  },
+  {
+    "url": "http://www.roundlakevillage.org/",
+    "long": "-73.78",
+    "name": "Round Lake",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.93"
+  },
+  {
+    "url": "http://www.watervliet.com/",
+    "long": "-73.7",
+    "name": "Watervliet",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.73"
+  },
+  {
+    "url": "http://www.cityofjohnstown-ny.com/",
+    "long": "-74.36",
+    "name": "Johnstown",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43"
+  },
+  {
+    "url": "http://www.schohariecounty-ny.gov/CountyWebSite/",
+    "long": "-74.25",
+    "name": "Esperance",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.76"
+  },
+  {
+    "url": "http://www.cityofnewburgh-ny.gov",
+    "long": "-74.01",
+    "name": "Newburgh",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.5"
+  },
+  {
+    "url": "http://canandaigua.govoffice.com/",
+    "long": "-77.28",
+    "name": "Canandaigua",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.87"
+  },
+  {
+    "url": "http://co.cayuga.ny.us/fairhaven/",
+    "long": "-76.7",
+    "name": "Fair Haven",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.31"
+  },
+  {
+    "url": "http://www.villageofkenmore.org/",
+    "long": "-78.87",
+    "name": "Kenmore",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.96"
+  },
+  {
+    "url": "http://www.ryeny.gov/",
+    "long": "-73.68",
+    "name": "Rye",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.98"
+  },
+  {
+    "url": "http://www.canastota.com/",
+    "long": "-75.75",
+    "name": "Canastota",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.07"
+  },
+  {
+    "url": "http://www.ci.webster.ny.us/",
+    "long": "-77.42",
+    "name": "Webster",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.21"
+  },
+  {
+    "url": "http://www.ryebrook.org/",
+    "long": "-73.68",
+    "name": "Rye Brook",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.01"
+  },
+  {
+    "url": "http://co.cayuga.ny.us/weedsport/",
+    "long": "-76.56",
+    "name": "Weedsport",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.04"
+  },
+  {
+    "url": "http://www.saddlerock.org/",
+    "long": "-73.74",
+    "name": "Saddle Rock",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.79"
+  },
+  {
+    "url": "http://www.farmingdalevillage.com/",
+    "long": "-73.44",
+    "name": "Farmingdale",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.73"
+  },
+  {
+    "url": "http://www.niagarafallsusa.org/",
+    "long": "-79.05",
+    "name": "Niagara Falls",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.09"
+  },
+  {
+    "url": "http://www.village.canton.ny.us/",
+    "long": "-75.16",
+    "name": "Canton",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "44.59"
+  },
+  {
+    "url": "http://www.ci.kingston.ny.us/",
+    "long": "-73.99",
+    "name": "Kingston",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "41.92"
+  },
+  {
+    "url": "http://www.villageofwestcarthage.org/",
+    "long": "-75.61",
+    "name": "West Carthage",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.97"
+  },
+  {
+    "url": "http://www.ci.lackawanna.ny.us/",
+    "long": "-78.82",
+    "name": "Lackawanna",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.82"
+  },
+  {
+    "url": "http://www.saltaire.org/",
+    "long": "-73.19",
+    "name": "Saltaire",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.63"
+  },
+  {
+    "url": "http://www.sandspoint.org/",
+    "long": "-73.71",
+    "name": "Sands Point",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.85"
+  },
+  {
+    "url": "http://www.fpvillage.org/",
+    "long": "-73.7",
+    "name": "Floral Park",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.72"
+  },
+  {
+    "url": "http://www.villageofwestbury.org/",
+    "long": "-73.58",
+    "name": "Westbury",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.75"
+  },
+  {
+    "url": "http://www.villageflowerhill.com/",
+    "long": "-73.68",
+    "name": "Flower Hill",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.8"
+  },
+  {
+    "url": "http://www.westhamptonbeach.org/",
+    "long": "-72.61",
+    "name": "Westhampton Beach",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.8"
+  },
+  {
+    "url": "http://www.lancastervillage.org/",
+    "long": "-78.67",
+    "name": "Lancaster",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.9"
+  },
+  {
+    "url": "http://www.northsyracuse.org/",
+    "long": "-76.12",
+    "name": "North Syracuse",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.13"
+  },
+  {
+    "url": "http://www.saratoga-springs.org/",
+    "long": "-73.78",
+    "name": "Saratoga Springs",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "43.08"
+  },
+  {
+    "url": "http://www.villageofcatskill.net/",
+    "long": "-73.86",
+    "name": "Catskill",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.21"
+  },
+  {
+    "url": "http://www.vlansing.org/",
+    "long": "-76.47",
+    "name": "Lansing",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.48"
+  },
+  {
+    "url": "http://www.saugerties.ny.us",
+    "long": "-73.95",
+    "name": "Saugerties",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.07"
+  },
+  {
+    "url": "http://www.ci.larchmont.ny.us/",
+    "long": "-73.75",
+    "name": "Larchmont",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.92"
+  },
+  {
+    "url": "http://co.cayuga.ny.us/cayugavil/",
+    "long": "-76.72",
+    "name": "Cayuga",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.91"
+  },
+  {
+    "url": "http://www.geneva.ny.us/",
+    "long": "-76.97",
+    "name": "Geneva",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "42.86"
+  },
+  {
+    "url": "http://www.nyc.gov/",
+    "long": "-74",
+    "name": "New York",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.71"
+  },
+  {
+    "url": "http://www.nyc.gov/",
+    "long": "-74",
+    "name": "New York",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.71"
+  },
+  {
+    "url": "http://www.nyc.gov/",
+    "long": "-74",
+    "name": "New York",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.71"
+  },
+  {
+    "url": "http://www.nyc.gov/",
+    "long": "-74",
+    "name": "New York",
+    "state": {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    "lat": "40.71"
+  }
+]

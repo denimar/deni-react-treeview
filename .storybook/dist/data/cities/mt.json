@@ -1,0 +1,142 @@
+[
+  {
+    "url": "http://www.anacondamt.org/",
+    "long": "-112.94",
+    "name": "Anaconda",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "46.12"
+  },
+  {
+    "url": "http://www.ci.belgrade.mt.us/",
+    "long": "-111.17",
+    "name": "Belgrade",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "45.77"
+  },
+  {
+    "url": "http://ci.billings.mt.us/",
+    "long": "-108.5",
+    "name": "Billings",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "45.78"
+  },
+  {
+    "url": "http://www.bozeman.net/",
+    "long": "-111.03",
+    "name": "Bozeman",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "45.67"
+  },
+  {
+    "url": "http://co.silverbow.mt.us/",
+    "long": "-112.53",
+    "name": "Butte",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "46"
+  },
+  {
+    "url": "http://www.greatfallsmt.net/",
+    "long": "-111.3",
+    "name": "Great Falls",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "47.5"
+  },
+  {
+    "url": "http://www.cityofhamilton.net/",
+    "long": "-114.16",
+    "name": "Hamilton",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "46.24"
+  },
+  {
+    "url": "http://www.ci.havre.mt.us/",
+    "long": "-109.68",
+    "name": "Havre",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "48.54"
+  },
+  {
+    "url": "http://www.ci.helena.mt.us/",
+    "long": "-112.03",
+    "name": "Helena",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "46.59"
+  },
+  {
+    "url": "http://www.kalispell.com/",
+    "long": "-114.31",
+    "name": "Kalispell",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "48.19"
+  },
+  {
+    "url": "http://www.mylaurel.com/",
+    "long": "-108.77",
+    "name": "Laurel",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "45.66"
+  },
+  {
+    "url": "http://www.cityoflibby.com/",
+    "long": "-115.55",
+    "name": "Libby",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "48.38"
+  },
+  {
+    "url": "http://www.ci.missoula.mt.us/",
+    "long": "-113.99",
+    "name": "Missoula",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "46.87"
+  },
+  {
+    "url": "http://www.shelbymt.com/",
+    "long": "-111.85",
+    "name": "Shelby",
+    "state": {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    "lat": "48.5"
+  }
+]

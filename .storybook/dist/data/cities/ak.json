@@ -1,0 +1,282 @@
+[
+  {
+    "url": "http://www.muni.org/",
+    "long": "-149.9",
+    "name": "Anchorage",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "61.21"
+  },
+  {
+    "url": "http://www.cityofbethel.org/",
+    "long": "-161.7558333",
+    "name": "Bethel",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "60.7922222"
+  },
+  {
+    "url": "http://www.coffmancove.org/",
+    "long": "-132.82",
+    "name": "Coffman Cove",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "56.01"
+  },
+  {
+    "url": "http://www.biglake-ak.com/",
+    "long": "-145.75",
+    "name": "Cordova",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "60.54"
+  },
+  {
+    "url": "http://www.craigak.com/",
+    "long": "-133.1483333",
+    "name": "Craig",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "55.4763889"
+  },
+  {
+    "url": "http://www.ci.delta-junction.ak.us/",
+    "long": "-145.73",
+    "name": "Delta Junction",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "64.03"
+  },
+  {
+    "url": "http://www.ci.dillingham.ak.us/",
+    "long": "-158.4575",
+    "name": "Dillingham",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "59.0397222"
+  },
+  {
+    "url": "http://www.ci.fairbanks.ak.us/",
+    "long": "-147.71",
+    "name": "Fairbanks",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "64.83"
+  },
+  {
+    "url": "http://www.haines.ak.us/",
+    "long": "-135.44",
+    "name": "Haines",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "59.23"
+  },
+  {
+    "url": "http://www.ci.homer.ak.us/",
+    "long": "-151.54",
+    "name": "Homer",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "59.64"
+  },
+  {
+    "url": "http://www.juneau.org/",
+    "long": "-134.41",
+    "name": "Juneau",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "58.3"
+  },
+  {
+    "url": "http://www.kaktovik.com/",
+    "long": "-143.6238889",
+    "name": "Kaktovik",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "70.1319444"
+  },
+  {
+    "url": "http://www.ci.kenai.ak.us/",
+    "long": "-151.25",
+    "name": "Kenai",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "60.55"
+  },
+  {
+    "url": "http://www.city.ketchikan.ak.us/",
+    "long": "-131.64",
+    "name": "Ketchikan",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "55.34"
+  },
+  {
+    "url": "http://www.city.kodiak.ak.us/",
+    "long": "-152.4",
+    "name": "Kodiak",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "57.79"
+  },
+  {
+    "url": "http://kotzpdweb.tripod.com/",
+    "long": "-162.5966667",
+    "name": "Kotzebue",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "66.8983333"
+  },
+  {
+    "url": "http://www.nomealaska.org/",
+    "long": "-165.4",
+    "name": "Nome",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "64.5"
+  },
+  {
+    "url": "http://www.northpolealaska.com/",
+    "long": "-147.34",
+    "name": "North Pole",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "64.75"
+  },
+  {
+    "url": "http://www.pelican.net/",
+    "long": "-136.2275",
+    "name": "Pelican",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "57.9608333"
+  },
+  {
+    "url": "http://www.ci.petersburg.ak.us/",
+    "long": "-132.95",
+    "name": "Petersburg",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "56.81"
+  },
+  {
+    "url": "http://www.cityofseldovia.com/",
+    "long": "-151.7113889",
+    "name": "Seldovia",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "59.4380556"
+  },
+  {
+    "url": "http://www.cityofsitka.com/",
+    "long": "-135.33",
+    "name": "Sitka",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "57.05"
+  },
+  {
+    "url": "http://www.skagway.org/",
+    "long": "-135.31",
+    "name": "Skagway",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "59.45"
+  },
+  {
+    "url": "http://www.ci.soldotna.ak.us/",
+    "long": "-151.05",
+    "name": "Soldotna",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "60.48"
+  },
+  {
+    "url": "http://www.ci.unalaska.ak.us/",
+    "long": "-166.5366667",
+    "name": "Unalaska",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "53.8736111"
+  },
+  {
+    "url": "http://www.ci.valdez.ak.us/",
+    "long": "-146.34",
+    "name": "Valdez",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "61.13"
+  },
+  {
+    "url": "http://www.cityofwasilla.com/",
+    "long": "-149.43",
+    "name": "Wasilla",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "61.58"
+  },
+  {
+    "url": "http://www.wrangell.com/",
+    "long": "-132.37",
+    "name": "Wrangell",
+    "state": {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    "lat": "56.47"
+  }
+]

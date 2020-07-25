@@ -1,0 +1,592 @@
+[
+  {
+    "url": "http://www.newportky.gov/",
+    "long": "-84.49",
+    "name": "Newport",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.09"
+  },
+  {
+    "url": "http://www.bgky.org/",
+    "long": "-86.44",
+    "name": "Bowling Green",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "36.99"
+  },
+  {
+    "url": "http://www.brandenburgky.org/",
+    "long": "-86.16",
+    "name": "Brandenburg",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.99"
+  },
+  {
+    "url": "http://www.olivehill.ky.gov/",
+    "long": "-83.17",
+    "name": "Olive Hill",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.3"
+  },
+  {
+    "url": "http://www.owensboro.org/",
+    "long": "-87.11",
+    "name": "Owensboro",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.77"
+  },
+  {
+    "url": "http://www.ci.paducah.ky.us/",
+    "long": "-88.6",
+    "name": "Paducah",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.08"
+  },
+  {
+    "url": "http://www.campbellsville.com/",
+    "long": "-85.34",
+    "name": "Campbellsville",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.34"
+  },
+  {
+    "url": "http://www.carrolltonky.net/",
+    "long": "-85.17",
+    "name": "Carrollton",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.68"
+  },
+  {
+    "url": "http://www.prospectky.com/",
+    "long": "-85.61",
+    "name": "Prospect",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.34"
+  },
+  {
+    "url": "http://www.radcliff.org/",
+    "long": "-85.94",
+    "name": "Radcliff",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.84"
+  },
+  {
+    "url": "http://www.richmond.ky.us/",
+    "long": "-84.29",
+    "name": "Richmond",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.74"
+  },
+  {
+    "url": "http://www.covingtonky.com/",
+    "long": "-84.5",
+    "name": "Covington",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.08"
+  },
+  {
+    "url": "http://www.crescent-springs.ky.us/",
+    "long": "-84.58",
+    "name": "Crescent Springs",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.05"
+  },
+  {
+    "url": "http://www.stregispark.com/",
+    "long": "-85.61",
+    "name": "Saint Regis Park",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.22"
+  },
+  {
+    "url": "http://www.crestviewhills.com/",
+    "long": "-84.58",
+    "name": "Crestview Hills",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.02"
+  },
+  {
+    "url": "http://www.sciencehill-ky.gov/",
+    "long": "-84.63",
+    "name": "Science Hill",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.17"
+  },
+  {
+    "url": "http://www.danvilleky.org/",
+    "long": "-84.77",
+    "name": "Danville",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.64"
+  },
+  {
+    "url": "http://www.daytonky.com/",
+    "long": "-84.47",
+    "name": "Dayton",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.11"
+  },
+  {
+    "url": "http://www.shelbyvillekentucky.com/",
+    "long": "-85.22",
+    "name": "Shelbyville",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.21"
+  },
+  {
+    "url": "http://shepherdsville.net/",
+    "long": "-85.71",
+    "name": "Shepherdsville",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.98"
+  },
+  {
+    "url": "http://www.cityofsomerset.com/",
+    "long": "-84.6",
+    "name": "Somerset",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.09"
+  },
+  {
+    "url": "http://www.elktonky.com/",
+    "long": "-87.15",
+    "name": "Elkton",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "36.81"
+  },
+  {
+    "url": "http://www.friendshipcity.com/",
+    "long": "-84.6",
+    "name": "Erlanger",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.01"
+  },
+  {
+    "url": "http://www.springfieldky.org/",
+    "long": "-85.22",
+    "name": "Springfield",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.68"
+  },
+  {
+    "url": "http://www.cityofflorenceky.com/",
+    "long": "-84.62",
+    "name": "Florence",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.99"
+  },
+  {
+    "url": "http://www.fortmitchell.com/",
+    "long": "-84.54",
+    "name": "Fort Mitchell",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.05"
+  },
+  {
+    "url": "http://www.ftthomas.org/",
+    "long": "-84.44",
+    "name": "Fort Thomas",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.07"
+  },
+  {
+    "url": "http://www.fortwright.com/",
+    "long": "-84.53",
+    "name": "Fort Wright",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.05"
+  },
+  {
+    "url": "http://cityofunionky.org/",
+    "long": "-84.68",
+    "name": "Union",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.94"
+  },
+  {
+    "url": "http://www.frankfort.ky.gov/",
+    "long": "-84.87",
+    "name": "Frankfort",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.2"
+  },
+  {
+    "url": "http://www.cityoffranklin.com/",
+    "long": "-86.57",
+    "name": "Franklin",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "36.72"
+  },
+  {
+    "url": "http://www.versaillesky.com/",
+    "long": "-84.72",
+    "name": "Versailles",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.05"
+  },
+  {
+    "url": "http://www.cityofwalton.org/",
+    "long": "-84.61",
+    "name": "Walton",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.87"
+  },
+  {
+    "url": "http://www.cityofwarsawky.org/",
+    "long": "-84.9",
+    "name": "Warsaw",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.78"
+  },
+  {
+    "url": "http://www.cityofglasgow.org/",
+    "long": "-85.91",
+    "name": "Glasgow",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "36.99"
+  },
+  {
+    "url": "http://www.cityofwestliberty.com/",
+    "long": "-83.25",
+    "name": "West Liberty",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.92"
+  },
+  {
+    "url": "http://www.graysonky.net/",
+    "long": "-82.94",
+    "name": "Grayson",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.33"
+  },
+  {
+    "url": "http://www.greensburgonline.com/",
+    "long": "-85.49",
+    "name": "Greensburg",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.26"
+  },
+  {
+    "url": "http://www.guthrieky.com/",
+    "long": "-87.16",
+    "name": "Guthrie",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "36.64"
+  },
+  {
+    "url": "http://www.wtownky.org/",
+    "long": "-84.56",
+    "name": "Williamstown",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.63"
+  },
+  {
+    "url": "http://www.winchesterky.com/",
+    "long": "-84.17",
+    "name": "Winchester",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.99"
+  },
+  {
+    "url": "http://www.cityofhazard.com/",
+    "long": "-83.19",
+    "name": "Hazard",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.24"
+  },
+  {
+    "url": "http://www.hoptown.org/",
+    "long": "-87.48",
+    "name": "Hopkinsville",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "36.86"
+  },
+  {
+    "url": "http://www.cityofindependence.org/",
+    "long": "-84.54",
+    "name": "Independence",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.94"
+  },
+  {
+    "url": "http://www.jeffersontownky.com/",
+    "long": "-85.56",
+    "name": "Jeffersontown",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.19"
+  },
+  {
+    "url": "http://www.cityofjenkinsky.com/",
+    "long": "-82.63",
+    "name": "Jenkins",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.17"
+  },
+  {
+    "url": "http://www.lebanonky.org/",
+    "long": "-85.25",
+    "name": "Lebanon",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.56"
+  },
+  {
+    "url": "http://www.leitchfield.org/",
+    "long": "-86.29",
+    "name": "Leitchfield",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.48"
+  },
+  {
+    "url": "http://www.lfucg.com/",
+    "long": "-84.47",
+    "name": "Lexington",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.98"
+  },
+  {
+    "url": "http://www.louisvilleky.gov/",
+    "long": "-85.75",
+    "name": "Louisville",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.25"
+  },
+  {
+    "url": "http://www.ludlow.org/",
+    "long": "-84.54",
+    "name": "Ludlow",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.09"
+  },
+  {
+    "url": "http://www.madisonvillegov.com/",
+    "long": "-87.49",
+    "name": "Madisonville",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.32"
+  },
+  {
+    "url": "http://www.cityofmayfield.org/",
+    "long": "-88.63",
+    "name": "Mayfield",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "36.74"
+  },
+  {
+    "url": "http://www.cityofmaysville.com/",
+    "long": "-83.74",
+    "name": "Maysville",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.64"
+  },
+  {
+    "url": "http://www.ashlandky.org/",
+    "long": "-82.63",
+    "name": "Ashland",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.47"
+  },
+  {
+    "url": "http://www.cityofbardstown.org/",
+    "long": "-85.46",
+    "name": "Bardstown",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "37.8"
+  },
+  {
+    "url": "http://bellefonte.ky.gov/",
+    "long": "-82.69",
+    "name": "Bellefonte",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "38.49"
+  },
+  {
+    "url": "http://www.murrayky.gov/",
+    "long": "-88.31",
+    "name": "Murray",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "36.61"
+  },
+  {
+    "url": "http://www.bellevueky.org/",
+    "long": "-84.47",
+    "name": "Bellevue",
+    "state": {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    "lat": "39.1"
+  }
+]

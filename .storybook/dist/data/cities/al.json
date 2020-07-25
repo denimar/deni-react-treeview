@@ -1,0 +1,1182 @@
+[
+  {
+    "url": "http://townofdauphinisland.org/",
+    "long": "-88.1",
+    "name": "Dauphin Island",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.25"
+  },
+  {
+    "url": "http://www.digitaldecatur.com/",
+    "long": "-86.98",
+    "name": "Decatur",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.6"
+  },
+  {
+    "url": "http://www.demopolisal.com/",
+    "long": "-87.83",
+    "name": "Demopolis",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.51"
+  },
+  {
+    "url": "http://www.robertsdale.org/",
+    "long": "-87.71",
+    "name": "Robertsdale",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.55"
+  },
+  {
+    "url": "http://www.dothan.org/",
+    "long": "-85.39",
+    "name": "Dothan",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.22"
+  },
+  {
+    "url": "http://www.russellvillegov.org/",
+    "long": "-87.72",
+    "name": "Russellville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.5"
+  },
+  {
+    "url": "http://www.saraland.org/",
+    "long": "-88.07",
+    "name": "Saraland",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.82"
+  },
+  {
+    "url": "http://www.elbaalabama.net/",
+    "long": "-86.06",
+    "name": "Elba",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.41"
+  },
+  {
+    "url": "http://www.sardiscity.com/",
+    "long": "-86.12",
+    "name": "Sardis City",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.17"
+  },
+  {
+    "url": "http://www.cityofsatsuma.com/",
+    "long": "-88.05",
+    "name": "Satsuma",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.85"
+  },
+  {
+    "url": "http://www.cityofscottsboro.org/",
+    "long": "-86.03",
+    "name": "Scottsboro",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.67"
+  },
+  {
+    "url": "http://www.selmaalabama.com/",
+    "long": "-87.02",
+    "name": "Selma",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.4"
+  },
+  {
+    "url": "http://www.sheffieldalabama.org/",
+    "long": "-87.69",
+    "name": "Sheffield",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.76"
+  },
+  {
+    "url": "http://www.cityofenterprise.net/",
+    "long": "-85.85",
+    "name": "Enterprise",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.31"
+  },
+  {
+    "url": "http://www.shorteralabama.com/",
+    "long": "-85.91",
+    "name": "Shorter",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.39"
+  },
+  {
+    "url": "http://www.eufaulaalabama.com/",
+    "long": "-85.14",
+    "name": "Eufaula",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.89"
+  },
+  {
+    "url": "http://www.cofairhope.com/",
+    "long": "-87.9",
+    "name": "Fairhope",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.52"
+  },
+  {
+    "url": "http://cityoffayette.org/",
+    "long": "-87.83",
+    "name": "Fayette",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.68"
+  },
+  {
+    "url": "http://www.florenceal.org/",
+    "long": "-87.67",
+    "name": "Florence",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.79"
+  },
+  {
+    "url": "http://www.summerdalealabama.com/",
+    "long": "-87.69",
+    "name": "Summerdale",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.48"
+  },
+  {
+    "url": "http://www.cityoffoley.org/",
+    "long": "-87.68",
+    "name": "Foley",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.4"
+  },
+  {
+    "url": "http://www.sylacauga.net/",
+    "long": "-86.25",
+    "name": "Sylacauga",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.17"
+  },
+  {
+    "url": "http://fortdeposit.info/",
+    "long": "-86.57",
+    "name": "Fort Deposit",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.98"
+  },
+  {
+    "url": "http://www.fortpayne.org/",
+    "long": "-85.71",
+    "name": "Fort Payne",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.44"
+  },
+  {
+    "url": "http://www.talladega.com/",
+    "long": "-86.1",
+    "name": "Talladega",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.43"
+  },
+  {
+    "url": "http://www.tallasseechamber.com",
+    "long": "-85.89",
+    "name": "Tallassee",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.53"
+  },
+  {
+    "url": "http://www.fultondale.com/",
+    "long": "-86.79",
+    "name": "Fultondale",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.6"
+  },
+  {
+    "url": "http://www.cityofgadsden.com/",
+    "long": "-86",
+    "name": "Gadsden",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.01"
+  },
+  {
+    "url": "http://www.thomasvilleal.com/",
+    "long": "-87.73",
+    "name": "Thomasville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.91"
+  },
+  {
+    "url": "http://www.cityofgardendale.com/",
+    "long": "-86.81",
+    "name": "Gardendale",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.66"
+  },
+  {
+    "url": "http://www.troyalabama.com/",
+    "long": "-85.96",
+    "name": "Troy",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.8"
+  },
+  {
+    "url": "http://www.trussville.org/",
+    "long": "-86.6",
+    "name": "Trussville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.61"
+  },
+  {
+    "url": "http://www.ci.tuscaloosa.al.us/",
+    "long": "-87.56",
+    "name": "Tuscaloosa",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.2"
+  },
+  {
+    "url": "http://www.tuskegeealabama.org/",
+    "long": "-85.69",
+    "name": "Tuskegee",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.42"
+  },
+  {
+    "url": "http://www.unionspringsalabama.com/",
+    "long": "-85.71",
+    "name": "Union Springs",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.14"
+  },
+  {
+    "url": "http://www.uniontownal.org/",
+    "long": "-87.51",
+    "name": "Uniontown",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.44"
+  },
+  {
+    "url": "http://www.cityofvalley.com/",
+    "long": "-85.17",
+    "name": "Valley",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.81"
+  },
+  {
+    "url": "http://www.grantalabama.com/",
+    "long": "-86.25",
+    "name": "Grant",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.52"
+  },
+  {
+    "url": "http://www.vernon.siteblast.com/",
+    "long": "-88.1",
+    "name": "Vernon",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.75"
+  },
+  {
+    "url": "http://www.vestaviahills.net/",
+    "long": "-86.78",
+    "name": "Vestavia Hills",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.44"
+  },
+  {
+    "url": "http://www.guinal.org/",
+    "long": "-87.91",
+    "name": "Guin",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.96"
+  },
+  {
+    "url": "http://www.gulfshoresal.gov/",
+    "long": "-87.7",
+    "name": "Gulf Shores",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.24"
+  },
+  {
+    "url": "http://www.guntersvilleal.org/",
+    "long": "-86.29",
+    "name": "Guntersville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.35"
+  },
+  {
+    "url": "http://www.cityofhamilton.org/",
+    "long": "-87.98",
+    "name": "Hamilton",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.14"
+  },
+  {
+    "url": "http://www.hartselle.org/",
+    "long": "-86.93",
+    "name": "Hartselle",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.44"
+  },
+  {
+    "url": "http://www.cityofwetumpka.com/",
+    "long": "-86.21",
+    "name": "Wetumpka",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.54"
+  },
+  {
+    "url": "http://www.winfieldcity.org/",
+    "long": "-87.81",
+    "name": "Winfield",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.92"
+  },
+  {
+    "url": "http://www.cityofheflin.org/",
+    "long": "-85.58",
+    "name": "Heflin",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.64"
+  },
+  {
+    "url": "http://www.cityofhelena.org/",
+    "long": "-86.84",
+    "name": "Helena",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.29"
+  },
+  {
+    "url": "http://www.homewoodal.net/",
+    "long": "-86.8",
+    "name": "Homewood",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.47"
+  },
+  {
+    "url": "http://www.hooveral.org/",
+    "long": "-86.81",
+    "name": "Hoover",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.4"
+  },
+  {
+    "url": "http://www.hueytown.org/",
+    "long": "-86.99",
+    "name": "Hueytown",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.45"
+  },
+  {
+    "url": "http://www.hsvcity.org/",
+    "long": "-86.58",
+    "name": "Huntsville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.73"
+  },
+  {
+    "url": "http://www.cityofirondale.org/",
+    "long": "-86.7",
+    "name": "Irondale",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.53"
+  },
+  {
+    "url": "http://www.jacksonville-al.org/",
+    "long": "-85.76",
+    "name": "Jacksonville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.81"
+  },
+  {
+    "url": "http://www.jaspercity.com/",
+    "long": "-87.27",
+    "name": "Jasper",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.83"
+  },
+  {
+    "url": "http://www.leedsalabama.com/",
+    "long": "-86.54",
+    "name": "Leeds",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.54"
+  },
+  {
+    "url": "http://www.leesburg-al.org/",
+    "long": "-85.76",
+    "name": "Leesburg",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.17"
+  },
+  {
+    "url": "http://www.lincolnalabama.com/",
+    "long": "-86.11",
+    "name": "Lincoln",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.61"
+  },
+  {
+    "url": "http://www.cityoflineville.com/",
+    "long": "-85.75",
+    "name": "Lineville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.31"
+  },
+  {
+    "url": "http://www.ci.livingston.al.us/",
+    "long": "-88.18",
+    "name": "Livingston",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.58"
+  },
+  {
+    "url": "http://www.cityofabbeville.org/",
+    "long": "-85.25",
+    "name": "Abbeville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.57"
+  },
+  {
+    "url": "http://www.luverne.org/",
+    "long": "-86.26",
+    "name": "Luverne",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.71"
+  },
+  {
+    "url": "http://www.cityofalabaster.com/",
+    "long": "-86.81",
+    "name": "Alabaster",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.24"
+  },
+  {
+    "url": "http://www.alexandercityonline.com/",
+    "long": "-85.95",
+    "name": "Alexander City",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.94"
+  },
+  {
+    "url": "http://www.ci.madison.al.us/",
+    "long": "-86.74",
+    "name": "Madison",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.69"
+  },
+  {
+    "url": "http://www.cityofandalusia.com/",
+    "long": "-86.48",
+    "name": "Andalusia",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.3"
+  },
+  {
+    "url": "http://www.marionalabama.org/",
+    "long": "-87.31",
+    "name": "Marion",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.63"
+  },
+  {
+    "url": "http://www.ci.anniston.al.us/",
+    "long": "-85.83",
+    "name": "Anniston",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.65"
+  },
+  {
+    "url": "http://www.arabcity.org/",
+    "long": "-86.49",
+    "name": "Arab",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.31"
+  },
+  {
+    "url": "http://www.cityofashland.net/",
+    "long": "-85.83",
+    "name": "Ashland",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.27"
+  },
+  {
+    "url": "http://www.athensal.us",
+    "long": "-86.97",
+    "name": "Athens",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.8"
+  },
+  {
+    "url": "http://www.cityofmillbrook.org/",
+    "long": "-86.36",
+    "name": "Millbrook",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.47"
+  },
+  {
+    "url": "http://www.cityofattalla.com/",
+    "long": "-86.08",
+    "name": "Attalla",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.02"
+  },
+  {
+    "url": "http://www.auburnalabama.org/",
+    "long": "-85.48",
+    "name": "Auburn",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.6"
+  },
+  {
+    "url": "http://www.cityofmobile.org/",
+    "long": "-88.04",
+    "name": "Mobile",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.69"
+  },
+  {
+    "url": "http://www.monroecountyal.com/",
+    "long": "-87.32",
+    "name": "Monroeville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.52"
+  },
+  {
+    "url": "http://www.cityofmontevallo.com/",
+    "long": "-86.86",
+    "name": "Montevallo",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.1"
+  },
+  {
+    "url": "http://www.montgomeryal.gov/",
+    "long": "-86.29",
+    "name": "Montgomery",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.36"
+  },
+  {
+    "url": "http://www.baileyton-al.com/",
+    "long": "-86.61",
+    "name": "Baileyton",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.26"
+  },
+  {
+    "url": "http://www.cityofbayminette.org/",
+    "long": "-87.77",
+    "name": "Bay Minette",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.88"
+  },
+  {
+    "url": "http://eagle382.tripod.com/",
+    "long": "-87.2",
+    "name": "Beatrice",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.73"
+  },
+  {
+    "url": "http://www.mtnbrook.org/",
+    "long": "-86.75",
+    "name": "Mountain Brook",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.5"
+  },
+  {
+    "url": "http://www.cityofmuscleshoals.com/",
+    "long": "-87.66",
+    "name": "Muscle Shoals",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.74"
+  },
+  {
+    "url": "http://www.bessemeral.org/",
+    "long": "-86.95",
+    "name": "Bessemer",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.4"
+  },
+  {
+    "url": "http://www.informationbirmingham.com/",
+    "long": "-86.8",
+    "name": "Birmingham",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.52"
+  },
+  {
+    "url": "http://www.cityofboaz.org/",
+    "long": "-86.16",
+    "name": "Boaz",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.2"
+  },
+  {
+    "url": "http://www.townofbrantley.com/",
+    "long": "-86.25",
+    "name": "Brantley",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.58"
+  },
+  {
+    "url": "http://www.cityofbrewton.org/",
+    "long": "-87.07",
+    "name": "Brewton",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.1"
+  },
+  {
+    "url": "http://www.bridgeportal.org/",
+    "long": "-85.71",
+    "name": "Bridgeport",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.94"
+  },
+  {
+    "url": "http://www.cityofnorthport.org/",
+    "long": "-87.57",
+    "name": "Northport",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.22"
+  },
+  {
+    "url": "http://www.brookwoodalabama.com/",
+    "long": "-87.32",
+    "name": "Brookwood",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.25"
+  },
+  {
+    "url": "http://www.brundidge.org/",
+    "long": "-85.81",
+    "name": "Brundidge",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.72"
+  },
+  {
+    "url": "http://www.cityofcalera.org/",
+    "long": "-86.75",
+    "name": "Calera",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.1"
+  },
+  {
+    "url": "http://www.opelika.org/",
+    "long": "-85.37",
+    "name": "Opelika",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.64"
+  },
+  {
+    "url": "http://www.cityoforangebeach.com/",
+    "long": "-87.57",
+    "name": "Orange Beach",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.29"
+  },
+  {
+    "url": "http://www.cedarbluff-al.org/",
+    "long": "-85.6",
+    "name": "Cedar Bluff",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.22"
+  },
+  {
+    "url": "http://www.oxfordalabama.org/",
+    "long": "-85.83",
+    "name": "Oxford",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.61"
+  },
+  {
+    "url": "http://www.ozarkalabama.us/ozark/",
+    "long": "-85.64",
+    "name": "Ozark",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.45"
+  },
+  {
+    "url": "http://www.cityofcentre.org/",
+    "long": "-85.67",
+    "name": "Centre",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.15"
+  },
+  {
+    "url": "http://www.pelhamonline.com/",
+    "long": "-86.8",
+    "name": "Pelham",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.28"
+  },
+  {
+    "url": "http://www.cityofpellcity.com/",
+    "long": "-86.28",
+    "name": "Pell City",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.58"
+  },
+  {
+    "url": "http://www.childersburg.org/",
+    "long": "-86.35",
+    "name": "Childersburg",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.27"
+  },
+  {
+    "url": "http://www.phenixcityal.us/",
+    "long": "-85",
+    "name": "Phenix City",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.47"
+  },
+  {
+    "url": "http://www.cityofcitronelle.com/",
+    "long": "-88.22",
+    "name": "Citronelle",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.09"
+  },
+  {
+    "url": "http://www.clanton.al.us/",
+    "long": "-86.62",
+    "name": "Clanton",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.83"
+  },
+  {
+    "url": "http://www.piedmontcity.org/",
+    "long": "-85.61",
+    "name": "Piedmont",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.92"
+  },
+  {
+    "url": "http://www.collinsvillealabama.net/",
+    "long": "-85.86",
+    "name": "Collinsville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.26"
+  },
+  {
+    "url": "http://www.cityofcolumbiana.com/",
+    "long": "-86.6",
+    "name": "Columbiana",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.17"
+  },
+  {
+    "url": "http://www.prattvilleal.gov/",
+    "long": "-86.45",
+    "name": "Prattville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.46"
+  },
+  {
+    "url": "http://www.courtlandalabama.com/",
+    "long": "-87.3",
+    "name": "Courtland",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.66"
+  },
+  {
+    "url": "http://www.rbcalabama.com/",
+    "long": "-86.04",
+    "name": "Rainbow City",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "33.95"
+  },
+  {
+    "url": "http://www.crossvillealabama.com/",
+    "long": "-85.99",
+    "name": "Crossville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.28"
+  },
+  {
+    "url": "http://www.cullmancity.org/",
+    "long": "-86.84",
+    "name": "Cullman",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "34.17"
+  },
+  {
+    "url": "http://www.dalevilleal.com/",
+    "long": "-85.71",
+    "name": "Daleville",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.31"
+  },
+  {
+    "url": "http://www.daphneal.com/",
+    "long": "-87.9",
+    "name": "Daphne",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "30.6"
+  },
+  {
+    "url": "http://www.rehobethalabama.com/",
+    "long": "-85.45",
+    "name": "Rehobeth",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "31.12"
+  },
+  {
+    "url": "http://www.tallasseechamber.com",
+    "long": "-85.89",
+    "name": "Tallassee",
+    "state": {
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    "lat": "32.53"
+  }
+]

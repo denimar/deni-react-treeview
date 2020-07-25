@@ -1,0 +1,252 @@
+[
+  {
+    "url": "http://www.bridgeportct.gov/",
+    "long": "-73.2",
+    "name": "Bridgeport",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.16"
+  },
+  {
+    "url": "http://www.ci.bristol.ct.us/",
+    "long": "-72.94",
+    "name": "Bristol",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.67"
+  },
+  {
+    "url": "http://www.ci.danbury.ct.us/",
+    "long": "-73.45",
+    "name": "Danbury",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.39"
+  },
+  {
+    "url": "http://www.electronicvalley.org/derby/",
+    "long": "-73.08",
+    "name": "Derby",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.32"
+  },
+  {
+    "url": "http://www.town.groton.ct.us/",
+    "long": "-72.07",
+    "name": "Groton",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.35"
+  },
+  {
+    "url": "http://www.hartford.gov/",
+    "long": "-72.68",
+    "name": "Hartford",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.76"
+  },
+  {
+    "url": "http://www.munic.state.ct.us/LITCHFIELD/",
+    "long": "-73.18",
+    "name": "Litchfield",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.74"
+  },
+  {
+    "url": "http://www.cityofmeriden.org/",
+    "long": "-72.8",
+    "name": "Meriden",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.53"
+  },
+  {
+    "url": "http://www.cityofmiddletown.com/",
+    "long": "-72.65",
+    "name": "Middletown",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.56"
+  },
+  {
+    "url": "http://www.ci.milford.ct.us/",
+    "long": "-73.05",
+    "name": "Milford",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.22"
+  },
+  {
+    "url": "http://www.naugatuckonline.com/",
+    "long": "-73.05",
+    "name": "Naugatuck",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.48"
+  },
+  {
+    "url": "http://www.newbritainct.gov/",
+    "long": "-72.77",
+    "name": "New Britain",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.66"
+  },
+  {
+    "url": "http://www.cityofnewhaven.com/",
+    "long": "-72.92",
+    "name": "New Haven",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.3"
+  },
+  {
+    "url": "http://www.ci.new-london.ct.us/",
+    "long": "-72.09",
+    "name": "New London",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.35"
+  },
+  {
+    "url": "http://www.newtown-ct.gov/",
+    "long": "-73.3",
+    "name": "Newtown",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.41"
+  },
+  {
+    "url": "http://www.norwalkct.org/",
+    "long": "-73.4",
+    "name": "Norwalk",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.11"
+  },
+  {
+    "url": "http://www.norwichct.org/",
+    "long": "-72.07",
+    "name": "Norwich",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.52"
+  },
+  {
+    "url": "http://www.electronicvalley.org/shelton/",
+    "long": "-73.09",
+    "name": "Shelton",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.31"
+  },
+  {
+    "url": "http://www.cityofstamford.org/",
+    "long": "-73.53",
+    "name": "Stamford",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.05"
+  },
+  {
+    "url": "http://www.borough.stonington.ct.us/",
+    "long": "-71.9",
+    "name": "Stonington",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.33"
+  },
+  {
+    "url": "http://www.torringtonct.org/",
+    "long": "-73.12",
+    "name": "Torrington",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.8"
+  },
+  {
+    "url": "http://www.waterburyct.org/",
+    "long": "-73.05",
+    "name": "Waterbury",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.55"
+  },
+  {
+    "url": "http://www.cityofwesthaven.com/",
+    "long": "-72.94",
+    "name": "West Haven",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.27"
+  },
+  {
+    "url": "http://www.munic.state.ct.us/ANSONIA/",
+    "long": "-73.07",
+    "name": "Ansonia",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.34"
+  },
+  {
+    "url": "http://www.hartford.gov/",
+    "long": "-72.68",
+    "name": "Hartford",
+    "state": {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    "lat": "41.76"
+  }
+]
