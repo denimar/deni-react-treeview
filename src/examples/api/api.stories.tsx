@@ -4,7 +4,7 @@ import AddItemAndSubitemApi from './AddItemAndSubitemApi'
 import RemoveItemApi from './RemoveItemApi'
 import ExampleUnderConstruction from '../ExampleUnderConstruction'
 
-storiesOf('2 - Api', module)
+storiesOf('Api', module)
   .add('addItem and subitem', () => <AddItemAndSubitemApi /> )
   .add('remove item', () => <RemoveItemApi /> )
   .add('find folder', () => <ExampleUnderConstruction /> )
