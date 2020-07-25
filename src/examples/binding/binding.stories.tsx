@@ -1,12 +1,15 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
 import DeniReactTreeView from '../../components/deni-react-treeview/DeniReactTreeView'
 
-storiesOf('0 - Binding', module)
-  .add('to a local JSON', () => <DeniReactTreeView json="./data/countries-by-continents.json" />)
-  .add('to a remote JSON', () => <DeniReactTreeView expandAll={true} url="https://denifakedata.herokuapp.com/tree/countries" />)
-  .add('to a remote JSON (Lazy Load)', () => <DeniReactTreeView url="https://denifakedata.herokuapp.com/tree/countries" lazyLoad={ true } />)
-  .add('to a Javascript object', () => <DeniReactTreeView items={ fruitsAndVegetables } />)
+export default { title: 'Binding' }
+
+export const toALocalJson = () => <DeniReactTreeView json="./data/countries-by-continents.json" />
+
+export const toARemoteJson = () => <DeniReactTreeView expandAll={true} url="https://denifakedata.herokuapp.com/tree/countries" />
+
+export const toARemoteJsonInLazyLoad = () => () => <DeniReactTreeView url="https://denifakedata.herokuapp.com/tree/countries" lazyLoad={ true } />
+
+export const toAJavaScriptObject = () => () => <DeniReactTreeView items={ fruitsAndVegetables } />
 
 const fruitsAndVegetables = [
     {

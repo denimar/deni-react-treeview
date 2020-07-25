@@ -115,4 +115,4 @@ const deniReactTreeviewApi = scope => {
 
 export {
   deniReactTreeviewApi
-}
+};

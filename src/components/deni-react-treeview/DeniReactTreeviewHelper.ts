@@ -117,4 +117,4 @@ export {
   setTheme,
   load,
   loadData
-}
+};

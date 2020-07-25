@@ -3,26 +3,58 @@
   height: 100%;
 
   .deni-react-treeview-container {
-    background-color: #ffffe6 !important;
-    border-color: #ffdb99;
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("menu-background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-color: #004D40;// rgba(96, 214, 111, 1) !important;
     font-family: tahoma;
     font-size: 14px;
-    width: 400px;
+    width: 350px;
+    height: 500px;
+    opacity: 1;     
+    //box-shadow: 2px 2px 2px #E0F7FA, 2px -2px 2px #E0F7FA, -2px -2px 2px #E0F7FA, -2px 2px 2px #E0F7FA;
+    box-shadow: 3px 3px 4px #B2DFDB;
+    border-radius: 5px;
+
+
+    &::-webkit-scrollbar {
+     width: 8px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: rgba(144, 164, 174, .1);
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: rgba(144, 164, 174, .3);
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: rgba(144, 164, 174, .6);
+    }    
+ 
 
     /* changing the font color, font size and line's height */
     .deni-react-treeview-item-container {
-      height: 36px;
+      height: 28px;
 
       /* changing the font color, and padding top and bottom (left is not recommended) */
       .icon-and-text {
-        color: brown;
-        padding-top: 6px;
-        padding-bottom: 6px;
+        color: #00695C;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
         /* changing the selected item properties */
         &.selected {
-          color: red;
-          border-color: #eaaeae;
+          color: #004D40 !important;
+          border-color: #80CBC4;
+          background: linear-gradient(to bottom, #E0F2F1 0%, #80CBC4 100%) !important;
         }
 
         /* changing the icons of the folders expanded */
@@ -32,16 +64,17 @@
 
           /* changing the icons of the folders colapsed */
           //&.colapsed {
-            background-image: url(https://denifakedata.herokuapp.com/images/closed-folder.png) !important;
+            background-image: url(folder-green.png) !important;
+            background-size: 24px 24px;
           //}
           /* changing the icons of the folders expanded */
           &.expanded {
-            background-image: url(https://denifakedata.herokuapp.com/images/opened-folder.png) !important;
+            background-image: url(folder-green.png) !important;
           }
 
           /* changing the icons of the items */
           &.isleaf {
-            background-image: url(https://denifakedata.herokuapp.com/images/dog.png) !important;
+            background-image: url(dog.png) !important;
           }
 
         }

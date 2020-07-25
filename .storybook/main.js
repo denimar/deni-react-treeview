@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  addons: ['@storybook/addon-storysource/register'],
   stories: ['../src/examples/**/*.stories.tsx'],
   webpackFinal: async (config, { configType }) => {
     // add typescript support
@@ -8,10 +9,15 @@ module.exports = {
       test: /\.(ts|tsx)$/,
       use: [
         {
-          loader: require.resolve('ts-loader'),
+          loader: require.resolve('ts-loader')
         },
+        {
+          loader: require.resolve('@storybook/source-loader'),
+          options: { parser: 'typescript' },
+        },        
       ],
     });
+
     config.resolve.extensions.push('.ts', '.tsx');
 
     // add scss support
