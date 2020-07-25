@@ -1,15 +1,15 @@
 import React from 'react';
 import DeniReactTreeView from '../../components/deni-react-treeview/DeniReactTreeView'
 
-export default { title: 'Binding' }
+export default { title: '2 - Binding' }
 
 export const toALocalJson = () => <DeniReactTreeView json="./data/countries-by-continents.json" />
 
 export const toARemoteJson = () => <DeniReactTreeView expandAll={true} url="https://denifakedata.herokuapp.com/tree/countries" />
 
-export const toARemoteJsonInLazyLoad = () => () => <DeniReactTreeView url="https://denifakedata.herokuapp.com/tree/countries" lazyLoad={ true } />
+export const toARemoteJsonInLazyLoad = () => <DeniReactTreeView url="https://denifakedata.herokuapp.com/tree/countries" lazyLoad={ true } />
 
-export const toAJavaScriptObject = () => () => <DeniReactTreeView items={ fruitsAndVegetables } />
+export const toAJavaScriptObject = () => <DeniReactTreeView items={ fruitsAndVegetables } />
 
 const fruitsAndVegetables = [
     {

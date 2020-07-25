@@ -4,7 +4,7 @@ import DeniReactTreeView from '../../components';
 import AutoLoadFalseOption from './AutoLoadFalseOption'
 import ActionButtonsOption from './ActionButtonsOption'
 
-storiesOf('Options', module)
+storiesOf('3 - Options', module)
   .add('autoLoad = false', () => <AutoLoadFalseOption /> )
   .add('lazyLoad = true', () => <DeniReactTreeView url="https://denifakedata.herokuapp.com/tree/countries" lazyLoad={ true } />)
   .add('marginItems = 80', () => <DeniReactTreeView json="https://denifakedata.herokuapp.com/tree/countries" marginItems="80" />)

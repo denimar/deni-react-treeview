@@ -5,7 +5,6 @@ import { FaTrash, FaEdit } from 'react-icons/fa';
 const ActionButtonsOption: React.FC = () => {
 
   const onActionButtonClick = (item, actionButton) => {
-    debugger
     const buttonName = actionButton.type.name;
 
     switch (buttonName) {

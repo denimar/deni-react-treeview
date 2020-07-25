@@ -4,7 +4,7 @@ import './theming-customizations.scss'
 
 const themes = [ 'classic', 'metro', 'moonlight', 'purple', 'green', 'orange', 'red', 'silver' ]
 
-export default { title: 'Theming' }
+export default { title: '1 - Theming' }
 
 export const PredefinedThemes = () => (
   <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }} >

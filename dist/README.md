@@ -2,7 +2,7 @@
 A modern, themable and configurable treeview for React
 
 
-[site](https://denimar.github.io/deni-react-treeview/), [examples](https://denimar.github.io/deni-react-treeview/examples)
+[live examples](https://denimar.github.io/deni-react-treeview/examples)
 
 
 ![alt text](https://denimar.github.io/deni-react-treeview/images/deni-react-treeview.png)
@@ -20,7 +20,7 @@ Added to your react component
 ```html
     <TreeView url="https://denifakedata.herokuapp.com/tree/countries" /> 
 ```
-For more details: [examples](https://deni-react-treeview.vercel.app/)
+For more details: [examples](https://denimar.github.io/deni-react-treeview/examples)
 
 ## API
 [documentation](https://denimar.github.io/deni-react-treeview/api.html)
