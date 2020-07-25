@@ -101,8 +101,4 @@ For more details: [examples](https://deni-react-treeview.vercel.app/)
 
 [Denimar de Moraes](http://github.com/denimar) (denimar@gmail.com) is a full-stack developper at Feracode, Florianópolis, Santa Catarina, Brazil.
 
-[<img src="https://raw.githubusercontent.com/denimar/denibudget/master/linkedin-profile.png">](https://www.linkedin.com/in/denimar-moraes/?locale=en_US)
-
---------------
-
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="denimar-moraes"><a class="LI-simple-link" href='https://br.linkedin.com/in/denimar-moraes/en-us?trk=profile-badge'>Denimar de Moraes</a></div>
+[<img src="https://raw.githubusercontent.com/denimar/fakedata/master/data/images/linkedin-badge.png">](https://www.linkedin.com/in/denimar-moraes/?locale=en_US)
