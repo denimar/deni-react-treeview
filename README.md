@@ -20,7 +20,7 @@ Added to your react component
 ```html
     <TreeView url="https://denifakedata.herokuapp.com/tree/countries" /> 
 ```
-For more details: [examples](https://denimar.github.io/deni-react-treeview/examples)
+For more details: [examples](https://deni-react-treeview.vercel.app/)
 
 ## API
 [documentation](https://denimar.github.io/deni-react-treeview/api.html)
