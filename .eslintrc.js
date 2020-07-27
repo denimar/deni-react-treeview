@@ -35,7 +35,7 @@ module.exports = {
     'react/prop-types': rules.OFF,
     'react-hooks/rules-of-hooks': rules.ON,
     'react-hooks/exhaustive-deps': rules.WARN,
-    'prefer-spread': rules.WARN,
+    'prefer-spread': rules.WARN
   },
   settings: {
     react: {

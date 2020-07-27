@@ -7,7 +7,7 @@ export const toALocalJson = () => <DeniReactTreeView json="./data/countries-by-c
 
 export const toARemoteJson = () => <DeniReactTreeView expandAll={true} url="https://denifakedata.herokuapp.com/tree/countries" />
 
-export const toARemoteJsonInLazyLoad = () => <DeniReactTreeView url="https://denifakedata.herokuapp.com/tree/countries" lazyLoad={ true } />
+export const toARemoteJsonInLazyLoad = () => <DeniReactTreeView url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json" lazyLoad={ true } />
 
 export const toAJavaScriptObject = () => <DeniReactTreeView items={ fruitsAndVegetables } />
 

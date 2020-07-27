@@ -7,7 +7,7 @@ const OnRenderrItemsEvents: React.FC = () => {
   const treeviewRef = useRef<DeniReactTreeView>(null)
 
   const deleteItemClick = id => {
-    treeviewRef.current?.api.removeItem(id);
+    if (treeviewRef.current) treeviewRef.current.api.removeItem(id);
   }
 
   const editItemClick = item => {

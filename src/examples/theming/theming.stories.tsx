@@ -15,11 +15,20 @@ export const PredefinedThemes = () => (
           key={index} 
           showCheckbox={true} 
           theme={theme} 
-          json="./data/countries-by-continents.json" 
+          url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries-by-continents.json"
         />
       })
       }
   </div>  
 )
 
-export const customizedTheme = () => <div className="theme-customization"><DeniReactTreeView className="treeview-teste" url="https://denifakedata.herokuapp.com/tree/dogs" /></div>
+export const customizedTheme = () => {
+  return (
+    <div className="theme-customization">
+      <DeniReactTreeView 
+        className="treeview-teste" 
+        url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/dogs.json">
+      </DeniReactTreeView>
+    </div>
+  )  
+}  
