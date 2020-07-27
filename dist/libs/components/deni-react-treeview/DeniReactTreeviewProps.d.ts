@@ -10,7 +10,7 @@ export interface DeniReactTreeviewProps {
     lazyLoad?: boolean;
     expandAll?: boolean;
     marginItems?: string | number;
-    onAfterLoad?: void;
+    onAfterLoad?: (data: any, item: any) => void;
     onBeforeLoad?: (data: any, item: any) => void;
     onRenderItem?: (item: any, treeview: DeniReactTreeView) => JSX.Element;
     onSelectItem?: void;
