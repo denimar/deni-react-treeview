@@ -29,7 +29,7 @@ const OnRenderItemEvent: React.FC = () => {
     <DeniReactTreeView
       className="onrenderitem-example"
       ref={ treeviewRef }
-      url="https://bit.ly/337lQK4" 
+      url="https://raw.githubusercontent.com/denimar/deni-react-treeview/develop/src/assets/data/countries.json" 
       selectRow={ true }
       onRenderItem={ onRenderItem }
     />

@@ -13,7 +13,7 @@ const PredefinedThemes = () => {
             key={index} 
             showCheckbox={true} 
             theme={theme} 
-            url="https://bit.ly/3152dzY"
+            url="https://raw.githubusercontent.com/denimar/deni-react-treeview/develop/src/assets/data/countries-by-continents.json"
           />
         })
         }

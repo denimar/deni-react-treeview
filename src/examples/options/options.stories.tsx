@@ -11,7 +11,7 @@ import ShowIconOption from './ShowIconOption'
 import ShowRootOption from './ShowRootOption'
 import ThemeOption from './ThemeOption'
 
-const countriesURL = 'https://bit.ly/337lQK4'
+const countriesURL = 'https://raw.githubusercontent.com/denimar/deni-react-treeview/develop/src/assets/data/countries.json'
 
 storiesOf('3 - Options', module)  
   .add('autoLoad = false', () => <AutoLoadFalseOption />, { notes: require('./AutoLoadFalseOption/source.md').default })

@@ -12,7 +12,7 @@ const AutoLoadFalseOption: React.FC = () => {
       <DeniReactTreeView 
         ref={ treeviewRef }
         autoLoad={ false } 
-        json="https://denifakedata.herokuapp.com/tree/countries"  
+        json="https://raw.githubusercontent.com/denimar/deni-react-treeview/develop/src/assets/data/countries.json"  
       />
     </div>
   )
