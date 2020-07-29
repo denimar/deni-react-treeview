@@ -8,7 +8,7 @@ const CustomeziedTheme = () => {
     <div className="theme-customization">
       <DeniReactTreeView 
         className="treeview-teste" 
-        url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/dogs.json">
+        url="https://bit.ly/39AZt11">
       </DeniReactTreeView>   
     </div>  
   )
