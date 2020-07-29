@@ -1,9 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  addons: ['@storybook/addon-storysource/register'],
+  addons: [
+    '@storybook/addon-notes/register'
+  ],
   stories: ['../src/examples/**/*.stories.tsx'],
-  webpackFinal: async (config, { configType }) => {
+  webpackFinal: async (config, par1, par2, par3) => {
     // add typescript support
     config.module.rules.push({
       test: /\.(ts|tsx)$/,

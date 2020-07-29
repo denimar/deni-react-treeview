@@ -1,9 +1,8 @@
-/* changing background-color, border-color, font-family, font size */
 .theme-customization {
   height: 100%;
 
   .deni-react-treeview-container {
-    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("menu-background.jpg");
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("images/menu-background.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-color: #004D40;// rgba(96, 214, 111, 1) !important;
@@ -64,17 +63,17 @@
 
           /* changing the icons of the folders colapsed */
           //&.colapsed {
-            background-image: url(folder-green.png) !important;
+            background-image: url(images/folder-green.png) !important;
             background-size: 24px 24px;
           //}
           /* changing the icons of the folders expanded */
           &.expanded {
-            background-image: url(folder-green.png) !important;
+            background-image: url(images/folder-green.png) !important;
           }
 
           /* changing the icons of the items */
           &.isleaf {
-            background-image: url(dog.png) !important;
+            background-image: url(images/dog.png) !important;
           }
 
         }

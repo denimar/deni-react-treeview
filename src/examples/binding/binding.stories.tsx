@@ -1,47 +1,12 @@
-import React from 'react';
-import DeniReactTreeView from '../../components/deni-react-treeview/DeniReactTreeView'
+import React from 'react'
+import { storiesOf } from '@storybook/react';
+import ToALocalJson from './ToALocalJson'
+import ToARemoteJson from './ToARemoteJson'
+import ToARemoteJsonInLazyLoad from './ToARemoteJsonInLazyLoad'
+import ToAJavaScriptObject from './ToAJavaScriptObject'
 
-export default { title: '2 - Binding' }
-
-export const toALocalJson = () => <DeniReactTreeView json="./data/countries-by-continents.json" />
-
-export const toARemoteJson = () => <DeniReactTreeView expandAll={true} url="https://denifakedata.herokuapp.com/tree/countries" />
-
-export const toARemoteJsonInLazyLoad = () => <DeniReactTreeView url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json" lazyLoad={ true } />
-
-export const toAJavaScriptObject = () => <DeniReactTreeView items={ fruitsAndVegetables } />
-
-const fruitsAndVegetables = [
-    {
-      id: 100,
-      text: 'Fruits',
-      children: [
-        {
-          id: 101,
-          text: 'Orange',
-          isLeaf: true
-        },
-        {
-          id: 102,
-          text: 'Banana',
-          isLeaf: true
-        }
-      ]
-    },
-    {
-      id: 200,
-      text: 'Vegetables',
-      children: [
-        {
-          id: 201,
-          text: 'Carrot',
-          isLeaf: true
-        },
-        {
-          id: 202,
-          text: 'Tomato',
-          isLeaf: true
-        }
-      ]
-    }
-  ];  
+storiesOf('2 - Binding', module)  
+  .add('to a local JSON', () => <ToALocalJson />, { notes: require('./ToALocalJson/source.md').default })
+  .add('to a remote JSON', () => <ToARemoteJson />, { notes: require('./ToARemoteJson/source.md').default })  
+  .add('to a remote JSON (Lazy Load)ddf', () => <ToARemoteJsonInLazyLoad />, { notes: require('./ToARemoteJsonInLazyLoad/source.md').default })  
+  .add('to a Javascript Object', () => <ToAJavaScriptObject />, { notes: require('./ToAJavaScriptObject/source.md').default })  

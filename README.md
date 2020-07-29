@@ -8,7 +8,7 @@ A modern, themable and configurable treeview for React
 ![alt text](https://denimar.github.io/deni-react-treeview/images/deni-react-treeview.png)
 
 
-TODO: In the future I will implement the tests, Cloud CI.
+TODO: Implement unit tests, E2E tests, CI.
 
 ## Installing with NPM
 
