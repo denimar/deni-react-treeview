@@ -7,7 +7,7 @@ const AutoLoadFalseOption: React.FC = () => {
 
   return (
     <div>
-      <button onClick={ loadButtonClick }>Click to Load</button>
+      <button onClick={ loadButtonClick } style={{ marginBottom: '5px' }}>Click to Load</button>
       <DeniReactTreeView 
         ref={ treeviewRef }
         autoLoad={ false } 
