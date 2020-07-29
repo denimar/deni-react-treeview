@@ -95,7 +95,7 @@ For more details: [examples](https://deni-react-treeview.vercel.app/)
 
 ## License
 
-[MIT.](https://raw.githubusercontent.com/denimar/deni-react-treeview/master/LICENSE-MIT)
+[MIT.](https://raw.githubusercontent.com/denimar/deni-react-treeview/develop/LICENSE-MIT)
 
 ## Author
 
