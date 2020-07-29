@@ -13,7 +13,7 @@ const OnBeforeLoadEvent: React.FC = () => {
       <DeniReactTreeView 
         ref={ treeviewRef }
         autoLoad={ false } 
-        url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json" 
+        url="https://bit.ly/337lQK4" 
         onBeforeLoad={ onBeforeLoad }
       />
     </div>

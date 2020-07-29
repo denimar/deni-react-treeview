@@ -20,7 +20,7 @@ const RemoveItemApi: React.FC = () => {
       <button onClick={ removeSelectedItem }>Click to remove the select item</button>
       <DeniReactTreeView 
         ref={ treeviewRef }
-        url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json" 
+        url="https://bit.ly/337lQK4" 
       />
     </div>
   )

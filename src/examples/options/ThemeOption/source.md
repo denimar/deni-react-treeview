@@ -5,7 +5,7 @@ import DeniReactTreeView from 'deni-react-treeview'
 const ThemeOption: React.FC = () => {
   return (
     <DeniReactTreeView 
-      url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json" 
+      url="https://bit.ly/337lQK4" 
       theme="metro"
     />
   )  

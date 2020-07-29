@@ -1,0 +1,1245 @@
+[
+  {
+     "children":[
+        {
+           "id":2,
+           "text":"Affenpinscher",
+           "isLeaf":true
+        },
+        {
+           "id":50,
+           "text":"Bolognese",
+           "isLeaf":true
+        },
+        {
+           "id":61,
+           "text":"Brussels Griffon",
+           "isLeaf":true
+        },
+        {
+           "id":71,
+           "text":"Cavalier King Charles Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":77,
+           "text":"Chihuahua",
+           "isLeaf":true
+        },
+        {
+           "id":78,
+           "text":"Chinese Crested",
+           "isLeaf":true
+        },
+        {
+           "id":101,
+           "text":"English Toy Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":126,
+           "text":"Havanese",
+           "isLeaf":true
+        },
+        {
+           "id":134,
+           "text":"Italian Greyhound",
+           "isLeaf":true
+        },
+        {
+           "id":136,
+           "text":"Japanese Chin",
+           "isLeaf":true
+        },
+        {
+           "id":155,
+           "text":"Maltese",
+           "isLeaf":true
+        },
+        {
+           "id":160,
+           "text":"Miniature Pinscher",
+           "isLeaf":true
+        },
+        {
+           "id":173,
+           "text":"Papillon",
+           "isLeaf":true
+        },
+        {
+           "id":175,
+           "text":"Pekingese",
+           "isLeaf":true
+        },
+        {
+           "id":185,
+           "text":"Pomeranian",
+           "isLeaf":true
+        },
+        {
+           "id":189,
+           "text":"Pug",
+           "isLeaf":true
+        },
+        {
+           "id":199,
+           "text":"Russian Toy",
+           "isLeaf":true
+        },
+        {
+           "id":211,
+           "text":"Shih Tzu",
+           "isLeaf":true
+        },
+        {
+           "id":215,
+           "text":"Silky Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":233,
+           "text":"Toy Fox Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":234,
+           "text":"Toy Poodle",
+           "isLeaf":true
+        },
+        {
+           "id":247,
+           "text":"Yorkshire Terrier",
+           "isLeaf":true
+        }
+     ],
+     "id":1,
+     "text":"Toy"
+  },
+  {
+     "children":[
+        {
+           "id":4,
+           "text":"Afghan Hound",
+           "isLeaf":true
+        },
+        {
+           "id":17,
+           "text":"American Foxhound",
+           "isLeaf":true
+        },
+        {
+           "id":29,
+           "text":"Azawakh",
+           "isLeaf":true
+        },
+        {
+           "id":31,
+           "text":"Basenji",
+           "isLeaf":true
+        },
+        {
+           "id":32,
+           "text":"Basset Hound",
+           "isLeaf":true
+        },
+        {
+           "id":33,
+           "text":"Beagle",
+           "isLeaf":true
+        },
+        {
+           "id":45,
+           "text":"Black and Tan Coonhound",
+           "isLeaf":true
+        },
+        {
+           "id":47,
+           "text":"Bloodhound",
+           "isLeaf":true
+        },
+        {
+           "id":48,
+           "text":"Bluetick Coonhound",
+           "isLeaf":true
+        },
+        {
+           "id":53,
+           "text":"Borzoi",
+           "isLeaf":true
+        },
+        {
+           "id":75,
+           "text":"Chart Polski",
+           "isLeaf":true
+        },
+        {
+           "id":83,
+           "text":"Cirneco dell'Etna",
+           "isLeaf":true
+        },
+        {
+           "id":90,
+           "text":"Dachshund",
+           "isLeaf":true
+        },
+        {
+           "id":98,
+           "text":"English Foxhound",
+           "isLeaf":true
+        },
+        {
+           "id":124,
+           "text":"Greyhound",
+           "isLeaf":true
+        },
+        {
+           "id":125,
+           "text":"Harrier",
+           "isLeaf":true
+        },
+        {
+           "id":127,
+           "text":"Ibizan Hound",
+           "isLeaf":true
+        },
+        {
+           "id":133,
+           "text":"Irish Wolfhound",
+           "isLeaf":true
+        },
+        {
+           "id":167,
+           "text":"Norwegian Elkhound",
+           "isLeaf":true
+        },
+        {
+           "id":172,
+           "text":"Otterhound",
+           "isLeaf":true
+        },
+        {
+           "id":178,
+           "text":"Peruvian Inca Orchid",
+           "isLeaf":true
+        },
+        {
+           "id":179,
+           "text":"Petit Basset Griffon Vendeen",
+           "isLeaf":true
+        },
+        {
+           "id":180,
+           "text":"Pharaoh Hound",
+           "isLeaf":true
+        },
+        {
+           "id":181,
+           "text":"Plott",
+           "isLeaf":true
+        },
+        {
+           "id":187,
+           "text":"Portuguese Podengo",
+           "isLeaf":true
+        },
+        {
+           "id":196,
+           "text":"Redbone Coonhound",
+           "isLeaf":true
+        },
+        {
+           "id":197,
+           "text":"Rhodesian Ridgeback",
+           "isLeaf":true
+        },
+        {
+           "id":201,
+           "text":"Saluki",
+           "isLeaf":true
+        },
+        {
+           "id":206,
+           "text":"Scottish Deerhound",
+           "isLeaf":true
+        },
+        {
+           "id":217,
+           "text":"Sloughi",
+           "isLeaf":true
+        },
+        {
+           "id":228,
+           "text":"Thai Ridgeback",
+           "isLeaf":true
+        },
+        {
+           "id":235,
+           "text":"Treeing Walker Coonhound",
+           "isLeaf":true
+        },
+        {
+           "id":242,
+           "text":"Whippet",
+           "isLeaf":true
+        }
+     ],
+     "id":3,
+     "text":"Hound"
+  },
+  {
+     "children":[
+        {
+           "id":6,
+           "text":"Airedale Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":18,
+           "text":"American Pit Bull Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":19,
+           "text":"American Staffordshire Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":28,
+           "text":"Australian Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":36,
+           "text":"Bedlington Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":52,
+           "text":"Border Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":62,
+           "text":"Bull Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":65,
+           "text":"Cairn Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":74,
+           "text":"Cesky Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":92,
+           "text":"Dandie Dinmont Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":109,
+           "text":"Fox Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":117,
+           "text":"Glen of Imaal Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":131,
+           "text":"Irish Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":135,
+           "text":"Jack Russell Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":138,
+           "text":"Kerry Blue Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":141,
+           "text":"Kromfohrlander",
+           "isLeaf":true
+        },
+        {
+           "id":147,
+           "text":"Lakeland Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":157,
+           "text":"Manchester Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":159,
+           "text":"Miniature Bull Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":161,
+           "text":"Miniature Schnauzer",
+           "isLeaf":true
+        },
+        {
+           "id":165,
+           "text":"Norfolk Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":169,
+           "text":"Norwich Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":195,
+           "text":"Rat Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":207,
+           "text":"Scottish Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":208,
+           "text":"Sealyham Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":216,
+           "text":"Skye Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":219,
+           "text":"Soft Coated Wheaten Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":223,
+           "text":"Staffordshire Bull Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":240,
+           "text":"Welsh Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":241,
+           "text":"West Highland White Terrier",
+           "isLeaf":true
+        }
+     ],
+     "id":5,
+     "text":"Terrier"
+  },
+  {
+     "children":[
+        {
+           "id":8,
+           "text":"Akbash Dog",
+           "isLeaf":true
+        },
+        {
+           "id":9,
+           "text":"Akita",
+           "isLeaf":true
+        },
+        {
+           "id":13,
+           "text":"Alaskan Malamute",
+           "isLeaf":true
+        },
+        {
+           "id":14,
+           "text":"American Bulldog",
+           "isLeaf":true
+        },
+        {
+           "id":22,
+           "text":"Anatolian Shepherd Dog",
+           "isLeaf":true
+        },
+        {
+           "id":43,
+           "text":"Bernese Mountain Dog",
+           "isLeaf":true
+        },
+        {
+           "id":46,
+           "text":"Black Russian Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":49,
+           "text":"Boerboel",
+           "isLeaf":true
+        },
+        {
+           "id":56,
+           "text":"Boxer",
+           "isLeaf":true
+        },
+        {
+           "id":64,
+           "text":"Bullmastiff",
+           "isLeaf":true
+        },
+        {
+           "id":67,
+           "text":"Cane Corso",
+           "isLeaf":true
+        },
+        {
+           "id":70,
+           "text":"Caucasian Ovcharka",
+           "isLeaf":true
+        },
+        {
+           "id":80,
+           "text":"Chinook",
+           "isLeaf":true
+        },
+        {
+           "id":93,
+           "text":"Doberman Pinscher",
+           "isLeaf":true
+        },
+        {
+           "id":94,
+           "text":"Dogo Argentino",
+           "isLeaf":true
+        },
+        {
+           "id":95,
+           "text":"Dogue de Bordeaux",
+           "isLeaf":true
+        },
+        {
+           "id":105,
+           "text":"Fila Brasileiro",
+           "isLeaf":true
+        },
+        {
+           "id":111,
+           "text":"German Pinscher",
+           "isLeaf":true
+        },
+        {
+           "id":116,
+           "text":"Giant Schnauzer",
+           "isLeaf":true
+        },
+        {
+           "id":121,
+           "text":"Great Dane",
+           "isLeaf":true
+        },
+        {
+           "id":122,
+           "text":"Great Pyrenees",
+           "isLeaf":true
+        },
+        {
+           "id":123,
+           "text":"Greater Swiss Mountain Dog",
+           "isLeaf":true
+        },
+        {
+           "id":139,
+           "text":"Komondor",
+           "isLeaf":true
+        },
+        {
+           "id":142,
+           "text":"Kuvasz",
+           "isLeaf":true
+        },
+        {
+           "id":145,
+           "text":"Lacy Dog",
+           "isLeaf":true
+        },
+        {
+           "id":149,
+           "text":"Leonberger",
+           "isLeaf":true
+        },
+        {
+           "id":158,
+           "text":"Mastiff",
+           "isLeaf":true
+        },
+        {
+           "id":163,
+           "text":"Neapolitan Mastiff",
+           "isLeaf":true
+        },
+        {
+           "id":164,
+           "text":"Newfoundland",
+           "isLeaf":true
+        },
+        {
+           "id":177,
+           "text":"Perro de Presa Canario",
+           "isLeaf":true
+        },
+        {
+           "id":188,
+           "text":"Portuguese Water Dog",
+           "isLeaf":true
+        },
+        {
+           "id":198,
+           "text":"Rottweiler",
+           "isLeaf":true
+        },
+        {
+           "id":200,
+           "text":"Saint Bernard",
+           "isLeaf":true
+        },
+        {
+           "id":202,
+           "text":"Samoyed",
+           "isLeaf":true
+        },
+        {
+           "id":213,
+           "text":"Siberian Husky",
+           "isLeaf":true
+        },
+        {
+           "id":224,
+           "text":"Standard Schnauzer",
+           "isLeaf":true
+        },
+        {
+           "id":229,
+           "text":"Tibetan Mastiff",
+           "isLeaf":true
+        }
+     ],
+     "id":7,
+     "text":"Working"
+  },
+  {
+     "children":[
+        {
+           "id":11,
+           "text":"Alapaha Blue Blood Bulldog",
+           "isLeaf":true
+        },
+        {
+           "id":12,
+           "text":"Alaskan Husky",
+           "isLeaf":true
+        },
+        {
+           "id":23,
+           "text":"Aussiedoodle",
+           "isLeaf":true
+        },
+        {
+           "id":30,
+           "text":"Basador",
+           "isLeaf":true
+        },
+        {
+           "id":72,
+           "text":"Cavapom",
+           "isLeaf":true
+        },
+        {
+           "id":73,
+           "text":"Cavapoo",
+           "isLeaf":true
+        },
+        {
+           "id":82,
+           "text":"Chug",
+           "isLeaf":true
+        },
+        {
+           "id":85,
+           "text":"Cockapoo",
+           "isLeaf":true
+        },
+        {
+           "id":96,
+           "text":"Doxiepoo",
+           "isLeaf":true
+        },
+        {
+           "id":119,
+           "text":"Goldendoodle",
+           "isLeaf":true
+        },
+        {
+           "id":143,
+           "text":"Labradoodle",
+           "isLeaf":true
+        },
+        {
+           "id":148,
+           "text":"Large Munsterlander",
+           "isLeaf":true
+        },
+        {
+           "id":151,
+           "text":"Lhasapoo",
+           "isLeaf":true
+        },
+        {
+           "id":152,
+           "text":"Longdog",
+           "isLeaf":true
+        },
+        {
+           "id":154,
+           "text":"Lurcher",
+           "isLeaf":true
+        },
+        {
+           "id":156,
+           "text":"Maltipoo",
+           "isLeaf":true
+        },
+        {
+           "id":174,
+           "text":"Pekeapoo",
+           "isLeaf":true
+        },
+        {
+           "id":184,
+           "text":"Pomapoo",
+           "isLeaf":true
+        },
+        {
+           "id":190,
+           "text":"Pugapoo",
+           "isLeaf":true
+        },
+        {
+           "id":191,
+           "text":"Puggle",
+           "isLeaf":true
+        },
+        {
+           "id":205,
+           "text":"Schnoodle",
+           "isLeaf":true
+        },
+        {
+           "id":212,
+           "text":"Shihpoo",
+           "isLeaf":true
+        },
+        {
+           "id":214,
+           "text":"Silken Windhound",
+           "isLeaf":true
+        },
+        {
+           "id":220,
+           "text":"Spanish Greyhound",
+           "isLeaf":true
+        },
+        {
+           "id":232,
+           "text":"Tosa Ken",
+           "isLeaf":true
+        },
+        {
+           "id":237,
+           "text":"Volpino Italiano",
+           "isLeaf":true
+        },
+        {
+           "id":246,
+           "text":"Yorkipoo",
+           "isLeaf":true
+        }
+     ],
+     "id":10,
+     "text":"Mixes and More"
+  },
+  {
+     "children":[
+        {
+           "id":16,
+           "text":"American Eskimo",
+           "isLeaf":true
+        },
+        {
+           "id":44,
+           "text":"Bichon Frise",
+           "isLeaf":true
+        },
+        {
+           "id":54,
+           "text":"Boston Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":63,
+           "text":"Bulldog",
+           "isLeaf":true
+        },
+        {
+           "id":79,
+           "text":"Chinese Shar-Pei",
+           "isLeaf":true
+        },
+        {
+           "id":81,
+           "text":"Chow Chow",
+           "isLeaf":true
+        },
+        {
+           "id":88,
+           "text":"Coton de Tulear",
+           "isLeaf":true
+        },
+        {
+           "id":91,
+           "text":"Dalmatian",
+           "isLeaf":true
+        },
+        {
+           "id":103,
+           "text":"Eurasier",
+           "isLeaf":true
+        },
+        {
+           "id":107,
+           "text":"Finnish Spitz",
+           "isLeaf":true
+        },
+        {
+           "id":110,
+           "text":"French Bulldog",
+           "isLeaf":true
+        },
+        {
+           "id":114,
+           "text":"German Spitz",
+           "isLeaf":true
+        },
+        {
+           "id":137,
+           "text":"Keeshond",
+           "isLeaf":true
+        },
+        {
+           "id":150,
+           "text":"Lhasa Apso",
+           "isLeaf":true
+        },
+        {
+           "id":153,
+           "text":"Lowchen",
+           "isLeaf":true
+        },
+        {
+           "id":168,
+           "text":"Norwegian Lundehund",
+           "isLeaf":true
+        },
+        {
+           "id":186,
+           "text":"Poodle",
+           "isLeaf":true
+        },
+        {
+           "id":204,
+           "text":"Schipperke",
+           "isLeaf":true
+        },
+        {
+           "id":210,
+           "text":"Shiba Inu",
+           "isLeaf":true
+        },
+        {
+           "id":230,
+           "text":"Tibetan Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":231,
+           "text":"Tibetan Terrier",
+           "isLeaf":true
+        },
+        {
+           "id":245,
+           "text":"Xoloitzcuintli",
+           "isLeaf":true
+        }
+     ],
+     "id":15,
+     "text":"Non-Sporting"
+  },
+  {
+     "children":[
+        {
+           "id":21,
+           "text":"American Water Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":57,
+           "text":"Boykin Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":58,
+           "text":"Bracco Italiano",
+           "isLeaf":true
+        },
+        {
+           "id":60,
+           "text":"Brittany",
+           "isLeaf":true
+        },
+        {
+           "id":76,
+           "text":"Chesapeake Bay Retriever",
+           "isLeaf":true
+        },
+        {
+           "id":84,
+           "text":"Clumber Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":86,
+           "text":"Cocker Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":89,
+           "text":"Curly-Coated Retriever",
+           "isLeaf":true
+        },
+        {
+           "id":97,
+           "text":"English Cocker Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":99,
+           "text":"English Setter",
+           "isLeaf":true
+        },
+        {
+           "id":100,
+           "text":"English Springer Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":104,
+           "text":"Field Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":108,
+           "text":"Flat-Coated Retriever",
+           "isLeaf":true
+        },
+        {
+           "id":113,
+           "text":"German Shorthaired Pointer",
+           "isLeaf":true
+        },
+        {
+           "id":115,
+           "text":"German Wirehaired Pointer",
+           "isLeaf":true
+        },
+        {
+           "id":118,
+           "text":"Golden Retriever",
+           "isLeaf":true
+        },
+        {
+           "id":120,
+           "text":"Gordon Setter",
+           "isLeaf":true
+        },
+        {
+           "id":129,
+           "text":"Irish Red and White Setter",
+           "isLeaf":true
+        },
+        {
+           "id":130,
+           "text":"Irish Setter",
+           "isLeaf":true
+        },
+        {
+           "id":132,
+           "text":"Irish Water Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":140,
+           "text":"Kooikerhondje",
+           "isLeaf":true
+        },
+        {
+           "id":144,
+           "text":"Labrador Retriever",
+           "isLeaf":true
+        },
+        {
+           "id":146,
+           "text":"Lagotto Romagnolo",
+           "isLeaf":true
+        },
+        {
+           "id":170,
+           "text":"Nova Scotia Duck Tolling Retriever",
+           "isLeaf":true
+        },
+        {
+           "id":182,
+           "text":"Pointer",
+           "isLeaf":true
+        },
+        {
+           "id":218,
+           "text":"Small Munsterlander Pointer",
+           "isLeaf":true
+        },
+        {
+           "id":221,
+           "text":"Spanish Water Dog",
+           "isLeaf":true
+        },
+        {
+           "id":222,
+           "text":"Spinone Italiano",
+           "isLeaf":true
+        },
+        {
+           "id":225,
+           "text":"Sussex Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":236,
+           "text":"Vizsla",
+           "isLeaf":true
+        },
+        {
+           "id":238,
+           "text":"Weimaraner",
+           "isLeaf":true
+        },
+        {
+           "id":239,
+           "text":"Welsh Springer Spaniel",
+           "isLeaf":true
+        },
+        {
+           "id":243,
+           "text":"Wirehaired Pointing Griffon",
+           "isLeaf":true
+        },
+        {
+           "id":244,
+           "text":"Wirehaired Vizsla",
+           "isLeaf":true
+        }
+     ],
+     "id":20,
+     "text":"Sporting"
+  },
+  {
+     "children":[
+        {
+           "id":25,
+           "text":"Australian Cattle Dog",
+           "isLeaf":true
+        },
+        {
+           "id":26,
+           "text":"Australian Kelpie",
+           "isLeaf":true
+        },
+        {
+           "id":27,
+           "text":"Australian Shepherd",
+           "isLeaf":true
+        },
+        {
+           "id":34,
+           "text":"Bearded Collie",
+           "isLeaf":true
+        },
+        {
+           "id":35,
+           "text":"Beauceron",
+           "isLeaf":true
+        },
+        {
+           "id":37,
+           "text":"Belgian Laekenois",
+           "isLeaf":true
+        },
+        {
+           "id":38,
+           "text":"Belgian Malinois",
+           "isLeaf":true
+        },
+        {
+           "id":39,
+           "text":"Belgian Sheepdog",
+           "isLeaf":true
+        },
+        {
+           "id":40,
+           "text":"Belgian Tervuren",
+           "isLeaf":true
+        },
+        {
+           "id":41,
+           "text":"Bergamasco",
+           "isLeaf":true
+        },
+        {
+           "id":42,
+           "text":"Berger Picard",
+           "isLeaf":true
+        },
+        {
+           "id":51,
+           "text":"Border Collie",
+           "isLeaf":true
+        },
+        {
+           "id":55,
+           "text":"Bouvier des Flandres",
+           "isLeaf":true
+        },
+        {
+           "id":59,
+           "text":"Briard",
+           "isLeaf":true
+        },
+        {
+           "id":66,
+           "text":"Canaan Dog",
+           "isLeaf":true
+        },
+        {
+           "id":68,
+           "text":"Cardigan Welsh Corgi",
+           "isLeaf":true
+        },
+        {
+           "id":69,
+           "text":"Catahoula Leopard Dog",
+           "isLeaf":true
+        },
+        {
+           "id":87,
+           "text":"Collie",
+           "isLeaf":true
+        },
+        {
+           "id":102,
+           "text":"Entlebucher Mountain Dog",
+           "isLeaf":true
+        },
+        {
+           "id":106,
+           "text":"Finnish Lapphund",
+           "isLeaf":true
+        },
+        {
+           "id":112,
+           "text":"German Shepherd Dog",
+           "isLeaf":true
+        },
+        {
+           "id":128,
+           "text":"Icelandic Sheepdog",
+           "isLeaf":true
+        },
+        {
+           "id":162,
+           "text":"Mudi",
+           "isLeaf":true
+        },
+        {
+           "id":166,
+           "text":"Norwegian Buhund",
+           "isLeaf":true
+        },
+        {
+           "id":171,
+           "text":"Old English Sheepdog",
+           "isLeaf":true
+        },
+        {
+           "id":176,
+           "text":"Pembroke Welsh Corgi",
+           "isLeaf":true
+        },
+        {
+           "id":183,
+           "text":"Polish Lowland Sheepdog",
+           "isLeaf":true
+        },
+        {
+           "id":192,
+           "text":"Puli",
+           "isLeaf":true
+        },
+        {
+           "id":193,
+           "text":"Pumi",
+           "isLeaf":true
+        },
+        {
+           "id":194,
+           "text":"Pyrenean Shepherd",
+           "isLeaf":true
+        },
+        {
+           "id":203,
+           "text":"Schapendoes",
+           "isLeaf":true
+        },
+        {
+           "id":209,
+           "text":"Shetland Sheepdog",
+           "isLeaf":true
+        },
+        {
+           "id":226,
+           "text":"Swedish Lapphund",
+           "isLeaf":true
+        },
+        {
+           "id":227,
+           "text":"Swedish Vallhund",
+           "isLeaf":true
+        }
+     ],
+     "id":24,
+     "text":"Herding"
+  }
+]

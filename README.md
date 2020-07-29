@@ -18,7 +18,7 @@ npm install deni-react-treeview --save
 
 Added to your react component
 ```html
-    <TreeView url="https://denifakedata.herokuapp.com/tree/countries" /> 
+    <TreeView url="https://bit.ly/337lQK4" /> 
 ```
 For more details: [examples](https://deni-react-treeview.vercel.app/)
 
@@ -95,7 +95,7 @@ For more details: [examples](https://deni-react-treeview.vercel.app/)
 
 ## License
 
-[MIT.](https://raw.githubusercontent.com/denimar/deni-react-treeview/master/LICENSE-MIT)
+[MIT.](https://raw.githubusercontent.com/denimar/deni-react-treeview/develop/LICENSE-MIT)
 
 ## Author
 

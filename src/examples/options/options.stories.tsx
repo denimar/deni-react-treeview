@@ -11,7 +11,7 @@ import ShowIconOption from './ShowIconOption'
 import ShowRootOption from './ShowRootOption'
 import ThemeOption from './ThemeOption'
 
-const countriesURL = 'https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json'
+const countriesURL = 'https://bit.ly/337lQK4'
 
 storiesOf('3 - Options', module)  
   .add('autoLoad = false', () => <AutoLoadFalseOption />, { notes: require('./AutoLoadFalseOption/source.md').default })

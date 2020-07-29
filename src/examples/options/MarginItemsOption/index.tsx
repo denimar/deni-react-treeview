@@ -4,7 +4,7 @@ import DeniReactTreeView from '../../../components'
 const MarginItemsOption: React.FC = () => {
   return (
     <DeniReactTreeView 
-      url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json" 
+      url="https://bit.ly/337lQK4" 
       marginItems="80" 
     />
   )  

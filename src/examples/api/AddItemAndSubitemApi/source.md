@@ -20,7 +20,7 @@ const AddItemAndSubitemApi: React.FC = () => {
       <button onClick={ addItemAndSubItem }>Click to Add an Item and SubItem</button>
       <DeniReactTreeView 
         ref={ treeviewRef }
-        url="https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json" 
+        url="https://bit.ly/337lQK4" 
       />
     </div>
   )
