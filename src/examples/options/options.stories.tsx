@@ -1,20 +1,25 @@
-import React from 'react';
+import React from 'react'
 import { storiesOf } from '@storybook/react';
 import DeniReactTreeView from '../../components';
 import AutoLoadFalseOption from './AutoLoadFalseOption'
 import ActionButtonsOption from './ActionButtonsOption'
+import LazyLoadTrueOption from './LazyLoadTrueOption'
+import MarginItemsOption from './MarginItemsOption'
+import SelectRowOption from './SelectRowOption'
+import ShowCheckboxOption from './ShowCheckboxOption'
+import ShowIconOption from './ShowIconOption'
+import ShowRootOption from './ShowRootOption'
+import ThemeOption from './ThemeOption'
 
 const countriesURL = 'https://raw.githubusercontent.com/denimar/fakedata/master/data/trees/countries.json'
 
-storiesOf('3 - Options', module)
-  .add('autoLoad = false', () => <AutoLoadFalseOption /> )
-  .add('lazyLoad = true', () => <DeniReactTreeView url={ countriesURL } lazyLoad={ true } />)
-  .add('marginItems = 80', () => <DeniReactTreeView url={ countriesURL } marginItems="80" />)
-  .add('selectRow = true', () => <DeniReactTreeView url={ countriesURL } selectRow={ true } />)  
-  .add('showCheckbox = true', () => <DeniReactTreeView url={ countriesURL } showCheckbox={ true } />)  
-  .add('showIcon = false', () => <DeniReactTreeView url={ countriesURL } showIcon={ false } />)  
-  .add('showRoot = true', () => <DeniReactTreeView url={ countriesURL } showRoot={ true } />)  
-  .add('theme = "metro"', () => <DeniReactTreeView url={ countriesURL } theme="metro" />)  
-  .add('actionButtons', () => <ActionButtonsOption />)
-  
-  
+storiesOf('3 - Options', module)  
+  .add('autoLoad = false', () => <AutoLoadFalseOption />, { notes: require('./AutoLoadFalseOption/source.md').default })
+  .add('lazyLoad = true', () => <LazyLoadTrueOption />, { notes: require('./LazyLoadTrueOption/source.md').default })
+  .add('marginItems = 80', () => <MarginItemsOption />, { notes: require('./MarginItemsOption/source.md').default })
+  .add('selectRow = true', () => <SelectRowOption />, { notes: require('./SelectRowOption/source.md').default })
+  .add('showCheckbox = true', () => <ShowCheckboxOption />, { notes: require('./ShowCheckboxOption/source.md').default })
+  .add('showIcon = false', () => <ShowIconOption />, { notes: require('./ShowIconOption/source.md').default })
+  .add('showRoot = true', () => <ShowRootOption />, { notes: require('./ShowRootOption/source.md').default })
+  .add('theme = "metro"', () => <ThemeOption />, { notes: require('./ThemeOption/source.md').default })
+  .add('actionButtons', () => <ActionButtonsOption />, { notes: require('./ThemeOption/source.md').default })

@@ -1,12 +1,14 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import AddItemAndSubitemApi from './AddItemAndSubitemApi'
-import RemoveItemApi from './RemoveItemApi'
+
 import ExampleUnderConstruction from '../ExampleUnderConstruction'
 
+import AddItemAndSubitemApi from './AddItemAndSubitemApi'
+import RemoveItemApi from './RemoveItemApi'
+
 storiesOf('4 - Api', module)
-  .add('addItem and subitem', () => <AddItemAndSubitemApi /> )
-  .add('remove item', () => <RemoveItemApi /> )
+  .add('addItem and subitem', () => <AddItemAndSubitemApi />, { notes: require('./AddItemAndSubitemApi/source.md').default })
+  .add('remove item', () => <RemoveItemApi />, { notes: require('./RemoveItemApi/source.md').default })
   .add('find folder', () => <ExampleUnderConstruction /> )
   .add('find node', () => <ExampleUnderConstruction /> )
   .add('find item', () => <ExampleUnderConstruction /> )
