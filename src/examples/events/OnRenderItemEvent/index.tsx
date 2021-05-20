@@ -34,7 +34,7 @@ const OnRenderItemEvent: React.FC = () => {
         onRenderItem={ onRenderItem }
       />
       <br />
-      <a href="https://raw.githubusercontent.com/denimar/deni-react-treeview/develop/src/examples/events/OnRenderItemsEvents.scss">OnRenderItemEvent.scss</a>
+      <a href="https://raw.githubusercontent.com/denimar/deni-react-treeview/develop/src/examples/events/OnRenderItemEvent/OnRenderItemEvent.scss">OnRenderItemEvent.scss</a>
     </>
   )
 }
